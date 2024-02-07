@@ -1,4 +1,19 @@
 /***************************************/
+/* ---------- COLOUR SCHEME ---------- */
+/***************************************/
+:root {
+
+    --nhs_blue: #005EB8;
+    --nhs_light_blue: #41B6E6;
+    --scw_blue: #1C355E;
+    --nhs_website_grey: #EAEEF9;
+    --nhs_mid_grey: #768692;
+    --nhs_aqua_blue: #00A9CE;
+    --black: #000000;
+    --white: #ffffff;
+   } 
+
+/***************************************/
 /* -------------- STYLE -------------- */
 /***************************************/
 
@@ -6,6 +21,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--black);
+    font-size: 1.25rem;
 }
 
 body {
@@ -65,4 +81,55 @@ body {
 
 .site-search {
     font-size: medium;
+    padding:  2%;
+}
+
+/* -------------- FOOTER ------------- */
+.footer-section {
+    height: 410px;
+}
+
+.footer-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 337px;
+    background-color: var(--scw_blue);
+    color: var(--white);
+}
+
+.footer-upper h3 {
+    margin: 0 0 0 5%;
+    font-size: 1.7rem;
+}
+
+.links-box,
+.connect-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+    border-left: 2px solid var(--white);
+    width: 14%;
+}
+
+.links-box a,
+.connect-box a {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.links-box{
+    margin-left: 15%;
+}
+
+.connect-box {
+    margin-left: 5%;
+}
+
+
+.footer-lower {
+    height: 73px;
+    background-color: var(--nhs_blue);
 }
