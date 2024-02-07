@@ -32,3 +32,7 @@ section {
 .logo {
     width: 100%;
 }
+
+.site-search {
+    font-size: medium;
+}
