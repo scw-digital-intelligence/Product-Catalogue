@@ -17,6 +17,57 @@
 /* -------------- STYLE -------------- */
 /***************************************/
 
+/* -------------- GLOBAL -------------- */
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    width: 18.25rem;
+    height: 23.0625rem;
+    flex-shrink: 0;
+    border: 0.5px solid var(--nhs_website_grey);
+    background: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 7.65rem;    
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+}
+
+.button {
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    width: 5em;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.button-full {
+    background-color: var(--nhs_aqua_blue);
+    border-color: var(--nhs_blue);
+    color: var(--white);
+}
+
+.button-ghost {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.button-full:hover,
+.button-ghost:hover {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--black);
+    transition: 0.3s;
+}
+
 /* -------------- HEADER ------------- */
 header {
     width: 95%;
@@ -24,23 +75,25 @@ header {
 
 /* --------------- HERO -------------- */
 .hero-landing {
-    background-size: cover;
-    background-position: top;
+    background-size:cover;
+    -moz-background-size: auto 80%;
+    -webkit-background-size: auto 80%;
+    -o-background-size: auto 80%;
+    background-position: 0% 0%;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     /* background-image: url(../images/img/landing.jpg); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.193), rgba(0, 0, 0, 0.122)), url(../images/img/landing.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)), url(../images/img/landing.svg);
     background-color: var(--nhs_website_grey);
     height: 60vh;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .hero-content {
-    width: 80%;
-    margin-bottom: 6%;
+    width: 60%;
+    margin: 0 0 6% 10%;
 }
 
 .hero-content h1 {
@@ -51,42 +104,7 @@ header {
     word-wrap: break-word;
     width: 10em;
     color:  var(--white);
-}
-
-.button-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 21em;
-}
-
-.button {
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--nhs_blue);
-    padding: 15px;
-    width: 7em;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.button-full {
-    background-color: var(--nhs_blue);
-    color: var(--white);
-}
-
-/* .button-ghost {
-    color: var(--white);
-    border-color: var(--white);
-} */
-
-.button-full:hover,
-.button-ghost:hover {
-    background-color: var(--nhs_aqua_blue);
-    border-color: var(--nhs_aqua_blue);
-    color: var(--white);
-    transition: 0.3s;
+    -webkit-text-stroke: 0.3px var(--nhs_mid_grey);
 }
 
 /* --------------- NAV --------------- */
@@ -106,7 +124,7 @@ nav {
     justify-content: flex-start;
     list-style-type: none;
     align-items: center;
-    margin: 0 0 0 15%;
+    margin: 0 0 0 25%;
     cursor: pointer;
 }
 
@@ -131,18 +149,68 @@ nav {
     transition: 0.3s;
 }
 
-/* -------------- INTRO -------------- */
-.intro-section {
+/* ------------- CONTENT ------------- */
+.intro-section,
+.content-section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 30vh;
+}
+.intro-section {
+    height: 50vh;
+    background-color: var(--nhs_website_grey);
 }
 
-.intro-container {
+.content-section {
+    height: 100vh;
+}
+
+.intro-container,
+.recent-container {
+    margin: 5% 0 0 22.5%;
+}
+
+.intro-container p {
+    line-height: 225%;
+    margin-top: 8%;
+}
+
+.content-container {
     width: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
-.intro-empty {
+.empty-div {
     width: 25%;
+}
+
+.content-container-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7.65rem;
+}
+
+.content-box h4 {
+    font-size: 1.50rem;
+    margin-bottom: 1em;
+}
+
+.content-box h4,
+.content-box p {
+    padding-left: 5%;
+}
+
+.content-box p {
+    line-height: 150%;
+    font-size: 1.1rem;
+}
+
+.product-img-box {
+    width: 100%;
+}
+
+.product-img {
+    width: 100%;
+    object-fit: scale-down;
 }

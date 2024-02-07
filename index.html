@@ -5,16 +5,17 @@
         <meta name="description" content="The full product suite produced by SCW's Digital Intelligence team" />
         <link rel="stylesheet" href="assets/styles/styles.css" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./assets/scripts/content_boxes.js"></script>
     </head>
-    <body>
+    <body onload="generateBoxes()">
         <main class="main-content">
             <section class="hero hero-landing">
                 <header id="header"></header>
                 <div class="hero-content hero-content-landing">
                     <h1>Digital Intelligence Product Catalogue</h1>
                     <div class="button-box">
-                        <a class="button button-full" href="">See catalogue</a>
-                        <a class="button button-ghost" href="mailto:scwcsu.digitalintelligence@nhs.net?subject=Enquiry%20from%20DI%20catalogue">Contact us</a>
+                        <a class="button button-full" href="">Catalogue</a>
+                        <a class="button button-ghost" href="mailto:scwcsu.digitalintelligence@nhs.net?subject=Enquiry%20from%20DI%20catalogue">Contact</a>
                     </div>
                 </div>
                 <div class="empty-div"></div>
@@ -27,7 +28,7 @@
                 </ul>
             </nav>
             <section class="intro-section landing-intro">
-                <div class="intro-container">
+                <div class="content-container intro-container">
                     <h2>Introduction title</h2>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. 
@@ -43,17 +44,93 @@
                 </div>
                 <div class="empty-div intro-empty"></div>
             </section>
-            <section>
-    
+            <section class="content-section landing-content">
+                <div class="content-container recent-container">
+                    <h2>Recent additions</h2>
+                    <div class="box-container">
+                        <div class="content-container-row content-row-1">
+                            <!-- <div class="content-box content-box-1">
+                                <div class="product-img-box">
+                                    <img class="product-img" src="./assets/images/img/product_box.svg">
+                                </div>
+                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                <p>
+                                    Duis pulvinar purus non tellus vestibulum, 
+                                    ac porta dui laoreet. Integer eu tellus 
+                                    scelerisque, placerat arcu ut massa.
+                                </p>
+                            </div>
+                            <div class="content-box content-box-2">
+                                <div class="product-img-box">
+                                    <img class="product-img" src="./assets/images/img/product_box.svg">
+                                </div>
+                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                <p>
+                                    Duis pulvinar purus non tellus vestibulum, 
+                                    ac porta dui laoreet. Integer eu tellus 
+                                    scelerisque, placerat arcu ut massa.
+                                </p>
+                            </div>
+                            <div class="content-box content-box-3">
+                                <div class="product-img-box">
+                                    <img class="product-img" src="./assets/images/img/product_box.svg">
+                                </div>
+                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                <p>
+                                    Duis pulvinar purus non tellus vestibulum, 
+                                    ac porta dui laoreet. Integer eu tellus 
+                                    scelerisque, placerat arcu ut massa.
+                                </p>
+                            </div> -->
+                        </div>
+                        <div class="content-container-row content-row-2">
+                            <!-- <div class="content-box content-box-4">
+                                <div class="product-img-box">
+                                    <img class="product-img" src="./assets/images/img/product_box.svg">
+                                </div>
+                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                <p>
+                                    Duis pulvinar purus non tellus vestibulum, 
+                                    ac porta dui laoreet. Integer eu tellus 
+                                    scelerisque, placerat arcu ut massa.
+                                </p>
+                            </div>
+                            <div class="content-box content-box-5">
+                                <div class="product-img-box">
+                                    <img class="product-img" src="./assets/images/img/product_box.svg">
+                                </div>
+                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                <p>
+                                    Duis pulvinar purus non tellus vestibulum, 
+                                    ac porta dui laoreet. Integer eu tellus 
+                                    scelerisque, placerat arcu ut massa.
+                                </p>
+                            </div>
+                            <div class="content-box content-box-6">
+                                <div class="product-img-box">
+                                    <img class="product-img" src="./assets/images/img/product_box.svg">
+                                </div>
+                                <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                <p>
+                                    Duis pulvinar purus non tellus vestibulum, 
+                                    ac porta dui laoreet. Integer eu tellus 
+                                    scelerisque, placerat arcu ut massa.
+                                </p>
+                            </div> -->
+                        </div>                        
+                    </div>
+                </div>
+                <div class="empty-div content-empty"></div>
             </section>
-            <footer>
+            <footer id="footer">
     
             </footer>
     
         </main>
-
-
-        <script>$('#header').load('header.html');</script>
+        <script>
+            $('#header').load('header.html');
+            $('#footer').load('footer.html');
+        </script>
     </body>
     
     <footer>
