@@ -4,6 +4,7 @@
 :root {
 
     --nhs_blue: #005EB8;
+    --nhs_light_blue: #41B6E6;
     --scw_blue: #1C355E;
     --nhs_website_grey: #EAEEF9;
     --nhs_mid_grey: #768692;
@@ -16,32 +17,6 @@
 /* -------------- STYLE -------------- */
 /***************************************/
 
-/* -------------- GLOBAL ------------- */
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--black);
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-}
-
-.main-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-}
-
 /* -------------- HEADER ------------- */
 header {
     width: 95%;
@@ -50,14 +25,16 @@ header {
 /* --------------- HERO -------------- */
 .hero-landing {
     background-size: cover;
-    /* background-position: top; */
+    background-position: top;
     background-repeat: no-repeat;
     background-attachment: scroll;
     /* background-image: url(../images/img/landing.jpg); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.422)), url(../images/img/landing.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.193), rgba(0, 0, 0, 0.122)), url(../images/img/landing.svg);
     background-color: var(--nhs_website_grey);
     height: 60vh;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -99,10 +76,10 @@ header {
     color: var(--white);
 }
 
-.button-ghost {
+/* .button-ghost {
     color: var(--white);
     border-color: var(--white);
-}
+} */
 
 .button-full:hover,
 .button-ghost:hover {
@@ -130,6 +107,7 @@ nav {
     list-style-type: none;
     align-items: center;
     margin: 0 0 0 15%;
+    cursor: pointer;
 }
 
 .nav-menu li {
@@ -151,4 +129,20 @@ nav {
     background-color: var(--nhs_blue);
     color: var(--white);
     transition: 0.3s;
+}
+
+/* -------------- INTRO -------------- */
+.intro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+.intro-container {
+    width: 45%;
+}
+
+.intro-empty {
+    width: 25%;
 }
