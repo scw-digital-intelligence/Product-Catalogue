@@ -50,10 +50,11 @@ header {
 /* --------------- HERO -------------- */
 .hero-landing {
     background-size: cover;
-    background-position: 0% 5%;
+    /* background-position: top; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-image: url(../images/img/landing.jpg);
+    background-attachment: scroll;
+    /* background-image: url(../images/img/landing.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.422)), url(../images/img/landing.svg);
     background-color: var(--nhs_website_grey);
     height: 60vh;
     width: 100%;
@@ -62,16 +63,17 @@ header {
 
 .hero-content {
     width: 80%;
-    margin-bottom: 12%;
+    margin-bottom: 6%;
 }
 
 .hero-content h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     word-wrap: break-word;
     width: 10em;
+    color:  var(--white);
 }
 
 .button-box {
@@ -97,6 +99,11 @@ header {
     color: var(--white);
 }
 
+.button-ghost {
+    color: var(--white);
+    border-color: var(--white);
+}
+
 .button-full:hover,
 .button-ghost:hover {
     background-color: var(--nhs_aqua_blue);
@@ -111,6 +118,7 @@ nav {
     background-color: var(--white);
     align-content: center;
     border-bottom: 1px solid;
+    flex-shrink: 0;
 }
 
 .nav-menu {
