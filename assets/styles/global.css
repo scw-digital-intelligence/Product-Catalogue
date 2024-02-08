@@ -172,6 +172,7 @@ body {
 .footer-lower {
     background-color: var(--nhs-blue);
     font-size: 0.75rem;
+    padding: 30px 0;
 }
 
 .footer-row {
