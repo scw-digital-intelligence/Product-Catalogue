@@ -32,7 +32,7 @@
                 </div>
                 <div class="empty-div"></div>
             </section>
-            <nav>
+            <nav id="nav-bar">
                 <ul class="nav-menu">
                     <li><a>Home</a></li>
                     <li><a>Catalogue</a></li>
@@ -74,8 +74,25 @@
     
         </main>
         <script>
+            // uses jQuery to load the component header and footer sections
             $('#header').load('header.html');
             $('#footer').load('footer.html');
+
+            // creates the sticky nav that only attaches when you scroll past
+            // function is accessed on user scroll
+            window.onscroll = function() {navSticky()};
+
+            let navbar = document.getElementById("nav-bar");
+            let sticky = navbar.getBoundingClientRect().y;
+
+            // checks scroll position and adds sticky class when required
+            function navSticky() {
+                if (window.scrollY >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
         </script>
     </body>
     
