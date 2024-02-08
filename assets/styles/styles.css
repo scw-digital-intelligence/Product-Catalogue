@@ -14,7 +14,7 @@
     /* background-image: url(../images/img/landing.jpg); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)), url(../images/img/landing.svg);
     background-color: var(--nhs-website-grey);
-    height: 60vh;
+    min-height: 60vh;
     justify-content: space-between;
     align-items: center;
 }
@@ -90,12 +90,12 @@ border-right: 1px solid var(--nhs-mid-grey);
     justify-content: space-evenly;
 }
 .intro-section {
-    height: 37vh;
+    min-height: 37vh;
     background-color: var(--nhs-website-grey);
 }
 
 .content-section {
-    height: 85vh;
+    min-height: 85vh;
     margin-bottom: 5%;
 }
 
