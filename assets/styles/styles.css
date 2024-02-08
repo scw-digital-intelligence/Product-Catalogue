@@ -135,6 +135,16 @@ border-right: 1px solid var(--nhs-mid-grey);
     margin-bottom: 1em;
 }
 
+.content-box a {
+    color: var(--nhs-blue);
+    text-decoration: none;
+}
+
+.content-box a:hover {
+    color: var(--black);
+    transition: var(--hover-transition);
+}
+
 .content-box h4,
 .content-box p {
     padding-left: 5%;
