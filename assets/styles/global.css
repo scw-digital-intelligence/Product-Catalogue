@@ -23,6 +23,9 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
+a {
+    cursor: pointer;
+}
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -151,17 +154,32 @@ body {
 }
 
 /* -------------- FOOTER ------------- */
-.footer-section {
-    height: 410px;
+.footer-component {
+    width: 100%;
+}
+
+.footer-upper,
+.footer-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .footer-upper {
+    background-color: var(--scw-blue);
+}
+
+.footer-lower {
+    background-color: var(--nhs-blue);
+    font-size: 0.75rem;
+}
+
+.footer-row {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: 337px;
-    background-color: var(--scw-blue);
     color: var(--white);
+    width: 50%;
 }
 
 .footer-upper h3 {
@@ -177,25 +195,43 @@ body {
     margin-right: 5%;
     margin-bottom: 2.5%;
     border-left: 2px solid var(--white);
-    width: 14%;
+    width: 40%;
 }
 
 .links-box a,
 .connect-box a {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 5%;
 }
 
-.links-box{
-    margin-left: 15%;
+.links-box a,
+.connect-box a,
+.copywright-box a,
+.disclaimer-box a {
+    color: var(--white);
+    text-decoration: none;
+    transition: var(--hover-transition);
 }
 
-.connect-box {
+.links-box a:hover,
+.connect-box a:hover {
+    color: var(--nhs-aqua-blue);
+    
+}
+
+.copywright-box a:hover,
+.disclaimer-box a:hover {
+    color: var(--black);
+}
+
+.disclaimer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    width: 60%;
+}
+
+.disclaimer-box a {
     margin-left: 5%;
-}
-
-
-.footer-lower {
-    height: 73px;
-    background-color: var(--nhs-blue);
 }
