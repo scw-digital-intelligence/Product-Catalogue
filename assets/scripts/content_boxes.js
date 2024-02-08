@@ -36,7 +36,7 @@ function contentBoxes(parent, img_source, link_text,link_href, text,i) {
 }
 
 // adding boxes to landing page
-function generateBoxes(){
+function recentBoxes(){
     for (let i = 0; i < 3; i++) {
         let targetElement = document.getElementsByClassName("content-container-row");
         let text = "Duis pulvinar purus non tellus vestibulum, ac porta dui laoreet. Integer eu tellus scelerisque, placerat arcu ut massa."
