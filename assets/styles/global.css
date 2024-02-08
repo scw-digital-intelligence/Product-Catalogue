@@ -41,7 +41,6 @@ header {
     width: 95%;
 }
 
-
 .main-content {
     width: 100%;
     display: flex;
@@ -93,6 +92,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     font-size: 1.25rem;
+    border-radius: 5px;
 }
 
 .button-full {
@@ -115,7 +115,6 @@ body {
 }
 
 /* -------------- HEADER ------------- */
-
 .header-section,
 .header-left {
     display: flex;
@@ -123,8 +122,6 @@ body {
     align-items: center;
     justify-content: space-between;    
 }
-
-
 
 .header-left {
     width: 350px;
