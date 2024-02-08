@@ -1,16 +1,18 @@
 /***************************************/
-/* ---------- COLOUR SCHEME ---------- */
+/* ------------ VARIABLES ------------ */
 /***************************************/
 :root {
-
-    --nhs_blue: #005EB8;
-    --nhs_light_blue: #41B6E6;
-    --scw_blue: #1C355E;
-    --nhs_website_grey: #EAEEF9;
-    --nhs_mid_grey: #768692;
-    --nhs_aqua_blue: #00A9CE;
+    /* COLOURS */
+    --nhs-blue: #005EB8;
+    --nhs-light-blue: #41B6E6;
+    --scw-blue: #1C355E;
+    --nhs-website-grey: #EAEEF9;
+    --nhs-mid-grey: #768692;
+    --nhs-aqua-blue: #00A9CE;
     --black: #000000;
     --white: #ffffff;
+    /* DURATION */
+    --hover-transition: 0.3s
    } 
 
 /***************************************/
@@ -30,6 +32,11 @@ body {
     align-items: center;
     margin: 0;
 }
+
+header {
+    width: 95%;
+}
+
 
 .main-content {
     width: 100%;
@@ -52,6 +59,55 @@ body {
     display: flex;
     justify-content: center;
     height: auto;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    width: 18.25rem;
+    height: 23.0625rem;
+    flex-shrink: 0;
+    border: 0.5px solid var(--nhs-website-grey);
+    background: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 7.65rem;    
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+}
+
+.button {
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    width: 5em;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.button-full {
+    background-color: var(--nhs-aqua-blue);
+    border-color: var(--nhs-blue);
+    color: var(--white);
+}
+
+.button-ghost {
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.button-full:hover,
+.button-ghost:hover {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--black);
+    transition: var(--hover-transition);
 }
 
 /* -------------- HEADER ------------- */
@@ -94,7 +150,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     height: 337px;
-    background-color: var(--scw_blue);
+    background-color: var(--scw-blue);
     color: var(--white);
 }
 
@@ -131,5 +187,5 @@ body {
 
 .footer-lower {
     height: 73px;
-    background-color: var(--nhs_blue);
+    background-color: var(--nhs-blue);
 }
