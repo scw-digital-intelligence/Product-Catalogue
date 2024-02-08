@@ -20,6 +20,10 @@
 /***************************************/
 
 /* -------------- GLOBAL ------------- */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 html {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--black);
@@ -84,7 +88,7 @@ body {
     border-width: 1px;
     border-style: solid;
     padding: 15px;
-    width: 5em;
+    width: 7.5rem;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
