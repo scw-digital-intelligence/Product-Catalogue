@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="assets/styles/styles.css" type="text/css" />
         <link rel="stylesheet" href="assets/styles/media_queries.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="./assets/scripts/content_boxes.js"></script>
+        <script src="./assets/scripts/contentBoxes.js"></script>
         <meta property="article:author" content="SCW Digital Intelligence">
         <meta property="og:locale" content="en-GB">
         <meta property="og:title" content="Home">
@@ -19,7 +19,7 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="NHS SCW Digital Intelligence Product Catalogue">
     </head>
-    <body onload="recentBoxes()">
+    <body>
         <main class="main-content">
             <section class="hero hero-landing">
                 <header id="header"></header>
@@ -73,23 +73,9 @@
             $('#header').load('header.html');
             $('#footer').load('footer.html');
             $('#nav-bar').load('nav-bar.html');
-
-            // creates the sticky nav that only attaches when you scroll past
-            // function is accessed on user scroll
-            window.onscroll = function() {navSticky()};
-
-            let navbar = document.getElementById("nav-bar");
-            let sticky = navbar.getBoundingClientRect().y;
-
-            // checks scroll position and adds sticky class when required
-            function navSticky() {
-                if (window.scrollY >= sticky) {
-                    navbar.classList.add("sticky")
-                } else {
-                    navbar.classList.remove("sticky");
-                }
-            }
-        </script>
+         </script>
+        <script src="./assets/scripts/stickyNav.js"></script>
+        <script src="./assets/scripts/showFilters.js"></script>
     </body>
     
     <footer>
