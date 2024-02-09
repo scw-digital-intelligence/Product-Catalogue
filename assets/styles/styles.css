@@ -3,20 +3,28 @@
 /***************************************/
 
 /* --------------- HERO -------------- */
-.hero-landing {
-    background-size:cover;
-    -moz-background-size: auto 80%;
-    -webkit-background-size: auto 80%;
-    -o-background-size: auto 80%;
+.hero {
     background-position: 0% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* background-image: url(../images/img/landing.jpg); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)), url(../images/img/landing.svg);
     background-color: var(--nhs-website-grey);
     min-height: 60vh;
     justify-content: space-between;
     align-items: center;
+}
+
+.hero-landing {
+    background-size: auto 80%;
+    -moz-background-size: auto 80%;
+    -webkit-background-size: auto 80%;
+    -o-background-size: auto 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.192), rgba(0, 0, 0, 0.192)), url(../images/img/landing.svg);
+}
+
+.hero-catalogue {
+    background-size: auto 78%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.592)), url(../images/img/catalogue.svg);
 }
 
 .hero-row {
