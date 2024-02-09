@@ -26,7 +26,7 @@
                 <div class="hero-row">
                     <div class="hero-content hero-content-landing">
                         <h1>Digital Intelligence Product Catalogue</h1>
-                        <div class="button-box">
+                        <div class="button-box landing-button-box">
                             <a class="button button-full" href="" target="_blank">Catalogue</a>
                             <a class="button button-ghost" href="mailto:scwcsu.digitalintelligence@nhs.net?subject=Enquiry%20from%20DI%20catalogue" target="_blank">Contact</a>
                         </div>
@@ -75,7 +75,14 @@
             $('#nav-bar').load('nav-bar.html');
          </script>
         <script src="./assets/scripts/stickyNav.js"></script>
-        <script src="./assets/scripts/showFilters.js"></script>
+        <script>
+            // functions accessed on page load
+            window.addEventListener('load', recentBoxes);
+            
+            // functions accessed on user scroll
+            window.addEventListener('scroll', navSticky);
+
+        </script>
     </body>
     
     <footer>

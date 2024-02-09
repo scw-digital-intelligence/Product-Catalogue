@@ -1,8 +1,5 @@
 /* creates the sticky nav that only attaches when you scroll past */
 
-// function is accessed on user scroll
-window.onscroll = function() {navSticky()};
-
 // identfies required elements
 let navbar = document.getElementById("nav-bar");
 let sticky = navbar.getBoundingClientRect().y;

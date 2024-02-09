@@ -92,6 +92,14 @@ body {
     width: 20em;
 }
 
+.landing-button-box {
+    width: 20em;
+}
+
+.catalogue-button-box {
+    width: 42em;
+}
+
 .button {
     border-width: 1px;
     border-style: solid;
@@ -144,15 +152,31 @@ nav {
 
 .nav-container,
 .filter-container {
-    display: flex;
     flex-direction: row;
     width: 45%;
+}
+
+.filter-container {
+    display: none;
+}
+
+.nav-container {
+    display: flex;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 2;
+}
+
+.sticky-product {
+    display: block;
+    position: fixed;
+    top: 1.5%;
+    left: 48%;
+    z-index: 3;
 }
 
 .nav-menu,
@@ -237,9 +261,25 @@ border-right: 1px solid var(--nav-grey);
     width: 100%;
 }
 
-.site-search {
+#product-search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.site-search,
+.product-search {
     font-size: medium;
+}
+
+.site-search {
     padding:  2%;
+}
+
+.product-search {
+    padding:  5%;
 }
 
 /* -------------- FOOTER ------------- */
