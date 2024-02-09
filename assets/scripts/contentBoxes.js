@@ -1,3 +1,7 @@
+window.onload = function(){
+    recentBoxes();
+}
+
 // function to generate content boxes
 function contentBoxes(parent, img_source, link_text,link_href, text,i) {
     // creating main box
