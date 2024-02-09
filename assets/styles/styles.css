@@ -19,9 +19,16 @@
     align-items: center;
 }
 
+.hero-row {
+    display: flex;
+    width: 50%;
+    min-height: 45vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .hero-content {
-    width: 60%;
-    margin: 0 0 6% 10%;
+    width: 100%;
 }
 
 .hero-content h1 {
