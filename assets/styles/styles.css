@@ -66,9 +66,11 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 .intro-section {
     min-height: 37vh;
     background-color: var(--nhs-website-grey);
+    padding-bottom: 3%;
 }
 
 .carousel-content-container {
@@ -86,14 +88,20 @@
     margin-top: 2%;
 }
 
-.intro-container,
-.recent-container {
+.intro-container {
     margin: 3% 0 0 0;
 }
 
-.intro-container p {
+.intro-container p,
+.catalogue-container p,
+.product-title-container {
     line-height: 225%;
-    margin-top: 3%;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 .content-container {
@@ -101,6 +109,12 @@
     display: flex;
     flex-direction: column;
 }
+
+
+.product-carousel-section {
+    padding-top: 5%;
+}
+
 
 .box-container {
     width: 100%;
