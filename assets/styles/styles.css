@@ -27,6 +27,11 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.592)), url(../images/img/catalogue.svg);
 }
 
+.hero-product {
+    background-size: auto 78%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(../images/img/product.svg);
+}
+
 .hero-row {
     display: flex;
     width: 50%;
@@ -37,6 +42,10 @@
 
 .hero-content {
     width: 100%;
+}
+
+.hero-content-product {
+    padding-top: 5%;
 }
 
 .hero-content h1 {
@@ -140,4 +149,8 @@
 .product-img {
     width: 100%;
     object-fit: scale-down;
+}
+
+.product-details {
+    background-color: var(--nhs-website-grey);
 }
