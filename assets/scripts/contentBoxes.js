@@ -53,7 +53,7 @@ function recentBoxes(){
 portfolios = [
     {
         "Id": 1,
-        "Portfolio":"Cancer Care",
+        "Portfolio":"Cancer care",
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
         "Products":[
             {
@@ -95,7 +95,7 @@ portfolios = [
         ]
     }, {
         "Id": 3,
-        "Portfolio":"Mental Health",
+        "Portfolio":"Mental health",
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
         "Products":[
             {
@@ -133,7 +133,7 @@ function portfolioBoxes(){
         port_div.setAttribute("class", "content-container catalogue-container");
 
         let caro_cont = document.createElement("div");
-        caro_cont.setAttribute("class", "carousel-content-container")
+        caro_cont.setAttribute("class", "carousel-catalogue-container")
 
         let port_title = document.createElement("h2");
         port_title.textContent = `${element.Portfolio}`
