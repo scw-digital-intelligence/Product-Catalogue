@@ -42,8 +42,8 @@ function recentBoxes(){
         let text = "Duis pulvinar purus non tellus vestibulum, ac porta dui laoreet. Integer eu tellus scelerisque, placerat arcu ut massa."
         let link_text = "Lorem ipsum dolor sit amet"
     
-        contentBoxes(targetElement[0], "./assets/images/img/product_box.svg", link_text, "#", text, String(i))
-        contentBoxes(targetElement[1], "./assets/images/img/product_box.svg", link_text, "#", text, String(i))
+        contentBoxes(targetElement[0], "./assets/images/img/product_box.svg", link_text, "./product.html", text, String(i))
+        contentBoxes(targetElement[1], "./assets/images/img/product_box.svg", link_text, "./product.html", text, String(i))
     }
 }
 
@@ -149,7 +149,7 @@ function portfolioBoxes(){
 
         let prods = element.Products
         prods.forEach(function(prop) {
-            newBox = contentBoxes(caro_cont,prop.Image , prop.Name, "#", prop.Description, 1)        
+            newBox = contentBoxes(caro_cont,prop.Image , prop.Name, "./product.html", prop.Description, 1)        
         });
     });
 }
