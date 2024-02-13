@@ -188,8 +188,9 @@ nav {
     justify-content: flex-start;
     list-style-type: none;
     align-items: center;
-
     cursor: pointer;
+    margin-bottom: 0;
+    margin-block: 0;
 }
 
 .nav-menu li,
