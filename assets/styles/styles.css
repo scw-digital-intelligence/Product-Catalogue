@@ -62,9 +62,19 @@
     background-color: var(--nhs-website-grey);
 }
 
+.carousel-content-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
 .content-section {
-    min-height: 85vh;
-    margin-bottom: 2%;
+    padding: 3% 0 5% 0;
+    min-height: 30vh;
+}
+
+.catalogue-container p {
+    margin-top: 2%;
 }
 
 .intro-container,

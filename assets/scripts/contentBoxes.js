@@ -57,12 +57,17 @@ portfolios = [
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
         "Products":[
             {
-                "Name": "Cancer Performance Dashboard",
+                "Name": "Cancer performance dashboard",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
                 "Image": "./assets/images/img/product_box.svg"
             },
             {
-                "Name": "South West Prostate Dashboard",
+                "Name": "Early diagnosis programme: south west",
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+                "Image": "./assets/images/img/product_box.svg"
+            },
+            {
+                "Name": "South west prostate dashboard",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
                 "Image": "./assets/images/img/product_box.svg"
             }
@@ -73,12 +78,17 @@ portfolios = [
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
         "Products":[
             {
-                "Name": "Ambulance Waiting Times",
+                "Name": "Ambulance waiting times",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
                 "Image": "./assets/images/img/product_box.svg"
             },
             {
-                "Name": "Referral To Treatment",
+                "Name": "Cancer care: patient tracking list (public)",
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+                "Image": "./assets/images/img/product_box.svg"
+            },
+            {
+                "Name": "Referral to treatment",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
                 "Image": "./assets/images/img/product_box.svg"
             }
@@ -89,12 +99,17 @@ portfolios = [
         "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
         "Products":[
             {
-                "Name": "Mental Health Assessment Tool",
+                "Name": "HIOW mental health dashboard",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
                 "Image": "./assets/images/img/product_box.svg"
             },
             {
-                "Name": "Mental Health Dashboard",
+                "Name": "Mental health assurance tool",
+                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+                "Image": "./assets/images/img/product_box.svg"
+            },
+            {
+                "Name": "Mental health waiting time dashboard",
                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
                 "Image": "./assets/images/img/product_box.svg"
             }
@@ -117,6 +132,9 @@ function portfolioBoxes(){
         let port_div = document.createElement("div");
         port_div.setAttribute("class", "content-container catalogue-container");
 
+        let caro_cont = document.createElement("div");
+        caro_cont.setAttribute("class", "carousel-content-container")
+
         let port_title = document.createElement("h2");
         port_title.textContent = `${element.Portfolio}`
 
@@ -125,12 +143,13 @@ function portfolioBoxes(){
 
         port_div.appendChild(port_title);
         port_div.appendChild(port_desc);
+        port_div.appendChild(caro_cont);
         port_sec.appendChild(port_div);
         catmain.appendChild(port_sec);
 
         let prods = element.Products
         prods.forEach(function(prop) {
-            newBox = contentBoxes(port_div,prop.Image , prop.Name, "#", prop.Description, 1)           
+            newBox = contentBoxes(caro_cont,prop.Image , prop.Name, "#", prop.Description, 1)        
         });
     });
 }
