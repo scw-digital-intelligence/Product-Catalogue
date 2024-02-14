@@ -8,14 +8,15 @@ function clickedProduct(evt){
         let portfolio = portfolios[i]
         for (let x = 0; x < (Object.keys(portfolio).length - 1); x++){
             if(portfolio["Products"][x].Name == product_name){
-                results.push(portfolio);
+                results.push(portfolio["Products"][x]);
+                break;
             }
         }
                      
     }
 
     // console.log(product_name)
-    // console.log(results[0]);
+    console.log(results[0]);
     localStorage.setItem("useThisProduct", JSON.stringify(results[0]));
 }
 
@@ -44,6 +45,7 @@ function contentBoxes(parent, img_source, link_text, link_href, text,i) {
     link.setAttribute("href", link_href)
     link.textContent = `${link_text}`
     link.setAttribute("id", id_text)
+    link.addEventListener('mouseenter', clickedProduct);
     link.addEventListener('onclick', clickedProduct);
     title.appendChild(link)
 
