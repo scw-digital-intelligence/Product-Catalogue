@@ -1,3 +1,24 @@
+// function to capture correct object details on click
+function clickedProduct(evt){
+    let product_name = document.getElementById(evt.target.id).textContent
+        
+    let results = []
+
+    for(let i = 0; i < portfolios.length; i++) {
+        let portfolio = portfolios[i]
+        for (let x = 0; x < (Object.keys(portfolio).length - 1); x++){
+            if(portfolio["Products"][x].Name == product_name){
+                results.push(portfolio);
+            }
+        }
+                     
+    }
+
+    // console.log(product_name)
+    // console.log(results[0]);
+    localStorage.setItem("useThisProduct", JSON.stringify(results[0]));
+}
+
 // function to generate content boxes
 function contentBoxes(parent, img_source, link_text, link_href, text,i) {
     // creating main box
@@ -16,10 +37,14 @@ function contentBoxes(parent, img_source, link_text, link_href, text,i) {
     pib.appendChild(image);
 
     // creating h4 with link
+    let id_text = link_text.replace(/\s+/g, "-").toLowerCase()
+
     let title = document.createElement("h4");
     let link = document.createElement("a");
     link.setAttribute("href", link_href)
     link.textContent = `${link_text}`
+    link.setAttribute("id", id_text)
+    link.addEventListener('onclick', clickedProduct);
     title.appendChild(link)
 
     // creating text

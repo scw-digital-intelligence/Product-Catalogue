@@ -99,7 +99,7 @@
         <script src="./assets/scripts/stickyNav.js"></script>
         <script>
             // functions accessed on page load
-            // window.addEventListener('load', portfolioBoxes);
+            const product = JSON.parse(localStorage.getItem("useThisProduct") || "[]");
 
 
             // functions accessed on user scroll
