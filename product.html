@@ -11,9 +11,10 @@
         <link rel="stylesheet" href="assets/styles/media_queries.css" type="text/css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./assets/scripts/productDeets.js"></script>
         <meta property="article:author" content="SCW Digital Intelligence">
         <meta property="og:locale" content="en-GB">
-        <meta property="og:title" content="Product">
+        <meta property="og:title" content="SCW Digital Intelligence Catalogue">
         <meta property="og:type" content="website">
         <meta property="og:url" content="">
         <meta property="og:site_name" content="NHS SCW Digital Intelligence Product Catalogue">
@@ -23,19 +24,19 @@
     <body>
         <main class="main-content">
             <div id="catalogue-main">
-                <section class="hero hero-product">
+                <section id="hero-product" class="hero hero-product">
                     <header id="header"></header>
                     <div class="hero-row">
                         <div class="hero-content hero-content-product">
-                            <h1>Catalogue Product Page</h1>
+                            <h1 id="product-banner-text">Catalogue Product Page</h1>
                         </div>
                     </div>
                 </section>
                 <nav id="nav-bar"></nav>
                 <section class="content-section product-details">
                     <div class="content-container product-title-container">
-                        <h2>Product name</h2>
-                        <p>
+                        <h2 id="product-desc-title">Product Description</h2>
+                        <p id="product-desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. 
                         Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales 
                         vehicula. Phasellus eget lacus ultrices, vestibulum dui vitae, dapibus diam. Nunc 
@@ -52,8 +53,8 @@
                   <div class="product-content-box">
                     <div class="button-box product-button-box">
                       <a class="button button-full" href="mailto:scwcsu.digitalintelligence@nhs.net?subject=Enquiry%20from%20DI%20catalogue" target="_blank">Contact</a>
-                      <a class="share-link linkedin-share" href="#" target="_blank"><span class="fa-brands fa-linkedin fa-3x"></span></a>
-                      <a class="share-link twitter-share" href="#" target="_blank"><span class="fa-brands fa-x-twitter fa-3x"></span></a>
+                      <a id="linkedin-btn" class="share-link linkedin-share" href="#" target="_blank"><span class="fa-brands fa-linkedin fa-3x"></span></a>
+                      <a id="twitter-btn" class="share-link twitter-share" href="#" target="_blank"><span class="fa-brands fa-x-twitter fa-3x"></span></a>
                     </div>
                     <div class="content-container carousel-container">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -100,7 +101,7 @@
         <script>
             // functions accessed on page load
             const product = JSON.parse(localStorage.getItem("useThisProduct") || "[]");
-
+            window.addEventListener('load', makeProduct);
 
             // functions accessed on user scroll
             window.addEventListener('scroll', navSticky);
