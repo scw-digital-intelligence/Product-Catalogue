@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 18.25rem;
-    height: 33rem;
+    max-height: 33rem;
     flex-shrink: 0;
     border: 0.5px solid var(--nhs-website-grey);
     background: var(--white);
