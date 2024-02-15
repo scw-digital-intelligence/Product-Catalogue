@@ -1,14 +1,17 @@
 // function to capture correct object details on click
 function clickedProduct(evt){
     let product_name = document.getElementById(evt.target.id).textContent
-        
+    
     let results = []
 
     for(let i = 0; i < portfolios.length; i++) {
         let portfolio = portfolios[i]
-        for (let x = 0; x < (Object.keys(portfolio).length - 1); x++){
-            if(portfolio["Products"][x].Name == product_name){
-                results.push(portfolio["Products"][x]);
+        for (let x = 0; x < (portfolio.Products.length - 1); x++){
+            console.log(portfolio.Products[x].Name)
+            console.log(product_name)
+            if(portfolio.Products[x].Name == product_name){
+
+                results.push(portfolio.Products[x]);
                 break;
             }
         }
