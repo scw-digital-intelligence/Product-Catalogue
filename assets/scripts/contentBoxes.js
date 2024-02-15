@@ -77,72 +77,84 @@ function recentBoxes(){
 // product portfolio section creator
 
 //dummy portfolios for testing
-portfolios = [
-    {
-        "Id": 1,
-        "Portfolio":"Cancer care",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
-        "Products":[
-            {
-                "Name": "Cancer performance dashboard",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            },
-            {
-                "Name": "Early diagnosis programme: south west",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            },
-            {
-                "Name": "South west prostate dashboard",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            }
-        ]
-    }, {
-        "Id": 2,
-        "Portfolio":"Performance",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
-        "Products":[
-            {
-                "Name": "Ambulance waiting times",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            },
-            {
-                "Name": "Cancer care: patient tracking list (public)",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            },
-            {
-                "Name": "Referral to treatment",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            }
-        ]
-    }, {
-        "Id": 3,
-        "Portfolio":"Mental health",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
-        "Products":[
-            {
-                "Name": "HIOW mental health dashboard",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            },
-            {
-                "Name": "Mental health assurance tool",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            },
-            {
-                "Name": "Mental health waiting time dashboard",
-                "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
-                "Image": "./assets/images/img/product_box.svg"
-            }
-        ]
-    }
-]
+// portfolios = [
+//     {
+//         "Portfolio":"Cancer care",
+//         "Products":[
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Cancer performance dashboard",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             },
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Early diagnosis programme: south west",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             },
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "South west prostate dashboard",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             }
+//         ]
+//     }, {
+//         "Portfolio":"Performance",
+//         "Products":[
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Ambulance waiting times",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             },
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Cancer care: patient tracking list (public)",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             },
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Referral to treatment",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             }
+//         ]
+//     }, {
+//         "Portfolio":"Mental health",
+//         "Products":[
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "HIOW mental health dashboard",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             },
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Mental health assurance tool",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             },
+//             {
+//                 "Portfolio_Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem. Vivamus nec porttitor tellus, in sodales lorem. Sed sagittis nibh sit amet sodales vehicula.",
+//                 "Name": "Mental health waiting time dashboard",
+//                 "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id consequat sem.",
+//                 "Image": "./assets/images/img/product_box.svg",
+//                 "Released": ""
+//             }
+//         ]
+//     }
+// ]
 
 // Capture catalogue main container to append to
 let catmain = document.getElementById("catalogue-main");
@@ -152,7 +164,7 @@ function portfolioBoxes(){
         let port_sec = document.createElement("section");
         port_sec.setAttribute("class", "content-section landing-catalogue");
 
-        if(element.Id % 2 == 0){
+        if(element.Products[0].Portfolio_ID % 2 == 0){
             port_sec.style.backgroundColor = "#EAEEF9"
         }
 
@@ -166,7 +178,7 @@ function portfolioBoxes(){
         port_title.textContent = `${element.Portfolio}`
 
         let port_desc = document.createElement("p");
-        port_desc.textContent = `${element.Description}`;
+        port_desc.textContent = `${element.Products[0].Portfolio_Description}`;
 
         port_div.appendChild(port_title);
         port_div.appendChild(port_desc);
