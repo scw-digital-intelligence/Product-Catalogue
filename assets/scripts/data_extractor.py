@@ -71,7 +71,7 @@ data = [dict(zip(columns, row)) for row in rows]
 #     print(i)
 
 # grouping and reformatting
-data = groupBy(data, [{'field': ('Portfolio'), 'gbkey': 'Details'}],0)
+data = groupBy(data, [{'field': ('Portfolio'), 'gbkey': 'Products'}],0)
 
 # Converting to json
 to_json = json.dumps(data, indent=2)
