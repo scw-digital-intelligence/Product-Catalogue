@@ -201,6 +201,7 @@
 .content-box p {
     line-height: 150%;
     font-size: 1.1rem;
+    width: 95%;
 }
 
 .product-img-box {
