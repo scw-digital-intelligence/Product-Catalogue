@@ -19,7 +19,7 @@ function clickedProduct(evt){
     }
 
     // console.log(product_name)
-    console.log(results[0]);
+    // console.log(results[0]);
     localStorage.setItem("useThisProduct", JSON.stringify(results[0]));
 }
 
@@ -165,6 +165,8 @@ let catmain = document.getElementById("catalogue-main");
 
 function portfolioBoxes(){
     portfolios.forEach(function(element) {
+        let i = 0;
+
         let port_sec = document.createElement("section");
         port_sec.setAttribute("class", "content-section landing-catalogue");
 
@@ -175,8 +177,30 @@ function portfolioBoxes(){
         let port_div = document.createElement("div");
         port_div.setAttribute("class", "content-container catalogue-container");
 
+        let cat_row_box = document.createElement("div");
+        cat_row_box.setAttribute("class", "catalogue-row-box");
+
+        let left_arrow_box = document.createElement("span");
+        left_arrow_box.setAttribute("class", "scroll-left");
+
+        // let left_arrow = document.createElement("img");
+        let left_arrow = document.createElement("i");
+        // left_arrow.setAttribute("class", "scroll-left-arrow");
+        left_arrow.setAttribute("class", "fa-solid fa-chevron-left fa-3x scroll-left-arrow");
+        // left_arrow.setAttribute("src", "./assets/images/icon/chevron-left.svg");
+
+        let right_arrow_box = document.createElement("span");
+        right_arrow_box.setAttribute("class", "scroll-right");
+
+        // let right_arrow = document.createElement("img");
+        let right_arrow = document.createElement("i");
+        // right_arrow.setAttribute("class", "scroll-right-arrow");
+        right_arrow.setAttribute("class", "fa-solid fa-chevron-right fa-3x scroll-right-arrow");
+        // right_arrow.setAttribute("src", "./assets/images/icon/chevron-right.svg");
+
         let caro_cont = document.createElement("div");
         caro_cont.setAttribute("class", "carousel-catalogue-container")
+        caro_cont.setAttribute("id", `carousel-catalogue-container-${i}`)
 
         let port_title = document.createElement("h2");
         port_title.textContent = `${element.Portfolio}`
@@ -187,7 +211,12 @@ function portfolioBoxes(){
 
         port_div.appendChild(port_title);
         port_div.appendChild(port_desc);
-        port_div.appendChild(caro_cont);
+        port_div.appendChild(cat_row_box);
+        left_arrow_box.appendChild(left_arrow);
+        right_arrow_box.appendChild(right_arrow);
+        cat_row_box.appendChild(left_arrow_box);
+        cat_row_box.appendChild(caro_cont);
+        cat_row_box.appendChild(right_arrow_box);
         port_sec.appendChild(port_div);
         catmain.appendChild(port_sec);
 
@@ -202,5 +231,7 @@ function portfolioBoxes(){
                 1
             )        
         });
+
+        i++
     });
 }
