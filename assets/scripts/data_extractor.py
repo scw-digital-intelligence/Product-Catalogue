@@ -104,6 +104,6 @@ to_json = json.dumps(data, indent=2)
 cursor.close()
 con.close()
 
-# Writing the JSON data into a regulat JS file for easy loading
+# Writing the JSON data into a regular JS file for easy loading
 with open('./assets/scripts/data.js', 'w') as file:
     file.write("const portfolios = " + to_json)
