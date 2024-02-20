@@ -7,8 +7,8 @@ function clickedProduct(evt){
     for(let i = 0; i < portfolios.length; i++) {
         let portfolio = portfolios[i]
         for (let x = 0; x < (portfolio.Products.length - 1); x++){
-            console.log(portfolio.Products[x].Name)
-            console.log(product_name)
+            // console.log(portfolio.Products[x].Name);
+            // console.log(product_name);
             if(portfolio.Products[x].Name == product_name){
 
                 results.push(portfolio.Products[x]);
@@ -41,20 +41,21 @@ function contentBoxes(parent, img_source, link_text, link_href, text,i) {
     pib.appendChild(image);
 
     // creating h4 with link
-    let id_text = link_text.replace(/\s+/g, "-").toLowerCase()
+    let id_text = link_text.replace(/\s+/g, "-").toLowerCase();
 
     let title = document.createElement("h4");
     let link = document.createElement("a");
-    link.setAttribute("href", link_href)
-    link.textContent = `${link_text}`
-    link.setAttribute("id", id_text)
+    link.setAttribute("href", link_href);
+    link.textContent = `${link_text}`;
+    link.setAttribute("id", id_text);
     link.addEventListener('mouseenter', clickedProduct);
     link.addEventListener('onclick', clickedProduct);
-    title.appendChild(link)
+    title.appendChild(link);
 
     // creating text
-    let para = document.createElement("p")
-    para.textContent = `${text}`
+    let para = document.createElement("p");
+    para.textContent = `${text}`;
+    para.setAttribute("class", "catalogue-product-desc");
 
     // combining with main box
     box.appendChild(pib)
@@ -182,6 +183,7 @@ function portfolioBoxes(){
 
         let port_desc = document.createElement("p");
         port_desc.textContent = `${element.Products[0].Portfolio_Description}`;
+        port_div.setAttribute("class", "content-container catalogue-portfolio-desc");
 
         port_div.appendChild(port_title);
         port_div.appendChild(port_desc);
