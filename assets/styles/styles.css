@@ -89,12 +89,13 @@
 .scroll-right-arrow,
 .scroll-left-arrow {
     width: 100%;
+    color: var(--nhs-blue);
 }
 
 .scroll-right-arrow:hover,
 .scroll-left-arrow:hover {
     transition: var(--hover-transition);
-    fill: var(--nhs-blue);
+    color: var(--black);
 }
 
 .carousel-catalogue-container {
