@@ -174,6 +174,7 @@ function portfolioBoxes(){
 
         let port_div = document.createElement("div");
         port_div.setAttribute("class", "content-container catalogue-container");
+        port_div.setAttribute("class", "content-container");
 
         let caro_cont = document.createElement("div");
         caro_cont.setAttribute("class", "carousel-catalogue-container")
@@ -183,7 +184,7 @@ function portfolioBoxes(){
 
         let port_desc = document.createElement("p");
         port_desc.textContent = `${element.Products[0].Portfolio_Description}`;
-        port_div.setAttribute("class", "content-container catalogue-portfolio-desc");
+        port_desc.setAttribute("class", "catalogue-portfolio-desc");
 
         port_div.appendChild(port_title);
         port_div.appendChild(port_desc);
@@ -193,7 +194,14 @@ function portfolioBoxes(){
 
         let prods = element.Products
         prods.forEach(function(prop) {
-            newBox = contentBoxes(caro_cont,prop.Image , prop.Name, "./product.html", prop.Description, 1)        
+            newBox = contentBoxes(
+                caro_cont,
+                prop.Image,
+                prop.Name,
+                "./product.html",
+                prop.Description,
+                1
+            )        
         });
     });
 }
