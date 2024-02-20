@@ -174,7 +174,6 @@ function portfolioBoxes(){
 
         let port_div = document.createElement("div");
         port_div.setAttribute("class", "content-container catalogue-container");
-        port_div.setAttribute("class", "content-container");
 
         let caro_cont = document.createElement("div");
         caro_cont.setAttribute("class", "carousel-catalogue-container")
