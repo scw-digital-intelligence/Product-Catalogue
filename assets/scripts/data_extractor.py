@@ -46,7 +46,7 @@ cursor = con.cursor()
 # Portfolio_Descriptions are converted to milliseconds from 1970 for compatibility with JSON conversion
 cursor.execute(
 '''
-WITH Dictinct_Portfolios AS (
+WITH Distinct_Portfolios AS (
     SELECT 
     Report_Portfolio_Name
     ,ROW_NUMBER() OVER (ORDER BY Report_Portfolio_Name) as ID
@@ -76,7 +76,7 @@ v.[Report_Portfolio_Name] AS [Portfolio]
 ,'./assets/images/img/product_box.svg' AS [Image]
 ,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
 FROM [DigitalIntelligence].[Cat].[catalogue_view] v
-LEFT JOIN Dictinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
+LEFT JOIN Distinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
 WHERE 
 [Report_Release_Status_Name] = 'Official' 
 AND [Report_Development_Status_Name] = 'Live' 
@@ -105,10 +105,90 @@ to_json = json.dumps(data, indent=2)
 # Checking json output if required
 # print(to_json)
 
+# Distinct lists for use in webpage later
+## Portfolio names
+cursor.execute(
+'''
+SELECT DISTINCT 
+    Report_Portfolio_Name
+FROM [DigitalIntelligence].[Cat].[catalogue_view]
+WHERE 
+    [Report_Release_Status_Name] = 'Official' 
+    AND [Report_Development_Status_Name] = 'Live' 
+    AND Portfolio_Status_Name = 'Live' 
+    AND Report_Release_Date IS NOT NULL
+'''
+)
+
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+portfolio_list = json.dumps(data, indent=2)
+
+# print(portfolio_list)
+
+## Product names
+cursor.execute(
+'''
+SELECT DISTINCT 
+    Report_Title
+FROM [DigitalIntelligence].[Cat].[catalogue_view]
+WHERE 
+    [Report_Release_Status_Name] = 'Official' 
+    AND [Report_Development_Status_Name] = 'Live' 
+    AND Portfolio_Status_Name = 'Live' 
+    AND Report_Release_Date IS NOT NULL
+'''
+)
+
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+product_list = json.dumps(data, indent=2)
+
+# print(product_list)
+
+## Product names
+cursor.execute(
+'''
+SELECT DISTINCT 
+    CASE
+	WHEN [Reporting_Platform] LIKE '%Power BI%' THEN 'Power BI'
+	WHEN [Reporting_Platform] = 'Tableau Public' THEN 'Tableau'
+	ELSE [Reporting_Platform]
+ END AS [Platform]
+FROM [DigitalIntelligence].[Cat].[catalogue_view]
+WHERE 
+    [Report_Release_Status_Name] = 'Official' 
+    AND [Report_Development_Status_Name] = 'Live' 
+    AND Portfolio_Status_Name = 'Live' 
+    AND Report_Release_Date IS NOT NULL
+'''
+)
+
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+platform_list = json.dumps(data, indent=2)
+
+# print(platform_list)
+
 # Closing the connections
 cursor.close()
 con.close()
 
 # Writing the JSON data into a regular JS file for easy loading
 with open('./assets/scripts/data.js', 'w') as file:
-    file.write("const portfolios = " + to_json)
+    file.write("const portfolios = " + to_json + ",")
+
+file.close()
+
+with open('./assets/scripts/data.js', 'a') as file:
+    file.write(" portfolioList = " + portfolio_list + ",")
+    file.write(" productList = " + product_list + ",")
+    file.write(" platformList = " + platform_list)
+
+file.close()
