@@ -187,8 +187,8 @@ with open('./assets/scripts/data.js', 'w') as file:
 file.close()
 
 with open('./assets/scripts/data.js', 'a') as file:
-    file.write(" portfolioList = " + portfolio_list + ",")
-    file.write(" productList = " + product_list + ",")
-    file.write(" platformList = " + platform_list)
+    file.write(" portfolioDistinct = " + portfolio_list + ",")
+    file.write(" productDistinct = " + product_list + ",")
+    file.write(" platformDistinct = " + platform_list)
 
 file.close()
