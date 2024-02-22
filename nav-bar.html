@@ -17,12 +17,41 @@
             </div>
             <div id="filter-container" class="filter-container">
                 <ul class="filter-menu">
-                    <li><a href="">Portfolios</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Platforms</a></li>
+                    <li><span class="filter-text">Portfolios</span><i class="nav-chevron portfolio-filter fa-solid fa-chevron-down fa-2xs"></i></li>
+                    <li><span class="filter-text">Products</span><i class="nav-chevron product-filter fa-solid fa-chevron-down fa-2xs"></i></li>
+                    <li><span class="filter-text">Platforms</span><i class="nav-chevron platform-filter fa-solid fa-chevron-down fa-2xs"></i></li>
                 </ul>
             </div>            
-        </div>        
-    </body>
+        </div>
+        <div id= "filter-box-container" class="filter-box-container">
+            <div class="filter-row-container">
+                <div class="filter-content">
+                    <div class="filter-content-portfolios"></div>
+                    <div class="filter-content-products"></div>
+                    <div class="filter-content-platforms"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function invertChevrons(){
+                const filter_chevrons = document.getElementsByClassName('nav-chevron');
+
+                for(i = 0; i < filter_chevrons.length; i++){
+                    let filter = filter_chevrons[i].parentElement
+                    // function to make the clicked filter item active
+                    filter.onclick = function(){
+                        if(this.classList.contains("filter-active")){
+                            this.classList.remove("filter-active");
+                        } else {
+                            this.classList.add("filter-active");
+                        }
+                    }
+                }  
+            }
+        </script>
+        <script>
+            // functions accessed on page load
+            window.addEventListener('load', invertChevrons);
+        </script>
     </body>
 </html>

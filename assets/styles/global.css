@@ -235,10 +235,23 @@ border-right: 1px solid var(--nav-grey);
 }
 
 .nav-menu li:hover,
-.filter-menu li:hover {
+.filter-menu li:hover,
+.filter-active {
     text-decoration: none;
     background-color: var(--nhs-blue);
     color: var(--white);
+}
+
+.filter-text {
+    margin-right: 5%;
+}
+
+.filter-active .nav-chevron {
+    transform: rotate(180deg);
+}
+
+.nav-chevron {
+    transition: var(--hover-transition);
 }
 
 .nav-menu li a:hover
