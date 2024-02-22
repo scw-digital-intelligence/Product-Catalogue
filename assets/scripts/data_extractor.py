@@ -46,20 +46,20 @@ cursor = con.cursor()
 # Portfolio_Descriptions are converted to milliseconds from 1970 for compatibility with JSON conversion
 cursor.execute(
 '''
-    WITH CTE AS (
-    SELECT DISTINCT 
-    Report_Portfolio_Name
-    FROM [DigitalIntelligence].[Cat].[catalogue_view]
-        WHERE 
-        [Report_Release_Status_Name] = 'Official' 
-        AND [Report_Development_Status_Name] = 'Live' 
-        AND Portfolio_Status_Name = 'Live' 
-        AND Report_Release_Date IS NOT NULL
-    ), CTE2 AS (
+     WITH Dictinct_Portfolios AS (
     SELECT 
     Report_Portfolio_Name
     ,ROW_NUMBER() OVER (ORDER BY Report_Portfolio_Name) as ID
-    FROM CTE
+    FROM (
+			SELECT DISTINCT 
+				Report_Portfolio_Name
+			FROM [DigitalIntelligence].[Cat].[catalogue_view]
+			WHERE 
+				[Report_Release_Status_Name] = 'Official' 
+				AND [Report_Development_Status_Name] = 'Live' 
+				AND Portfolio_Status_Name = 'Live' 
+				AND Report_Release_Date IS NOT NULL
+		) v
     )
 
     SELECT 
@@ -71,7 +71,7 @@ cursor.execute(
     ,'./assets/images/img/product_box.svg' AS [Image]
     ,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
     FROM [DigitalIntelligence].[Cat].[catalogue_view] v
-	LEFT JOIN CTE2 ON v.[Report_Portfolio_Name] = CTE2.Report_Portfolio_Name
+	LEFT JOIN Dictinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
     WHERE 
     [Report_Release_Status_Name] = 'Official' 
     AND [Report_Development_Status_Name] = 'Live' 
