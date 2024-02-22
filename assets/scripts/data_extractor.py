@@ -46,39 +46,44 @@ cursor = con.cursor()
 # Portfolio_Descriptions are converted to milliseconds from 1970 for compatibility with JSON conversion
 cursor.execute(
 '''
-     WITH Dictinct_Portfolios AS (
+WITH Dictinct_Portfolios AS (
     SELECT 
     Report_Portfolio_Name
     ,ROW_NUMBER() OVER (ORDER BY Report_Portfolio_Name) as ID
     FROM (
-			SELECT DISTINCT 
-				Report_Portfolio_Name
-			FROM [DigitalIntelligence].[Cat].[catalogue_view]
-			WHERE 
-				[Report_Release_Status_Name] = 'Official' 
-				AND [Report_Development_Status_Name] = 'Live' 
-				AND Portfolio_Status_Name = 'Live' 
-				AND Report_Release_Date IS NOT NULL
-		) v
-    )
+        SELECT DISTINCT 
+            Report_Portfolio_Name
+        FROM [DigitalIntelligence].[Cat].[catalogue_view]
+        WHERE 
+            [Report_Release_Status_Name] = 'Official' 
+            AND [Report_Development_Status_Name] = 'Live' 
+            AND Portfolio_Status_Name = 'Live' 
+            AND Report_Release_Date IS NOT NULL
+        ) v
+)
 
-    SELECT 
-    v.[Report_Portfolio_Name] AS [Portfolio]
-	,ID AS [Portfolio_ID]
-    ,v.[Report_Portfolio_Description] AS [Portfolio_Description]
-    ,[Report_Title] AS [Name]
-    ,[Report_Description_Text] AS [Description]
-    ,'./assets/images/img/product_box.svg' AS [Image]
-    ,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
-    FROM [DigitalIntelligence].[Cat].[catalogue_view] v
-	LEFT JOIN Dictinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
-    WHERE 
-    [Report_Release_Status_Name] = 'Official' 
-    AND [Report_Development_Status_Name] = 'Live' 
-    AND Portfolio_Status_Name = 'Live' 
-    AND Report_Release_Date IS NOT NULL
+SELECT 
+v.[Report_Portfolio_Name] AS [Portfolio]
+,ID AS [Portfolio_ID]
+,v.[Report_Portfolio_Description] AS [Portfolio_Description]
+,[Report_Title] AS [Name]
+,CASE
+	WHEN [Reporting_Platform] LIKE '%Power BI%' THEN 'Power BI'
+	WHEN [Reporting_Platform] = 'Tableau Public' THEN 'Tableau'
+	ELSE [Reporting_Platform]
+ END AS [Platform]
+,[Report_Description_Text] AS [Description]
+,'./assets/images/img/product_box.svg' AS [Image]
+,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
+FROM [DigitalIntelligence].[Cat].[catalogue_view] v
+LEFT JOIN Dictinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
+WHERE 
+[Report_Release_Status_Name] = 'Official' 
+AND [Report_Development_Status_Name] = 'Live' 
+AND Portfolio_Status_Name = 'Live' 
+AND Report_Release_Date IS NOT NULL
 
-	ORDER BY Portfolio_ID
+ORDER BY Portfolio_ID
 '''
     )
 
