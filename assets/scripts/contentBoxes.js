@@ -1,6 +1,6 @@
 // function to capture correct object details on click
 function clickedProduct(evt){
-    let product_name = document.getElementById(evt.target.id).textContent
+    let productName = document.getElementById(evt.target.id).textContent
     
     let results = []
 
@@ -8,8 +8,8 @@ function clickedProduct(evt){
         let portfolio = portfolios[i]
         for (let x = 0; x < (portfolio.Products.length - 1); x++){
             // console.log(portfolio.Products[x].Name);
-            // console.log(product_name);
-            if(portfolio.Products[x].Name == product_name){
+            // console.log(productName);
+            if(portfolio.Products[x].Name == productName){
 
                 results.push(portfolio.Products[x]);
                 break;
@@ -18,17 +18,17 @@ function clickedProduct(evt){
                      
     }
 
-    // console.log(product_name)
+    // console.log(productName)
     // console.log(results[0]);
     localStorage.setItem("useThisProduct", JSON.stringify(results[0]));
 }
 
 // function to generate content boxes
-function contentBoxes(parent, img_source, link_text, link_href, text,i) {
+function contentBoxes(parent, imgSource, linkText, linkHref, text,i) {
     // creating main box
-    let spec_class = "content-box".concat("-",i)
+    let specClass = "content-box".concat("-",i)
     let box = document.createElement("div");
-    box.setAttribute("class", "content-box", spec_class)
+    box.setAttribute("class", "content-box", specClass)
 
     // creating product image box
     let pib = document.createElement("div");
@@ -37,17 +37,17 @@ function contentBoxes(parent, img_source, link_text, link_href, text,i) {
     // adding image to product image box
     let image = document.createElement("img");
     image.setAttribute("class", "product-img");
-    image.setAttribute("src", img_source);
+    image.setAttribute("src", imgSource);
     pib.appendChild(image);
 
     // creating h4 with link
-    let id_text = link_text.replace(/\s+/g, "-").toLowerCase();
+    let idText = linkText.replace(/\s+/g, "-").toLowerCase();
 
     let title = document.createElement("h4");
     let link = document.createElement("a");
-    link.setAttribute("href", link_href);
-    link.textContent = `${link_text}`;
-    link.setAttribute("id", id_text);
+    link.setAttribute("href", linkHref);
+    link.textContent = `${linkText}`;
+    link.setAttribute("id", idText);
     link.addEventListener('mouseenter', clickedProduct);
     link.addEventListener('onclick', clickedProduct);
     title.appendChild(link);
@@ -71,13 +71,13 @@ function recentBoxes(){
     for (let i = 0; i < latestProducts.length; i++) {
         let targetElement = document.getElementsByClassName("content-container-row");
         let text = latestProducts[i].Description
-        let link_text = latestProducts[i].Name
+        let linkText = latestProducts[i].Name
         let img = latestProducts[i].Image
     
         if (i < 3){
-            contentBoxes(targetElement[0], img, link_text, "./product.html", text, String(i));
+            contentBoxes(targetElement[0], img, linkText, "./product.html", text, String(i));
         } else {
-            contentBoxes(targetElement[1], img, link_text, "./product.html", text, String(i));
+            contentBoxes(targetElement[1], img, linkText, "./product.html", text, String(i));
         }
     }
 }
@@ -171,63 +171,63 @@ function portfolioBoxes(){
     portfolios.forEach(function(element) {
         let i = 0;
 
-        let port_sec = document.createElement("section");
-        port_sec.setAttribute("class", "content-section landing-catalogue");
+        let portSec = document.createElement("section");
+        portSec.setAttribute("class", "content-section landing-catalogue");
 
         if(element.Products[0].Portfolio_ID % 2 == 0){
-            port_sec.style.backgroundColor = "#EAEEF9"
+            portSec.style.backgroundColor = "#EAEEF9"
         }
 
-        let port_div = document.createElement("div");
-        port_div.setAttribute("class", "content-container catalogue-container");
+        let portDiv = document.createElement("div");
+        portDiv.setAttribute("class", "content-container catalogue-container");
 
-        let cat_row_box = document.createElement("div");
-        cat_row_box.setAttribute("class", "catalogue-row-box");
+        let catRowBox = document.createElement("div");
+        catRowBox.setAttribute("class", "catalogue-row-box");
 
-        let left_arrow_box = document.createElement("span");
-        left_arrow_box.setAttribute("class", "scroll-left");
+        let leftArrowBox = document.createElement("span");
+        leftArrowBox.setAttribute("class", "scroll-left");
 
-        // let left_arrow = document.createElement("img");
-        let left_arrow = document.createElement("i");
-        // left_arrow.setAttribute("class", "scroll-left-arrow");
-        left_arrow.setAttribute("class", "fa-solid fa-chevron-left fa-3x scroll-left-arrow");
-        // left_arrow.setAttribute("src", "./assets/images/icon/chevron-left.svg");
+        // let leftArrow = document.createElement("img");
+        let leftArrow = document.createElement("i");
+        // leftArrow.setAttribute("class", "scroll-left-arrow");
+        leftArrow.setAttribute("class", "fa-solid fa-chevron-left fa-3x scroll-left-arrow");
+        // leftArrow.setAttribute("src", "./assets/images/icon/chevron-left.svg");
 
-        let right_arrow_box = document.createElement("span");
-        right_arrow_box.setAttribute("class", "scroll-right");
+        let rightArrowBox = document.createElement("span");
+        rightArrowBox.setAttribute("class", "scroll-right");
 
-        // let right_arrow = document.createElement("img");
-        let right_arrow = document.createElement("i");
-        // right_arrow.setAttribute("class", "scroll-right-arrow");
-        right_arrow.setAttribute("class", "fa-solid fa-chevron-right fa-3x scroll-right-arrow");
-        // right_arrow.setAttribute("src", "./assets/images/icon/chevron-right.svg");
+        // let rightArrow = document.createElement("img");
+        let rightArrow = document.createElement("i");
+        // rightArrow.setAttribute("class", "scroll-right-arrow");
+        rightArrow.setAttribute("class", "fa-solid fa-chevron-right fa-3x scroll-right-arrow");
+        // rightArrow.setAttribute("src", "./assets/images/icon/chevron-right.svg");
 
-        let caro_cont = document.createElement("div");
-        caro_cont.setAttribute("class", "carousel-catalogue-container")
-        caro_cont.setAttribute("id", `carousel-catalogue-container-${i}`)
+        let caroCont = document.createElement("div");
+        caroCont.setAttribute("class", "carousel-catalogue-container")
+        caroCont.setAttribute("id", `carousel-catalogue-container-${i}`)
 
-        let port_title = document.createElement("h2");
-        port_title.textContent = `${element.Portfolio}`
+        let portTitle = document.createElement("h2");
+        portTitle.textContent = `${element.Portfolio}`
 
-        let port_desc = document.createElement("p");
-        port_desc.textContent = `${element.Products[0].Portfolio_Description}`;
-        port_desc.setAttribute("class", "catalogue-portfolio-desc");
+        let portDesc = document.createElement("p");
+        portDesc.textContent = `${element.Products[0].Portfolio_Description}`;
+        portDesc.setAttribute("class", "catalogue-portfolio-desc");
 
-        port_div.appendChild(port_title);
-        port_div.appendChild(port_desc);
-        port_div.appendChild(cat_row_box);
-        left_arrow_box.appendChild(left_arrow);
-        right_arrow_box.appendChild(right_arrow);
-        cat_row_box.appendChild(left_arrow_box);
-        cat_row_box.appendChild(caro_cont);
-        cat_row_box.appendChild(right_arrow_box);
-        port_sec.appendChild(port_div);
-        catmain.appendChild(port_sec);
+        portDiv.appendChild(portTitle);
+        portDiv.appendChild(portDesc);
+        portDiv.appendChild(catRowBox);
+        leftArrowBox.appendChild(leftArrow);
+        rightArrowBox.appendChild(rightArrow);
+        catRowBox.appendChild(leftArrowBox);
+        catRowBox.appendChild(caroCont);
+        catRowBox.appendChild(rightArrowBox);
+        portSec.appendChild(portDiv);
+        catmain.appendChild(portSec);
 
         let prods = element.Products
         prods.forEach(function(prop) {
             newBox = contentBoxes(
-                caro_cont,
+                caroCont,
                 prop.Image,
                 prop.Name,
                 "./product.html",
