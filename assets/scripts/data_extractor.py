@@ -44,6 +44,7 @@ con = pyodbc.connect(
 cursor = con.cursor()
 
 # Portfolio_Descriptions are converted to milliseconds from 1970 for compatibility with JSON conversion
+# Full portfolios for use in website
 cursor.execute(
 '''
 WITH Distinct_Portfolios AS (
@@ -104,6 +105,62 @@ to_json = json.dumps(data, indent=2)
 
 # Checking json output if required
 # print(to_json)
+
+# Top 6 most recent product releases for landing page
+cursor.execute(
+'''
+WITH Distinct_Portfolios AS (
+    SELECT 
+    Report_Portfolio_Name
+    ,ROW_NUMBER() OVER (ORDER BY Report_Portfolio_Name) as ID
+    FROM (
+        SELECT DISTINCT 
+            Report_Portfolio_Name
+        FROM [DigitalIntelligence].[Cat].[catalogue_view]
+        WHERE 
+            [Report_Release_Status_Name] = 'Official' 
+            AND [Report_Development_Status_Name] = 'Live' 
+            AND Portfolio_Status_Name = 'Live' 
+            AND Report_Release_Date IS NOT NULL
+        ) v
+)
+
+SELECT TOP 6
+v.[Report_Portfolio_Name] AS [Portfolio]
+,ID AS [Portfolio_ID]
+,v.[Report_Portfolio_Description] AS [Portfolio_Description]
+,[Report_Title] AS [Name]
+,CASE
+	WHEN [Reporting_Platform] LIKE '%Power BI%' THEN 'Power BI'
+	WHEN [Reporting_Platform] = 'Tableau Public' THEN 'Tableau'
+	ELSE [Reporting_Platform]
+ END AS [Platform]
+,[Report_Description_Text] AS [Description]
+,'./assets/images/img/product_box.svg' AS [Image]
+,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
+FROM [DigitalIntelligence].[Cat].[catalogue_view] v
+LEFT JOIN Distinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
+WHERE 
+[Report_Release_Status_Name] = 'Official' 
+AND [Report_Development_Status_Name] = 'Live' 
+AND Portfolio_Status_Name = 'Live' 
+AND Report_Release_Date IS NOT NULL
+
+ORDER BY DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) DESC
+'''
+    )
+
+# Capturing and converting the data to dictionaries
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+# Checking the data if required
+for i in data:
+    print(i)
+
+# Converting to json
+latest_products = json.dumps(data, indent=2)
 
 # Distinct lists for use in webpage later
 ## Portfolio names
@@ -187,6 +244,7 @@ with open('./assets/scripts/data.js', 'w') as file:
 file.close()
 
 with open('./assets/scripts/data.js', 'a') as file:
+    file.write(" latestProducts = " + latest_products + ",")
     file.write(" portfolioDistinct = " + portfolio_list + ",")
     file.write(" productDistinct = " + product_list + ",")
     file.write(" platformDistinct = " + platform_list)

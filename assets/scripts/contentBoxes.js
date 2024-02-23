@@ -68,13 +68,17 @@ function contentBoxes(parent, img_source, link_text, link_href, text,i) {
 
 // adding recent boxes for landing page
 function recentBoxes(){
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < latestProducts.length; i++) {
         let targetElement = document.getElementsByClassName("content-container-row");
-        let text = "Duis pulvinar purus non tellus vestibulum, ac porta dui laoreet. Integer eu tellus scelerisque, placerat arcu ut massa."
-        let link_text = "Lorem ipsum dolor sit amet"
+        let text = latestProducts[i].Description
+        let link_text = latestProducts[i].Name
+        let img = latestProducts[i].Image
     
-        contentBoxes(targetElement[0], "./assets/images/img/product_box.svg", link_text, "./product.html", text, String(i))
-        contentBoxes(targetElement[1], "./assets/images/img/product_box.svg", link_text, "./product.html", text, String(i))
+        if (i < 3){
+            contentBoxes(targetElement[0], img, link_text, "./product.html", text, String(i));
+        } else {
+            contentBoxes(targetElement[1], img, link_text, "./product.html", text, String(i));
+        }
     }
 }
 
