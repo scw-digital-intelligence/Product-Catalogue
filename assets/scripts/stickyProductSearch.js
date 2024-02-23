@@ -13,30 +13,31 @@ function productSticky() {
     }
 }
 
+// Creates list of products to search
+let a = 1
+
 productDistinct.forEach(function (product){
     let list = document.getElementById("product-search-list")
 
     let new_item = document.createElement("li");
     let new_link = document.createElement("a");
     new_link.textContent = product.Report_Title;
+    new_link.setAttribute("id","product-" + a);
+    new_link.setAttribute("href","./product.html");
+    new_link.addEventListener("mouseenter", clickedProduct);
 
     new_item.appendChild(new_link);
     list.appendChild(new_item);
 
+    a++
 });
-
-// Script to search portfolio array for products and return results
-
+// Script to search for products and display results
 function productSearchResults() {
     let input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("product-search-bar");
     filter = input.value.toUpperCase();
     ul = document.getElementById("product-search-list");
     li = ul.getElementsByTagName("li");
-    console.log(input);
-    console.log(filter);
-    console.log(ul);
-    console.log(li);
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
