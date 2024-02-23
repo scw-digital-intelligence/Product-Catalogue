@@ -1,8 +1,6 @@
 // function to capture correct object details on click
 function clickedProduct(evt){
     let productName = document.getElementById(evt.target.id).textContent
-    
-    let results = []
 
     for(let i = 0; i < portfolios.length; i++) {
         let portfolio = portfolios[i]
@@ -10,17 +8,13 @@ function clickedProduct(evt){
             // console.log(portfolio.Products[x].Name);
             // console.log(productName);
             if(portfolio.Products[x].Name == productName){
-
-                results.push(portfolio.Products[x]);
+                console.log(portfolio.Products[x].Name);
+                // results.push(portfolio.Products[x]);
+                localStorage.setItem("useThisProduct", JSON.stringify(portfolio.Products[x]));
                 break;
             }
-        }
-                     
-    }
-
-    // console.log(productName)
-    // console.log(results[0]);
-    localStorage.setItem("useThisProduct", JSON.stringify(results[0]));
+        }      
+    }   
 }
 
 // function to generate content boxes
@@ -49,7 +43,6 @@ function contentBoxes(parent, imgSource, linkText, linkHref, text,i) {
     link.textContent = `${linkText}`;
     link.setAttribute("id", idText);
     link.addEventListener('mouseenter', clickedProduct);
-    link.addEventListener('onclick', clickedProduct);
     title.appendChild(link);
 
     // creating text
@@ -168,8 +161,9 @@ function recentBoxes(){
 let catmain = document.getElementById("catalogue-main");
 
 function portfolioBoxes(){
+    let b = 1;
     portfolios.forEach(function(element) {
-        let i = 0;
+        
 
         let portSec = document.createElement("section");
         portSec.setAttribute("class", "content-section landing-catalogue");
@@ -204,7 +198,7 @@ function portfolioBoxes(){
 
         let caroCont = document.createElement("div");
         caroCont.setAttribute("class", "carousel-catalogue-container")
-        caroCont.setAttribute("id", `carousel-catalogue-container-${i}`)
+        caroCont.setAttribute("id", `carousel-catalogue-container-${b}`)
 
         let portTitle = document.createElement("h2");
         portTitle.textContent = `${element.Portfolio}`
@@ -236,6 +230,6 @@ function portfolioBoxes(){
             )        
         });
 
-        i++
+        b++
     });
 }
