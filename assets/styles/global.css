@@ -250,6 +250,10 @@ border-right: 1px solid var(--nav-grey);
     transform: rotate(180deg);
 }
 
+.filter-dropdown {
+    display: flex;
+}
+
 .nav-chevron {
     transition: var(--hover-transition);
 }

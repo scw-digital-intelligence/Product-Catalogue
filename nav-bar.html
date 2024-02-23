@@ -17,11 +17,14 @@
             </div>
             <div id="filter-container" class="filter-container">
                 <ul class="filter-menu">
-                    <li><span class="filter-text">Portfolios</span><i class="nav-chevron portfolio-filter fa-solid fa-chevron-down fa-2xs"></i></li>
-                    <li><span class="filter-text">Products</span><i class="nav-chevron product-filter fa-solid fa-chevron-down fa-2xs"></i></li>
-                    <li><span class="filter-text">Platforms</span><i class="nav-chevron platform-filter fa-solid fa-chevron-down fa-2xs"></i></li>
+                    <li id="portfolio-filter"><span class="filter-text">Portfolios</span><i id="portfolio-filter-chevron" class="nav-chevron portfolio-filter fa-solid fa-chevron-down fa-2xs"></i></li>
+                    <li id="product-filter"><span class="filter-text">Products</span><i id="product-filter-chevron" class="nav-chevron product-filter fa-solid fa-chevron-down fa-2xs"></i></li>
+                    <li id="platform-filter"><span class="filter-text">Platforms</span><i id="platform-filter-chevron" class="nav-chevron platform-filter fa-solid fa-chevron-down fa-2xs"></i></li>
                 </ul>
-            </div>            
+            </div>
+            <ul id="portfolio-filter-list" class="hide-filter"></ul>
+            <ul id="product-filter-list" class="hide-filter"></ul>
+            <ul id="platform-filter-list" class="hide-filter"></ul>            
         </div>
         <div id= "filter-box-container" class="filter-box-container">
             <div class="filter-row-container">
@@ -33,6 +36,56 @@
             </div>
         </div>
         <script>
+            // base filter class to create three seperate filters from
+            class Filter {
+                constructor(content, className){
+                    this.content = content;
+                    this.filteredContent = this.content;
+                    this.className = className;
+                    this.createFilter();
+                }
+
+                // method to generate a filter list when a new object is created
+                createFilter(){
+                    let i, list;
+                    i = 1;
+                    list = document.getElementById(this.className + "-filter-list");
+
+                    this.filteredContent.forEach(function(item){
+                        let new_filter = document.createElement("input");
+                        new_filter.setAttribute("type", "checkbox");
+                        new_filter.setAttribute("id", "filter-" + i);
+                        new_filter.setAttribute("name", "filter-" + i);
+                        new_filter.setAttribute("value", item);
+
+                        let new_label = document.createElement("label");
+                        new_label.setAttribute("for", "filter-" + i);
+                        new_label.textContent = item;
+
+                        let newListItem = document.createElement("li");
+                        newListItem.setAttribute("id", "filter-list-" + i);
+
+                        newListItem.appendChild(new_filter);
+                        newListItem.appendChild(new_label);
+
+                        list.appendChild(newListItem);
+
+                        i++
+                    });
+                }
+
+                filtering(getThis){
+                    this.filteredContent = this.content.filter((item) => item == getThis)
+                }
+            }
+
+            let portfolioFilter, productFilter, platformFilter;
+            portfolioFilter = new Filter(portfolioList, "portfolio");
+            productFilter = new Filter(productList, "product");
+            platformFilter = new Filter(platformList, "platform");
+            
+        </script>
+        <script>
             function invertChevrons(){
                 const filter_chevrons = document.getElementsByClassName('nav-chevron');
 
@@ -42,10 +95,29 @@
                     filter.onclick = function(){
                         if(this.classList.contains("filter-active")){
                             this.classList.remove("filter-active");
+
+                            if(this.id == "portfolio-filter"){
+                                document.getElementById(id="portfolio-filter-list").classList.add("hide-filter");
+                            } else if(this.id == "product-filter"){
+                                document.getElementById(id="product-filter-list").classList.add("hide-filter");
+                            } else if(this.id == "platform-filter"){
+                                document.getElementById(id="platform-filter-list").classList.add("hide-filter");
+                            }
+                            
                         } else {
                             this.classList.add("filter-active");
+
+                            if(this.id == "portfolio-filter"){
+                                document.getElementById(id="portfolio-filter-list").classList.remove("hide-filter");
+                            } else if(this.id == "product-filter"){
+                                document.getElementById(id="product-filter-list").classList.remove("hide-filter");
+                            } else if(this.id == "platform-filter"){
+                                document.getElementById(id="platform-filter-list").classList.remove("hide-filter");
+                            }
                         }
                     }
+
+                    // filter.onmousedown = filterUsed;
                 }  
             }
         </script>

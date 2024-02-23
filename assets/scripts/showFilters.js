@@ -15,3 +15,9 @@ function showFilters(){
         }
     }, 1);
 }
+
+// creates filter content arrays
+// maps distinct object lists brought in from SQL data as simple arrays
+let portfolioList = portfolioDistinct.map(a => a.Report_Portfolio_Name)
+let productList = productDistinct.map(a => a.Report_Title)
+let platformList = platformDistinct.map(a => a.Platform)

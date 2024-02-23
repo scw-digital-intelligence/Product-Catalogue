@@ -2,7 +2,9 @@
 /* -------------- STYLE -------------- */
 /***************************************/
 
-/* --------------- HERO -------------- */
+/* ---------------------------------------------------- */
+/* ----------------------- HERO ----------------------- */
+/* ---------------------------------------------------- */
 .hero {
     background-position: 0% 0%;
     background-repeat: no-repeat;
@@ -59,7 +61,9 @@
     -webkit-text-stroke: 0.3px var(--nhs-mid-grey);
 }
 
-/* ------------- CONTENT ------------- */
+/* ---------------------------------------------------- */
+/* --------------------- CONTENT ---------------------- */
+/* ---------------------------------------------------- */
 .intro-section,
 .content-section {
     display: flex;
@@ -291,17 +295,50 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%25563' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-#product-search-list {
+/* ---------------------------------------------------- */
+/* ------------- SEARCH AND FILTER LISTS -------------- */
+/* ---------------------------------------------------- */
+
+#product-search-list,
+#portfolio-filter-list,
+#product-filter-list,
+#platform-filter-list {
     position: absolute;
-    top: 42%;
-    left: 46.25%;
     list-style-type: none;
-    width: 25rem;
-    max-height: 10rem;
-    overflow-y: auto;
     background-color: var(--nhs-website-grey);
     padding-inline-start: 0;
     border: solid 1px var(--nhs-mid-grey);
+}
+
+#product-search-list {
+    top: 42%;
+    left: 46.25%;
+    min-width: 10rem;
+    max-width: 25rem;
+    max-height: 10rem;
+    overflow-y: auto;
+}
+
+#portfolio-filter-list,
+#product-filter-list,
+#platform-filter-list {
+    top: 64.6%;
+    min-width: 7.8rem;
+    max-width: 25rem;
+    max-height: 10rem;
+    overflow-y: auto;
+}
+
+#portfolio-filter-list{
+    left: 58.8%;
+}
+
+#product-filter-list{
+    left: 64.4%;
+}
+
+#platform-filter-list{
+    left: 70%;
 }
 
 #product-search-list li {
@@ -320,6 +357,7 @@
     transition: var(--hover-transition);
 }
 
-.hide-search-results {
+.hide-search-results,
+.hide-filter {
     display: none;
 }
