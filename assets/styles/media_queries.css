@@ -1,0 +1,50 @@
+@media screen and (max-width: 1920px) {
+    .nav-menu,
+    .filter-menu {
+        width: 60%;
+    }
+    .content-box {
+        width: 14.3rem;
+        margin-right: 2rem;
+    }
+
+    .content-box h4 {
+        font-size: 1.3rem;
+    }
+
+    .content-box p {
+        font-size: 0.9rem;
+    }
+
+    .catalogue-button-box {
+        width: 30.5em;
+    }
+
+    .sticky-product {
+        top: 2.1%;
+    }
+
+    #portfolio-filter-list,
+    #product-filter-list,
+    #platform-filter-list {
+        top: 66.5%;
+        min-width: 7.8rem;
+        max-width: 42rem;
+        max-height: 15rem;
+        overflow-y: auto;
+    }
+
+    
+    #portfolio-filter-list{
+        left: 58.75%;
+    }
+
+    #product-filter-list{
+        left: 65.5%;
+    }
+
+    #platform-filter-list{
+        left: 72.23%;
+    }
+
+  }
