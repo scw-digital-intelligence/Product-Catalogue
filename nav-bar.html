@@ -36,6 +36,45 @@
             </div>
         </div>
         <script>
+
+            let activePortfolioFilters = [];
+            let activeProductFilters = [];
+            let activePlatformFilters = [];
+
+            function filteredData(){
+                let filterFor, parentElem, portfolioFilters, productFilters, platformFilters ,activeFilters;
+                filterFor = this.nextSibling.textContent;
+                parentElem = this.parentElement;
+                portfolioFilters = Array.from(document.querySelectorAll("[id^='portfolio-filter-list']"));
+                productFilters = Array.from(document.querySelectorAll("[id^='product-filter-list']"));
+                platformFilters = Array.from(document.querySelectorAll("[id^='platform-filter-list']"));
+                activeFilters = [];
+                console.log(portfolioFilters);
+                console.log(parentElem);
+                console.log(filterFor);
+                
+                if(portfolioFilters.includes(parentElem)){
+                    activeFilters = activePortfolioFilters;
+                } else if (productFilters.includes(parentElem)) {
+                    activeFilters = activeProductFilters;
+                } else if (platformFilters.includes(parentElem)) {
+                    activeFilters = activePlatformFilters;
+                }
+
+                let exists = activeFilters.find((element) => element == filterFor);
+                console.log(exists);
+
+                if (this.checked && typeof exists == "undefined"){                    
+                    activeFilters.push(filterFor);
+                    console.log(filterFor);
+                } else if (this.checked == false) {
+                    let index = activeFilters.indexOf(filterFor);
+                    if (index > -1) {
+                        activeFilters.splice(index, 1);
+                    }
+                };    
+            }
+
             // base filter class to create three seperate filters from
             class Filter {
                 constructor(content, className){
@@ -47,23 +86,25 @@
 
                 // method to generate a filter list when a new object is created
                 createFilter(){
-                    let i, list;
+                    let i, list, classHeader;
                     i = 1;
                     list = document.getElementById(this.className + "-filter-list");
+                    classHeader = this.className;
 
                     this.filteredContent.forEach(function(item){
                         let new_filter = document.createElement("input");
                         new_filter.setAttribute("type", "checkbox");
-                        new_filter.setAttribute("id", "filter-" + i);
+                        new_filter.setAttribute("id", item.replace(/\s+/g, '-').toLowerCase() + "-filter");
                         new_filter.setAttribute("name", "filter-" + i);
                         new_filter.setAttribute("value", item);
+                        new_filter.addEventListener('mouseleave', filteredData);
 
                         let new_label = document.createElement("label");
-                        new_label.setAttribute("for", "filter-" + i);
+                        new_label.setAttribute("for", item.replace(/\s+/g, '-').toLowerCase() + "-filter");
                         new_label.textContent = item;
 
                         let newListItem = document.createElement("li");
-                        newListItem.setAttribute("id", "filter-list-" + i);
+                        newListItem.setAttribute("id", classHeader + "-filter-list-" + i);
 
                         newListItem.appendChild(new_filter);
                         newListItem.appendChild(new_label);
@@ -72,10 +113,6 @@
 
                         i++
                     });
-                }
-
-                filtering(getThis){
-                    this.filteredContent = this.content.filter((item) => item == getThis)
                 }
             }
 
