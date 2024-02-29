@@ -313,8 +313,8 @@
 #product-search-list {
     top: 42%;
     left: 46.25%;
-    min-width: 10rem;
-    max-width: 25rem;
+    min-width: 15rem;
+    max-width: 15rem;
     max-height: 12rem;
     overflow-y: auto;
 }
@@ -324,8 +324,8 @@
 #platform-filter-list {
     top: 64.6%;
     min-width: 7.8rem;
-    max-width: 40rem;
-    max-height: 12rem;
+    max-width: 42rem;
+    max-height: 15rem;
     overflow-y: auto;
 }
 
@@ -368,7 +368,7 @@
 #portfolio-filter-list li,
 #product-filter-list li,
 #platform-filter-list li {
-    padding: 1% 0;
+    padding: 5px 5px 5px 0;
 }
 
 .hide-search-results,

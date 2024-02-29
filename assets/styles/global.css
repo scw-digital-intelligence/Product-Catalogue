@@ -152,7 +152,6 @@ h2 {
     display: flex;
     flex-direction: row;
     height: 90px;
-    
 }
 
 nav {
@@ -161,8 +160,8 @@ nav {
     align-content: center;
     border-bottom: 1px solid var(--nav-grey);
     flex-shrink: 0;
-    overflow: hidden;
     justify-content: flex-end;
+    overflow-y: visible;
 }
 
 .nav-container,
@@ -266,6 +265,10 @@ border-right: 1px solid var(--nav-grey);
 .nav-menu li a:hover
 ,.filter-menu li a:hover {
     color: inherit
+}
+
+.sticky #nav-body ul {
+    top: 78%;
 }
 
 /* -------------- HEADER ------------- */
