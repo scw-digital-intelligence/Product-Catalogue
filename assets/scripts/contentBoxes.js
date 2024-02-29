@@ -1,3 +1,6 @@
+// creating version of main dat that will be subsettable 
+let data = portfolios;
+
 // function to capture correct object details on click
 function clickedProduct(evt){
     let productName = document.getElementById(evt.target.id).textContent
@@ -8,7 +11,7 @@ function clickedProduct(evt){
             // console.log(portfolio.Products[x].Name);
             // console.log(productName);
             if(portfolio.Products[x].Name == productName){
-                console.log(portfolio.Products[x].Name);
+                // console.log(portfolio.Products[x].Name);
                 // results.push(portfolio.Products[x]);
                 localStorage.setItem("useThisProduct", JSON.stringify(portfolio.Products[x]));
                 break;
@@ -162,7 +165,7 @@ let catmain = document.getElementById("catalogue-main");
 
 function portfolioBoxes(){
     let b = 1;
-    portfolios.forEach(function(element) {
+    data.forEach(function(element) {
         
 
         let portSec = document.createElement("section");
