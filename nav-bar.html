@@ -49,9 +49,9 @@
                 productFilters = Array.from(document.querySelectorAll("[id^='product-filter-list']"));
                 platformFilters = Array.from(document.querySelectorAll("[id^='platform-filter-list']"));
                 activeFilters = [];
-                console.log(portfolioFilters);
-                console.log(parentElem);
-                console.log(filterFor);
+                // console.log(portfolioFilters);
+                // console.log(parentElem);
+                // console.log(filterFor);
                 
                 if(portfolioFilters.includes(parentElem)){
                     activeFilters = activePortfolioFilters;
@@ -62,17 +62,45 @@
                 }
 
                 let exists = activeFilters.find((element) => element == filterFor);
-                console.log(exists);
+                // console.log(exists);
 
                 if (this.checked && typeof exists == "undefined"){                    
                     activeFilters.push(filterFor);
-                    console.log(filterFor);
+                    // console.log(filterFor);
                 } else if (this.checked == false) {
                     let index = activeFilters.indexOf(filterFor);
                     if (index > -1) {
                         activeFilters.splice(index, 1);
                     }
-                };    
+                };
+
+                if(activePortfolioFilters.length == 0 && activePlatformFilters.length == 0 && activeProductFilters.length == 0) {
+                    data = portfolios;
+                    // console.log("Empty!");
+                } else {
+                    if(activePortfolioFilters.length != 0){
+                        data = portfolios.filter(el => activePortfolioFilters.includes(el.Portfolio));
+                    }
+
+                    // if(activeProductFilters.length != 0){
+                    //     data = data.filter(el => el.Products.every(prod => activeProductFilters.includes(prod.Name)));
+                    // }
+                    
+                    // console.log("Not empty!");
+                }
+
+                let toRemove = Array.from(document.getElementsByClassName("content-section"));
+                for(let i = 0; i < toRemove.length; i++){
+                    // console.log(toRemove[i]);
+                    toRemove[i].remove();
+                }
+
+                // if (data.length == 0){
+                //     data = portfolios;
+                // }
+
+                portfolioBoxes();                
+                addScrollArrows();                
             }
 
             // base filter class to create three seperate filters from
@@ -98,6 +126,7 @@
                         new_filter.setAttribute("name", "filter-" + i);
                         new_filter.setAttribute("value", item);
                         new_filter.addEventListener('mouseleave', filteredData);
+                        new_filter.addEventListener('touchend', filteredData);
 
                         let new_label = document.createElement("label");
                         new_label.setAttribute("for", item.replace(/\s+/g, '-').toLowerCase() + "-filter");
