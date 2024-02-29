@@ -194,6 +194,11 @@ nav {
     z-index: 3;
 }
 
+.sticky-product #product-search-list {
+    top: 100%;
+    left: -5%;
+}
+
 .nav-menu,
 .filter-menu {
     display: flex;

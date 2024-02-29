@@ -344,17 +344,31 @@
 #product-search-list li {
     padding: 2% 0 2% 2%;
     border-bottom: solid 1px var(--nhs-mid-grey);
+    pointer-events: none;
+}
+
+#product-search-list li:hover {
+    background-color: var(--nhs-blue);
+    transition: var(--hover-transition);
 }
 
 #product-search-list li a {
     text-decoration: none;
     color: var(--black);
+    pointer-events: auto;
 }
 
 #product-search-list li a:hover {
+    color: var(--white);
     text-shadow: 
     1px 1px 0 var(--black);
     transition: var(--hover-transition);
+}
+
+#portfolio-filter-list li,
+#product-filter-list li,
+#platform-filter-list li {
+    padding: 1% 0;
 }
 
 .hide-search-results,
