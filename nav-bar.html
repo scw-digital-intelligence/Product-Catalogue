@@ -105,6 +105,20 @@
                             }
                             
                         } else {
+
+                            let filterElements = this.parentElement.children;
+                            for (let elem of filterElements) {
+                                elem.classList.remove("filter-active");
+
+                                if(elem.id == "portfolio-filter"){
+                                    document.getElementById(id="portfolio-filter-list").classList.add("hide-filter");
+                                } else if(elem.id == "product-filter"){
+                                    document.getElementById(id="product-filter-list").classList.add("hide-filter");
+                                } else if(elem.id == "platform-filter"){
+                                    document.getElementById(id="platform-filter-list").classList.add("hide-filter");
+                                }
+                            }
+
                             this.classList.add("filter-active");
 
                             if(this.id == "portfolio-filter"){
