@@ -33,6 +33,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--black);
     font-size: 1.25rem;
+    scroll-behavior: smooth;
 }
 
 body {
