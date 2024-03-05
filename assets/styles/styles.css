@@ -235,9 +235,9 @@
 }
 
 .content-box h4 {
-    font-size: 1.50rem;
+    font-size: 1.25rem;
     margin-bottom: 1em;
-    height: 3rem;
+    max-height: 3rem;
 }
 
 .content-box a {
