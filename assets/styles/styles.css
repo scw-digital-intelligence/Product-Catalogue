@@ -31,7 +31,7 @@
 
 .hero-product {
     background-size: auto 78%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(../images/img/product.svg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(../images/img/product.svg); */
 }
 
 .hero-row {
@@ -275,7 +275,7 @@
     background-color: var(--nhs-website-grey);
 }
 
-#carouselExampleIndicators {
+#carouselIndicators {
     border: 10px solid var(--black);
     border-radius: 15px;
 }
@@ -316,7 +316,7 @@
 }
 
 #product-search-list {
-    top: 42%;
+    top: 43.5%;
     left: 46.25%;
     min-width: 15rem;
     max-width: 15rem;
