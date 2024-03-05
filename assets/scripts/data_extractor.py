@@ -75,6 +75,9 @@ v.[Report_Portfolio_Name] AS [Portfolio]
  END AS [Platform]
 ,[Report_Description_Text] AS [Description]
 ,'./assets/images/img/product_box.svg' AS [Image]
+,'./assets/images/img/carousel/product_1' AS [Carousel_Images_1]
+,'./assets/images/img/carousel/product_2' AS [Carousel_Images_2]
+,'./assets/images/img/carousel/product_3' AS [Dummy_Product_URL]
 ,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
 FROM [DigitalIntelligence].[Cat].[catalogue_view] v
 LEFT JOIN Distinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
