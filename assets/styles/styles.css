@@ -300,6 +300,10 @@
 /* ------------- SEARCH AND FILTER LISTS -------------- */
 /* ---------------------------------------------------- */
 
+#portfolio-filter {
+    width: 33%;
+}
+
 #product-search-list,
 #portfolio-filter-list,
 #product-filter-list,
@@ -323,7 +327,7 @@
 #portfolio-filter-list,
 #product-filter-list,
 #platform-filter-list {
-    top: 64.6%;
+    top: 65.1%;
     min-width: 7.8rem;
     max-width: 42rem;
     max-height: 15rem;
