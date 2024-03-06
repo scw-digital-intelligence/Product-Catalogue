@@ -14,7 +14,7 @@ function showFilters(){
         } else {
             filters.style.display = "none"
         }
-    }, 350);
+    }, 500);
 }
 
 // creates filter content arrays
@@ -138,4 +138,4 @@ setTimeout(function() {
     portfolioFilter = new Filter(portfolioList, "portfolio");
     // productFilter = new Filter(productList, "product");
     // platformFilter = new Filter(platformList, "platform");
-}, 300);
+}, 100);
