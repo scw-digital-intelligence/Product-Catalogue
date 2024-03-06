@@ -36,63 +36,8 @@
             </div>
         </div>
         <script>
-
-            
-            
-        </script>
-        <script>
-            function invertChevrons(){
-                const filter_chevrons = document.getElementsByClassName('nav-chevron');
-
-                for(i = 0; i < filter_chevrons.length; i++){
-                    let filter = filter_chevrons[i].parentElement
-                    // function to make the clicked filter item active
-                    filter.onclick = function(){
-                        if(this.classList.contains("filter-active")){
-                            this.classList.remove("filter-active");
-
-                            if(this.id == "portfolio-filter"){
-                                document.getElementById(id="portfolio-filter-list").classList.add("hide-filter");
-                            } else if(this.id == "product-filter"){
-                                document.getElementById(id="product-filter-list").classList.add("hide-filter");
-                            } else if(this.id == "platform-filter"){
-                                document.getElementById(id="platform-filter-list").classList.add("hide-filter");
-                            }
-                            
-                        } else {
-
-                            let filterElements = this.parentElement.children;
-                            for (let elem of filterElements) {
-                                elem.classList.remove("filter-active");
-
-                                if(elem.id == "portfolio-filter"){
-                                    document.getElementById(id="portfolio-filter-list").classList.add("hide-filter");
-                                } else if(elem.id == "product-filter"){
-                                    document.getElementById(id="product-filter-list").classList.add("hide-filter");
-                                } else if(elem.id == "platform-filter"){
-                                    document.getElementById(id="platform-filter-list").classList.add("hide-filter");
-                                }
-                            }
-
-                            this.classList.add("filter-active");
-
-                            if(this.id == "portfolio-filter"){
-                                document.getElementById(id="portfolio-filter-list").classList.remove("hide-filter");
-                            } else if(this.id == "product-filter"){
-                                document.getElementById(id="product-filter-list").classList.remove("hide-filter");
-                            } else if(this.id == "platform-filter"){
-                                document.getElementById(id="platform-filter-list").classList.remove("hide-filter");
-                            }
-                        }
-                    }
-
-                    // filter.onmousedown = filterUsed;
-                }  
-            }
-        </script>
-        <script>
             // functions accessed on page load
-            window.addEventListener('load', invertChevrons);
+            // window.addEventListener('load', invertChevrons);
         </script>
     </body>
 </html>
