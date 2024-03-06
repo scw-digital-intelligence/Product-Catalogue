@@ -43,7 +43,7 @@ con = pyodbc.connect(
 # Retrieving the data from the database
 cursor = con.cursor()
 
-# Portfolio_Descriptions are converted to milliseconds from 1970 for compatibility with JSON conversion
+# Release dates are converted to milliseconds from 1970 for compatibility with JSON conversion
 # Full portfolios for use in website
 cursor.execute(
 '''
