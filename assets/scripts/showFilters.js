@@ -24,7 +24,7 @@ portfolioList = portfolioDistinct.map(a => a.Report_Portfolio_Name)
 // productList = productDistinct.map(a => a.Report_Title)
 // platformList = platformDistinct.map(a => a.Platform)
 
-let activePortfolioFilters, activeProductFilters, activePlatformFilters;
+let activePortfolioFilters//, activeProductFilters, activePlatformFilters;
 activePortfolioFilters = [];
 // activeProductFilters = [];
 // activePlatformFilters = [];
@@ -43,11 +43,11 @@ function filteredData(){
     
     if(portfolioFilters.includes(parentElem)){
         activeFilters = activePortfolioFilters;
-    } else if (productFilters.includes(parentElem)) {
-        activeFilters = activeProductFilters;
-    } else if (platformFilters.includes(parentElem)) {
-        activeFilters = activePlatformFilters;
-    }
+    }// else if (productFilters.includes(parentElem)) {
+    //     activeFilters = activeProductFilters;
+    // } else if (platformFilters.includes(parentElem)) {
+    //     activeFilters = activePlatformFilters;
+    // }
 
     let exists = activeFilters.find((element) => element == filterFor);
     // console.log(exists);
@@ -62,9 +62,10 @@ function filteredData(){
         }
     };
 
-    if(activePortfolioFilters.length == 0 && activePlatformFilters.length == 0 && activeProductFilters.length == 0) {
+    if(activePortfolioFilters.length == 0 ) {//&& activePlatformFilters.length == 0 && activeProductFilters.length == 0) {
         data = portfolios;
-        // console.log("Empty!");
+        console.log("Empty!");
+        console.log(activeFilters);
     } else {
         if(activePortfolioFilters.length != 0){
             data = portfolios.filter(el => activePortfolioFilters.includes(el.Portfolio));
@@ -74,7 +75,8 @@ function filteredData(){
         //     data = data.filter(el => el.Products.every(prod => activeProductFilters.includes(prod.Name)));
         // }
         
-        // console.log("Not empty!");
+        console.log("Not empty!");
+        console.log(activePortfolioFilters);
     }
 
     let toRemove = Array.from(document.getElementsByClassName("content-section"));
