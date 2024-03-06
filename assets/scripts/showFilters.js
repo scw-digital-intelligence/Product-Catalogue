@@ -141,6 +141,8 @@ setTimeout(function() {
 }, 100);
 
 function invertChevrons(){
+
+    setTimeout(function(){
     const filter_chevrons = document.getElementsByClassName('nav-chevron');
 
     for(i = 0; i < filter_chevrons.length; i++){
@@ -186,5 +188,6 @@ function invertChevrons(){
         }
 
         // filter.onmousedown = filterUsed;
-    }  
+    }
+    }, 500);  
 }
