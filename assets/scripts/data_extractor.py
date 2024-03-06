@@ -47,45 +47,7 @@ cursor = con.cursor()
 # Full portfolios for use in website
 cursor.execute(
 '''
-WITH Distinct_Portfolios AS (
-    SELECT 
-    Report_Portfolio_Name
-    ,ROW_NUMBER() OVER (ORDER BY Report_Portfolio_Name) as ID
-    FROM (
-        SELECT DISTINCT 
-            Report_Portfolio_Name
-        FROM [DigitalIntelligence].[Cat].[catalogue_view]
-        WHERE 
-            [Report_Release_Status_Name] = 'Official' 
-            AND [Report_Development_Status_Name] = 'Live' 
-            AND Portfolio_Status_Name = 'Live' 
-            AND Report_Release_Date IS NOT NULL
-        ) v
-)
-
-SELECT 
-v.[Report_Portfolio_Name] AS [Portfolio]
-,ID AS [Portfolio_ID]
-,v.[Report_Portfolio_Description] AS [Portfolio_Description]
-,[Report_Title] AS [Name]
-,CASE
-	WHEN [Reporting_Platform] LIKE '%Power BI%' THEN 'Power BI'
-	WHEN [Reporting_Platform] = 'Tableau Public' THEN 'Tableau'
-	ELSE [Reporting_Platform]
- END AS [Platform]
-,[Report_Description_Text] AS [Description]
-,'./assets/images/img/product_box.svg' AS [Image]
-,'./assets/images/img/carousel/product_1' AS [Carousel_Images_1]
-,'./assets/images/img/carousel/product_2' AS [Carousel_Images_2]
-,'./assets/images/img/carousel/product_3' AS [Dummy_Product_URL]
-,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
-FROM [DigitalIntelligence].[Cat].[catalogue_view] v
-LEFT JOIN Distinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
-WHERE 
-[Report_Release_Status_Name] = 'Official' 
-AND [Report_Development_Status_Name] = 'Live' 
-AND Portfolio_Status_Name = 'Live' 
-AND Report_Release_Date IS NOT NULL
+SELECT * FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
 
 ORDER BY Portfolio_ID
 '''
@@ -112,44 +74,9 @@ to_json = json.dumps(data, indent=2)
 # Top 6 most recent product releases for landing page
 cursor.execute(
 '''
-WITH Distinct_Portfolios AS (
-    SELECT 
-    Report_Portfolio_Name
-    ,ROW_NUMBER() OVER (ORDER BY Report_Portfolio_Name) as ID
-    FROM (
-        SELECT DISTINCT 
-            Report_Portfolio_Name
-        FROM [DigitalIntelligence].[Cat].[catalogue_view]
-        WHERE 
-            [Report_Release_Status_Name] = 'Official' 
-            AND [Report_Development_Status_Name] = 'Live' 
-            AND Portfolio_Status_Name = 'Live' 
-            AND Report_Release_Date IS NOT NULL
-        ) v
-)
+SELECT TOP 6 * FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
 
-SELECT TOP 6
-v.[Report_Portfolio_Name] AS [Portfolio]
-,ID AS [Portfolio_ID]
-,v.[Report_Portfolio_Description] AS [Portfolio_Description]
-,[Report_Title] AS [Name]
-,CASE
-	WHEN [Reporting_Platform] LIKE '%Power BI%' THEN 'Power BI'
-	WHEN [Reporting_Platform] = 'Tableau Public' THEN 'Tableau'
-	ELSE [Reporting_Platform]
- END AS [Platform]
-,[Report_Description_Text] AS [Description]
-,'./assets/images/img/product_box.svg' AS [Image]
-,DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) AS [Released]
-FROM [DigitalIntelligence].[Cat].[catalogue_view] v
-LEFT JOIN Distinct_Portfolios dp ON v.[Report_Portfolio_Name] = dp.Report_Portfolio_Name
-WHERE 
-[Report_Release_Status_Name] = 'Official' 
-AND [Report_Development_Status_Name] = 'Live' 
-AND Portfolio_Status_Name = 'Live' 
-AND Report_Release_Date IS NOT NULL
-
-ORDER BY DATEDIFF_BIG(MILLISECOND, [Report_Release_Date], GETDATE()) DESC
+ORDER BY [Released] DESC
 '''
     )
 
@@ -169,14 +96,8 @@ latest_products = json.dumps(data, indent=2)
 ## Portfolio names
 cursor.execute(
 '''
-SELECT DISTINCT 
-    Report_Portfolio_Name
-FROM [DigitalIntelligence].[Cat].[catalogue_view]
-WHERE 
-    [Report_Release_Status_Name] = 'Official' 
-    AND [Report_Development_Status_Name] = 'Live' 
-    AND Portfolio_Status_Name = 'Live' 
-    AND Report_Release_Date IS NOT NULL
+SELECT DISTINCT [Portfolio] AS [Report_Portfolio_Name]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
 '''
 )
 
@@ -191,14 +112,8 @@ portfolio_list = json.dumps(data, indent=2)
 ## Product names
 cursor.execute(
 '''
-SELECT DISTINCT 
-    Report_Title
-FROM [DigitalIntelligence].[Cat].[catalogue_view]
-WHERE 
-    [Report_Release_Status_Name] = 'Official' 
-    AND [Report_Development_Status_Name] = 'Live' 
-    AND Portfolio_Status_Name = 'Live' 
-    AND Report_Release_Date IS NOT NULL
+SELECT DISTINCT [Name] As [Report_Title]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
 '''
 )
 
@@ -210,21 +125,11 @@ product_list = json.dumps(data, indent=2)
 
 # print(product_list)
 
-## Product names
+## Platform names
 cursor.execute(
 '''
-SELECT DISTINCT 
-    CASE
-	WHEN [Reporting_Platform] LIKE '%Power BI%' THEN 'Power BI'
-	WHEN [Reporting_Platform] = 'Tableau Public' THEN 'Tableau'
-	ELSE [Reporting_Platform]
- END AS [Platform]
-FROM [DigitalIntelligence].[Cat].[catalogue_view]
-WHERE 
-    [Report_Release_Status_Name] = 'Official' 
-    AND [Report_Development_Status_Name] = 'Live' 
-    AND Portfolio_Status_Name = 'Live' 
-    AND Report_Release_Date IS NOT NULL
+SELECT DISTINCT [Platform]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
 '''
 )
 
