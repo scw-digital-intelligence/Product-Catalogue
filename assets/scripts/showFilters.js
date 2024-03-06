@@ -64,8 +64,8 @@ function filteredData(){
 
     if(activePortfolioFilters.length == 0 ) {//&& activePlatformFilters.length == 0 && activeProductFilters.length == 0) {
         data = portfolios;
-        console.log("Empty!");
-        console.log(activeFilters);
+        // console.log("Empty!");
+        // console.log(activeFilters);
     } else {
         if(activePortfolioFilters.length != 0){
             data = portfolios.filter(el => activePortfolioFilters.includes(el.Portfolio));
@@ -75,8 +75,8 @@ function filteredData(){
         //     data = data.filter(el => el.Products.every(prod => activeProductFilters.includes(prod.Name)));
         // }
         
-        console.log("Not empty!");
-        console.log(activePortfolioFilters);
+        // console.log("Not empty!");
+        // console.log(activePortfolioFilters);
     }
 
     let toRemove = Array.from(document.getElementsByClassName("content-section"));
