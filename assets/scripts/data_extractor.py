@@ -71,16 +71,12 @@ for portfolio in data:
     # accounts for the site on Insights having a different name to metadata portfolio
     if "PbR" in sharepoint_portfolio:
         sharepoint_portfolio = "PbR"
-    elif sharepoint_portfolio == "KnowledgeShare":
-        sharepoint_portfolio = "Knowledgeshare"
-    elif sharepoint_portfolio == "CMS":
-        sharepoint_portfolio = "ContractMonitoringSolution"
     elif sharepoint_portfolio == "Urgentandemergencycare":
         sharepoint_portfolio = "UrgentEmergencyCare"
 
     ctx = ClientContext(os.path.join("https://scwcsu.sharepoint.com/sites/",sharepoint_portfolio)).with_credentials(user_creds)
     
-    print(f"Retrieving photos for: {portfolio["Report_Portfolio_Name"]}")
+    print(f"Retrieving photos for: {sharepoint_portfolio}")
 
     # establishing relative path to required images
     target_folder_url = "SiteAssets/SitePages/Images"
