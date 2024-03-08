@@ -1,3 +1,7 @@
+# Images
 assets/images/img/products/*.jpg
 assets/images/img/products/*.png
 assets/images/img/products/*.jpeg
+
+# Code files
+*.pyc
