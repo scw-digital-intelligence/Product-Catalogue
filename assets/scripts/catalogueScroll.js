@@ -7,7 +7,8 @@ function addScrollArrows(){
         let arrow = chevronsRight[i]
         // function to scroll the catalogue elements on click
         arrow.onmousedown = function(){
-            this.parentElement.previousSibling.scrollLeft += 200;
+            let scrollAmount = this.parentElement.parentElement.scrollWidth;
+            this.parentElement.previousSibling.scrollLeft += (scrollAmount * 0.35);
         }
     }
 
@@ -15,7 +16,8 @@ function addScrollArrows(){
         let arrow = chevronsLeft[i]
         // function to scroll the catalogue elements on click
         arrow.onmousedown = function(){
-            this.parentElement.nextSibling.scrollLeft -= 200;
+            let scrollAmount = this.parentElement.parentElement.scrollWidth;
+            this.parentElement.nextSibling.scrollLeft -= (scrollAmount * 0.35);
         }
     }    
 }
