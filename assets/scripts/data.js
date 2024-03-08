@@ -1,6 +1,6 @@
 const portfolios = [
   {
-    "Portfolio": "Cancer Care",
+    "Portfolio": "Cancer care",
     "Products": [
       {
         "Portfolio_ID": 1,
@@ -13,7 +13,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 89557029876
+        "Released": 89730597076
       },
       {
         "Portfolio_ID": 1,
@@ -26,52 +26,13 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 35211429876
-      },
-      {
-        "Portfolio_ID": 1,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Cancer, covering national statistics and regional data flows. The latest release is the beta version of the Cancer Alliance Reporting Dashboard, produced by SCW for the Somerset, Wiltshire, Avon and Gloucestershire Cancer Alliance.",
-        "Name": "Rapid Diagnosis Service Survey Dashboard",
-        "ID": "121",
-        "Platform": "Power BI",
-        "Description": "Analysis of Patient Experience user surveys within Peninsula Cancer Alliance, relating to the Rapid Diagnosis Service",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 51886629876
-      },
-      {
-        "Portfolio_ID": 1,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Cancer, covering national statistics and regional data flows. The latest release is the beta version of the Cancer Alliance Reporting Dashboard, produced by SCW for the Somerset, Wiltshire, Avon and Gloucestershire Cancer Alliance.",
-        "Name": "Early Diagnosis Programme - Surrey & Sussex",
-        "ID": "138",
-        "Platform": "Tableau",
-        "Description": "Data to support early cancer diagnosis in Primary Care, developed using data from Fingertips and released on Tableau Public. This report covers Surrey and Sussex.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 35211429876
+        "Released": 35384997076
       }
     ]
   },
   {
     "Portfolio": "CMS",
     "Products": [
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "Provider Data Reconciliation Report",
-        "ID": "175",
-        "Platform": "Power BI",
-        "Description": "The Provider Data Reconciliation report is designed to support the reconciliation process between Secondary Users Service (SUS+) data and the contract monitoring reports / AFR ensuring that the data across two sets of records align and where discrepancies exist, the reasons for the differences are clearly seen or stated.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 11105829876
-      },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
@@ -83,12 +44,12 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 16981029876
+        "Released": 17154597076
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report",
+        "Name": "CMS activity and finance report - Operational",
         "ID": "64",
         "Platform": "Tableau",
         "Description": "Presenting activity and cost numbers for contracts across the SCW footprint.  This version of the CMS Activity and Finance Report has been categorised as operational due to regular changes during the month end reporting period.",
@@ -96,7 +57,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 16981029876
+        "Released": 17154597076
       },
       {
         "Portfolio_ID": 2,
@@ -109,7 +70,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 82472229876
+        "Released": 82645797076
       },
       {
         "Portfolio_ID": 2,
@@ -122,7 +83,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 16981029876
+        "Released": 17154597076
       },
       {
         "Portfolio_ID": 2,
@@ -135,116 +96,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 16981029876
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "SLAM Load Checks",
-        "ID": "69",
-        "Platform": "Power BI",
-        "Description": "SLAM Load Checks",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 87742629876
-      }
-    ]
-  },
-  {
-    "Portfolio": "Elective Care",
-    "Products": [
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Elective Recovery Fund - H1",
-        "ID": "100",
-        "Platform": "Tableau",
-        "Description": "This workbook presents the activity baselines for the 2021/22 Elective Recovery Fund based on 2019/20 activity levels.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76683429876
-      },
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Evidence Based Intervention (EBI)",
-        "ID": "124",
-        "Platform": "Power BI",
-        "Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time by only offering interventions on the NHS that are evidence-based and appropriate.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 66401829876
-      },
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Planned Care Dashboard",
-        "ID": "126",
-        "Platform": "Tableau",
-        "Description": "The SCW Planned Care Dashboard seeks to provide localised information relating to Inpatient and Outpatient Planned Care systems.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27349029876
-      },
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Elective Waiting List Dashboard",
-        "ID": "129",
-        "Platform": "Tableau",
-        "Description": "The Elective Waiting List Dashboard aims to provide a visual display of the waiting list composition to support management of elective restoration impacted by the Covid-19 pandemic.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 1774629876
-      },
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Referrals Self Service",
-        "ID": "170",
-        "Platform": "Excel Online",
-        "Description": "TBC",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17499429876
-      },
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Elective Recovery Fund - H2",
-        "ID": "142",
-        "Platform": "Tableau",
-        "Description": "The workbook presents the RTT baselines for 2019/20 as well as actual RTT figures for 2021/2022 used to calculate the ERF H2 payment. Criteria follows that of NHSE and NHSI.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65797029876
-      },
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Planned Care e-Referrals",
-        "ID": "143",
-        "Platform": "Tableau",
-        "Description": "Reporting upon the NHS e-Referral Service (e-RS) across the regions at various organisational levels.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 19918629876
+        "Released": 17154597076
       }
     ]
   },
@@ -252,7 +104,7 @@ const portfolios = [
     "Portfolio": "Knowledge Share",
     "Products": [
       {
-        "Portfolio_ID": 4,
+        "Portfolio_ID": 3,
         "Portfolio_Description": "SCW has identified a number of websites which complement the content found on Insights and may be of interest to users.",
         "Name": "Stakeholder Activity Monitoring Tool",
         "ID": "144",
@@ -262,10 +114,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 18363429876
+        "Released": 18536997076
       },
       {
-        "Portfolio_ID": 4,
+        "Portfolio_ID": 3,
         "Portfolio_Description": "SCW has identified a number of websites which complement the content found on Insights and may be of interest to users.",
         "Name": "Service Catalogue",
         "ID": "152",
@@ -275,39 +127,44 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 13265829876
+        "Released": 13439397076
       }
     ]
   },
   {
-    "Portfolio": "Mental Health",
+    "Portfolio": "Management interface solution",
     "Products": [
       {
-        "Portfolio_ID": 5,
-        "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
-        "Name": "Mental Health Waiting Times - Self Service",
-        "ID": "171",
-        "Platform": "Excel Online",
-        "Description": "Mental Health Waiting Times self-service workbook provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. It includes a preset pivot table with referral figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for waiting times and referrals by service and team type.",
+        "Portfolio_ID": 4,
+        "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
+        "Name": "Provider Data Reconciliation Report",
+        "ID": "175",
+        "Platform": "Power BI",
+        "Description": "The Provider Data Reconciliation report is designed to support the reconciliation process between Secondary Users Service (SUS+) data and the contract monitoring reports / AFR ensuring that the data across two sets of records align and where discrepancies exist, the reasons for the differences are clearly seen or stated.",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 7909029876
+        "Released": 11279397076
       },
       {
-        "Portfolio_ID": 5,
-        "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
-        "Name": "Mental Health Waiting Times Dashboard",
-        "ID": "172",
+        "Portfolio_ID": 4,
+        "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
+        "Name": "SLAM Load Checks",
+        "ID": "69",
         "Platform": "Power BI",
-        "Description": "The Mental Health Waiting Times report is based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity at ICB, provider, PCN, and GP level, and allows for analysis of referrals and waiting times. This report also allows users to filter by age for either Children and Young People (0-17) or Adults (18+) services.",
+        "Description": "SLAM Load Checks",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 7909029876
-      },
+        "Released": 87916197076
+      }
+    ]
+  },
+  {
+    "Portfolio": "Mental health",
+    "Products": [
       {
         "Portfolio_ID": 5,
         "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
@@ -319,7 +176,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 52232229876
+        "Released": 52405797076
       },
       {
         "Portfolio_ID": 5,
@@ -332,12 +189,38 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 21646629876
+        "Released": 21820197076
+      },
+      {
+        "Portfolio_ID": 5,
+        "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
+        "Name": "Mental Health Waiting Times - Self Service",
+        "ID": "171",
+        "Platform": "Excel Online",
+        "Description": "Mental Health Waiting Times self-service workbook provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. It includes a preset pivot table with referral figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for waiting times and referrals by service and team type.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 8082597076
+      },
+      {
+        "Portfolio_ID": 5,
+        "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
+        "Name": "Mental Health Waiting Times Dashboard",
+        "ID": "172",
+        "Platform": "Power BI",
+        "Description": "The Mental Health Waiting Times report is based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity at ICB, provider, PCN, and GP level, and allows for analysis of referrals and waiting times. This report also allows users to filter by age for either Children and Young People (0-17) or Adults (18+) services.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 8082597076
       }
     ]
   },
   {
-    "Portfolio": "Metric Library",
+    "Portfolio": "Metric library",
     "Products": [
       {
         "Portfolio_ID": 6,
@@ -350,33 +233,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 4971429876
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-        "Name": "SCW Metric Library Dashboard",
-        "ID": "139",
-        "Platform": "Tableau",
-        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65192229876
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-        "Name": "SCW Metric Library - Self Service",
-        "ID": "140",
-        "Platform": "Excel Online",
-        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 4193829876
+        "Released": 5144997076
       },
       {
         "Portfolio_ID": 6,
@@ -389,7 +246,33 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65192229876
+        "Released": 65365797076
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
+        "Name": "SCW Metric Library Dashboard",
+        "ID": "139",
+        "Platform": "Tableau",
+        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 65365797076
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
+        "Name": "SCW Metric Library - Self Service",
+        "ID": "140",
+        "Platform": "Excel Online",
+        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 4367397076
       }
     ]
   },
@@ -403,11 +286,11 @@ const portfolios = [
         "ID": "160",
         "Platform": "Tableau",
         "Description": "Aggregated reporting of NCDR data at sub-ICB level, to enable monitoring of operational activity measures set out within the NHS Operational technical guidance.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\160-NCDR_PlanningMeasuresDashboard-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5403429876
+        "Released": 5576997076
       },
       {
         "Portfolio_ID": 7,
@@ -420,7 +303,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 33742629876
+        "Released": 33916197076
       },
       {
         "Portfolio_ID": 7,
@@ -433,7 +316,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 33742629876
+        "Released": 33916197076
       },
       {
         "Portfolio_ID": 7,
@@ -442,11 +325,11 @@ const portfolios = [
         "ID": "1",
         "Platform": "Tableau",
         "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\1-A&E_Attendances_and_E_Admissions_Public-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5403429876
+        "Released": 5576997076
       },
       {
         "Portfolio_ID": 7,
@@ -459,7 +342,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27089829876
+        "Released": 27263397076
       },
       {
         "Portfolio_ID": 7,
@@ -468,11 +351,11 @@ const portfolios = [
         "ID": "3",
         "Platform": "Tableau",
         "Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\3-AmbulanceClinicalOutcomes-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 91803429876
+        "Released": 91976997076
       },
       {
         "Portfolio_ID": 7,
@@ -481,11 +364,11 @@ const portfolios = [
         "ID": "4",
         "Platform": "Tableau",
         "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\4-Ambulance_Quality_Indicators-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -498,7 +381,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -507,11 +390,11 @@ const portfolios = [
         "ID": "6",
         "Platform": "Tableau",
         "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\6-DiagnosticsWaitingTimes&Activity-Public-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -520,11 +403,11 @@ const portfolios = [
         "ID": "7",
         "Platform": "Tableau",
         "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the monthly diagnostics collection which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\7-DiagnosticsWaitingTimes&Activity-provisional-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -537,7 +420,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27089829876
+        "Released": 27263397076
       },
       {
         "Portfolio_ID": 7,
@@ -546,11 +429,11 @@ const portfolios = [
         "ID": "9",
         "Platform": "Tableau",
         "Description": "The Monthly Referral Return (MRR) contains data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\9-MonthlyReferralReturn-Public-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -559,11 +442,11 @@ const portfolios = [
         "ID": "10",
         "Platform": "Tableau",
         "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Monthly Referral Return (MRR) which monitors GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\10-MonthlyReferralReturn-Provisional-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -576,7 +459,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38235429876
+        "Released": 38408997076
       },
       {
         "Portfolio_ID": 7,
@@ -585,11 +468,11 @@ const portfolios = [
         "ID": "13",
         "Platform": "Tableau",
         "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\13- WaitingTimesStatisticsForConsultant-LedElectiveCare-Pub.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5403429876
+        "Released": 5576997076
       },
       {
         "Portfolio_ID": 7,
@@ -598,11 +481,11 @@ const portfolios = [
         "ID": "14",
         "Platform": "Tableau",
         "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\14- WaitingTimesStatisticsForConsultant-LedElectiveCare-Prov.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5403429876
+        "Released": 5576997076
       },
       {
         "Portfolio_ID": 7,
@@ -615,7 +498,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27089829876
+        "Released": 27263397076
       },
       {
         "Portfolio_ID": 7,
@@ -624,11 +507,11 @@ const portfolios = [
         "ID": "16",
         "Platform": "Tableau",
         "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\16-Cancer_CareMonthWaitingTimes_SubICB-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -641,7 +524,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -650,11 +533,11 @@ const portfolios = [
         "ID": "18",
         "Platform": "Tableau",
         "Description": "Presenting Cancer Care waiting times by Trust. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\18-CancerCareMonthlyWT_byTrustPublic-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5403429876
+        "Released": 5576997076
       },
       {
         "Portfolio_ID": 7,
@@ -663,11 +546,11 @@ const portfolios = [
         "ID": "19",
         "Platform": "Tableau",
         "Description": "The Cancer 62 Day PTL data collection is a weekly snapshot, submitted by trusts which provide cancer services, which shows the number of patients on the cancer 62-day pathway, who are at risk of breaching the 62 day standard (two month (62-day) wait from urgent GP referral to first definitive treatment).",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\19-CancerCarePatientTrackingList-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 54565029876
+        "Released": 54738597076
       },
       {
         "Portfolio_ID": 7,
@@ -680,7 +563,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -693,7 +576,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -706,7 +589,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -719,7 +602,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 84200229876
+        "Released": 84373797076
       },
       {
         "Portfolio_ID": 7,
@@ -732,7 +615,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 54046629876
+        "Released": 54220197076
       },
       {
         "Portfolio_ID": 7,
@@ -745,7 +628,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -754,11 +637,11 @@ const portfolios = [
         "ID": "26",
         "Platform": "Tableau",
         "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\26-Talking Therapy-unsplash.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36248229876
+        "Released": 36421797076
       },
       {
         "Portfolio_ID": 7,
@@ -771,7 +654,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36248229876
+        "Released": 36421797076
       },
       {
         "Portfolio_ID": 7,
@@ -784,7 +667,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36248229876
+        "Released": 36421797076
       },
       {
         "Portfolio_ID": 7,
@@ -793,11 +676,11 @@ const portfolios = [
         "ID": "29",
         "Platform": "Tableau",
         "Description": "Containing information on patients with SMI which have had their physical health needs met.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\29-SevereMentalIllnessPublic-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -810,7 +693,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -823,7 +706,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27089829876
+        "Released": 27263397076
       },
       {
         "Portfolio_ID": 7,
@@ -832,11 +715,11 @@ const portfolios = [
         "ID": "32",
         "Platform": "Excel Online",
         "Description": "Performance self service report combining all performance measures.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\32-Combined_Performance_Measures_SelfService-Banner.png",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27089829876
+        "Released": 27263397076
       },
       {
         "Portfolio_ID": 7,
@@ -845,11 +728,11 @@ const portfolios = [
         "ID": "33",
         "Platform": "Tableau",
         "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\33-InfectionControl-HCAI-Public-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38235429876
+        "Released": 38408997076
       },
       {
         "Portfolio_ID": 7,
@@ -862,7 +745,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -875,7 +758,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -888,7 +771,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -901,7 +784,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92667429876
+        "Released": 92840997076
       },
       {
         "Portfolio_ID": 7,
@@ -914,7 +797,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38235429876
+        "Released": 38408997076
       },
       {
         "Portfolio_ID": 7,
@@ -927,7 +810,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 75560229876
+        "Released": 75733797076
       },
       {
         "Portfolio_ID": 7,
@@ -936,11 +819,11 @@ const portfolios = [
         "ID": "56",
         "Platform": "Tableau",
         "Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commssioners and Providers.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\56-RTT_MedianWaitsSummary-Public-Banner.jpeg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 75560229876
+        "Released": 75733797076
       },
       {
         "Portfolio_ID": 7,
@@ -949,11 +832,107 @@ const portfolios = [
         "ID": "57",
         "Platform": "Tableau",
         "Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
+        "Image": ".\\assets\\images\\img\\products\\57-SmokingSATOD-Public-Banner.jpg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 10328997076
+      }
+    ]
+  },
+  {
+    "Portfolio": "Planned care",
+    "Products": [
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Referrals Self Service",
+        "ID": "170",
+        "Platform": "Excel Online",
+        "Description": "TBC",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 10155429876
+        "Released": 17672997076
+      },
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Elective recovery fund H2 2021-2022",
+        "ID": "142",
+        "Platform": "Tableau",
+        "Description": "The workbook presents the RTT baselines for 2019/20 as well as actual RTT figures for 2021/2022 used to calculate the ERF H2 payment. Criteria follows that of NHSE and NHSI.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 65970597076
+      },
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Planned Care e-Referrals",
+        "ID": "143",
+        "Platform": "Tableau",
+        "Description": "Reporting upon the NHS e-Referral Service (e-RS) across the regions at various organisational levels.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 20092197076
+      },
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Planned Care Dashboard",
+        "ID": "126",
+        "Platform": "Tableau",
+        "Description": "The SCW Planned Care Dashboard seeks to provide localised information relating to Inpatient and Outpatient Planned Care systems.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 27522597076
+      },
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Elective Waiting List Dashboard",
+        "ID": "129",
+        "Platform": "Tableau",
+        "Description": "The Elective Waiting List Dashboard aims to provide a visual display of the waiting list composition to support management of elective restoration impacted by the Covid-19 pandemic.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 1948197076
+      },
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Elective recovery fund H1 2021-2022",
+        "ID": "100",
+        "Platform": "Tableau",
+        "Description": "This workbook presents the activity baselines for the 2021/22 Elective Recovery Fund based on 2019/20 activity levels.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 76856997076
+      },
+      {
+        "Portfolio_ID": 8,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Evidence Based Intervention (EBI)",
+        "ID": "124",
+        "Platform": "Power BI",
+        "Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time by only offering interventions on the NHS that are evidence-based and appropriate.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
+        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
+        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
+        "Released": 66575397076
       }
     ]
   },
@@ -961,7 +940,7 @@ const portfolios = [
     "Portfolio": "SUS PbR",
     "Products": [
       {
-        "Portfolio_ID": 8,
+        "Portfolio_ID": 9,
         "Portfolio_Description": "Note: Digital Intelligence are been working to improve the stability of the Secondary Users Service (SUS) Payment by Results (PbR) self-service data sets and have added new versions (2.0) of the self-service templates. We have kept the previous version on the page for backward compatibility, however these templates will be removed in due time. Therefore, please use the version 2.0 templates for all new work and look to migrate any existing work to the new formats.",
         "Name": "SUS - Emergency",
         "ID": "135",
@@ -971,10 +950,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76683429876
+        "Released": 76856997076
       },
       {
-        "Portfolio_ID": 8,
+        "Portfolio_ID": 9,
         "Portfolio_Description": "Note: Digital Intelligence are been working to improve the stability of the Secondary Users Service (SUS) Payment by Results (PbR) self-service data sets and have added new versions (2.0) of the self-service templates. We have kept the previous version on the page for backward compatibility, however these templates will be removed in due time. Therefore, please use the version 2.0 templates for all new work and look to migrate any existing work to the new formats.",
         "Name": "SUS - Outpatient",
         "ID": "136",
@@ -984,10 +963,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76683429876
+        "Released": 76856997076
       },
       {
-        "Portfolio_ID": 8,
+        "Portfolio_ID": 9,
         "Portfolio_Description": "Note: Digital Intelligence are been working to improve the stability of the Secondary Users Service (SUS) Payment by Results (PbR) self-service data sets and have added new versions (2.0) of the self-service templates. We have kept the previous version on the page for backward compatibility, however these templates will be removed in due time. Therefore, please use the version 2.0 templates for all new work and look to migrate any existing work to the new formats.",
         "Name": "SUS - Inpatients",
         "ID": "137",
@@ -997,15 +976,15 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76683429876
+        "Released": 76856997076
       }
     ]
   },
   {
-    "Portfolio": "Urgent and Emergency Care",
+    "Portfolio": "Urgent and emergency care",
     "Products": [
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "999 and Non-Emergency PTS Contracts",
         "ID": "134",
@@ -1015,10 +994,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 60094629876
+        "Released": 60268197076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Paediatric Urgent Care Dashboard",
         "ID": "125",
@@ -1028,10 +1007,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 73054629876
+        "Released": 133797076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Home First Dashboard",
         "ID": "161",
@@ -1041,10 +1020,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 10241829876
+        "Released": 10415397076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Urgent & Emergency Care Dashboard",
         "ID": "153",
@@ -1054,10 +1033,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 824229876
+        "Released": 997797076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Emergency Care Dataset High Level Reporting",
         "ID": "58",
@@ -1067,10 +1046,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63550629876
+        "Released": 63724197076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Emergency Care Data Quality Suite",
         "ID": "59",
@@ -1080,10 +1059,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63550629876
+        "Released": 63724197076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Emergency Care Dataset Self-Service Workbook - Daily",
         "ID": "60",
@@ -1093,10 +1072,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63550629876
+        "Released": 63724197076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Emergency Care Dataset Self-Service Workbook - Weekly",
         "ID": "61",
@@ -1106,10 +1085,10 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63550629876
+        "Released": 63724197076
       },
       {
-        "Portfolio_ID": 9,
+        "Portfolio_ID": 10,
         "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
         "Name": "Emergency Care Dataset Self-Service Workbook - Monthly",
         "ID": "62",
@@ -1119,7 +1098,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63550629876
+        "Released": 63724197076
       }
     ]
   }
@@ -1136,7 +1115,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92667430250
+    "Released": 92840997556
   },
   {
     "Portfolio": "Performance",
@@ -1150,7 +1129,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92667430250
+    "Released": 92840997556
   },
   {
     "Portfolio": "Performance",
@@ -1164,7 +1143,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92667430250
+    "Released": 92840997556
   },
   {
     "Portfolio": "Performance",
@@ -1178,7 +1157,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92667430250
+    "Released": 92840997556
   },
   {
     "Portfolio": "Performance",
@@ -1192,7 +1171,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92667430250
+    "Released": 92840997556
   },
   {
     "Portfolio": "Performance",
@@ -1206,35 +1185,38 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92667430250
+    "Released": 92840997556
   }
 ], portfolioDistinct = [
   {
-    "Report_Portfolio_Name": "Cancer Care"
+    "Report_Portfolio_Name": "Cancer care"
   },
   {
     "Report_Portfolio_Name": "CMS"
   },
   {
-    "Report_Portfolio_Name": "Elective Care"
-  },
-  {
     "Report_Portfolio_Name": "Knowledge Share"
   },
   {
-    "Report_Portfolio_Name": "Mental Health"
+    "Report_Portfolio_Name": "Management interface solution"
   },
   {
-    "Report_Portfolio_Name": "Metric Library"
+    "Report_Portfolio_Name": "Mental health"
+  },
+  {
+    "Report_Portfolio_Name": "Metric library"
   },
   {
     "Report_Portfolio_Name": "Performance"
   },
   {
+    "Report_Portfolio_Name": "Planned care"
+  },
+  {
     "Report_Portfolio_Name": "SUS PbR"
   },
   {
-    "Report_Portfolio_Name": "Urgent and Emergency Care"
+    "Report_Portfolio_Name": "Urgent and emergency care"
   }
 ], productDistinct = [
   {
@@ -1274,7 +1256,7 @@ const portfolios = [
     "Report_Title": "Children and Young People with an Eating Disorder"
   },
   {
-    "Report_Title": "CMS Activity and Finance Report"
+    "Report_Title": "CMS activity and finance report - Operational"
   },
   {
     "Report_Title": "CMS Activity and Finance Report Released"
@@ -1310,13 +1292,10 @@ const portfolios = [
     "Report_Title": "Early Diagnosis Programme - South West"
   },
   {
-    "Report_Title": "Early Diagnosis Programme - Surrey & Sussex"
+    "Report_Title": "Elective recovery fund H1 2021-2022"
   },
   {
-    "Report_Title": "Elective Recovery Fund - H1"
-  },
-  {
-    "Report_Title": "Elective Recovery Fund - H2"
+    "Report_Title": "Elective recovery fund H2 2021-2022"
   },
   {
     "Report_Title": "Elective Waiting List Dashboard"
@@ -1389,9 +1368,6 @@ const portfolios = [
   },
   {
     "Report_Title": "Provider Data Reconciliation Report"
-  },
-  {
-    "Report_Title": "Rapid Diagnosis Service Survey Dashboard"
   },
   {
     "Report_Title": "Referral to Treatment - Median Waits Summary"

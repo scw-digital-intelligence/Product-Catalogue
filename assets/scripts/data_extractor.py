@@ -1,6 +1,7 @@
 # Importing required libraries
 import pyodbc
 import json
+import os
 
 # function to group json
 def groupBy(data, fields, pos):
@@ -58,6 +59,21 @@ rows = cursor.fetchall()
 columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
 
+# if image exists, replacing placeholder link with real one
+base_path = 'assets\\images\\img\\products'
+image_folder = os.path.join(os.getcwd(), base_path)
+onlyfiles = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
+# print(onlyfiles)
+for image in onlyfiles:
+    if image.lower().endswith(('.png', '.jpg', '.jpeg')):
+        index = image.find("-")        
+        for object in data:
+            if object['ID'] == image[:index]:
+                object['Image'] = os.path.join(".",base_path,image)
+
+# for object in data:
+#     print(object['Image'])
+    
 # Checking the data if required
 # for i in data:
 #     print(i)
