@@ -2,6 +2,9 @@
 import pyodbc
 import json
 import os
+from office365.sharepoint.client_context import ClientContext
+from office365.runtime.auth.user_credential import UserCredential
+from pwd import USER_CRED, USER_PASSWORD
 
 # function to group json
 def groupBy(data, fields, pos):
@@ -42,9 +45,108 @@ con = pyodbc.connect(
     )
 
 # Retrieving the data from the database
+# NOTE - Release dates are converted to milliseconds from 1970 for compatibility with JSON conversion
 cursor = con.cursor()
 
-# Release dates are converted to milliseconds from 1970 for compatibility with JSON conversion
+# Distinct lists for use in webpage later
+## Portfolio names
+cursor.execute(
+'''
+SELECT DISTINCT [Portfolio] AS [Report_Portfolio_Name]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
+'''
+)
+
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+# Image retrieval from SharePoint
+# creating required credentials for access to Insights SharePoint site
+user_creds = UserCredential(USER_CRED,USER_PASSWORD)
+
+for portfolio in data:
+    sharepoint_portfolio = portfolio["Report_Portfolio_Name"].replace(" ", "")
+    
+    # accounts for the site on Insights having a different name to metadata portfolio
+    if "PbR" in sharepoint_portfolio:
+        sharepoint_portfolio = "PbR"
+    elif sharepoint_portfolio == "KnowledgeShare":
+        sharepoint_portfolio = "Knowledgeshare"
+    elif sharepoint_portfolio == "CMS":
+        sharepoint_portfolio = "ContractMonitoringSolution"
+    elif sharepoint_portfolio == "Urgentandemergencycare":
+        sharepoint_portfolio = "UrgentEmergencyCare"
+
+    ctx = ClientContext(os.path.join("https://scwcsu.sharepoint.com/sites/",sharepoint_portfolio)).with_credentials(user_creds)
+    
+    print(f"Retrieving photos for: {portfolio["Report_Portfolio_Name"]}")
+
+    # establishing relative path to required images
+    target_folder_url = "SiteAssets/SitePages/Images"
+    root_folder = ctx.web.get_folder_by_server_relative_path(target_folder_url)
+
+    # creates list of all files in folder
+    files = root_folder.get_files(True).execute_query()
+
+    # defines local folder that will store retrived images
+    product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\products")
+
+    try:
+        # loop to download specified images
+        for f in files:
+            # acquires the url for the specific file
+            file_url = f.serverRelativeUrl
+            
+            # limits download to specific image file extensions
+            if file_url.lower().endswith(('.png', '.jpg', '.jpeg')):  
+                download_path = os.path.join(product_folder, os.path.basename(file_url))
+                with open(download_path, "wb") as local_file:      
+                    file = (
+                        ctx.web.get_file_by_server_relative_path(file_url)
+                        .download(local_file)
+                        .execute_query()
+                    )   
+                
+                local_file.close() 
+    except:
+        pass
+    
+
+portfolio_list = json.dumps(data, indent=2)
+
+## Product names
+cursor.execute(
+'''
+SELECT DISTINCT [Name] As [Report_Title]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
+'''
+)
+
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+product_list = json.dumps(data, indent=2)
+
+# print(product_list)
+
+## Platform names
+cursor.execute(
+'''
+SELECT DISTINCT [Platform]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
+'''
+)
+
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
+
+platform_list = json.dumps(data, indent=2)
+
+# print(platform_list)
+
 # Full portfolios for use in website
 cursor.execute(
 '''
@@ -62,9 +164,9 @@ data = [dict(zip(columns, row)) for row in rows]
 # if image exists, replacing placeholder link with real one
 base_path = 'assets\\images\\img\\products'
 image_folder = os.path.join(os.getcwd(), base_path)
-onlyfiles = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
-# print(onlyfiles)
-for image in onlyfiles:
+file_list = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
+# print(file_list)
+for image in file_list:
     if image.lower().endswith(('.png', '.jpg', '.jpeg')):
         index = image.find("-")        
         for object in data:
@@ -102,60 +204,11 @@ columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
 
 # Checking the data if required
-for i in data:
-    print(i)
+# for i in data:
+#     print(i)
 
 # Converting to json
 latest_products = json.dumps(data, indent=2)
-
-# Distinct lists for use in webpage later
-## Portfolio names
-cursor.execute(
-'''
-SELECT DISTINCT [Portfolio] AS [Report_Portfolio_Name]
-FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
-'''
-)
-
-rows = cursor.fetchall()
-columns = [col[0] for col in cursor.description]
-data = [dict(zip(columns, row)) for row in rows]
-
-portfolio_list = json.dumps(data, indent=2)
-
-# print(portfolio_list)
-
-## Product names
-cursor.execute(
-'''
-SELECT DISTINCT [Name] As [Report_Title]
-FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
-'''
-)
-
-rows = cursor.fetchall()
-columns = [col[0] for col in cursor.description]
-data = [dict(zip(columns, row)) for row in rows]
-
-product_list = json.dumps(data, indent=2)
-
-# print(product_list)
-
-## Platform names
-cursor.execute(
-'''
-SELECT DISTINCT [Platform]
-FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
-'''
-)
-
-rows = cursor.fetchall()
-columns = [col[0] for col in cursor.description]
-data = [dict(zip(columns, row)) for row in rows]
-
-platform_list = json.dumps(data, indent=2)
-
-# print(platform_list)
 
 # Closing the connections
 cursor.close()

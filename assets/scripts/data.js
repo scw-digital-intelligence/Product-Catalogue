@@ -9,11 +9,11 @@ const portfolios = [
         "ID": "117",
         "Platform": "Power BI",
         "Description": "This dashboard presents information compiled from data sent by 13 hospital trusts in the South West region, focusing on the diagnostic pathway for suspected prostate cancer patients, particularly MRI and biopsy",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\117-Prostate Cancer_Blue Ribbon-pexels-6942005.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 89730597076
+        "Released": 89739568560
       },
       {
         "Portfolio_ID": 1,
@@ -22,11 +22,11 @@ const portfolios = [
         "ID": "119",
         "Platform": "Tableau",
         "Description": "Data to support early cancer diagnosis in Primary Care, developed using data from Fingertips and released on Tableau Public. This report covers the South West of England.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\119-Early_Diagnosis_SW-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 35384997076
+        "Released": 35393968560
       }
     ]
   },
@@ -40,11 +40,11 @@ const portfolios = [
         "ID": "63",
         "Platform": "Tableau",
         "Description": "Presenting activity and cost numbers for contracts across the SCW footprint.  This version of the CMS Activity and Finance Report has been categorised as released and will present the final reported position for the most recent month.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\63-CMS_AFR_Report_Released-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17154597076
+        "Released": 17163568560
       },
       {
         "Portfolio_ID": 2,
@@ -53,11 +53,11 @@ const portfolios = [
         "ID": "64",
         "Platform": "Tableau",
         "Description": "Presenting activity and cost numbers for contracts across the SCW footprint.  This version of the CMS Activity and Finance Report has been categorised as operational due to regular changes during the month end reporting period.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\64-CMS_AFR_Report_Operational-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17154597076
+        "Released": 17163568560
       },
       {
         "Portfolio_ID": 2,
@@ -66,11 +66,11 @@ const portfolios = [
         "ID": "65",
         "Platform": "Tableau",
         "Description": "This tool has been developed to enable users of the CMS Activity & Finance data set access to record level information. Please be aware that extract download speeds will vary based on the size of the extract being requested.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\65-CMS_AFR_Data_Downloader-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 82645797076
+        "Released": 82654768560
       },
       {
         "Portfolio_ID": 2,
@@ -79,11 +79,11 @@ const portfolios = [
         "ID": "67",
         "Platform": "Excel Online",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as released and will present the final reported position for the most recent month.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\67-CMS_AFR_Self_Service_Released-Banner-unsplash.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17154597076
+        "Released": 17163568560
       },
       {
         "Portfolio_ID": 2,
@@ -92,11 +92,11 @@ const portfolios = [
         "ID": "68",
         "Platform": "Excel Online",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as operational due to regular changes during the month end reporting period.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\68-CMS_AFR_Self_Service_Operartional-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17154597076
+        "Released": 17163568560
       }
     ]
   },
@@ -110,11 +110,11 @@ const portfolios = [
         "ID": "144",
         "Platform": "Power BI",
         "Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\144-SAM_Tool-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 18536997076
+        "Released": 18545968560
       },
       {
         "Portfolio_ID": 3,
@@ -123,11 +123,11 @@ const portfolios = [
         "ID": "152",
         "Platform": "Power BI",
         "Description": "Find the Data Owner, SMEs and any relevant documentation for a data area. Search for objects, within a data area. Search metadata for a specific object, or columns.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\152-Service_Catalogue-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 13439397076
+        "Released": 13448368560
       }
     ]
   },
@@ -141,11 +141,11 @@ const portfolios = [
         "ID": "175",
         "Platform": "Power BI",
         "Description": "The Provider Data Reconciliation report is designed to support the reconciliation process between Secondary Users Service (SUS+) data and the contract monitoring reports / AFR ensuring that the data across two sets of records align and where discrepancies exist, the reasons for the differences are clearly seen or stated.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\175-Provider_Data_Reconciliation-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 11279397076
+        "Released": 11288368560
       },
       {
         "Portfolio_ID": 4,
@@ -154,11 +154,11 @@ const portfolios = [
         "ID": "69",
         "Platform": "Power BI",
         "Description": "SLAM Load Checks",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\69-SLAM_Load_Checks-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 87916197076
+        "Released": 87925168560
       }
     ]
   },
@@ -172,11 +172,11 @@ const portfolios = [
         "ID": "111",
         "Platform": "Power BI",
         "Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool. Various sources of published statistics, specifically relating to the Long Term Plan for Mental Health are included with contextual information to support additional analysis.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\111-Mental-Health-Assurance-Tool.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 52405797076
+        "Released": 52414768560
       },
       {
         "Portfolio_ID": 5,
@@ -185,11 +185,11 @@ const portfolios = [
         "ID": "165",
         "Platform": "Power BI",
         "Description": "The Mental Health Dashboard has been developed to report on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB. This represents an initial iteration, with the intention being to introduce additional metrics in future releases of the report. While the report is refreshed on a monthly basis, figures for some metrics are only produced on a quarterly basis where they come from quarterly NHS England publications.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\165-HIOW-Mental-Health-Dashboard.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 21820197076
+        "Released": 21829168560
       },
       {
         "Portfolio_ID": 5,
@@ -198,11 +198,11 @@ const portfolios = [
         "ID": "171",
         "Platform": "Excel Online",
         "Description": "Mental Health Waiting Times self-service workbook provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. It includes a preset pivot table with referral figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for waiting times and referrals by service and team type.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\171-Mental-Health-Wating-Times-SS.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 8082597076
+        "Released": 8091568560
       },
       {
         "Portfolio_ID": 5,
@@ -211,11 +211,11 @@ const portfolios = [
         "ID": "172",
         "Platform": "Power BI",
         "Description": "The Mental Health Waiting Times report is based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity at ICB, provider, PCN, and GP level, and allows for analysis of referrals and waiting times. This report also allows users to filter by age for either Children and Young People (0-17) or Adults (18+) services.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\172-Mental-Health-Waiting-Times-Dashboard.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 8082597076
+        "Released": 8091568560
       }
     ]
   },
@@ -229,11 +229,11 @@ const portfolios = [
         "ID": "178",
         "Platform": "Power BI",
         "Description": "The SOF and Operating Plan SPC Exception Report was built to ensure that Analysts and end users can efficiently identify where there has been a statistically significant change in delivery of metrics. The dashboard currently includes the following metrics: All metrics included in metrics library, SPC exception reporting functionality",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\178-SOF_Exception_Report-Pexels-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5144997076
+        "Released": 5153968560
       },
       {
         "Portfolio_ID": 6,
@@ -246,7 +246,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65365797076
+        "Released": 65374768560
       },
       {
         "Portfolio_ID": 6,
@@ -255,11 +255,11 @@ const portfolios = [
         "ID": "139",
         "Platform": "Tableau",
         "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\139-Metric_Library-Banner.png",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65365797076
+        "Released": 65374768560
       },
       {
         "Portfolio_ID": 6,
@@ -268,11 +268,11 @@ const portfolios = [
         "ID": "140",
         "Platform": "Excel Online",
         "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 4367397076
+        "Released": 4376368560
       }
     ]
   },
@@ -290,7 +290,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5576997076
+        "Released": 5585968560
       },
       {
         "Portfolio_ID": 7,
@@ -303,7 +303,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 33916197076
+        "Released": 33925168560
       },
       {
         "Portfolio_ID": 7,
@@ -316,7 +316,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 33916197076
+        "Released": 33925168560
       },
       {
         "Portfolio_ID": 7,
@@ -329,7 +329,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5576997076
+        "Released": 5585968560
       },
       {
         "Portfolio_ID": 7,
@@ -342,7 +342,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27263397076
+        "Released": 27272368560
       },
       {
         "Portfolio_ID": 7,
@@ -355,7 +355,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 91976997076
+        "Released": 91985968560
       },
       {
         "Portfolio_ID": 7,
@@ -368,7 +368,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -381,7 +381,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -394,7 +394,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -407,7 +407,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -420,7 +420,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27263397076
+        "Released": 27272368560
       },
       {
         "Portfolio_ID": 7,
@@ -433,7 +433,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -446,7 +446,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -459,7 +459,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38408997076
+        "Released": 38417968560
       },
       {
         "Portfolio_ID": 7,
@@ -472,7 +472,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5576997076
+        "Released": 5585968560
       },
       {
         "Portfolio_ID": 7,
@@ -485,7 +485,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5576997076
+        "Released": 5585968560
       },
       {
         "Portfolio_ID": 7,
@@ -498,7 +498,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27263397076
+        "Released": 27272368560
       },
       {
         "Portfolio_ID": 7,
@@ -511,7 +511,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -524,7 +524,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -537,7 +537,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5576997076
+        "Released": 5585968560
       },
       {
         "Portfolio_ID": 7,
@@ -550,7 +550,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 54738597076
+        "Released": 54747568560
       },
       {
         "Portfolio_ID": 7,
@@ -563,7 +563,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -576,7 +576,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -589,7 +589,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -602,7 +602,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 84373797076
+        "Released": 84382768560
       },
       {
         "Portfolio_ID": 7,
@@ -615,7 +615,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 54220197076
+        "Released": 54229168560
       },
       {
         "Portfolio_ID": 7,
@@ -628,7 +628,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -641,7 +641,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36421797076
+        "Released": 36430768560
       },
       {
         "Portfolio_ID": 7,
@@ -654,7 +654,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36421797076
+        "Released": 36430768560
       },
       {
         "Portfolio_ID": 7,
@@ -667,7 +667,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36421797076
+        "Released": 36430768560
       },
       {
         "Portfolio_ID": 7,
@@ -680,7 +680,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -693,7 +693,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -706,7 +706,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27263397076
+        "Released": 27272368560
       },
       {
         "Portfolio_ID": 7,
@@ -719,7 +719,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27263397076
+        "Released": 27272368560
       },
       {
         "Portfolio_ID": 7,
@@ -732,7 +732,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38408997076
+        "Released": 38417968560
       },
       {
         "Portfolio_ID": 7,
@@ -745,7 +745,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -758,7 +758,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -771,7 +771,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -784,7 +784,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92840997076
+        "Released": 92849968560
       },
       {
         "Portfolio_ID": 7,
@@ -797,7 +797,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38408997076
+        "Released": 38417968560
       },
       {
         "Portfolio_ID": 7,
@@ -810,7 +810,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 75733797076
+        "Released": 75742768560
       },
       {
         "Portfolio_ID": 7,
@@ -823,7 +823,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 75733797076
+        "Released": 75742768560
       },
       {
         "Portfolio_ID": 7,
@@ -836,7 +836,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 10328997076
+        "Released": 10337968560
       }
     ]
   },
@@ -850,11 +850,11 @@ const portfolios = [
         "ID": "170",
         "Platform": "Excel Online",
         "Description": "TBC",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\170-Referrals_self_service.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17672997076
+        "Released": 17681968560
       },
       {
         "Portfolio_ID": 8,
@@ -863,11 +863,11 @@ const portfolios = [
         "ID": "142",
         "Platform": "Tableau",
         "Description": "The workbook presents the RTT baselines for 2019/20 as well as actual RTT figures for 2021/2022 used to calculate the ERF H2 payment. Criteria follows that of NHSE and NHSI.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\142-ElectiveRecoveryFundH2_2021_2022.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65970597076
+        "Released": 65979568560
       },
       {
         "Portfolio_ID": 8,
@@ -880,7 +880,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 20092197076
+        "Released": 20101168560
       },
       {
         "Portfolio_ID": 8,
@@ -889,11 +889,11 @@ const portfolios = [
         "ID": "126",
         "Platform": "Tableau",
         "Description": "The SCW Planned Care Dashboard seeks to provide localised information relating to Inpatient and Outpatient Planned Care systems.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\126-PlannedCareDashboard.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27522597076
+        "Released": 27531568560
       },
       {
         "Portfolio_ID": 8,
@@ -902,11 +902,11 @@ const portfolios = [
         "ID": "129",
         "Platform": "Tableau",
         "Description": "The Elective Waiting List Dashboard aims to provide a visual display of the waiting list composition to support management of elective restoration impacted by the Covid-19 pandemic.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\129-ElectiveWaitingListDashboard.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 1948197076
+        "Released": 1957168560
       },
       {
         "Portfolio_ID": 8,
@@ -915,11 +915,11 @@ const portfolios = [
         "ID": "100",
         "Platform": "Tableau",
         "Description": "This workbook presents the activity baselines for the 2021/22 Elective Recovery Fund based on 2019/20 activity levels.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\100-ElectiveRecoveryFundH1_2021_2022.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76856997076
+        "Released": 76865968560
       },
       {
         "Portfolio_ID": 8,
@@ -928,11 +928,11 @@ const portfolios = [
         "ID": "124",
         "Platform": "Power BI",
         "Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time by only offering interventions on the NHS that are evidence-based and appropriate.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\124-EvidenceBasedInterventions.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 66575397076
+        "Released": 66584368560
       }
     ]
   },
@@ -946,11 +946,11 @@ const portfolios = [
         "ID": "135",
         "Platform": "Excel Online",
         "Description": "Accident and Emergency commissioning data set from SUS based on the PbR Mart Emergency data definition.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\135-SUS_emergency_medicine - selfservice.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76856997076
+        "Released": 76865968560
       },
       {
         "Portfolio_ID": 9,
@@ -959,11 +959,11 @@ const portfolios = [
         "ID": "136",
         "Platform": "Excel Online",
         "Description": "Outpatient commissioning data set from SUS+ based on the PbR Mart Outpatient data definition.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\136-SUS-Outpatients.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76856997076
+        "Released": 76865968560
       },
       {
         "Portfolio_ID": 9,
@@ -972,11 +972,11 @@ const portfolios = [
         "ID": "137",
         "Platform": "Excel Online",
         "Description": "Admitted Patient Care (Inpatient) commissioning data set from SUS+ based on the PbR Mart APC Episodes data definition.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\137-SUS-Inpatients.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76856997076
+        "Released": 76865968560
       }
     ]
   },
@@ -990,11 +990,11 @@ const portfolios = [
         "ID": "134",
         "Platform": "Tableau",
         "Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\134-999_Non_Emergency_PTS_Contrracts-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 60268197076
+        "Released": 60277168560
       },
       {
         "Portfolio_ID": 10,
@@ -1007,7 +1007,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 133797076
+        "Released": 142768560
       },
       {
         "Portfolio_ID": 10,
@@ -1020,7 +1020,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 10415397076
+        "Released": 10424368560
       },
       {
         "Portfolio_ID": 10,
@@ -1029,11 +1029,11 @@ const portfolios = [
         "ID": "153",
         "Platform": "Tableau",
         "Description": "The SCW Urgent & Emergency Care Dashboard aims to provide information on urgent care metrics across the systems. This includes A&E activity, NEL (Non-Elective) activity and daily urgent care metrics.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\153-Urgent_EC_Dashboard-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 997797076
+        "Released": 1006768560
       },
       {
         "Portfolio_ID": 10,
@@ -1042,11 +1042,11 @@ const portfolios = [
         "ID": "58",
         "Platform": "Power BI",
         "Description": "ECDS High Level Report containing monthly and daily breakdowns for activity. Data can be further sliced by STP/CCG/PCN/Provider and other relevant A&E filters such as HRG and Acuity.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\58-ECDS_High_Level_Reporting.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63724197076
+        "Released": 63733168560
       },
       {
         "Portfolio_ID": 10,
@@ -1055,11 +1055,11 @@ const portfolios = [
         "ID": "59",
         "Platform": "Power BI",
         "Description": "A data quality report providing insights into activity levels and blank field breakdown at CCG / Provider level.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\59-ECDS_DQ_Suite-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63724197076
+        "Released": 63733168560
       },
       {
         "Portfolio_ID": 10,
@@ -1068,11 +1068,11 @@ const portfolios = [
         "ID": "60",
         "Platform": "Excel Online",
         "Description": "ECDS daily activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\60-ECDS_SS_Daily-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63724197076
+        "Released": 63733168560
       },
       {
         "Portfolio_ID": 10,
@@ -1081,11 +1081,11 @@ const portfolios = [
         "ID": "61",
         "Platform": "Excel Online",
         "Description": "ECDS Weekly activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\61-ECDS_SS_Weekly-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63724197076
+        "Released": 63733168560
       },
       {
         "Portfolio_ID": 10,
@@ -1094,11 +1094,11 @@ const portfolios = [
         "ID": "62",
         "Platform": "Excel Online",
         "Description": "ECDS monthly activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\62-ECDS_SS_Monthly-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/carousel/product_1",
         "Carousel_Images_2": "./assets/images/img/carousel/product_2",
         "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 63724197076
+        "Released": 63733168560
       }
     ]
   }
@@ -1115,7 +1115,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92840997556
+    "Released": 92849969043
   },
   {
     "Portfolio": "Performance",
@@ -1129,7 +1129,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92840997556
+    "Released": 92849969043
   },
   {
     "Portfolio": "Performance",
@@ -1143,7 +1143,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92840997556
+    "Released": 92849969043
   },
   {
     "Portfolio": "Performance",
@@ -1157,7 +1157,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92840997556
+    "Released": 92849969043
   },
   {
     "Portfolio": "Performance",
@@ -1171,7 +1171,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92840997556
+    "Released": 92849969043
   },
   {
     "Portfolio": "Performance",
@@ -1185,7 +1185,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/carousel/product_1",
     "Carousel_Images_2": "./assets/images/img/carousel/product_2",
     "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 92840997556
+    "Released": 92849969043
   }
 ], portfolioDistinct = [
   {
