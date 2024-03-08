@@ -1,0 +1,3 @@
+This folder stores images retrieved from SharePoint.
+Files are ignored to prevent filling the repo with hundreds of images (see .gitignore in the root folder)
+To acquire images, run img_retrieval.py.
