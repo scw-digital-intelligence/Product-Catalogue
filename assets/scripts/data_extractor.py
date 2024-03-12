@@ -5,7 +5,7 @@ import json
 import os
 from office365.sharepoint.client_context import ClientContext
 from office365.runtime.auth.user_credential import UserCredential
-from pwd import USER_CRED, USER_PASSWORD
+from settings import USER_CRED, USER_PASSWORD, SERVER, DATABASE, SHAREPOINT
 
 # creating required credentials for access to Insights SharePoint site
 user_creds = UserCredential(USER_CRED,USER_PASSWORD)
@@ -53,8 +53,8 @@ def groupBy(dataset, fields, pos):
     return returned
 
 # Connecting to the server
-server = r'BIS-000-SP08.bis.xswhealth.nhs.uk, 14431'
-database = 'DigitalIntelligence'
+server = SERVER
+database = DATABASE
 
 ## Uses a trusted connection so any team member can access
 con = pyodbc.connect(
@@ -89,7 +89,7 @@ for portfolio in data:
     elif sharepoint_portfolio == "Urgentandemergencycare":
         sharepoint_portfolio = "UrgentEmergencyCare"
 
-    ctx = ClientContext(os.path.join("https://scwcsu.sharepoint.com/sites/",sharepoint_portfolio)).with_credentials(user_creds)
+    ctx = ClientContext(os.path.join(SHAREPOINT,sharepoint_portfolio)).with_credentials(user_creds)
     
     print(f"Retrieving photos for: {sharepoint_portfolio}")
 
