@@ -1,22 +1,39 @@
 # Importing required libraries
 import pyodbc
+from PIL import Image
 import json
 import os
 from office365.sharepoint.client_context import ClientContext
 from office365.runtime.auth.user_credential import UserCredential
 from pwd import USER_CRED, USER_PASSWORD
 
+# creating required credentials for access to Insights SharePoint site
+user_creds = UserCredential(USER_CRED,USER_PASSWORD)
+
+# function to replace placeholder images with ones from SharePoint
+def addImage(dataset):    
+    base_path = 'assets\\images\\img\\products'
+    image_folder = os.path.join(os.getcwd(), base_path)
+    file_list = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
+    # print(file_list)
+    for image in file_list:
+        if image.lower().endswith(('.png', '.jpg', '.jpeg')):
+            index = image.find("-")        
+            for object in dataset:
+                if object['ID'] == image[:index]:
+                    object['Image'] = os.path.join(".",base_path,image)
+
 # function to group json
-def groupBy(data, fields, pos):
+def groupBy(dataset, fields, pos):
     if(pos >= len(fields)):
-      return data
+      return dataset
     gmx = fields[pos]
     group = gmx["field"]
     kx = gmx["gbkey"]
     groups = {}
     captured = {}
     returned = []    
-    for l in data:
+    for l in dataset:
         lmf = {}
         for k, s in l.items():
             val_group = l[group]             
@@ -62,8 +79,6 @@ columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
 
 # Image retrieval from SharePoint
-# creating required credentials for access to Insights SharePoint site
-user_creds = UserCredential(USER_CRED,USER_PASSWORD)
 
 for portfolio in data:
     sharepoint_portfolio = portfolio["Report_Portfolio_Name"].replace(" ", "")
@@ -88,12 +103,11 @@ for portfolio in data:
     # defines local folder that will store retrived images
     product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\products")
 
-    try:
-        # loop to download specified images
-        for f in files:
-            # acquires the url for the specific file
-            file_url = f.serverRelativeUrl
-            
+    # loop to download specified images
+    for f in files:
+        # acquires the url for the specific file
+        file_url = f.serverRelativeUrl
+        try:    
             # limits download to specific image file extensions
             if file_url.lower().endswith(('.png', '.jpg', '.jpeg')):  
                 download_path = os.path.join(product_folder, os.path.basename(file_url))
@@ -104,9 +118,20 @@ for portfolio in data:
                         .execute_query()
                     )   
                 
-                local_file.close() 
-    except:
-        pass
+                local_file.close()
+            
+            # compressing images and optimising them for web use
+            try:
+                image = Image.open(download_path)
+                width, height = image.size
+                new_size = (width//2, height//2)
+                resized_image = image.resize(new_size)
+                resized_image.save(download_path, optimize=True, quality=50)
+                print(f"    Compressed {f.name}")
+            except:
+                print(f"    Could not compress {f.name}")
+        except:
+            print(f"Could not acquire {file_url}")
     
 
 portfolio_list = json.dumps(data, indent=2)
@@ -158,16 +183,7 @@ columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
 
 # if image exists, replacing placeholder link with real one
-base_path = 'assets\\images\\img\\products'
-image_folder = os.path.join(os.getcwd(), base_path)
-file_list = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
-# print(file_list)
-for image in file_list:
-    if image.lower().endswith(('.png', '.jpg', '.jpeg')):
-        index = image.find("-")        
-        for object in data:
-            if object['ID'] == image[:index]:
-                object['Image'] = os.path.join(".",base_path,image)
+addImage(data)
 
 # for object in data:
 #     print(object['Image'])
@@ -198,6 +214,9 @@ ORDER BY [Released] DESC
 rows = cursor.fetchall()
 columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
+
+# if image exists, replacing placeholder link with real one
+addImage(data)
 
 # Checking the data if required
 # for i in data:
