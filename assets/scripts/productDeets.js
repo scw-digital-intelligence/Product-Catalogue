@@ -1,4 +1,5 @@
 const product = JSON.parse(localStorage.getItem("useThisProduct") || "[]");
+const imgURL = product.Image.substring(product.Image.lastIndexOf("\\") + 1);
 
 // function to update element properties to match clicked product
 function makeProduct(){
@@ -16,7 +17,8 @@ function makeProduct(){
 
     // update banner image
     bannerImage = document.getElementById("hero-product");
-    bannerImage.style.backgroundImage =  `linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(${product.Image})`;
+    // bannerImage.style.backgroundImage =  `linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(${product.Image})`;
+    bannerImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(./assets/images/img/products/"+ imgURL + ")"
 
     // adding product description
     titleDesc = document.createElement("p");

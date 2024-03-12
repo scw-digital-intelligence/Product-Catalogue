@@ -26,11 +26,17 @@
 
 .hero-catalogue {
     background-size: auto 78%;
+    -moz-background-size: auto 78%;
+    -webkit-background-size: auto 78%;
+    -o-background-size: auto 78%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.592), rgba(0, 0, 0, 0.592)), url(../images/img/catalogue.svg);
 }
 
 .hero-product {
-    background-size: auto 78%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(../images/img/product.svg); */
 }
 
