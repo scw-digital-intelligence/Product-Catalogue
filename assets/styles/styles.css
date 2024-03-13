@@ -39,7 +39,6 @@
     -o-background-size: cover;
     background-position: center;
     -moz-background-position: center;
-    -webkit-background-position: center;
     -o-background-position: center;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(../images/img/product.svg); */
 }
