@@ -1,4 +1,26 @@
-const product = JSON.parse(localStorage.getItem("useThisProduct") || "[]");
+// records any parameters in the URL used to access the page
+const urlParams = new URLSearchParams(window.location.search);
+
+// either uses parameters to identify products or 
+function loadProductData() {
+    if (urlParams.size == 0) {
+        return JSON.parse(localStorage.getItem("useThisProduct"));
+    } else {
+        let prodID = urlParams.get('id')
+        for(let i = 0; i < portfolios.length; i++) {
+            let portfolio = portfolios[i]
+            for (let x = 0; x < (portfolio.Products.length); x++){
+                if(portfolio.Products[x].ID == prodID){
+                    return portfolio.Products[x];
+                }
+            }      
+        }
+    }
+}
+
+const product = loadProductData()
+
+
 const imgURL = product.Image.substring(product.Image.lastIndexOf("\\") + 1);
 
 // function to update element properties to match clicked product
@@ -33,7 +55,9 @@ function makeProduct(){
     titleDescParent.appendChild(titleDesc);
 
     // adding links for sharing on LinkedIn and Twitter
-    linkParams = product.Name.replace(/\s+/g, "-").toLowerCase();
+    // linkParams = product.Name.replace(/\s+/g, "-").toLowerCase();
+    // linkParams = `id=${product.ID}&name=${product.Name.replace(/\s+/g, "-").toLowerCase()}`;
+    linkParams = `id=${product.ID}`;
 
     linkedinURL = document.getElementById("linkedin-btn");
     linkedinURL.setAttribute("href", `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}&${linkParams}`)  ;   
