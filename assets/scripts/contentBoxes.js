@@ -7,11 +7,11 @@ function clickedProduct(evt){
 
     for(let i = 0; i < portfolios.length; i++) {
         let portfolio = portfolios[i]
-        for (let x = 0; x < (portfolio.Products.length - 1); x++){
+        for (let x = 0; x < (portfolio.Products.length); x++){
             // console.log(portfolio.Products[x].Name);
             // console.log(productName);
             if(portfolio.Products[x].Name == productName){
-                // console.log(portfolio.Products[x].Name);
+                console.log(portfolio.Products[x].Name);
                 // results.push(portfolio.Products[x]);
                 localStorage.setItem("useThisProduct", JSON.stringify(portfolio.Products[x]));
                 break;
