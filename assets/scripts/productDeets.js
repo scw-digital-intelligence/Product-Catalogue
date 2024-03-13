@@ -60,14 +60,23 @@ function makeProduct(){
     linkParams = `id=${product.ID}`;
 
     linkedinURL = document.getElementById("linkedin-btn");
-    linkedinURL.setAttribute("href", `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}&${linkParams}`)  ;   
+    linkedinURL.setAttribute("href", `https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}?${linkParams}`)  ;   
 
     twitterURL = document.getElementById("twitter-btn")
-    twitterURL.setAttribute("href", `http://twitter.com/share?text=${product.Description}&url=${window.location.href}&${linkParams}&hashtags=NHS,SCWCSU,HealthcareAnalytics`);
+    twitterURL.setAttribute("href", `http://twitter.com/share?text=${product.Description}&url=${window.location.href}?${linkParams}&hashtags=NHS,SCWCSU,HealthcareAnalytics`);
 
     // contextually adding carousel
     carouselInner = [].slice.call(document.getElementById("carousel-inner").getElementsByTagName('img'),0);
     carouselInner[0].setAttribute("src",`${product.Carousel_Images_1}.svg`)
     carouselInner[1].setAttribute("src",`${product.Carousel_Images_2}.svg`)
     carouselInner[2].setAttribute("src",`${product.Dummy_Product_URL}.svg`)  
+
+    // updating meta tags of product page
+    document.title = product.Name;
+    document.querySelector('meta[name="description"]').setAttribute("content", product.Description);
+    document.querySelector('meta[property="og:description"]').setAttribute("content", product.Description);
+    document.querySelector('meta[property="og:title"]').setAttribute("content", product.Name);
+    document.querySelector('meta[property="og:site_name"]').setAttribute("content", `NHS SCW Analytics - ${product.Name}`);
+    document.querySelector('meta[name="twitter:site"]').setAttribute("content", `NHS SCW Analytics - ${product.Name}`);
+
 }
