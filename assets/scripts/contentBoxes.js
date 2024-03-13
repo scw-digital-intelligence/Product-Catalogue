@@ -8,11 +8,7 @@ function clickedProduct(evt){
     for(let i = 0; i < portfolios.length; i++) {
         let portfolio = portfolios[i]
         for (let x = 0; x < (portfolio.Products.length); x++){
-            // console.log(portfolio.Products[x].Name);
-            // console.log(productName);
             if(portfolio.Products[x].Name == productName){
-                console.log(portfolio.Products[x].Name);
-                // results.push(portfolio.Products[x]);
                 localStorage.setItem("useThisProduct", JSON.stringify(portfolio.Products[x]));
                 break;
             }
@@ -79,7 +75,6 @@ function recentBoxes(){
 }
 
 // product portfolio section creator
-
 // Capture catalogue main container to append to
 let catmain = document.getElementById("catalogue-main");
 
@@ -104,20 +99,14 @@ function portfolioBoxes(){
         let leftArrowBox = document.createElement("span");
         leftArrowBox.setAttribute("class", "scroll-left");
 
-        // let leftArrow = document.createElement("img");
         let leftArrow = document.createElement("i");
-        // leftArrow.setAttribute("class", "scroll-left-arrow");
         leftArrow.setAttribute("class", "fa-solid fa-chevron-left fa-3x scroll-left-arrow");
-        // leftArrow.setAttribute("src", "./assets/images/icon/chevron-left.svg");
 
         let rightArrowBox = document.createElement("span");
         rightArrowBox.setAttribute("class", "scroll-right");
 
-        // let rightArrow = document.createElement("img");
         let rightArrow = document.createElement("i");
-        // rightArrow.setAttribute("class", "scroll-right-arrow");
         rightArrow.setAttribute("class", "fa-solid fa-chevron-right fa-3x scroll-right-arrow");
-        // rightArrow.setAttribute("src", "./assets/images/icon/chevron-right.svg");
 
         let caroCont = document.createElement("div");
         caroCont.setAttribute("class", "carousel-catalogue-container")
