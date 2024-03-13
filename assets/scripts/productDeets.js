@@ -19,9 +19,9 @@ function makeProduct(){
     bannerImage = document.getElementById("hero-product");
     // bannerImage.style.backgroundImage =  `linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(${product.Image})`;
     if(product.Image.includes("products")) {
-        bannerImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(./assets/images/img/products/" + imgURL + ")"
+        bannerImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.292)), url(./assets/images/img/products/" + imgURL + ")";
     } else {
-        bannerImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(" + product.Image + ")"
+        bannerImage.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.292)), url(" + product.Image + ")";
     }
     
     // adding product description
