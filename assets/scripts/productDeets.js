@@ -1,16 +1,25 @@
 // records any parameters in the URL used to access the page
 const urlParams = new URLSearchParams(window.location.search);
 
-// either uses parameters to identify products or 
+// uses parameters to identify products, returns from local storage or loads default
 function loadProductData() {
-    if (urlParams.size == 0) {
-        return JSON.parse(localStorage.getItem("useThisProduct"));
-    } else {
+    if (urlParams.size > 0) {
         let prodID = urlParams.get('id')
         for(let i = 0; i < portfolios.length; i++) {
             let portfolio = portfolios[i]
             for (let x = 0; x < (portfolio.Products.length); x++){
                 if(portfolio.Products[x].ID == prodID){
+                    return portfolio.Products[x];
+                }
+            }      
+        }
+    } else if (localStorage.getItem("useThisProduct") !== null){
+        return JSON.parse(localStorage.getItem("useThisProduct"));
+    } else {
+        for(let i = 0; i < portfolios.length; i++) {
+            let portfolio = portfolios[i]
+            for (let x = 0; x < (portfolio.Products.length); x++){
+                if(portfolio.Products[x].ID == "117"){
                     return portfolio.Products[x];
                 }
             }      
@@ -54,6 +63,14 @@ function makeProduct(){
     titleDescParent = document.getElementById("product-title-container");
     titleDescParent.appendChild(titleDesc);
 
+    // updating meta tags of product page
+    document.title = product.Name;
+    document.querySelector('meta[name="description"]').setAttribute("content", product.Description);
+    document.querySelector('meta[property="og:description"]').setAttribute("content", product.Description);
+    document.querySelector('meta[property="og:title"]').setAttribute("content", product.Name);
+    document.querySelector('meta[property="og:site_name"]').setAttribute("content", `NHS SCW Analytics - ${product.Name}`);
+    document.querySelector('meta[name="twitter:site"]').setAttribute("content", `NHS SCW Analytics - ${product.Name}`);
+
     // adding links for sharing on LinkedIn and Twitter
     // linkParams = product.Name.replace(/\s+/g, "-").toLowerCase();
     // linkParams = `id=${product.ID}&name=${product.Name.replace(/\s+/g, "-").toLowerCase()}`;
@@ -69,14 +86,6 @@ function makeProduct(){
     carouselInner = [].slice.call(document.getElementById("carousel-inner").getElementsByTagName('img'),0);
     carouselInner[0].setAttribute("src",`${product.Carousel_Images_1}.svg`)
     carouselInner[1].setAttribute("src",`${product.Carousel_Images_2}.svg`)
-    carouselInner[2].setAttribute("src",`${product.Dummy_Product_URL}.svg`)  
-
-    // updating meta tags of product page
-    document.title = product.Name;
-    document.querySelector('meta[name="description"]').setAttribute("content", product.Description);
-    document.querySelector('meta[property="og:description"]').setAttribute("content", product.Description);
-    document.querySelector('meta[property="og:title"]').setAttribute("content", product.Name);
-    document.querySelector('meta[property="og:site_name"]').setAttribute("content", `NHS SCW Analytics - ${product.Name}`);
-    document.querySelector('meta[name="twitter:site"]').setAttribute("content", `NHS SCW Analytics - ${product.Name}`);
+    carouselInner[2].setAttribute("src",`${product.Dummy_Product_URL}.svg`) 
 
 }

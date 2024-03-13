@@ -132,11 +132,15 @@ function portfolioBoxes(){
 
         let prods = element.Products
         prods.forEach(function(prop) {
+            let linkParams = `id=${prop.ID}`;
             newBox = contentBoxes(
                 caroCont,
                 prop.Image,
                 prop.Name,
-                "./product.html",
+                // deployment code
+                `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                // local testing
+                // `./product.html?${linkParams}`, 
                 prop.Description,
                 1
             )        
