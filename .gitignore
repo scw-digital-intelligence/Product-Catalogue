@@ -5,3 +5,4 @@ assets/images/img/products/*.jpeg
 
 # Code files
 *.pyc
+settings.py
