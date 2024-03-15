@@ -166,11 +166,13 @@ product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\carousel")
 carousel_files = dir_list = os.listdir(product_folder)
 
 for file in carousel_files:
+    set_width = 1592
+    set_height = 893
     file_path = os.path.join(product_folder, os.path.basename(file))
     image = Image.open(file_path)
     width, height = image.size
-    if (width != 3184 or height != 1786):        
-        new_size = (3184, 1786)
+    if (width != set_width or height != set_height):        
+        new_size = (set_width, set_height)
         resized_image = image.resize(new_size)
         resized_image.save(file_path, optimize=True, quality=50)
         print(f"resized {file}")
