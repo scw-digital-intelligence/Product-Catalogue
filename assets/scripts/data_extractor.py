@@ -10,7 +10,15 @@ from settings import USER_CRED, USER_PASSWORD, SERVER, DATABASE, SHAREPOINT
 # creating required credentials for access to Insights SharePoint site
 user_creds = UserCredential(USER_CRED,USER_PASSWORD)
 
-# function to replace placeholder images with ones from SharePoint
+# function to find the nth occurance of a character in a string
+def find_nth(haystack: str, needle: str, n: int) -> int:
+    start = haystack.find(needle)
+    while start >= 0 and n > 1:
+        start = haystack.find(needle, start+len(needle))
+        n -= 1
+    return start
+
+# function to replace main placeholder images with ones from SharePoint
 def addImage(dataset):    
     base_path = 'assets\\images\\img\\products'
     image_folder = os.path.join(os.getcwd(), base_path)
@@ -22,6 +30,26 @@ def addImage(dataset):
             for object in dataset:
                 if object['ID'] == image[:index]:
                     object['Image'] = os.path.join(".",base_path,image)
+
+# function to replace carousel placeholder images with ones from SharePoint
+def addCarouselImage(dataset):    
+    base_path = 'assets\\images\\img\\carousel'
+    image_folder = os.path.join(os.getcwd(), base_path)
+    file_list = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
+    # print(file_list)
+    for image in file_list:
+        if image.lower().endswith(('.png', '.jpg', '.jpeg')):
+            report_index = image.find("_") 
+            for object in dataset:
+                if object['ID'] == image[:report_index]:
+                    index = find_nth(image,"_", 2)
+                    img_no = int(image[:index][-1])
+                    if(img_no == 1):                    
+                        object['Carousel_Images_1'] = os.path.join(".",base_path,image)
+                    elif(img_no == 2):                    
+                        object['Carousel_Images_2'] = os.path.join(".",base_path,image)
+                    elif(img_no == 3):                    
+                        object['Dummy_Product_URL'] = os.path.join(".",base_path,image)
 
 # function to group json
 def groupBy(dataset, fields, pos):
@@ -185,6 +213,9 @@ data = [dict(zip(columns, row)) for row in rows]
 # if image exists, replacing placeholder link with real one
 addImage(data)
 
+# if carousel images exist, replacing placeholder link with real one
+addCarouselImage(data)
+
 # for object in data:
 #     print(object['Image'])
     
@@ -217,6 +248,9 @@ data = [dict(zip(columns, row)) for row in rows]
 
 # if image exists, replacing placeholder link with real one
 addImage(data)
+
+# if carousel images exist, replacing placeholder link with real one
+addCarouselImage(data)
 
 # Checking the data if required
 # for i in data:

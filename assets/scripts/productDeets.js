@@ -31,6 +31,9 @@ const product = loadProductData()
 
 
 const imgURL = product.Image.substring(product.Image.lastIndexOf("\\") + 1);
+const imgCar1 = product.Carousel_Images_1.substring(product.Image.lastIndexOf("\\") + 1);
+const imgCar2 = product.Carousel_Images_2.substring(product.Image.lastIndexOf("\\") + 1);
+const imgCar3 = product.Dummy_Product_URL.substring(product.Image.lastIndexOf("\\") + 1);
 
 // function to update element properties to match clicked product
 function makeProduct(){
@@ -84,8 +87,14 @@ function makeProduct(){
 
     // contextually adding carousel
     carouselInner = [].slice.call(document.getElementById("carousel-inner").getElementsByTagName('img'),0);
-    carouselInner[0].setAttribute("src",`${product.Carousel_Images_1}.svg`)
-    carouselInner[1].setAttribute("src",`${product.Carousel_Images_2}.svg`)
-    carouselInner[2].setAttribute("src",`${product.Dummy_Product_URL}.svg`) 
 
+    if(product.Carousel_Images_1.includes("products")) {
+        carouselInner[0].setAttribute("src",`./assets/images/img/products/${imgCar1}`)
+        carouselInner[1].setAttribute("src",`./assets/images/img/products/${imgCar2}`)
+        carouselInner[2].setAttribute("src",`./assets/images/img/products/${imgCar3}`)
+    } else {
+        carouselInner[0].setAttribute("src",`${product.Carousel_Images_1}`)
+        carouselInner[1].setAttribute("src",`${product.Carousel_Images_2}`)
+        carouselInner[2].setAttribute("src",`${product.Dummy_Product_URL}`)
+    }
 }
