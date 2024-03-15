@@ -107,7 +107,7 @@ columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
 
 # Image retrieval from SharePoint
-
+# Product main images
 for portfolio in data:
     sharepoint_portfolio = portfolio["Report_Portfolio_Name"].replace(" ", "")
     
@@ -161,7 +161,23 @@ for portfolio in data:
         except:
             print(f"Could not acquire {file_url}")
     
+# Product carousel images
+product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\carousel")
+carousel_files = dir_list = os.listdir(product_folder)
 
+for file in carousel_files:
+    file_path = os.path.join(product_folder, os.path.basename(file))
+    image = Image.open(file_path)
+    width, height = image.size
+    if (width != 3184 or height != 1786):        
+        new_size = (3184, 1786)
+        resized_image = image.resize(new_size)
+        resized_image.save(file_path, optimize=True, quality=50)
+        print(f"resized {file}")
+    else:
+        print(f"did not resize {file}")
+
+# Creates portfolio list in JSON
 portfolio_list = json.dumps(data, indent=2)
 
 ## Product names
