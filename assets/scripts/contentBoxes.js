@@ -17,11 +17,13 @@ function clickedProduct(evt){
 }
 
 // function to generate content boxes
-function contentBoxes(parent, imgSource, linkText, linkHref, text,i) {
+function contentBoxes(id, parent, imgSource, linkText, linkHref, text, i) {
     // creating main box
-    let specClass = "content-box".concat("-",i)
-    let box = document.createElement("div");
+    let specClass, box
+    specClass = "content-box".concat("-",i)
+    box = document.createElement("div");
     box.setAttribute("class", "content-box", specClass)
+    box.setAttribute("id", id)
 
     // creating product image box
     let pib = document.createElement("div");
@@ -34,10 +36,10 @@ function contentBoxes(parent, imgSource, linkText, linkHref, text,i) {
     pib.appendChild(image);
 
     // creating h4 with link
-    let idText = linkText.replace(/\s+/g, "-").toLowerCase();
-
-    let title = document.createElement("h4");
-    let link = document.createElement("a");
+    let idText, title, link
+    idText = linkText.replace(/\s+/g, "-").toLowerCase();
+    title = document.createElement("h4");
+    link = document.createElement("a");
     link.setAttribute("href", linkHref);
     link.textContent = `${linkText}`;
     link.setAttribute("id", idText);
@@ -61,13 +63,17 @@ function contentBoxes(parent, imgSource, linkText, linkHref, text,i) {
 // adding recent boxes for landing page
 function recentBoxes(){
     for (let i = 0; i < latestProducts.length; i++) {
-        let targetElement = document.getElementsByClassName("content-container-row");
-        let text = latestProducts[i].Short_Description
-        let linkText = latestProducts[i].Name
-        let img = latestProducts[i].Image
-        let linkParams = `id=${latestProducts[i].ID}`;
+        let targetElement, text, linkText, id, img, linkParams;
+        targetElement = document.getElementsByClassName("content-container-row");
+        text = latestProducts[i].Short_Description
+        linkText = latestProducts[i].Name
+        id = `content-box-${latestProducts[i].Name.replace(/\s+/g, "-").toLowerCase()}-${latestProducts[i].ID}`;
+        img = latestProducts[i].Image
+        linkParams = `id=${latestProducts[i].ID}`;
+        
         if (i < 3){
             contentBoxes(
+                id,
                 targetElement[0], 
                 img, 
                 linkText, 
@@ -100,8 +106,7 @@ let catmain = document.getElementById("catalogue-main");
 
 function portfolioBoxes(){
     let b = 1;
-    data.forEach(function(element) {
-        
+    data.forEach(function(element) {        
 
         let portSec = document.createElement("section");
         portSec.setAttribute("class", "content-section landing-catalogue");
@@ -152,8 +157,11 @@ function portfolioBoxes(){
 
         let prods = element.Products
         prods.forEach(function(prop) {
-            let linkParams = `id=${prop.ID}`;
+            let linkParams, id
+            linkParams = `id=${prop.ID}`;
+            id = `content-box-${prop.Name.replace(/\s+/g, "-").toLowerCase()}-${prop.ID}`
             newBox = contentBoxes(
+                id,
                 caroCont,
                 prop.Image,
                 prop.Name,
