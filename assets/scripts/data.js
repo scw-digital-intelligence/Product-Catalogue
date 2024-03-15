@@ -9,11 +9,12 @@ const portfolios = [
         "ID": "117",
         "Platform": "Power BI",
         "Description": "This dashboard presents information compiled from data sent by 13 hospital trusts in the South West region, focusing on the diagnostic pathway for suspected prostate cancer patients, particularly MRI and biopsy",
+        "Short_Description": "This dashboard presents information compiled from data sent by 13 hospital trusts in the South West region, focusing on the diagnostic pathway for suspected prostate cancer patients.",
         "Image": ".\\assets\\images\\img\\products\\117-Prostate_Cancer_Blue_Ribbon-pexels-6942005.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 90175576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\117_1_trust_selection.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\117_2_notes_detail.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\117_3_chart_example.png",
+        "Released": 90327207673
       },
       {
         "Portfolio_ID": 1,
@@ -22,11 +23,12 @@ const portfolios = [
         "ID": "119",
         "Platform": "Tableau",
         "Description": "Data to support early cancer diagnosis in Primary Care, developed using data from Fingertips and released on Tableau Public. This report covers the South West of England.",
+        "Short_Description": "Data to support early cancer diagnosis in Primary Care, developed using data from Fingertips and released on Tableau Public. This report covers the South West of England.",
         "Image": ".\\assets\\images\\img\\products\\119-Early_Diagnosis_SW-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 35829976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\119_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\119_2_scatter_diagram.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\119_3_year_comparison.png",
+        "Released": 35981607673
       }
     ]
   },
@@ -40,11 +42,12 @@ const portfolios = [
         "ID": "63",
         "Platform": "Tableau",
         "Description": "Presenting activity and cost numbers for contracts across the SCW footprint.  This version of the CMS Activity and Finance Report has been categorised as released and will present the final reported position for the most recent month.",
+        "Short_Description": "Presenting activity and cost numbers for contracts across the SCW footprint. This version shows the final reported position for the most recent month.",
         "Image": ".\\assets\\images\\img\\products\\63-CMS_AFR_Report_Released-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17599576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\63_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\63_2_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\63_3_location_intelligence.png",
+        "Released": 17751207673
       },
       {
         "Portfolio_ID": 2,
@@ -53,11 +56,12 @@ const portfolios = [
         "ID": "64",
         "Platform": "Tableau",
         "Description": "Presenting activity and cost numbers for contracts across the SCW footprint.  This version of the CMS Activity and Finance Report has been categorised as operational due to regular changes during the month end reporting period.",
+        "Short_Description": "Presenting activity and cost numbers for contracts across the SCW footprint. This operational version shows changes during the month-end reporting period.",
         "Image": ".\\assets\\images\\img\\products\\64-CMS_AFR_Report_Operational-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17599576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\64_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\64_2_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\64_3_location_intelligence.png",
+        "Released": 17751207673
       },
       {
         "Portfolio_ID": 2,
@@ -66,11 +70,12 @@ const portfolios = [
         "ID": "65",
         "Platform": "Tableau",
         "Description": "This tool has been developed to enable users of the CMS Activity & Finance data set access to record level information. Please be aware that extract download speeds will vary based on the size of the extract being requested.",
+        "Short_Description": "Allows users of the CMS Activity & Finance dataset access to record level information. Extract download speeds will vary based on the size of the extract being requested.",
         "Image": ".\\assets\\images\\img\\products\\65-CMS_AFR_Data_Downloader-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 83090776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\65_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\65_2_notes.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\65_3_downloader.png",
+        "Released": 83242407673
       },
       {
         "Portfolio_ID": 2,
@@ -79,11 +84,12 @@ const portfolios = [
         "ID": "67",
         "Platform": "Excel Online",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as released and will present the final reported position for the most recent month.",
+        "Short_Description": "Presenting activity and finance related information for contracts across the SCW footprint. This version presents the final reported position for the most recent month.",
         "Image": ".\\assets\\images\\img\\products\\67-CMS_AFR_Self_Service_Released-Banner-unsplash.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17599576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\67_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\67_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\67_3_blank_report.png",
+        "Released": 17751207673
       },
       {
         "Portfolio_ID": 2,
@@ -92,11 +98,12 @@ const portfolios = [
         "ID": "68",
         "Platform": "Excel Online",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as operational due to regular changes during the month end reporting period.",
+        "Short_Description": "Presenting activity and finance related information for contracts across the SCW footprint. This version presents changes during the month end reporting period.",
         "Image": ".\\assets\\images\\img\\products\\68-CMS_AFR_Self_Service_Operartional-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 17599576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\68_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\68_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\68_3_blank_report.png",
+        "Released": 17751207673
       }
     ]
   },
@@ -110,11 +117,12 @@ const portfolios = [
         "ID": "144",
         "Platform": "Power BI",
         "Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
+        "Short_Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
         "Image": ".\\assets\\images\\img\\products\\144-SAM_Tool-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 18981976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144_3_drill_through.png",
+        "Released": 19133607673
       },
       {
         "Portfolio_ID": 3,
@@ -123,11 +131,12 @@ const portfolios = [
         "ID": "152",
         "Platform": "Power BI",
         "Description": "Find the Data Owner, SMEs and any relevant documentation for a data area. Search for objects, within a data area. Search metadata for a specific object, or columns.",
+        "Short_Description": "Find the Data Owner, SMEs and any relevant documentation for a data area. Search for objects, within a data area. Search metadata for a specific object, or columns.",
         "Image": ".\\assets\\images\\img\\products\\152-Service_Catalogue-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 13884376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\152_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\152_2_raise_request.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\152_3_column_finder.png",
+        "Released": 14036007673
       }
     ]
   },
@@ -141,11 +150,12 @@ const portfolios = [
         "ID": "175",
         "Platform": "Power BI",
         "Description": "The Provider Data Reconciliation report is designed to support the reconciliation process between Secondary Users Service (SUS+) data and the contract monitoring reports / AFR ensuring that the data across two sets of records align and where discrepancies exist, the reasons for the differences are clearly seen or stated.",
+        "Short_Description": "The Provider Data Reconciliation report is designed to support the reconciliation process between Secondary Users Service (SUS+) data and the contract monitoring reports / AFR.",
         "Image": ".\\assets\\images\\img\\products\\175-Provider_Data_Reconciliation-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 11724376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\175_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\175_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\175_3_month_summary.png",
+        "Released": 11876007673
       },
       {
         "Portfolio_ID": 4,
@@ -154,11 +164,12 @@ const portfolios = [
         "ID": "69",
         "Platform": "Power BI",
         "Description": "SLAM Load Checks",
+        "Short_Description": "SLAM Load Checks",
         "Image": ".\\assets\\images\\img\\products\\69-SLAM_Load_Checks-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 88361176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69_2_providers_loaded.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69_3_dq_checks.png",
+        "Released": 88512807673
       }
     ]
   },
@@ -172,11 +183,12 @@ const portfolios = [
         "ID": "111",
         "Platform": "Power BI",
         "Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool. Various sources of published statistics, specifically relating to the Long Term Plan for Mental Health are included with contextual information to support additional analysis.",
+        "Short_Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool.",
         "Image": ".\\assets\\images\\img\\products\\111-Mental-Health-Assurance-Tool.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 52850776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111_2_core_measures_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111_3_mhsds_performance_icb.png",
+        "Released": 53002407673
       },
       {
         "Portfolio_ID": 5,
@@ -185,11 +197,12 @@ const portfolios = [
         "ID": "165",
         "Platform": "Power BI",
         "Description": "The Mental Health Dashboard has been developed to report on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB. This represents an initial iteration, with the intention being to introduce additional metrics in future releases of the report. While the report is refreshed on a monthly basis, figures for some metrics are only produced on a quarterly basis where they come from quarterly NHS England publications.",
+        "Short_Description": "Reports on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB.",
         "Image": ".\\assets\\images\\img\\products\\165-HIOW-Mental-Health-Dashboard.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 22265176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165_2_metric_breakdown.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165_3_data_quality.png",
+        "Released": 22416807673
       },
       {
         "Portfolio_ID": 5,
@@ -198,11 +211,12 @@ const portfolios = [
         "ID": "171",
         "Platform": "Excel Online",
         "Description": "Mental Health Waiting Times self-service workbook provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. It includes a preset pivot table with referral figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for waiting times and referrals by service and team type.",
+        "Short_Description": "Provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. Self-service allows users to produce ad-hoc analysis.",
         "Image": ".\\assets\\images\\img\\products\\171-Mental-Health-Wating-Times-SS.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 8527576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171_2_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171_3_blank_reporting.png",
+        "Released": 8679207673
       },
       {
         "Portfolio_ID": 5,
@@ -211,11 +225,12 @@ const portfolios = [
         "ID": "172",
         "Platform": "Power BI",
         "Description": "The Mental Health Waiting Times report is based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity at ICB, provider, PCN, and GP level, and allows for analysis of referrals and waiting times. This report also allows users to filter by age for either Children and Young People (0-17) or Adults (18+) services.",
+        "Short_Description": "Based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity.",
         "Image": ".\\assets\\images\\img\\products\\172-Mental-Health-Waiting-Times-Dashboard.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 8527576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172_3_guidance_overview.png",
+        "Released": 8679207673
       }
     ]
   },
@@ -229,11 +244,12 @@ const portfolios = [
         "ID": "178",
         "Platform": "Power BI",
         "Description": "The SOF and Operating Plan SPC Exception Report was built to ensure that Analysts and end users can efficiently identify where there has been a statistically significant change in delivery of metrics. The dashboard currently includes the following metrics: All metrics included in metrics library, SPC exception reporting functionality",
+        "Short_Description": "Ensures that analysts and end users can identify statistically significant changes in delivery of metrics. It includes all metrics included in the metrics library.",
         "Image": ".\\assets\\images\\img\\products\\178-SOF_Exception_Report-Pexels-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 5589976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\178_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\178_2_metric_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\178_3_category_summary.png",
+        "Released": 5741607673
       },
       {
         "Portfolio_ID": 6,
@@ -242,11 +258,12 @@ const portfolios = [
         "ID": "151",
         "Platform": "R Shiny",
         "Description": "The Executive Report generates a bespoke, fully-functional Microsoft Word document or Microsoft PowerPoint slide deck breaking down selected metrics.",
+        "Short_Description": "The Executive Report generates a bespoke, fully-functional Microsoft Word document or Microsoft PowerPoint slide deck breaking down selected metrics.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65810776306
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 65962407673
       },
       {
         "Portfolio_ID": 6,
@@ -255,11 +272,12 @@ const portfolios = [
         "ID": "139",
         "Platform": "Tableau",
         "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
+        "Short_Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
         "Image": ".\\assets\\images\\img\\products\\139-Metric_Library-Banner.png",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 65810776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139_2_spc_chart.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139_3_plots.png",
+        "Released": 65962407673
       },
       {
         "Portfolio_ID": 6,
@@ -268,11 +286,12 @@ const portfolios = [
         "ID": "140",
         "Platform": "Excel Online",
         "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
+        "Short_Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
         "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 4812376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140_3_blank_report.png",
+        "Released": 4964007673
       }
     ]
   },
@@ -286,11 +305,12 @@ const portfolios = [
         "ID": "160",
         "Platform": "Tableau",
         "Description": "Aggregated reporting of NCDR data at sub-ICB level, to enable monitoring of operational activity measures set out within the NHS Operational technical guidance.",
+        "Short_Description": "Aggregated reporting of NCDR data at sub-ICB level, to enable monitoring of operational activity measures set out within the NHS Operational technical guidance.",
         "Image": ".\\assets\\images\\img\\products\\160-NCDR_PlanningMeasuresDashboard-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 6021976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\160_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\160_2_elective_admissions.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\160_3_overview.png",
+        "Released": 6173607673
       },
       {
         "Portfolio_ID": 7,
@@ -299,11 +319,12 @@ const portfolios = [
         "ID": "163",
         "Platform": "Excel Online",
         "Description": "TBC",
+        "Short_Description": "TBC",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 34361176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\163_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\163_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\163_3_info.png",
+        "Released": 34512807673
       },
       {
         "Portfolio_ID": 7,
@@ -312,11 +333,12 @@ const portfolios = [
         "ID": "164",
         "Platform": "Excel Online",
         "Description": "TBC",
+        "Short_Description": "TBC",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 34361176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\164_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\164_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\164_3_info.png",
+        "Released": 34512807673
       },
       {
         "Portfolio_ID": 7,
@@ -325,11 +347,12 @@ const portfolios = [
         "ID": "1",
         "Platform": "Tableau",
         "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
+        "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
         "Image": ".\\assets\\images\\img\\products\\1-A&E_Attendances_and_E_Admissions_Public-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 6021976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1_3_provider_measures.png",
+        "Released": 6173607673
       },
       {
         "Portfolio_ID": 7,
@@ -338,11 +361,12 @@ const portfolios = [
         "ID": "2",
         "Platform": "Excel Online",
         "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
+        "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27708376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\2_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\2_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\2_3_info.png",
+        "Released": 27860007673
       },
       {
         "Portfolio_ID": 7,
@@ -351,11 +375,12 @@ const portfolios = [
         "ID": "3",
         "Platform": "Tableau",
         "Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
+        "Short_Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
         "Image": ".\\assets\\images\\img\\products\\3-AmbulanceClinicalOutcomes-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 92421976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\3_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\3_2_cardiac_arrest.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\3_3_stroke.png",
+        "Released": 92573607673
       },
       {
         "Portfolio_ID": 7,
@@ -364,11 +389,12 @@ const portfolios = [
         "ID": "4",
         "Platform": "Tableau",
         "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+        "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
         "Image": ".\\assets\\images\\img\\products\\4-Ambulance_Quality_Indicators-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4_3_national_distributions.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -377,11 +403,12 @@ const portfolios = [
         "ID": "5",
         "Platform": "Excel Online",
         "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+        "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\5_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\5_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\5_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -390,11 +417,12 @@ const portfolios = [
         "ID": "6",
         "Platform": "Tableau",
         "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
         "Image": ".\\assets\\images\\img\\products\\6-DiagnosticsWaitingTimes&Activity-Public-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\6_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\6_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\6_3_measures.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -403,11 +431,12 @@ const portfolios = [
         "ID": "7",
         "Platform": "Tableau",
         "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the monthly diagnostics collection which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Short_Description": "Shows provisional data submissions relating to the monthly diagnostics collection, which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
         "Image": ".\\assets\\images\\img\\products\\7-DiagnosticsWaitingTimes&Activity-provisional-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7_3_diagnostic_test.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -416,11 +445,12 @@ const portfolios = [
         "ID": "8",
         "Platform": "Excel Online",
         "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27708376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8_3_info.png",
+        "Released": 27860007673
       },
       {
         "Portfolio_ID": 7,
@@ -429,11 +459,12 @@ const portfolios = [
         "ID": "9",
         "Platform": "Tableau",
         "Description": "The Monthly Referral Return (MRR) contains data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+        "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
         "Image": ".\\assets\\images\\img\\products\\9-MonthlyReferralReturn-Public-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\9_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\9_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\9_3_geospatial.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -442,11 +473,12 @@ const portfolios = [
         "ID": "10",
         "Platform": "Tableau",
         "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Monthly Referral Return (MRR) which monitors GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+        "Short_Description": "This workbook presents a view of provisional data submissions for the Monthly Referral Return (MRR): GP and other referrals for first consultant-led outpatient appointments.",
         "Image": ".\\assets\\images\\img\\products\\10-MonthlyReferralReturn-Provisional-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\10_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\10_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\10_3_provider.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -455,11 +487,12 @@ const portfolios = [
         "ID": "11",
         "Platform": "Excel Online",
         "Description": "The Monthly Referral Return (MRR) contains data related to GP and other referrals for consultant-led outpatient appointments focusing  on all treatment functions and specific acute treatment functions.",
+        "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38853976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\11_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\11_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\11_3_info.png",
+        "Released": 39005607673
       },
       {
         "Portfolio_ID": 7,
@@ -468,11 +501,12 @@ const portfolios = [
         "ID": "13",
         "Platform": "Tableau",
         "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Image": ".\\assets\\images\\img\\products\\13- WaitingTimesStatisticsForConsultant-LedElectiveCare-Pub.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 6021976306
+        "Short_Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Image": ".\\assets\\images\\img\\products\\13-WaitingTimesStatisticsForConsultant-LedElectiveCare-Pub.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\13_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\13_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\13_3_sub_icb.png",
+        "Released": 6173607673
       },
       {
         "Portfolio_ID": 7,
@@ -481,11 +515,12 @@ const portfolios = [
         "ID": "14",
         "Platform": "Tableau",
         "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
         "Image": ".\\assets\\images\\img\\products\\14- WaitingTimesStatisticsForConsultant-LedElectiveCare-Prov.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 6021976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14_3_measures.png",
+        "Released": 6173607673
       },
       {
         "Portfolio_ID": 7,
@@ -494,11 +529,12 @@ const portfolios = [
         "ID": "15",
         "Platform": "Excel Online",
         "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Short_Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27708376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\15_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\15_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\15_3_info.png",
+        "Released": 27860007673
       },
       {
         "Portfolio_ID": 7,
@@ -507,11 +543,12 @@ const portfolios = [
         "ID": "16",
         "Platform": "Tableau",
         "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
         "Image": ".\\assets\\images\\img\\products\\16-Cancer_CareMonthWaitingTimes_SubICB-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\16_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\16_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\16_3_icb_map.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -520,11 +557,12 @@ const portfolios = [
         "ID": "17",
         "Platform": "Excel Online",
         "Description": "Presenting Cancer Care waiting times by CCG. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\17_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\17_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\17_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -533,11 +571,12 @@ const portfolios = [
         "ID": "18",
         "Platform": "Tableau",
         "Description": "Presenting Cancer Care waiting times by Trust. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
         "Image": ".\\assets\\images\\img\\products\\18-CancerCareMonthlyWT_byTrustPublic-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 6021976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\18_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\18_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\18_3_62_day.png",
+        "Released": 6173607673
       },
       {
         "Portfolio_ID": 7,
@@ -546,11 +585,12 @@ const portfolios = [
         "ID": "19",
         "Platform": "Tableau",
         "Description": "The Cancer 62 Day PTL data collection is a weekly snapshot, submitted by trusts which provide cancer services, which shows the number of patients on the cancer 62-day pathway, who are at risk of breaching the 62 day standard (two month (62-day) wait from urgent GP referral to first definitive treatment).",
+        "Short_Description": "NULA weekly snapshot, submitted by trusts which provide cancer services, showing the number of patients on the cancer 62-day pathway who are at risk of breaching the 62-day standard wait.L",
         "Image": ".\\assets\\images\\img\\products\\19-CancerCarePatientTrackingList-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 55183576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\19_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\19_2_geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\19_3_overview.png",
+        "Released": 55335207673
       },
       {
         "Portfolio_ID": 7,
@@ -559,11 +599,12 @@ const portfolios = [
         "ID": "20",
         "Platform": "Tableau",
         "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\20_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\20_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\20_3_icb_map.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -572,11 +613,12 @@ const portfolios = [
         "ID": "21",
         "Platform": "Excel Online",
         "Description": "Presenting waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Presenting waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\21_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\21_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\21_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -585,11 +627,12 @@ const portfolios = [
         "ID": "22",
         "Platform": "Tableau",
         "Description": "PROVISIONAL This workbook presents a view of the provisional data submission relating to Children and Young People referred for assessment or treatment for an eating disorder.",
+        "Short_Description": "PROVISIONAL This workbook presents a view of the provisional data submission relating to Children and Young People referred for assessment or treatment for an eating disorder.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\22_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\22_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\22_3_waiting_times.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -598,11 +641,12 @@ const portfolios = [
         "ID": "23",
         "Platform": "Excel Online",
         "Description": "Provisional data relating to Children and Young People referred for assessment or treatment for an eating disorder.",
+        "Short_Description": "Provisional data relating to Children and Young People referred for assessment or treatment for an eating disorder.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 84818776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\23_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\23_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\23_3_info.png",
+        "Released": 84970407673
       },
       {
         "Portfolio_ID": 7,
@@ -611,11 +655,12 @@ const portfolios = [
         "ID": "24",
         "Platform": "Tableau",
         "Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with dementia for CCGs.",
+        "Short_Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with dementia for CCGs.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 54665176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\24_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\24_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\24_3_breakdown.png",
+        "Released": 54816807673
       },
       {
         "Portfolio_ID": 7,
@@ -624,11 +669,12 @@ const portfolios = [
         "ID": "25",
         "Platform": "Excel Online",
         "Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with Dementia for CCGs.",
+        "Short_Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with Dementia for CCGs.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -637,11 +683,12 @@ const portfolios = [
         "ID": "26",
         "Platform": "Tableau",
         "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Image": ".\\assets\\images\\img\\products\\26-Talking Therapy-unsplash.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36866776306
+        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Image": ".\\assets\\images\\img\\products\\26-Talking-Therapy-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26_2_geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26_3_waiting_times.png",
+        "Released": 37018407673
       },
       {
         "Portfolio_ID": 7,
@@ -650,11 +697,12 @@ const portfolios = [
         "ID": "27",
         "Platform": "Tableau",
         "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36866776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\27_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\27_2_geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\27_3_waiting_times.png",
+        "Released": 37018407673
       },
       {
         "Portfolio_ID": 7,
@@ -663,11 +711,12 @@ const portfolios = [
         "ID": "28",
         "Platform": "Excel Online",
         "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 36866776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\28_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\28_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\28_3_info.png",
+        "Released": 37018407673
       },
       {
         "Portfolio_ID": 7,
@@ -676,11 +725,12 @@ const portfolios = [
         "ID": "29",
         "Platform": "Tableau",
         "Description": "Containing information on patients with SMI which have had their physical health needs met.",
+        "Short_Description": "Containing information on patients with SMI which have had their physical health needs met.",
         "Image": ".\\assets\\images\\img\\products\\29-SevereMentalIllnessPublic-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29_2_geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29_3_benchmark.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -689,11 +739,12 @@ const portfolios = [
         "ID": "30",
         "Platform": "Excel Online",
         "Description": "Containing information on patients with SMI which have had their physical health needs met.",
+        "Short_Description": "Containing information on patients with SMI which have had their physical health needs met.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\30_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\30_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\30_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -702,11 +753,12 @@ const portfolios = [
         "ID": "31",
         "Platform": "Power BI",
         "Description": "The Combined Summary Dashboard shows a range of performance metrics rather than having to look in individual specific reports to each KPI.\u00a0 This reported at STP, CCG and provider level where available.",
+        "Short_Description": "Shows a range of performance metrics rather than having to look in individual specific reports to each KPI.  This reported at STP, CCG and provider level where available.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27708376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\31_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\31_2_kpis.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\31_3_kpis.png",
+        "Released": 27860007673
       },
       {
         "Portfolio_ID": 7,
@@ -715,11 +767,12 @@ const portfolios = [
         "ID": "32",
         "Platform": "Excel Online",
         "Description": "Performance self service report combining all performance measures.",
+        "Short_Description": "Performance self service report combining all performance measures.",
         "Image": ".\\assets\\images\\img\\products\\32-Combined_Performance_Measures_SelfService-Banner.png",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27708376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32_3_info.png",
+        "Released": 27860007673
       },
       {
         "Portfolio_ID": 7,
@@ -728,11 +781,12 @@ const portfolios = [
         "ID": "33",
         "Platform": "Tableau",
         "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Image": ".\\assets\\images\\img\\products\\33-InfectionControl-HCAI-Public-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38853976306
+        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Image": ".\\assets\\images\\img\\products\\33-InfectionControl-HCAI-Public-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33_2_icb.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33_3_overview.png",
+        "Released": 39005607673
       },
       {
         "Portfolio_ID": 7,
@@ -741,11 +795,12 @@ const portfolios = [
         "ID": "34",
         "Platform": "Excel Online",
         "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\34_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\34_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\34_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -754,11 +809,12 @@ const portfolios = [
         "ID": "35",
         "Platform": "Excel Online",
         "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\35_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\35_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\35_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -767,11 +823,12 @@ const portfolios = [
         "ID": "47",
         "Platform": "Tableau",
         "Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
+        "Short_Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\47_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\47_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\47_3_provider_stats.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -780,11 +837,12 @@ const portfolios = [
         "ID": "48",
         "Platform": "Excel Online",
         "Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
+        "Short_Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 93285976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\48_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\48_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\48_3_info.png",
+        "Released": 93437607673
       },
       {
         "Portfolio_ID": 7,
@@ -793,11 +851,12 @@ const portfolios = [
         "ID": "54",
         "Platform": "Excel Online",
         "Description": "The NHS Operating Framework for 2012-2013 confirmed that all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
+        "Short_Description": "As of 2012-2013, all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 38853976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\54_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\54_2_pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\54_3_info.png",
+        "Released": 39005607673
       },
       {
         "Portfolio_ID": 7,
@@ -806,11 +865,12 @@ const portfolios = [
         "ID": "55",
         "Platform": "Tableau",
         "Description": "Diagnostics waiting list benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers",
+        "Short_Description": "Diagnostics waiting list benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76178776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55_2_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55_3_provider.png",
+        "Released": 76330407673
       },
       {
         "Portfolio_ID": 7,
@@ -819,11 +879,12 @@ const portfolios = [
         "ID": "56",
         "Platform": "Tableau",
         "Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commssioners and Providers.",
+        "Short_Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways, benchmarking weekly median and 95th percentile wait times for Commissioners and Providers.",
         "Image": ".\\assets\\images\\img\\products\\56-RTT_MedianWaitsSummary-Public-Banner.jpeg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 76178776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56_2_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56_3_provider.png",
+        "Released": 76330407673
       },
       {
         "Portfolio_ID": 7,
@@ -832,11 +893,12 @@ const portfolios = [
         "ID": "57",
         "Platform": "Tableau",
         "Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
+        "Short_Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
         "Image": ".\\assets\\images\\img\\products\\57-SmokingSATOD-Public-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 10773976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57_3_location.png",
+        "Released": 10925607673
       }
     ]
   },
@@ -850,11 +912,12 @@ const portfolios = [
         "ID": "170",
         "Platform": "Excel Online",
         "Description": "TBC",
+        "Short_Description": "TBC",
         "Image": ".\\assets\\images\\img\\products\\170-Referrals_self_service.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 18117976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\170_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\170_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\170_3_blank_report.png",
+        "Released": 18269607673
       },
       {
         "Portfolio_ID": 8,
@@ -863,11 +926,12 @@ const portfolios = [
         "ID": "142",
         "Platform": "Tableau",
         "Description": "The workbook presents the RTT baselines for 2019/20 as well as actual RTT figures for 2021/2022 used to calculate the ERF H2 payment. Criteria follows that of NHSE and NHSI.",
+        "Short_Description": "The workbook presents the RTT baselines for 2019/20 as well as actual RTT figures for 2021/2022 used to calculate the ERF H2 payment. Criteria follows that of NHSE and NHSI.",
         "Image": ".\\assets\\images\\img\\products\\142-ElectiveRecoveryFundH2_2021_2022.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 66415576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\142_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\142_2_sus_output.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\142_3_sus_reconciliation.png",
+        "Released": 66567207673
       },
       {
         "Portfolio_ID": 8,
@@ -876,11 +940,12 @@ const portfolios = [
         "ID": "143",
         "Platform": "Tableau",
         "Description": "Reporting upon the NHS e-Referral Service (e-RS) across the regions at various organisational levels.",
+        "Short_Description": "Reporting upon the NHS e-Referral Service (e-RS) across the regions at various organisational levels.",
         "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 20537176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\143_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\143_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\143_3_appendix.png",
+        "Released": 20688807673
       },
       {
         "Portfolio_ID": 8,
@@ -889,11 +954,12 @@ const portfolios = [
         "ID": "126",
         "Platform": "Tableau",
         "Description": "The SCW Planned Care Dashboard seeks to provide localised information relating to Inpatient and Outpatient Planned Care systems.",
+        "Short_Description": "The SCW Planned Care Dashboard seeks to provide localised information relating to Inpatient and Outpatient Planned Care systems.",
         "Image": ".\\assets\\images\\img\\products\\126-PlannedCareDashboard.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 27967576306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\126_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\126_2_elective_inpatient_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\126_3_outpatient_specialty.png",
+        "Released": 28119207673
       },
       {
         "Portfolio_ID": 8,
@@ -902,11 +968,12 @@ const portfolios = [
         "ID": "129",
         "Platform": "Tableau",
         "Description": "The Elective Waiting List Dashboard aims to provide a visual display of the waiting list composition to support management of elective restoration impacted by the Covid-19 pandemic.",
+        "Short_Description": "The Elective Waiting List Dashboard aims to provide a visual display of waiting list composition, to support management of elective restoration impacted by the Covid-19 pandemic.",
         "Image": ".\\assets\\images\\img\\products\\129-ElectiveWaitingListDashboard.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 2393176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\129_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\129_2_latest_position.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\129_3_wl_shape.png",
+        "Released": 2544807673
       },
       {
         "Portfolio_ID": 8,
@@ -915,11 +982,12 @@ const portfolios = [
         "ID": "100",
         "Platform": "Tableau",
         "Description": "This workbook presents the activity baselines for the 2021/22 Elective Recovery Fund based on 2019/20 activity levels.",
+        "Short_Description": "This workbook presents the activity baselines for the 2021/22 Elective Recovery Fund based on 2019/20 activity levels.",
         "Image": ".\\assets\\images\\img\\products\\100-ElectiveRecoveryFundH1_2021_2022.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 77301976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\100_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\100_2_erf.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\100_3_reconciliation.png",
+        "Released": 77453607673
       },
       {
         "Portfolio_ID": 8,
@@ -928,11 +996,12 @@ const portfolios = [
         "ID": "124",
         "Platform": "Power BI",
         "Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time by only offering interventions on the NHS that are evidence-based and appropriate.",
+        "Short_Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time.",
         "Image": ".\\assets\\images\\img\\products\\124-EvidenceBasedInterventions.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 67020376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124_2_overview_one.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124_3_trend.png",
+        "Released": 67172007673
       }
     ]
   },
@@ -946,11 +1015,12 @@ const portfolios = [
         "ID": "135",
         "Platform": "Excel Online",
         "Description": "Accident and Emergency commissioning data set from SUS based on the PbR Mart Emergency data definition.",
+        "Short_Description": "Accident and Emergency commissioning data set from SUS based on the PbR Mart Emergency data definition.",
         "Image": ".\\assets\\images\\img\\products\\135-SUS_emergency_medicine_self-service.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 77301976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\135_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\135_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\135_3_blank_report.png",
+        "Released": 77453607673
       },
       {
         "Portfolio_ID": 9,
@@ -959,11 +1029,12 @@ const portfolios = [
         "ID": "136",
         "Platform": "Excel Online",
         "Description": "Outpatient commissioning data set from SUS+ based on the PbR Mart Outpatient data definition.",
+        "Short_Description": "Outpatient commissioning data set from SUS+ based on the PbR Mart Outpatient data definition.",
         "Image": ".\\assets\\images\\img\\products\\136-SUS-Outpatients.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 77301976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\136_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\136_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\136_3_blank_report.png",
+        "Released": 77453607673
       },
       {
         "Portfolio_ID": 9,
@@ -972,11 +1043,12 @@ const portfolios = [
         "ID": "137",
         "Platform": "Excel Online",
         "Description": "Admitted Patient Care (Inpatient) commissioning data set from SUS+ based on the PbR Mart APC Episodes data definition.",
+        "Short_Description": "Admitted Patient Care (Inpatient) commissioning data set from SUS+ based on the PbR Mart APC Episodes data definition.",
         "Image": ".\\assets\\images\\img\\products\\137-SUS-Inpatients.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 77301976306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\137_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\137_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\137_3_blank_report.png",
+        "Released": 77453607673
       }
     ]
   },
@@ -990,11 +1062,12 @@ const portfolios = [
         "ID": "134",
         "Platform": "Tableau",
         "Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
+        "Short_Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
         "Image": ".\\assets\\images\\img\\products\\134-999_Non_Emergency_PTS_Contrracts-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 60713176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134_2_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134_3_conveyance.png",
+        "Released": 60864807673
       },
       {
         "Portfolio_ID": 10,
@@ -1003,11 +1076,12 @@ const portfolios = [
         "ID": "125",
         "Platform": "Excel Online",
         "Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
+        "Short_Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
         "Image": ".\\assets\\images\\img\\products\\125-Paed_UC_Dashboard-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 578776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125_2_ae_activity.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125_3_nel_activity.png",
+        "Released": 730407673
       },
       {
         "Portfolio_ID": 10,
@@ -1016,11 +1090,12 @@ const portfolios = [
         "ID": "161",
         "Platform": "Power BI",
         "Description": "The Home first Dashboard has been developed to monitor the performance of the Home First Pathway and enable actions to be taken where challenges are identified. The dashboard brings together data from across the different partners supporting Home First to give an overview of key performance metrics. The dashboard shows key performance metrics such as activity levels, waits in hospital and length of stay in Home First.",
+        "Short_Description": "This dashboard brings together data from across the different partners supporting Home First in Buckinghamshire to give an overview of key performance metrics.",
         "Image": ".\\assets\\images\\img\\products\\161-Home_First_Dashboard-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 10860376306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\161_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\161_2_highlights.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\161_3_los.png",
+        "Released": 11012007673
       },
       {
         "Portfolio_ID": 10,
@@ -1029,11 +1104,12 @@ const portfolios = [
         "ID": "153",
         "Platform": "Tableau",
         "Description": "The SCW Urgent & Emergency Care Dashboard aims to provide information on urgent care metrics across the systems. This includes A&E activity, NEL (Non-Elective) activity and daily urgent care metrics.",
+        "Short_Description": "The SCW Urgent & Emergency Care Dashboard aims to provide information on urgent care metrics, such as A&E activity, NEL (Non-Elective) activity and daily urgent care metrics.",
         "Image": ".\\assets\\images\\img\\products\\153-Urgent_EC_Dashboard-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 1442776306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153_2_ae_summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153_3_nel_mapping.png",
+        "Released": 1594407673
       },
       {
         "Portfolio_ID": 10,
@@ -1042,11 +1118,12 @@ const portfolios = [
         "ID": "58",
         "Platform": "Power BI",
         "Description": "ECDS High Level Report containing monthly and daily breakdowns for activity. Data can be further sliced by STP/CCG/PCN/Provider and other relevant A&E filters such as HRG and Acuity.",
+        "Short_Description": "ECDS High Level Report containing monthly and daily breakdowns for activity. Data can be further sliced by STP/CCG/PCN/Provider and relevant A&E filters such as HRG and Acuity.",
         "Image": ".\\assets\\images\\img\\products\\58-ECDS_High_Level_Reporting.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 64169176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\58_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\58_2_monthly.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\58_3_daily.png",
+        "Released": 64320807673
       },
       {
         "Portfolio_ID": 10,
@@ -1055,11 +1132,12 @@ const portfolios = [
         "ID": "59",
         "Platform": "Power BI",
         "Description": "A data quality report providing insights into activity levels and blank field breakdown at CCG / Provider level.",
+        "Short_Description": "A data quality report providing insights into activity levels and blank field breakdown at CCG / Provider level.",
         "Image": ".\\assets\\images\\img\\products\\59-ECDS_DQ_Suite-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 64169176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\59_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\59_2_activity_overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\59_3_blank_field.png",
+        "Released": 64320807673
       },
       {
         "Portfolio_ID": 10,
@@ -1068,11 +1146,12 @@ const portfolios = [
         "ID": "60",
         "Platform": "Excel Online",
         "Description": "ECDS daily activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
+        "Short_Description": "ECDS daily activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. Configurable by users.",
         "Image": ".\\assets\\images\\img\\products\\60-ECDS_SS_Daily-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 64169176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\60_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\60_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\60_3_blank_report.png",
+        "Released": 64320807673
       },
       {
         "Portfolio_ID": 10,
@@ -1081,11 +1160,12 @@ const portfolios = [
         "ID": "61",
         "Platform": "Excel Online",
         "Description": "ECDS Weekly activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
+        "Short_Description": "ECDS weekly activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. Configurable by users.",
         "Image": ".\\assets\\images\\img\\products\\61-ECDS_SS_Weekly-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 64169176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\61_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\61_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\61_3_blank_report.png",
+        "Released": 64320807673
       },
       {
         "Portfolio_ID": 10,
@@ -1094,11 +1174,12 @@ const portfolios = [
         "ID": "62",
         "Platform": "Excel Online",
         "Description": "ECDS monthly activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
+        "Short_Description": "ECDS monthly activity and cost across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. Configurable by users.",
         "Image": ".\\assets\\images\\img\\products\\62-ECDS_SS_Monthly-Banner.jpg",
-        "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-        "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-        "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-        "Released": 64169176306
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\62_1_front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\62_2_data_preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\62_3_blank_report.png",
+        "Released": 64320807673
       }
     ]
   }
@@ -1111,11 +1192,12 @@ const portfolios = [
     "ID": "7",
     "Platform": "Tableau",
     "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the monthly diagnostics collection which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+    "Short_Description": "Shows provisional data submissions relating to the monthly diagnostics collection, which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
     "Image": ".\\assets\\images\\img\\products\\7-DiagnosticsWaitingTimes&Activity-provisional-Banner.jpg",
-    "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-    "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-    "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 93285976713
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7_1_front_cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7_2_overview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7_3_diagnostic_test.png",
+    "Released": 93437608423
   },
   {
     "Portfolio": "Performance",
@@ -1125,11 +1207,12 @@ const portfolios = [
     "ID": "6",
     "Platform": "Tableau",
     "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+    "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
     "Image": ".\\assets\\images\\img\\products\\6-DiagnosticsWaitingTimes&Activity-Public-Banner.jpeg",
-    "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-    "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-    "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 93285976713
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\6_1_front_cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\6_2_overview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\6_3_measures.png",
+    "Released": 93437608423
   },
   {
     "Portfolio": "Performance",
@@ -1139,11 +1222,12 @@ const portfolios = [
     "ID": "5",
     "Platform": "Excel Online",
     "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+    "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
     "Image": "./assets/images/img/product_box.svg",
-    "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-    "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-    "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 93285976713
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\5_1_front_cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\5_2_pivot.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\5_3_info.png",
+    "Released": 93437608423
   },
   {
     "Portfolio": "Performance",
@@ -1153,11 +1237,12 @@ const portfolios = [
     "ID": "4",
     "Platform": "Tableau",
     "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+    "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
     "Image": ".\\assets\\images\\img\\products\\4-Ambulance_Quality_Indicators-Banner.jpeg",
-    "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-    "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-    "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 93285976713
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4_1_front_cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4_2_overview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4_3_national_distributions.png",
+    "Released": 93437608423
   },
   {
     "Portfolio": "Performance",
@@ -1167,11 +1252,12 @@ const portfolios = [
     "ID": "9",
     "Platform": "Tableau",
     "Description": "The Monthly Referral Return (MRR) contains data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+    "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
     "Image": ".\\assets\\images\\img\\products\\9-MonthlyReferralReturn-Public-Banner.jpeg",
-    "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-    "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-    "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 93285976713
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\9_1_front_cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\9_2_overview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\9_3_geospatial.png",
+    "Released": 93437608423
   },
   {
     "Portfolio": "Performance",
@@ -1181,11 +1267,12 @@ const portfolios = [
     "ID": "10",
     "Platform": "Tableau",
     "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Monthly Referral Return (MRR) which monitors GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+    "Short_Description": "This workbook presents a view of provisional data submissions for the Monthly Referral Return (MRR): GP and other referrals for first consultant-led outpatient appointments.",
     "Image": ".\\assets\\images\\img\\products\\10-MonthlyReferralReturn-Provisional-Banner.jpeg",
-    "Carousel_Images_1": "./assets/images/img/carousel/product_1",
-    "Carousel_Images_2": "./assets/images/img/carousel/product_2",
-    "Dummy_Product_URL": "./assets/images/img/carousel/product_3",
-    "Released": 93285976713
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\10_1_front_cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\10_2_overview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\10_3_provider.png",
+    "Released": 93437608423
   }
 ], portfolioDistinct = [
   {
