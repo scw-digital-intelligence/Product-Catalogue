@@ -62,14 +62,34 @@ function contentBoxes(parent, imgSource, linkText, linkHref, text,i) {
 function recentBoxes(){
     for (let i = 0; i < latestProducts.length; i++) {
         let targetElement = document.getElementsByClassName("content-container-row");
-        let text = latestProducts[i].Description
+        let text = latestProducts[i].Short_Description
         let linkText = latestProducts[i].Name
         let img = latestProducts[i].Image
-    
+        let linkParams = `id=${latestProducts[i].ID}`;
         if (i < 3){
-            contentBoxes(targetElement[0], img, linkText, "./product.html", text, String(i));
+            contentBoxes(
+                targetElement[0], 
+                img, 
+                linkText, 
+                // deployment code
+                // `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                // local testing
+                `./product.html?${linkParams}`,  
+                text, 
+                String(i)
+            );
         } else {
-            contentBoxes(targetElement[1], img, linkText, "./product.html", text, String(i));
+            contentBoxes(
+                targetElement[1], 
+                img, 
+                linkText, 
+                // deployment code
+                // `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                // local testing
+                `./product.html?${linkParams}`,  
+                text, 
+                String(i)
+            );
         }
     }
 }
@@ -138,10 +158,10 @@ function portfolioBoxes(){
                 prop.Image,
                 prop.Name,
                 // deployment code
-                `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                // `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
                 // local testing
-                // `./product.html?${linkParams}`, 
-                prop.Description,
+                `./product.html?${linkParams}`, 
+                prop.Short_Description,
                 1
             )        
         });
