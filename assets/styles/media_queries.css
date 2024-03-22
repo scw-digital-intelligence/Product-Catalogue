@@ -182,6 +182,15 @@
 /* Small laptop screen */
 @media screen and (max-width: 1280px) {
 
+    .hero-content h1 {
+        margin-block-end: 0.5em;
+    }
+    
+    .button {
+        padding: 10px;
+        width: 6.5rem;
+    }
+
     .content-box {
         width: 10rem;
     }
