@@ -10,6 +10,15 @@ from settings import USER_CRED, USER_PASSWORD, SERVER, DATABASE, SHAREPOINT
 # creating required credentials for access to Insights SharePoint site
 user_creds = UserCredential(USER_CRED,USER_PASSWORD)
 
+# Connecting to the server
+server = SERVER
+database = DATABASE
+
+## Uses a trusted connection so any team member can access
+con = pyodbc.connect(
+    'DRIVER={ODBC Driver 17 for SQL Server};Server=' + server + ';Database=' + database + ';ENCRYPT=no; TRUSTED_CONNECTION=yes;'
+    )
+
 # function to find the nth occurance of a character in a string
 def find_nth(haystack: str, needle: str, n: int) -> int:
     start = haystack.find(needle)
@@ -39,10 +48,10 @@ def addCarouselImage(dataset):
     # print(file_list)
     for image in file_list:
         if image.lower().endswith(('.png', '.jpg', '.jpeg')):
-            report_index = image.find("_") 
+            report_index = image.find("-") 
             for object in dataset:
                 if object['ID'] == image[:report_index]:
-                    index = find_nth(image,"_", 2)
+                    index = find_nth(image,"-", 2)
                     img_no = int(image[:index][-1])
                     if(img_no == 1):                    
                         object['Carousel_Images_1'] = os.path.join(".",base_path,image)
@@ -80,15 +89,6 @@ def groupBy(dataset, fields, pos):
         returned.append(captured)
     return returned
 
-# Connecting to the server
-server = SERVER
-database = DATABASE
-
-## Uses a trusted connection so any team member can access
-con = pyodbc.connect(
-    'DRIVER={ODBC Driver 17 for SQL Server};Server=' + server + ';Database=' + database + ';ENCRYPT=no; TRUSTED_CONNECTION=yes;'
-    )
-
 # Retrieving the data from the database
 # NOTE - Release dates are converted to milliseconds from 1970 for compatibility with JSON conversion
 cursor = con.cursor()
@@ -106,8 +106,24 @@ rows = cursor.fetchall()
 columns = [col[0] for col in cursor.description]
 data = [dict(zip(columns, row)) for row in rows]
 
-# Image retrieval from SharePoint
-# Product main images
+'''Image retrieval from SharePoint'''
+# defines local folders that will store retrived images
+product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\products")
+carousel_folder = os.path.join(os.getcwd(), "assets\\images\\img\\carousel")
+
+# deletes existing images in product folder
+for file in os.listdir(product_folder):
+    if file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".png"):
+        os.remove(os.path.join(product_folder, file))
+        print("Removed", file)
+
+# deletes existing images in carousel folder
+for file in os.listdir(carousel_folder):
+    if file.endswith(".jpg") or file.endswith(".jpeg") or file.endswith(".png"):
+        os.remove(os.path.join(carousel_folder, file))
+        print("Removed", file)
+
+# Loops through every portfolio and retrieves any SharePoint imagery available
 for portfolio in data:
     sharepoint_portfolio = portfolio["Report_Portfolio_Name"].replace(" ", "")
     
@@ -120,19 +136,17 @@ for portfolio in data:
     ctx = ClientContext(os.path.join(SHAREPOINT,sharepoint_portfolio)).with_credentials(user_creds)
     
     print(f"Retrieving photos for: {sharepoint_portfolio}")
-
+    
+    '''Product main images'''
     # establishing relative path to required images
-    target_folder_url = "SiteAssets/SitePages/Images"
-    root_folder = ctx.web.get_folder_by_server_relative_path(target_folder_url)
-
+    product_target_folder_url = "SiteAssets/SitePages/Images"
+    product_root_folder = ctx.web.get_folder_by_server_relative_path(product_target_folder_url)
+    
     # creates list of all files in folder
-    files = root_folder.get_files(True).execute_query()
-
-    # defines local folder that will store retrived images
-    product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\products")
+    product_files = product_root_folder.get_files(False).execute_query()
 
     # loop to download specified images
-    for f in files:
+    for f in product_files:
         # acquires the url for the specific file
         file_url = f.serverRelativeUrl
         try:    
@@ -159,25 +173,50 @@ for portfolio in data:
             except:
                 print(f"    Could not compress {f.name}")
         except:
-            print(f"Could not acquire {file_url}")
+            print(f"    ERROR: Could not acquire {file_url}")
+            
+    '''Product carousel images'''
+    # establishing relative path to required images
+    carousel_target_folder_url = "SiteAssets/SitePages/Images/Product-images"
+    carousel_root_folder = ctx.web.get_folder_by_server_relative_path(carousel_target_folder_url)
     
-# Product carousel images
-product_folder = os.path.join(os.getcwd(), "assets\\images\\img\\carousel")
-carousel_files = dir_list = os.listdir(product_folder)
-
-for file in carousel_files:
-    set_width = 1592
-    set_height = 893
-    file_path = os.path.join(product_folder, os.path.basename(file))
-    image = Image.open(file_path)
-    width, height = image.size
-    if (width != set_width or height != set_height):        
-        new_size = (set_width, set_height)
-        resized_image = image.resize(new_size)
-        resized_image.save(file_path, optimize=True, quality=50)
-        print(f"resized {file}")
-    else:
-        print(f"did not resize {file}")
+    # creates list of all files in folder
+    carousel_files = carousel_root_folder.get_files(False).execute_query()
+    
+    # loop to download specified images
+    for f in carousel_files:
+        # acquires the url for the specific file
+        file_url = f.serverRelativeUrl
+        try:    
+            # limits download to specific image file extensions
+            if file_url.lower().endswith(('.png', '.jpg', '.jpeg')):  
+                carousel_download_path = os.path.join(carousel_folder, os.path.basename(file_url))
+                with open(carousel_download_path, "wb") as local_file:      
+                    file = (
+                        ctx.web.get_file_by_server_relative_path(file_url)
+                        .download(local_file)
+                        .execute_query()
+                    )   
+                
+                local_file.close()
+            
+            # ensuring the images fit the carousel shape
+            try:
+                set_width = 1592
+                set_height = 893
+                image = Image.open(carousel_download_path)
+                width, height = image.size
+                if (width != set_width or height != set_height):        
+                    new_size = (set_width, set_height)
+                    resized_image = image.resize(new_size)
+                    resized_image.save(carousel_download_path, optimize=True, quality=50)
+                    print(f"    downloaded and resized {f.name}")
+                else:
+                    print(f"    downloaded and not resized {f.name}")
+            except:
+                print(f"    Could not download {f.name}")
+        except:
+            print(f"    ERROR: Could not acquire {file_url}")
 
 # Creates portfolio list in JSON
 portfolio_list = json.dumps(data, indent=2)
