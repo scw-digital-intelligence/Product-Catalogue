@@ -41,6 +41,19 @@ With regard to Python and JavaScript, the following conventions are followed for
 + JavaScript - [W3](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript)
 
 ### T-SQL <a name="tsql"></a>
+Data for the catalogue comes from the `[DigitalIntellgence]` database on `BIS-000-SP08.bis.xswhealth.nhs.uk,14431`.
+
+There are two views used: `Catalogue_Full_Portfolios`, which contains all required data for the products, and `Catalogue_Portfolio_Distinct` which provides an iterable list of the portfolios to make filters and allow programmatic downloading of images.
+
+Criteria for inclusion in the catalogue is set as follows. It was determined that Report_Development_Status_Name does not matter for the catalogue.
+
+```
+[Report_Release_Status_Name] = 'Official' 
+--AND [Report_Development_Status_Name] = 'Live' 
+AND Portfolio_Status_Name = 'Live' 
+AND Report_Release_Date IS NOT NULL
+AND Include_In_Catalogue = 1
+```
 
 ### Python <a name="python"></a>
 There are two Python scripts in this project, [data_extractor.py](./assets/scripts/data_extractor.py) and [settings.py](./assets/scripts/settings.py). The former contains the code required to build the framework the catalogue is built on, while the latter is a local testing file - the settings stored in it should have been replaced with environment variables in the DevOps pipeline. Should the automated process break, you can use this file to create new versions of the catalogue.
