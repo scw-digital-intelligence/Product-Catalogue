@@ -14,7 +14,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\117-1-trust_selection.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\117-2-notes-detail.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\117-3-chart-example.png",
-        "Released": 90939212143
+        "Released": 90939972123
       },
       {
         "Portfolio_ID": 1,
@@ -28,7 +28,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 55774412143
+        "Released": 55775172123
       },
       {
         "Portfolio_ID": 1,
@@ -42,7 +42,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\119-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\119-2-scatter_diagram.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\119-3-year-comparison.png",
-        "Released": 36593612143
+        "Released": 36594372123
       },
       {
         "Portfolio_ID": 1,
@@ -56,7 +56,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 53268812143
+        "Released": 53269572123
       },
       {
         "Portfolio_ID": 1,
@@ -70,97 +70,13 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 36593612143
+        "Released": 36594372123
       }
     ]
   },
   {
     "Portfolio": "Contract Monitoring Solution",
     "Products": [
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M03 June 2021)",
-        "ID": "145",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M3 June 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M3 June 2021)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M04 July 2021)",
-        "ID": "146",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M4 July 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M4 July 2021)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M05 August 2021)",
-        "ID": "147",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M5 August 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M5 August 2021)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M06 September 2021)",
-        "ID": "148",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M6 September 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M6 September 2021)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M07 October 2021)",
-        "ID": "149",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M7 October 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M7 October 2021)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M08 November 2021)",
-        "ID": "150",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M8 November 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M8 November 2021)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
@@ -173,7 +89,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
+        "Released": 94050372123
       },
       {
         "Portfolio_ID": 2,
@@ -187,7 +103,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\63-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\63-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\63-3-location-intelligence.png",
-        "Released": 18363212143
+        "Released": 18363972123
       },
       {
         "Portfolio_ID": 2,
@@ -201,7 +117,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\64-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\64-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\64-3-location-intelligence.png",
-        "Released": 18363212143
+        "Released": 18363972123
       },
       {
         "Portfolio_ID": 2,
@@ -215,7 +131,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\67-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\67-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\67-3-blank-report.png",
-        "Released": 18363212143
+        "Released": 18363972123
       },
       {
         "Portfolio_ID": 2,
@@ -229,139 +145,97 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\68-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\68-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\68-3-blank-report.png",
-        "Released": 18363212143
+        "Released": 18363972123
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M01 April 2021)",
-        "ID": "70",
+        "Name": "CMS Activity and Finance Report Released (M03 June 2021)",
+        "ID": "145",
         "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M1 April 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M1 April 2021)",
+        "Description": "[Archive] CMS Activity and Finance Report Released (M3 June 2021)",
+        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M3 June 2021)",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
+        "Released": 94050372123
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M12 March 2021)",
-        "ID": "71",
+        "Name": "CMS Activity and Finance Report Released (M04 July 2021)",
+        "ID": "146",
         "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M12 March 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M12 March 2021)",
+        "Description": "[Archive] CMS Activity and Finance Report Released (M4 July 2021)",
+        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M4 July 2021)",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
+        "Released": 94050372123
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M11 February 2021)",
-        "ID": "72",
+        "Name": "CMS Activity and Finance Report Released (M05 August 2021)",
+        "ID": "147",
         "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M11 February 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M11 February 2021)",
+        "Description": "[Archive] CMS Activity and Finance Report Released (M5 August 2021)",
+        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M5 August 2021)",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
+        "Released": 94050372123
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M10 January 2021)",
-        "ID": "73",
+        "Name": "CMS Activity and Finance Report Released (M06 September 2021)",
+        "ID": "148",
         "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M10 January 2021)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M10 January 2021)",
+        "Description": "[Archive] CMS Activity and Finance Report Released (M6 September 2021)",
+        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M6 September 2021)",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 105454412143
+        "Released": 94050372123
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M09 December 2020)",
-        "ID": "74",
+        "Name": "CMS Activity and Finance Report Released (M07 October 2021)",
+        "ID": "149",
         "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M9 December 2020)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M9 December 2020)",
+        "Description": "[Archive] CMS Activity and Finance Report Released (M7 October 2021)",
+        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M7 October 2021)",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 105454412143
+        "Released": 94050372123
       },
       {
         "Portfolio_ID": 2,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M08 November 2020)",
-        "ID": "75",
+        "Name": "CMS Activity and Finance Report Released (M08 November 2021)",
+        "ID": "150",
         "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M8 November 2020)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M8 November 2020)",
+        "Description": "[Archive] CMS Activity and Finance Report Released (M8 November 2021)",
+        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M8 November 2021)",
         "Image": "./assets/images/img/product_box.svg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 105454412143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M07 October 2020)",
-        "ID": "76",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M7 October 2020)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M7 October 2020)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 105454412143
-      },
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS Activity and Finance Report Released (M06 September 2020)",
-        "ID": "77",
-        "Platform": "Tableau",
-        "Description": "[Archive] CMS Activity and Finance Report Released (M6 September 2020)",
-        "Short_Description": "[Archive] CMS Activity and Finance Report Released (M6 September 2020)",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 105454412143
+        "Released": 94050372123
       }
     ]
   },
   {
     "Portfolio": "Management interface solution",
     "Products": [
-      {
-        "Portfolio_ID": 3,
-        "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
-        "Name": "SLAM Load Checks",
-        "ID": "69",
-        "Platform": "Power BI",
-        "Description": "SLAM Load Checks",
-        "Short_Description": "SLAM Load Checks",
-        "Image": ".\\assets\\images\\img\\products\\69-SLAM_Load_Checks-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69-2-providers-loaded.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69-3-dq-checks.png",
-        "Released": 89124812143
-      },
       {
         "Portfolio_ID": 3,
         "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
@@ -374,7 +248,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\184-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\184-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\184-3-actual-vs-submission.png",
-        "Released": 910412143
+        "Released": 911172123
+      },
+      {
+        "Portfolio_ID": 3,
+        "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
+        "Name": "SLAM Load Checks",
+        "ID": "69",
+        "Platform": "Power BI",
+        "Description": "SLAM Load Checks",
+        "Short_Description": "SLAM Load Checks",
+        "Image": ".\\assets\\images\\img\\products\\69-SLAM_Load_Checks-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69-2-providers-loaded.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69-3-dq-checks.png",
+        "Released": 89125572123
       }
     ]
   },
@@ -393,7 +281,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111-2-core-measures-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111-3-mhsds-performance-icb.png",
-        "Released": 53614412143
+        "Released": 53615172123
       }
     ]
   },
@@ -412,7 +300,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 66574412143
+        "Released": 66575172123
       },
       {
         "Portfolio_ID": 5,
@@ -426,7 +314,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139-2-spc-chart.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139-3-plots.png",
-        "Released": 66574412143
+        "Released": 66575172123
       },
       {
         "Portfolio_ID": 5,
@@ -440,811 +328,13 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-        "Released": 5576012143
+        "Released": 5576772123
       }
     ]
   },
   {
     "Portfolio": "Performance",
     "Products": [
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "A&E Attendances and Emergency Admissions",
-        "ID": "1",
-        "Platform": "Tableau",
-        "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
-        "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
-        "Image": ".\\assets\\images\\img\\products\\1-A&E_Attendances_and_E_Admissions_Public-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
-        "Released": 6785612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "A&E Attendances and Emergency Admissions",
-        "ID": "2",
-        "Platform": "Excel Online",
-        "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
-        "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\2-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\2-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\2-3-info.png",
-        "Released": 28472012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Ambulance Clinical Outcomes",
-        "ID": "3",
-        "Platform": "Tableau",
-        "Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
-        "Short_Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
-        "Image": ".\\assets\\images\\img\\products\\3-AmbulanceClinicalOutcomes-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\3-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\3-2-cardiac-arrest.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\3-3-stroke.png",
-        "Released": 93185612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Ambulance Quality Indicators",
-        "ID": "4",
-        "Platform": "Tableau",
-        "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
-        "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
-        "Image": ".\\assets\\images\\img\\products\\4-Ambulance_Quality_Indicators-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4-3-national-distributions.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Ambulance Quality Indicators",
-        "ID": "5",
-        "Platform": "Excel Online",
-        "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
-        "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\5-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\5-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\5-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Diagnostics waiting times & activity",
-        "ID": "6",
-        "Platform": "Tableau",
-        "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Image": ".\\assets\\images\\img\\products\\6-DiagnosticsWaitingTimes&Activity-Public-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\6-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\6-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\6-3-measures.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Diagnostics Waiting Times",
-        "ID": "7",
-        "Platform": "Tableau",
-        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the monthly diagnostics collection which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Short_Description": "Shows provisional data submissions relating to the monthly diagnostics collection, which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Image": ".\\assets\\images\\img\\products\\7-DiagnosticsWaitingTimes&Activity-provisional-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7-3-diagnostic-test.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Diagnostics Waiting Times",
-        "ID": "8",
-        "Platform": "Excel Online",
-        "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8-3-info.png",
-        "Released": 28472012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Monthly Referral Return",
-        "ID": "9",
-        "Platform": "Tableau",
-        "Description": "The Monthly Referral Return (MRR) contains data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
-        "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
-        "Image": ".\\assets\\images\\img\\products\\9-MonthlyReferralReturn-Public-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\9-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\9-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\9-3-geospatial.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Monthly Referral Return",
-        "ID": "10",
-        "Platform": "Tableau",
-        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Monthly Referral Return (MRR) which monitors GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
-        "Short_Description": "This workbook presents a view of provisional data submissions for the Monthly Referral Return (MRR): GP and other referrals for first consultant-led outpatient appointments.",
-        "Image": ".\\assets\\images\\img\\products\\10-MonthlyReferralReturn-Provisional-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\10-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\10-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\10-3-provider.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Monthly Referral Return",
-        "ID": "11",
-        "Platform": "Excel Online",
-        "Description": "The Monthly Referral Return (MRR) contains data related to GP and other referrals for consultant-led outpatient appointments focusing  on all treatment functions and specific acute treatment functions.",
-        "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\11-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\11-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\11-3-info.png",
-        "Released": 39617612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Referral to Treatment - Patient Treatment List (PTL)",
-        "ID": "12",
-        "Platform": "Tableau",
-        "Description": "The weekly RTT PTL return collects weekly data from NHS Trusts to measure waiting list performance for both admitted and non-admitted patients, for all specialties together, and for Trauma & Orthopaedics in isolation.",
-        "Short_Description": "Collects weekly data from NHS Trusts to measure waiting list performance covering admitted and non-admitted patients, all specialties, with Trauma & Orthopaedics in isolation.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 105886412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Referral to Treatment (RTT) Waiting Times Statistics for Consultant-led Elective Care",
-        "ID": "13",
-        "Platform": "Tableau",
-        "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Short_Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Image": ".\\assets\\images\\img\\products\\13-WaitingTimesStatisticsForConsultant-LedElectiveCare-Pub.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\13-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\13-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\13-3-sub-icb.png",
-        "Released": 6785612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Referral to Treatment (RTT) Waiting Times Statistics for Consultant-led Elective Care",
-        "ID": "14",
-        "Platform": "Tableau",
-        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": ".\\assets\\images\\img\\products\\14- WaitingTimesStatisticsForConsultant-LedElectiveCare-Prov.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14-3-measures.png",
-        "Released": 6785612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Referral to Treatment (RTT) Waiting Times Statistics for Consultant-led Elective Care",
-        "ID": "15",
-        "Platform": "Excel Online",
-        "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Short_Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\15-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\15-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\15-3-info.png",
-        "Released": 28472012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancer Care - Monthly Waiting Times by Sub ICB Location",
-        "ID": "16",
-        "Platform": "Tableau",
-        "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": ".\\assets\\images\\img\\products\\16-Cancer_CareMonthWaitingTimes_SubICB-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\16-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\16-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\16-3-icb-map.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancer Care - Monthly Waiting Times by CCG",
-        "ID": "17",
-        "Platform": "Excel Online",
-        "Description": "Presenting Cancer Care waiting times by CCG. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\17-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\17-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\17-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancer Care - Monthly Waiting Times by Trust",
-        "ID": "18",
-        "Platform": "Tableau",
-        "Description": "Presenting Cancer Care waiting times by Trust. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": ".\\assets\\images\\img\\products\\18-CancerCareMonthlyWT_byTrustPublic-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\18-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\18-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\18-3-62-day.png",
-        "Released": 6785612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancer care - Patient Tracking List (PTL)",
-        "ID": "19",
-        "Platform": "Tableau",
-        "Description": "The Cancer 62 Day PTL data collection is a weekly snapshot, submitted by trusts which provide cancer services, which shows the number of patients on the cancer 62-day pathway, who are at risk of breaching the 62 day standard (two month (62-day) wait from urgent GP referral to first definitive treatment).",
-        "Short_Description": "NULA weekly snapshot, submitted by trusts which provide cancer services, showing the number of patients on the cancer 62-day pathway who are at risk of breaching the 62-day standard wait.L",
-        "Image": ".\\assets\\images\\img\\products\\19-CancerCarePatientTrackingList-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\19-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\19-2-geospatial.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\19-3-overview.png",
-        "Released": 55947212143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancer Care - Quarterly Waiting Times by Sub ICB Location",
-        "ID": "20",
-        "Platform": "Tableau",
-        "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\20-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\20-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\20-3-icb-map.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancer Care - Quarterly Analysis",
-        "ID": "21",
-        "Platform": "Excel Online",
-        "Description": "Presenting waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Short_Description": "Presenting waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\21-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\21-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\21-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Children and Young People with an Eating Disorder",
-        "ID": "22",
-        "Platform": "Tableau",
-        "Description": "PROVISIONAL This workbook presents a view of the provisional data submission relating to Children and Young People referred for assessment or treatment for an eating disorder.",
-        "Short_Description": "PROVISIONAL This workbook presents a view of the provisional data submission relating to Children and Young People referred for assessment or treatment for an eating disorder.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\22-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\22-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\22-3-waiting-times.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Children and Young People with an Eating Disorder",
-        "ID": "23",
-        "Platform": "Excel Online",
-        "Description": "Provisional data relating to Children and Young People referred for assessment or treatment for an eating disorder.",
-        "Short_Description": "Provisional data relating to Children and Young People referred for assessment or treatment for an eating disorder.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\23-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\23-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\23-3-info.png",
-        "Released": 85582412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Dementia - 65+ Estimated Diagnosis Rate",
-        "ID": "24",
-        "Platform": "Tableau",
-        "Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with dementia for CCGs.",
-        "Short_Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with dementia for CCGs.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\24-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\24-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\24-3-breakdown.png",
-        "Released": 55428812143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Dementia - 65+ Estimated Diagnosis Rate",
-        "ID": "25",
-        "Platform": "Excel Online",
-        "Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with Dementia for CCGs.",
-        "Short_Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with Dementia for CCGs.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Talking therapy monthly - Public",
-        "ID": "26",
-        "Platform": "Tableau",
-        "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Image": ".\\assets\\images\\img\\products\\26-Talking-Therapy-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26-2-geospatial.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26-3-waiting-times.png",
-        "Released": 37630412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Talking therapy quarterly - Public",
-        "ID": "27",
-        "Platform": "Tableau",
-        "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\27-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\27-2-geospatial.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\27-3-waiting-times.png",
-        "Released": 37630412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Talking therapy - self-service",
-        "ID": "28",
-        "Platform": "Excel Online",
-        "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\28-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\28-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\28-3-info.png",
-        "Released": 37630412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Severe Mental Illness",
-        "ID": "29",
-        "Platform": "Tableau",
-        "Description": "Containing information on patients with SMI which have had their physical health needs met.",
-        "Short_Description": "Containing information on patients with SMI which have had their physical health needs met.",
-        "Image": ".\\assets\\images\\img\\products\\29-SevereMentalIllnessPublic-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29-2-geospatial.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29-3-benchmark.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Severe Mental Illness",
-        "ID": "30",
-        "Platform": "Excel Online",
-        "Description": "Containing information on patients with SMI which have had their physical health needs met.",
-        "Short_Description": "Containing information on patients with SMI which have had their physical health needs met.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\30-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\30-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\30-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Combined Summary Report",
-        "ID": "31",
-        "Platform": "Power BI",
-        "Description": "The Combined Summary Dashboard shows a range of performance metrics rather than having to look in individual specific reports to each KPI.\u00a0 This reported at STP, CCG and provider level where available.",
-        "Short_Description": "Shows a range of performance metrics rather than having to look in individual specific reports to each KPI.  This reported at STP, CCG and provider level where available.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\31-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\31-2-kpis.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\31-3-kpis.png",
-        "Released": 28472012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Combined Performance Measures - Self Service",
-        "ID": "32",
-        "Platform": "Excel Online",
-        "Description": "Performance self service report combining all performance measures.",
-        "Short_Description": "Performance self service report combining all performance measures.",
-        "Image": ".\\assets\\images\\img\\products\\32-Combined_Performance_Measures_SelfService-Banner.png",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32-3-info.png",
-        "Released": 28472012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Infection Control - Healthcare Associated Infection (HCAI) Public",
-        "ID": "33",
-        "Platform": "Tableau",
-        "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Image": ".\\assets\\images\\img\\products\\33-InfectionControl-HCAI-Public-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33-2-icb.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33-3-overview.png",
-        "Released": 39617612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Infection Control - Healthcare Associated Infection (HCAI) Commissioner",
-        "ID": "34",
-        "Platform": "Excel Online",
-        "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\34-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\34-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\34-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Infection Control - Healthcare Associated Infection (HCAI) Provider",
-        "ID": "35",
-        "Platform": "Excel Online",
-        "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\35-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\35-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\35-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Early Intervention in Psychosis Waiting Times",
-        "ID": "36",
-        "Platform": "Tableau",
-        "Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
-        "Short_Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 119192012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Early Intervention in Psychosis Waiting Times",
-        "ID": "37",
-        "Platform": "Excel Online",
-        "Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
-        "Short_Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 113748812143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Monthly Activity Return",
-        "ID": "38",
-        "Platform": "Tableau",
-        "Description": "National data flow discontinued as of M02 2020/21 data",
-        "Short_Description": "National data flow discontinued as of M02 2020/21 data",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 119192012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Monthly Activity Return",
-        "ID": "39",
-        "Platform": "Tableau",
-        "Description": "National data flow discontinued as of M02 2020/21 data",
-        "Short_Description": "National data flow discontinued as of M02 2020/21 data",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 119192012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Monthly Activity Return",
-        "ID": "40",
-        "Platform": "Excel Online",
-        "Description": "National data flow discontinued as of M02 2020/21 data",
-        "Short_Description": "National data flow discontinued as of M02 2020/21 data",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 113748812143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Quarterly Activity Return",
-        "ID": "41",
-        "Platform": "Tableau",
-        "Description": "National data flow discontinued as of Q4 2019/20 data",
-        "Short_Description": "National data flow discontinued as of Q4 2019/20 data",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 119192012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Quarterly Activity Return",
-        "ID": "42",
-        "Platform": "Tableau",
-        "Description": "National data flow discontinued as of Q4 2019/20 data",
-        "Short_Description": "National data flow discontinued as of Q4 2019/20 data",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 119192012143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Quarterly Activity Return",
-        "ID": "43",
-        "Platform": "Excel Online",
-        "Description": "National data flow discontinued as of Q4 2019/20 data",
-        "Short_Description": "National data flow discontinued as of Q4 2019/20 data",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 113748812143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Audiology",
-        "ID": "44",
-        "Platform": "Tableau",
-        "Description": "Statistics and information on Direct Access Audiology. Presenting data on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
-        "Short_Description": "Statistics and information on Direct Access Audiology, showing the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Audiology",
-        "ID": "45",
-        "Platform": "Tableau",
-        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to Direct Access Audiology. Presenting data on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
-        "Short_Description": "This workbook presents provisional data submissions relating to on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Audiology",
-        "ID": "46",
-        "Platform": "Excel Online",
-        "Description": "Statistics and information on Direct Access Audiology. Presenting data on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
-        "Short_Description": "Statistics and information on Direct Access Audiology, showing the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancelled Elective Operations",
-        "ID": "47",
-        "Platform": "Tableau",
-        "Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
-        "Short_Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\47-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\47-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\47-3-provider-stats.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Cancelled Elective Operations",
-        "ID": "48",
-        "Platform": "Excel Online",
-        "Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
-        "Short_Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\48-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\48-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\48-3-info.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Critical Care Bed Capacity & Urgent Operations Cancelled",
-        "ID": "49",
-        "Platform": "Tableau",
-        "Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month. Critical care capacity, including adult, paediatric and neonatal available and occupied critical care beds, as a snapshot at midnight on the last Thursday of the month.",
-        "Short_Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Critical Care Bed Capacity & Urgent Operations Cancelled",
-        "ID": "50",
-        "Platform": "Excel Online",
-        "Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month. Critical care capacity, including adult, paediatric and neonatal available and occupied critical care beds, as a snapshot at midnight on the last Thursday of the month.",
-        "Short_Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Delayed Transfer of Care",
-        "ID": "51",
-        "Platform": "Tableau",
-        "Description": "Presenting statistics from NHS England data collected on delayed transfers of care. \u201cBehind every delayed transfer of care from hospital to home, there is a person, in the wrong place at the wrong time\u201d",
-        "Short_Description": "Presenting statistics from NHS England data collected on delayed transfers of care.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Delayed Transfer of Care",
-        "ID": "52",
-        "Platform": "Excel Online",
-        "Description": "Presenting statistics from NHS England data collected on delayed transfers of care. \u201cBehind every delayed transfer of care from hospital to home, there is a person, in the wrong place at the wrong time\u201d",
-        "Short_Description": "Presenting statistics from NHS England data collected on delayed transfers of care.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Mixed Sex Accommodation",
-        "ID": "53",
-        "Platform": "Tableau",
-        "Description": "The NHS Operating Framework for 2012-2013 confirmed that all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
-        "Short_Description": "As of 2012-2013, all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\53-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\53-2-icb-breaches.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\53-3-provider-breaches.png",
-        "Released": 94049612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Mixed Sex Accommodation",
-        "ID": "54",
-        "Platform": "Excel Online",
-        "Description": "The NHS Operating Framework for 2012-2013 confirmed that all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
-        "Short_Description": "As of 2012-2013, all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\54-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\54-2-pivot.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\54-3-info.png",
-        "Released": 39617612143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Diagnostics - Median Waits Summary",
-        "ID": "55",
-        "Platform": "Tableau",
-        "Description": "Diagnostics waiting list benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers",
-        "Short_Description": "Diagnostics waiting list benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55-2-summary.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55-3-provider.png",
-        "Released": 76942412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Referral to Treatment - Median Waits Summary",
-        "ID": "56",
-        "Platform": "Tableau",
-        "Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commssioners and Providers.",
-        "Short_Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways, benchmarking weekly median and 95th percentile wait times for Commissioners and Providers.",
-        "Image": ".\\assets\\images\\img\\products\\56-RTT_MedianWaitsSummary-Public-Banner.jpeg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56-1-front_cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56-2-summary.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56-3-provider.png",
-        "Released": 76942412143
-      },
-      {
-        "Portfolio_ID": 6,
-        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-        "Name": "Smoking Status at Time of Delivery",
-        "ID": "57",
-        "Platform": "Tableau",
-        "Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
-        "Short_Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
-        "Image": ".\\assets\\images\\img\\products\\57-SmokingSATOD-Public-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57-3-location.png",
-        "Released": 11537612143
-      },
       {
         "Portfolio_ID": 6,
         "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
@@ -1257,7 +347,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\163-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\163-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\163-3-info.png",
-        "Released": 35124812143
+        "Released": 35125572123
       },
       {
         "Portfolio_ID": 6,
@@ -1271,7 +361,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\164-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\164-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\164-3-info.png",
-        "Released": 35124812143
+        "Released": 35125572123
       },
       {
         "Portfolio_ID": 6,
@@ -1285,7 +375,805 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\160-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\160-2-elective-admissions.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\160-3-overview.png",
-        "Released": 6785612143
+        "Released": 6786372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "A&E Attendances and Emergency Admissions",
+        "ID": "1",
+        "Platform": "Tableau",
+        "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
+        "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
+        "Image": ".\\assets\\images\\img\\products\\1-A&E_Attendances_and_E_Admissions_Public-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
+        "Released": 6786372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "A&E Attendances and Emergency Admissions",
+        "ID": "2",
+        "Platform": "Excel Online",
+        "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
+        "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\2-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\2-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\2-3-info.png",
+        "Released": 28472772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Ambulance Clinical Outcomes",
+        "ID": "3",
+        "Platform": "Tableau",
+        "Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
+        "Short_Description": " Ambulance Clinical Outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven Ambulance Services in England.",
+        "Image": ".\\assets\\images\\img\\products\\3-AmbulanceClinicalOutcomes-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\3-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\3-2-cardiac-arrest.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\3-3-stroke.png",
+        "Released": 93186372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Ambulance Quality Indicators",
+        "ID": "4",
+        "Platform": "Tableau",
+        "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+        "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+        "Image": ".\\assets\\images\\img\\products\\4-Ambulance_Quality_Indicators-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4-3-national-distributions.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Ambulance Quality Indicators",
+        "ID": "5",
+        "Platform": "Excel Online",
+        "Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+        "Short_Description": "Ambulance System Indicators for all eleven Ambulance Services in England.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\5-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\5-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\5-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Diagnostics waiting times & activity",
+        "ID": "6",
+        "Platform": "Tableau",
+        "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Image": ".\\assets\\images\\img\\products\\6-DiagnosticsWaitingTimes&Activity-Public-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\6-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\6-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\6-3-measures.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Diagnostics Waiting Times",
+        "ID": "7",
+        "Platform": "Tableau",
+        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the monthly diagnostics collection which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Short_Description": "Shows provisional data submissions relating to the monthly diagnostics collection, which collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Image": ".\\assets\\images\\img\\products\\7-DiagnosticsWaitingTimes&Activity-provisional-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7-3-diagnostic-test.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Diagnostics Waiting Times",
+        "ID": "8",
+        "Platform": "Excel Online",
+        "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8-3-info.png",
+        "Released": 28472772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Monthly Referral Return",
+        "ID": "9",
+        "Platform": "Tableau",
+        "Description": "The Monthly Referral Return (MRR) contains data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+        "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+        "Image": ".\\assets\\images\\img\\products\\9-MonthlyReferralReturn-Public-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\9-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\9-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\9-3-geospatial.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Monthly Referral Return",
+        "ID": "10",
+        "Platform": "Tableau",
+        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Monthly Referral Return (MRR) which monitors GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+        "Short_Description": "This workbook presents a view of provisional data submissions for the Monthly Referral Return (MRR): GP and other referrals for first consultant-led outpatient appointments.",
+        "Image": ".\\assets\\images\\img\\products\\10-MonthlyReferralReturn-Provisional-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\10-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\10-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\10-3-provider.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Monthly Referral Return",
+        "ID": "11",
+        "Platform": "Excel Online",
+        "Description": "The Monthly Referral Return (MRR) contains data related to GP and other referrals for consultant-led outpatient appointments focusing  on all treatment functions and specific acute treatment functions.",
+        "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\11-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\11-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\11-3-info.png",
+        "Released": 39618372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Referral to Treatment - Patient Treatment List (PTL)",
+        "ID": "12",
+        "Platform": "Tableau",
+        "Description": "The weekly RTT PTL return collects weekly data from NHS Trusts to measure waiting list performance for both admitted and non-admitted patients, for all specialties together, and for Trauma & Orthopaedics in isolation.",
+        "Short_Description": "Collects weekly data from NHS Trusts to measure waiting list performance covering admitted and non-admitted patients, all specialties, with Trauma & Orthopaedics in isolation.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 105887172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Referral to Treatment (RTT) Waiting Times Statistics for Consultant-led Elective Care",
+        "ID": "13",
+        "Platform": "Tableau",
+        "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Short_Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Image": ".\\assets\\images\\img\\products\\13-WaitingTimesStatisticsForConsultant-LedElectiveCare-Pub.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\13-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\13-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\13-3-sub-icb.png",
+        "Released": 6786372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Referral to Treatment (RTT) Waiting Times Statistics for Consultant-led Elective Care",
+        "ID": "14",
+        "Platform": "Tableau",
+        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to the Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Image": ".\\assets\\images\\img\\products\\14- WaitingTimesStatisticsForConsultant-LedElectiveCare-Prov.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14-3-measures.png",
+        "Released": 6786372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Referral to Treatment (RTT) Waiting Times Statistics for Consultant-led Elective Care",
+        "ID": "15",
+        "Platform": "Excel Online",
+        "Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Short_Description": "Containing information on Consultant-led Referral To Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\15-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\15-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\15-3-info.png",
+        "Released": 28472772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancer Care - Monthly Waiting Times by Sub ICB Location",
+        "ID": "16",
+        "Platform": "Tableau",
+        "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Image": ".\\assets\\images\\img\\products\\16-Cancer_CareMonthWaitingTimes_SubICB-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\16-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\16-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\16-3-icb-map.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancer Care - Monthly Waiting Times by CCG",
+        "ID": "17",
+        "Platform": "Excel Online",
+        "Description": "Presenting Cancer Care waiting times by CCG. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\17-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\17-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\17-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancer Care - Monthly Waiting Times by Trust",
+        "ID": "18",
+        "Platform": "Tableau",
+        "Description": "Presenting Cancer Care waiting times by Trust. Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Image": ".\\assets\\images\\img\\products\\18-CancerCareMonthlyWT_byTrustPublic-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\18-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\18-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\18-3-62-day.png",
+        "Released": 6786372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancer care - Patient Tracking List (PTL)",
+        "ID": "19",
+        "Platform": "Tableau",
+        "Description": "The Cancer 62 Day PTL data collection is a weekly snapshot, submitted by trusts which provide cancer services, which shows the number of patients on the cancer 62-day pathway, who are at risk of breaching the 62 day standard (two month (62-day) wait from urgent GP referral to first definitive treatment).",
+        "Short_Description": "NULA weekly snapshot, submitted by trusts which provide cancer services, showing the number of patients on the cancer 62-day pathway who are at risk of breaching the 62-day standard wait.L",
+        "Image": ".\\assets\\images\\img\\products\\19-CancerCarePatientTrackingList-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\19-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\19-2-geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\19-3-overview.png",
+        "Released": 55947972123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancer Care - Quarterly Waiting Times by Sub ICB Location",
+        "ID": "20",
+        "Platform": "Tableau",
+        "Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\20-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\20-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\20-3-icb-map.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancer Care - Quarterly Analysis",
+        "ID": "21",
+        "Platform": "Excel Online",
+        "Description": "Presenting waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Short_Description": "Presenting waiting times of people referred by their GP with suspected cancer or breast symptoms and those subsequently diagnosed with and treated for cancer by the NHS in England.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\21-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\21-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\21-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Children and Young People with an Eating Disorder",
+        "ID": "22",
+        "Platform": "Tableau",
+        "Description": "PROVISIONAL This workbook presents a view of the provisional data submission relating to Children and Young People referred for assessment or treatment for an eating disorder.",
+        "Short_Description": "PROVISIONAL This workbook presents a view of the provisional data submission relating to Children and Young People referred for assessment or treatment for an eating disorder.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\22-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\22-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\22-3-waiting-times.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Children and Young People with an Eating Disorder",
+        "ID": "23",
+        "Platform": "Excel Online",
+        "Description": "Provisional data relating to Children and Young People referred for assessment or treatment for an eating disorder.",
+        "Short_Description": "Provisional data relating to Children and Young People referred for assessment or treatment for an eating disorder.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\23-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\23-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\23-3-info.png",
+        "Released": 85583172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Dementia - 65+ Estimated Diagnosis Rate",
+        "ID": "24",
+        "Platform": "Tableau",
+        "Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with dementia for CCGs.",
+        "Short_Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with dementia for CCGs.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\24-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\24-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\24-3-breakdown.png",
+        "Released": 55429572123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Dementia - 65+ Estimated Diagnosis Rate",
+        "ID": "25",
+        "Platform": "Excel Online",
+        "Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with Dementia for CCGs.",
+        "Short_Description": "Reporting of E.A.S.1: Estimated diagnosis rate for people with Dementia for CCGs.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Talking therapy monthly - Public",
+        "ID": "26",
+        "Platform": "Tableau",
+        "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Image": ".\\assets\\images\\img\\products\\26-Talking-Therapy-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26-2-geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26-3-waiting-times.png",
+        "Released": 37631172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Talking therapy quarterly - Public",
+        "ID": "27",
+        "Platform": "Tableau",
+        "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\27-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\27-2-geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\27-3-waiting-times.png",
+        "Released": 37631172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Talking therapy - self-service",
+        "ID": "28",
+        "Platform": "Excel Online",
+        "Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Short_Description": "Presenting information and summary statistics relating to use of IAPT services which provide evidence based treatments for people with anxiety and depression.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\28-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\28-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\28-3-info.png",
+        "Released": 37631172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Severe Mental Illness",
+        "ID": "29",
+        "Platform": "Tableau",
+        "Description": "Containing information on patients with SMI which have had their physical health needs met.",
+        "Short_Description": "Containing information on patients with SMI which have had their physical health needs met.",
+        "Image": ".\\assets\\images\\img\\products\\29-SevereMentalIllnessPublic-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29-2-geospatial.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29-3-benchmark.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Severe Mental Illness",
+        "ID": "30",
+        "Platform": "Excel Online",
+        "Description": "Containing information on patients with SMI which have had their physical health needs met.",
+        "Short_Description": "Containing information on patients with SMI which have had their physical health needs met.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\30-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\30-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\30-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Combined Summary Report",
+        "ID": "31",
+        "Platform": "Power BI",
+        "Description": "The Combined Summary Dashboard shows a range of performance metrics rather than having to look in individual specific reports to each KPI.\u00a0 This reported at STP, CCG and provider level where available.",
+        "Short_Description": "Shows a range of performance metrics rather than having to look in individual specific reports to each KPI.  This reported at STP, CCG and provider level where available.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\31-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\31-2-kpis.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\31-3-kpis.png",
+        "Released": 28472772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Combined Performance Measures - Self Service",
+        "ID": "32",
+        "Platform": "Excel Online",
+        "Description": "Performance self service report combining all performance measures.",
+        "Short_Description": "Performance self service report combining all performance measures.",
+        "Image": ".\\assets\\images\\img\\products\\32-Combined_Performance_Measures_SelfService-Banner.png",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32-3-info.png",
+        "Released": 28472772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Infection Control - Healthcare Associated Infection (HCAI) Public",
+        "ID": "33",
+        "Platform": "Tableau",
+        "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Image": ".\\assets\\images\\img\\products\\33-InfectionControl-HCAI-Public-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33-2-icb.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33-3-overview.png",
+        "Released": 39618372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Infection Control - Healthcare Associated Infection (HCAI) Commissioner",
+        "ID": "34",
+        "Platform": "Excel Online",
+        "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\34-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\34-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\34-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Infection Control - Healthcare Associated Infection (HCAI) Provider",
+        "ID": "35",
+        "Platform": "Excel Online",
+        "Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Short_Description": "Presenting statistics relating to the Public Health England (PHE) data collection and monitoring of certain infections that occur in healthcare settings.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\35-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\35-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\35-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Early Intervention in Psychosis Waiting Times",
+        "ID": "36",
+        "Platform": "Tableau",
+        "Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
+        "Short_Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 119192772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Early Intervention in Psychosis Waiting Times",
+        "ID": "37",
+        "Platform": "Excel Online",
+        "Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
+        "Short_Description": "NHSE National data flow discontinued as of M06 2019/20 data. New product in development",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 113749572123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Monthly Activity Return",
+        "ID": "38",
+        "Platform": "Tableau",
+        "Description": "National data flow discontinued as of M02 2020/21 data",
+        "Short_Description": "National data flow discontinued as of M02 2020/21 data",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 119192772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Monthly Activity Return",
+        "ID": "39",
+        "Platform": "Tableau",
+        "Description": "National data flow discontinued as of M02 2020/21 data",
+        "Short_Description": "National data flow discontinued as of M02 2020/21 data",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 119192772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Monthly Activity Return",
+        "ID": "40",
+        "Platform": "Excel Online",
+        "Description": "National data flow discontinued as of M02 2020/21 data",
+        "Short_Description": "National data flow discontinued as of M02 2020/21 data",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 113749572123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Quarterly Activity Return",
+        "ID": "41",
+        "Platform": "Tableau",
+        "Description": "National data flow discontinued as of Q4 2019/20 data",
+        "Short_Description": "National data flow discontinued as of Q4 2019/20 data",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 119192772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Quarterly Activity Return",
+        "ID": "42",
+        "Platform": "Tableau",
+        "Description": "National data flow discontinued as of Q4 2019/20 data",
+        "Short_Description": "National data flow discontinued as of Q4 2019/20 data",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 119192772123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Quarterly Activity Return",
+        "ID": "43",
+        "Platform": "Excel Online",
+        "Description": "National data flow discontinued as of Q4 2019/20 data",
+        "Short_Description": "National data flow discontinued as of Q4 2019/20 data",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 113749572123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Audiology",
+        "ID": "44",
+        "Platform": "Tableau",
+        "Description": "Statistics and information on Direct Access Audiology. Presenting data on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
+        "Short_Description": "Statistics and information on Direct Access Audiology, showing the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Audiology",
+        "ID": "45",
+        "Platform": "Tableau",
+        "Description": "PROVISIONAL. This workbook presents a view of the provisional data submissions relating to Direct Access Audiology. Presenting data on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
+        "Short_Description": "This workbook presents provisional data submissions relating to on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Audiology",
+        "ID": "46",
+        "Platform": "Excel Online",
+        "Description": "Statistics and information on Direct Access Audiology. Presenting data on the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
+        "Short_Description": "Statistics and information on Direct Access Audiology, showing the number of referral to treatment (RTT) completed pathways and incomplete pathways for Direct Access Audiology.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancelled Elective Operations",
+        "ID": "47",
+        "Platform": "Tableau",
+        "Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
+        "Short_Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\47-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\47-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\47-3-provider-stats.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Cancelled Elective Operations",
+        "ID": "48",
+        "Platform": "Excel Online",
+        "Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
+        "Short_Description": "Statistics and information on Cancelled Elective Operations. Presenting data on the number of cancelled elective operations and breaches of the standard.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\48-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\48-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\48-3-info.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Critical Care Bed Capacity & Urgent Operations Cancelled",
+        "ID": "49",
+        "Platform": "Tableau",
+        "Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month. Critical care capacity, including adult, paediatric and neonatal available and occupied critical care beds, as a snapshot at midnight on the last Thursday of the month.",
+        "Short_Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Critical Care Bed Capacity & Urgent Operations Cancelled",
+        "ID": "50",
+        "Platform": "Excel Online",
+        "Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month. Critical care capacity, including adult, paediatric and neonatal available and occupied critical care beds, as a snapshot at midnight on the last Thursday of the month.",
+        "Short_Description": "Presenting the number of urgent operations cancelled, including those cancelled for the 2nd or more time throughout the month.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Delayed Transfer of Care",
+        "ID": "51",
+        "Platform": "Tableau",
+        "Description": "Presenting statistics from NHS England data collected on delayed transfers of care. \u201cBehind every delayed transfer of care from hospital to home, there is a person, in the wrong place at the wrong time\u201d",
+        "Short_Description": "Presenting statistics from NHS England data collected on delayed transfers of care.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Delayed Transfer of Care",
+        "ID": "52",
+        "Platform": "Excel Online",
+        "Description": "Presenting statistics from NHS England data collected on delayed transfers of care. \u201cBehind every delayed transfer of care from hospital to home, there is a person, in the wrong place at the wrong time\u201d",
+        "Short_Description": "Presenting statistics from NHS England data collected on delayed transfers of care.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Mixed Sex Accommodation",
+        "ID": "53",
+        "Platform": "Tableau",
+        "Description": "The NHS Operating Framework for 2012-2013 confirmed that all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
+        "Short_Description": "As of 2012-2013, all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\53-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\53-2-icb-breaches.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\53-3-provider-breaches.png",
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Mixed Sex Accommodation",
+        "ID": "54",
+        "Platform": "Excel Online",
+        "Description": "The NHS Operating Framework for 2012-2013 confirmed that all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
+        "Short_Description": "As of 2012-2013, all providers of NHS funded care are expected to eliminate mixed-sex accommodation, except where it is in the overall best interest of the patient.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\54-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\54-2-pivot.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\54-3-info.png",
+        "Released": 39618372123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Diagnostics - Median Waits Summary",
+        "ID": "55",
+        "Platform": "Tableau",
+        "Description": "Diagnostics waiting list benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers",
+        "Short_Description": "Diagnostics waiting list benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55-2-summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55-3-provider.png",
+        "Released": 76943172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Referral to Treatment - Median Waits Summary",
+        "ID": "56",
+        "Platform": "Tableau",
+        "Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commssioners and Providers.",
+        "Short_Description": "Monthly Referral to Treatment (RTT) waiting times for completed admitted pathways, benchmarking weekly median and 95th percentile wait times for Commissioners and Providers.",
+        "Image": ".\\assets\\images\\img\\products\\56-RTT_MedianWaitsSummary-Public-Banner.jpeg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56-1-front_cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56-2-summary.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56-3-provider.png",
+        "Released": 76943172123
+      },
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
+        "Name": "Smoking Status at Time of Delivery",
+        "ID": "57",
+        "Platform": "Tableau",
+        "Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
+        "Short_Description": "Quarterly Smoking Status at Time of Delivery dashboard demonstrating performance of Known Smoking Status against target and ambition.",
+        "Image": ".\\assets\\images\\img\\products\\57-SmokingSATOD-Public-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57-3-location.png",
+        "Released": 11538372123
       }
     ]
   },
@@ -1304,7 +1192,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\142-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\142-2-sus-output.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\142-3-sus-reconciliation.png",
-        "Released": 67179212143
+        "Released": 67179972123
       },
       {
         "Portfolio_ID": 7,
@@ -1318,7 +1206,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\143-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\143-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\143-3-appendix.png",
-        "Released": 21300812143
+        "Released": 21301572123
       },
       {
         "Portfolio_ID": 7,
@@ -1332,7 +1220,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\126-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\126-2-elective-inpatient-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\126-3-outpatient-specialty.png",
-        "Released": 28731212143
+        "Released": 28731972123
       },
       {
         "Portfolio_ID": 7,
@@ -1346,7 +1234,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\129-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\129-2-latest-position.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\129-3-wl-shape.png",
-        "Released": 3156812143
+        "Released": 3157572123
       },
       {
         "Portfolio_ID": 7,
@@ -1360,7 +1248,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 91371212143
+        "Released": 91371972123
       },
       {
         "Portfolio_ID": 7,
@@ -1374,7 +1262,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 91371212143
+        "Released": 91371972123
       },
       {
         "Portfolio_ID": 7,
@@ -1388,7 +1276,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 91371212143
+        "Released": 91371972123
       },
       {
         "Portfolio_ID": 7,
@@ -1402,21 +1290,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 91371212143
-      },
-      {
-        "Portfolio_ID": 7,
-        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Evidence Based Intervention (EBI)",
-        "ID": "124",
-        "Platform": "Power BI",
-        "Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time by only offering interventions on the NHS that are evidence-based and appropriate.",
-        "Short_Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time.",
-        "Image": ".\\assets\\images\\img\\products\\124-EvidenceBasedInterventions.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124-2-overview-one.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124-3-trend.png",
-        "Released": 67784012143
+        "Released": 91371972123
       },
       {
         "Portfolio_ID": 7,
@@ -1430,7 +1304,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\100-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\100-2-erf.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\100-3-reconciliation.png",
-        "Released": 78065612143
+        "Released": 78066372123
       },
       {
         "Portfolio_ID": 7,
@@ -1444,7 +1318,21 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 94049612143
+        "Released": 94050372123
+      },
+      {
+        "Portfolio_ID": 7,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Evidence Based Intervention (EBI)",
+        "ID": "124",
+        "Platform": "Power BI",
+        "Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time by only offering interventions on the NHS that are evidence-based and appropriate.",
+        "Short_Description": "The Evidence-Based Interventions (EBI) programme aims to prevent avoidable harm to patients, to avoid unnecessary treatment and to free up clinical time.",
+        "Image": ".\\assets\\images\\img\\products\\124-EvidenceBasedInterventions.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124-2-overview-one.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124-3-trend.png",
+        "Released": 67784772123
       }
     ]
   },
@@ -1463,7 +1351,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\135-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\135-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\135-3-blank-report.png",
-        "Released": 78065612143
+        "Released": 78066372123
       },
       {
         "Portfolio_ID": 8,
@@ -1477,7 +1365,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\136-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\136-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\136-3-blank-report.png",
-        "Released": 78065612143
+        "Released": 78066372123
       },
       {
         "Portfolio_ID": 8,
@@ -1491,7 +1379,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\137-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\137-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\137-3-blank-report.png",
-        "Released": 78065612143
+        "Released": 78066372123
       }
     ]
   },
@@ -1510,35 +1398,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\161-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\161-2-highlights.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\161-3-los.png",
-        "Released": 11624012143
-      },
-      {
-        "Portfolio_ID": 9,
-        "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
-        "Name": "Paediatric Urgent Care Dashboard",
-        "ID": "125",
-        "Platform": "Excel Online",
-        "Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
-        "Short_Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
-        "Image": ".\\assets\\images\\img\\products\\125-Paed_UC_Dashboard-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-        "Released": 1342412143
-      },
-      {
-        "Portfolio_ID": 9,
-        "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
-        "Name": "999 and Non-Emergency PTS Contracts",
-        "ID": "134",
-        "Platform": "Tableau",
-        "Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
-        "Short_Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
-        "Image": ".\\assets\\images\\img\\products\\134-999_Non_Emergency_PTS_Contrracts-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134-3-conveyance.png",
-        "Released": 61476812143
+        "Released": 11624772123
       },
       {
         "Portfolio_ID": 9,
@@ -1552,7 +1412,35 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153-2-ae-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153-3-nel-mapping.png",
-        "Released": 2206412143
+        "Released": 2207172123
+      },
+      {
+        "Portfolio_ID": 9,
+        "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
+        "Name": "Paediatric Urgent Care Dashboard",
+        "ID": "125",
+        "Platform": "Excel Online",
+        "Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
+        "Short_Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
+        "Image": ".\\assets\\images\\img\\products\\125-Paed_UC_Dashboard-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
+        "Released": 1343172123
+      },
+      {
+        "Portfolio_ID": 9,
+        "Portfolio_Description": "The Emergency Care Data Set (ECDS) is now available from SCW. The ECDS is the direct replacement for the A&E Commissioning Data Set (A&E CDS). The new dataset allows greater patient level detail to be collected about patients in an emergency care setting thus supporting improvements to commissioning of emergency care services. The ECDS is made available with monthly, weekly and daily views. The three views differ as follows: - Monthly views will most closely resemble existing A&E data and should be used for monthly reporting and detailed investigations. - Weekly views are useful for more frequent reporting, but may not align with monthly data and there is greater likelihood of incomplete coding of records. - Daily views may be refreshed daily by providers, with the potential for records to be updated repeatedly, therefore this data should be used for operational purposes only.",
+        "Name": "999 and Non-Emergency PTS Contracts",
+        "ID": "134",
+        "Platform": "Tableau",
+        "Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
+        "Short_Description": "The 999 and Non-Emergency PTS Contracts dashboard provides information on the 999, 111, OOH and PTS activity",
+        "Image": ".\\assets\\images\\img\\products\\134-999_Non_Emergency_PTS_Contrracts-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134-3-conveyance.png",
+        "Released": 61477572123
       },
       {
         "Portfolio_ID": 9,
@@ -1566,7 +1454,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\58-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\58-2-monthly.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\58-3-daily.png",
-        "Released": 64932812143
+        "Released": 64933572123
       },
       {
         "Portfolio_ID": 9,
@@ -1580,7 +1468,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\59-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\59-2-activity-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\59-3-blank-field.png",
-        "Released": 64932812143
+        "Released": 64933572123
       },
       {
         "Portfolio_ID": 9,
@@ -1594,7 +1482,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\60-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\60-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\60-3-blank-report.png",
-        "Released": 64932812143
+        "Released": 64933572123
       },
       {
         "Portfolio_ID": 9,
@@ -1608,7 +1496,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\61-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\61-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\61-3-blank-report.png",
-        "Released": 64932812143
+        "Released": 64933572123
       },
       {
         "Portfolio_ID": 9,
@@ -1622,7 +1510,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\62-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\62-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\62-3-blank-report.png",
-        "Released": 64932812143
+        "Released": 64933572123
       }
     ]
   }
@@ -1640,7 +1528,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 119192012440
+    "Released": 119192772326
   },
   {
     "Portfolio": "Performance",
@@ -1655,7 +1543,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 119192012440
+    "Released": 119192772326
   },
   {
     "Portfolio": "Performance",
@@ -1670,7 +1558,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 119192012440
+    "Released": 119192772326
   },
   {
     "Portfolio": "Performance",
@@ -1685,7 +1573,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 119192012440
+    "Released": 119192772326
   },
   {
     "Portfolio": "Performance",
@@ -1700,7 +1588,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 119192012440
+    "Released": 119192772326
   },
   {
     "Portfolio": "Performance",
@@ -1715,7 +1603,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 113748812440
+    "Released": 113749572326
   }
 ], portfolioDistinct = [
   {
@@ -1798,9 +1686,6 @@ const portfolios = [
     "Report_Title": "CMS Activity and Finance Report Released"
   },
   {
-    "Report_Title": "CMS Activity and Finance Report Released (M01 April 2021)"
-  },
-  {
     "Report_Title": "CMS Activity and Finance Report Released (M02 May 2021)"
   },
   {
@@ -1813,34 +1698,13 @@ const portfolios = [
     "Report_Title": "CMS Activity and Finance Report Released (M05 August 2021)"
   },
   {
-    "Report_Title": "CMS Activity and Finance Report Released (M06 September 2020)"
-  },
-  {
     "Report_Title": "CMS Activity and Finance Report Released (M06 September 2021)"
-  },
-  {
-    "Report_Title": "CMS Activity and Finance Report Released (M07 October 2020)"
   },
   {
     "Report_Title": "CMS Activity and Finance Report Released (M07 October 2021)"
   },
   {
-    "Report_Title": "CMS Activity and Finance Report Released (M08 November 2020)"
-  },
-  {
     "Report_Title": "CMS Activity and Finance Report Released (M08 November 2021)"
-  },
-  {
-    "Report_Title": "CMS Activity and Finance Report Released (M09 December 2020)"
-  },
-  {
-    "Report_Title": "CMS Activity and Finance Report Released (M10 January 2021)"
-  },
-  {
-    "Report_Title": "CMS Activity and Finance Report Released (M11 February 2021)"
-  },
-  {
-    "Report_Title": "CMS Activity and Finance Report Released (M12 March 2021)"
   },
   {
     "Report_Title": "CMS AFR Self Service - Operational"
