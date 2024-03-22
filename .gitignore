@@ -2,7 +2,7 @@
 assets/images/img/products/*.jpg
 assets/images/img/products/*.png
 assets/images/img/products/*.jpeg
-assets/images/img/carousel/*.png
+# assets/images/img/carousel/*.png
 
 # Code files
 *.pyc
