@@ -86,6 +86,7 @@ function recentBoxes(){
             );
         } else {
             contentBoxes(
+                id,
                 targetElement[1], 
                 img, 
                 linkText, 
