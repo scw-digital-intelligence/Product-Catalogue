@@ -122,8 +122,8 @@
         min-height: 40vh;
     } */
     
-    .intro-container p {
-        font-size: 0.8rem;
+    .content-container p {
+        font-size: 1.1rem;
     }
 
     .button {
@@ -168,13 +168,8 @@
         left: 46%;
     }
 
-
     .catalogue-container h2 {
         font-size: 1.5rem;
-    }
-
-    .catalogue-container P {
-        font-size: 0.8rem;
     }
 
 }
@@ -213,8 +208,12 @@
     }
 
     #product-search-list {
-        font-size: 0.8rem;
         left: 46%;
+    }
+
+    #portfolio-filter-list,
+    #product-search-list {
+        font-size: 0.8rem;
     }
 
 }
@@ -269,16 +268,42 @@
     }
 
     #portfolio-filter-list {
-    top: 90.5%;
-    left: 22.5%
-    }
-
-    #portfolio-filter-list {
-        min-width: 7.8rem;
-        max-width: 50rem;
+        top: 90.5%;
+        left: 22.5%;
         max-height: 30rem;
         overflow-y: auto;
+        z-index: 4;
+        min-width: 5rem;
+        max-width: 8.5rem;
     }
+
+    #product-search-list {
+        top: 27.6%;
+        left: 50.8%;
+    }
+
+    .sticky #nav-body {
+        position: inherit;
+        top: 10%;
+    }
+
+    .sticky #nav-body #portfolio-filter-list{
+        top: 90%;
+    }
+
+    .sticky-product {
+        top: 3%;
+        left: 80%;
+        z-index: 2;
+    }
+
+    .sticky-product #product-search-list {
+        top: 57%;
+        left: 0%;
+        min-width: 5rem;
+        max-width: 10rem;
+    }
+
 }
 
 /* iPad Pro portrait */
