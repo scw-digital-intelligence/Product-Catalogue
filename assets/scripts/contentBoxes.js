@@ -64,13 +64,21 @@ function contentBoxes(id, parent, imgSource, linkText, linkHref, text, i, altTex
 // adding recent boxes for landing page
 function recentBoxes(){
     for (let i = 0; i < latestProducts.length; i++) {
-        let product, targetElement, text, id, linkParams;
+        let product, targetElement, text, id, linkParams, href;
         product = latestProducts[i];
         targetElement = document.getElementsByClassName("content-container-row");
         text = product.Short_Description
         id = `content-box-${product.Name.replace(/\s+/g, "-").toLowerCase()}-${product.ID}`;
         linkParams = `id=${product.ID}`;
         alt = `Image to represent the following product: ${product.Name}`;
+        if(window.location.port == '5500'){
+            // local testing
+            href = `./product.html?${linkParams}`
+        } else {
+            // deployment code
+            href= `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`
+        }
+
         
         if (i < 3){
             contentBoxes(
@@ -78,10 +86,7 @@ function recentBoxes(){
                 parent = targetElement[0], 
                 imgSource = product.Image, 
                 linkText = product.Name, 
-                /* deployment code */
-                // linkHref = `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
-                /* local testing */
-                linkHref = `./product.html?${linkParams}`,  
+                linkHref = href,  
                 text = text, 
                 i = String(i),
                 altText = alt
@@ -93,10 +98,7 @@ function recentBoxes(){
                 parent = targetElement[1], 
                 imgSource = product.Image, 
                 linkText = product.Name, 
-                // deployment code
-                // linkHref = `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
-                // local testing
-                linkHref = `./product.html?${linkParams}`,  
+                linkHref = href,  
                 text = text, 
                 i =  String(i),
                 altText = alt
