@@ -115,7 +115,7 @@ class Filter {
             new_filter.setAttribute("id", item.replace(/\s+/g, '-').toLowerCase() + "-filter");
             new_filter.setAttribute("name", "filter-" + i);
             new_filter.setAttribute("value", item);
-            new_filter.addEventListener('mouseleave', filteredData);
+            new_filter.addEventListener('click', filteredData);
             new_filter.addEventListener('touchend', filteredData);
 
             let new_label = document.createElement("label");
