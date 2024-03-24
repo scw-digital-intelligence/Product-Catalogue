@@ -32,7 +32,6 @@ def addImage(dataset):
     base_path = 'assets\\images\\img\\products'
     image_folder = os.path.join(os.getcwd(), base_path)
     file_list = [file for file in os.listdir(image_folder) if os.path.isfile(os.path.join(image_folder, file))]
-    # print(file_list)
     for image in file_list:
         if image.lower().endswith(('.png', '.jpg', '.jpeg')):
             index = image.find("-")        
@@ -221,39 +220,35 @@ for portfolio in data:
 # Creates portfolio list in JSON
 portfolio_list = json.dumps(data, indent=2)
 
-## Product names
-cursor.execute(
-'''
-SELECT DISTINCT [Name] As [Report_Title]
-FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
-'''
-)
+# ''' Product names'''
+# cursor.execute(
+# '''
+# SELECT DISTINCT [Name] As [Report_Title]
+# FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
+# '''
+# )
 
-rows = cursor.fetchall()
-columns = [col[0] for col in cursor.description]
-data = [dict(zip(columns, row)) for row in rows]
+# rows = cursor.fetchall()
+# columns = [col[0] for col in cursor.description]
+# data = [dict(zip(columns, row)) for row in rows]
 
-product_list = json.dumps(data, indent=2)
-
-# print(product_list)
+# product_list = json.dumps(data, indent=2)
 
 ## Platform names
-cursor.execute(
-'''
-SELECT DISTINCT [Platform]
-FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
-'''
-)
+# cursor.execute(
+# '''
+# SELECT DISTINCT [Platform]
+# FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
+# '''
+# )
 
-rows = cursor.fetchall()
-columns = [col[0] for col in cursor.description]
-data = [dict(zip(columns, row)) for row in rows]
+# rows = cursor.fetchall()
+# columns = [col[0] for col in cursor.description]
+# data = [dict(zip(columns, row)) for row in rows]
 
-platform_list = json.dumps(data, indent=2)
+# platform_list = json.dumps(data, indent=2)
 
-# print(platform_list)
-
-# Full portfolios for use in website
+'''Full portfolios for use in website'''
 cursor.execute(
 '''
 SELECT * FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
@@ -273,28 +268,18 @@ addImage(data)
 # if carousel images exist, replacing placeholder link with real one
 addCarouselImage(data)
 
-# for object in data:
-#     print(object['Image'])
-    
-# Checking the data if required
-# for i in data:
-#     print(i)
-
 # grouping and reformatting
 data = groupBy(data, [{'field': ('Portfolio'), 'gbkey': 'Products'}],0)
 
 # Converting to json
 to_json = json.dumps(data, indent=2)
 
-# Checking json output if required
-# print(to_json)
-
-# Top 6 most recent product releases for landing page
+''' Top 6 most recent product releases for landing page '''
 cursor.execute(
 '''
 SELECT TOP 6 * FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
 
-ORDER BY [Released] DESC
+ORDER BY [Released]
 '''
     )
 
@@ -308,10 +293,6 @@ addImage(data)
 
 # if carousel images exist, replacing placeholder link with real one
 addCarouselImage(data)
-
-# Checking the data if required
-# for i in data:
-#     print(i)
 
 # Converting to json
 latest_products = json.dumps(data, indent=2)
@@ -328,8 +309,9 @@ file.close()
 
 with open('./assets/scripts/data.js', 'a') as file:
     file.write(" latestProducts = " + latest_products + ",")
-    file.write(" portfolioDistinct = " + portfolio_list + ",")
-    file.write(" productDistinct = " + product_list + ",")
-    file.write(" platformDistinct = " + platform_list)
+    file.write(" portfolioDistinct = " + portfolio_list)
+    # file.write(" portfolioDistinct = " + portfolio_list + ",")
+    # file.write(" productDistinct = " + product_list + ",")
+    # file.write(" platformDistinct = " + platform_list)
 
 file.close()
