@@ -92,11 +92,12 @@
             $('#footer').load('footer.html');
             $('#nav-bar').load('nav-bar.html');
         </script>
-        <script src="./assets/scripts/stickyNav.js"></script>
+        <script src="./assets/scripts/navFunctions.js"></script>
         <script>
             // functions accessed on page load
             // const product = JSON.parse(localStorage.getItem("useThisProduct") || "[]");
             window.addEventListener('load', makeProduct);
+            window.addEventListener('load', mobileMenu);
 
             // functions accessed on user scroll
             window.addEventListener('scroll', navSticky);

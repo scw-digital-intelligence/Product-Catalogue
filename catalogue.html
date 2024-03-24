@@ -50,7 +50,7 @@
             $('#footer').load('footer.html');
             $('#nav-bar').load('nav-bar.html');            
         </script>
-        <script src="./assets/scripts/stickyNav.js"></script>
+        <script src="./assets/scripts/navFunctions.js"></script>
         <script src="./assets/scripts/contentBoxes.js"></script>
         <script src="./assets/scripts/stickyProductSearch.js"></script>
         <script src="./assets/scripts/showFilters.js"></script>
@@ -61,6 +61,7 @@
             window.addEventListener('load', showFilters);
             window.addEventListener('load', invertChevrons);
             window.addEventListener('load', addScrollArrows);
+            window.addEventListener('load', mobileMenu);
 
             // functions accessed on user scroll
             window.addEventListener('scroll', navSticky);

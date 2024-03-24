@@ -13,4 +13,11 @@ function navSticky() {
     }
 }
 
-
+function mobileMenu() {
+    let mobileMenu = document.getElementById("burger-menu");    
+    if (window.innerWidth < 1279) {
+        mobileMenu.classList.remove("hidden");
+    } else {
+        mobileMenu.classList.add("hidden");
+    }
+}

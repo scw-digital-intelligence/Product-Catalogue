@@ -2,21 +2,24 @@
 <html lang="en-gb">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets/styles/global.css" type="text/css" />
         <link rel="stylesheet" href="assets/styles/media_queries.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
     <body>
         <div id="nav-body">
+            <span id="burger-menu" class="burger-menu hidden">
+                <i class="fas fa-bars"></i>
+            </span>
             <div class="nav-container">
-                <ul class="nav-menu">
+                <ul id="nav-menu" class="nav-menu">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./catalogue.html">Catalogue</a></li>
                     <li><a href="https://scwcsu.sharepoint.com/sites/InsightsPortal" target="_blank">Insights</a></li>
                 </ul>
             </div>
             <div id="filter-container" class="filter-container">
-                <ul class="filter-menu">
+                <ul id="filter-menu" class="filter-menu">
                     <li id="portfolio-filter"><span class="filter-text">Portfolios</span><i id="portfolio-filter-chevron" class="nav-chevron portfolio-filter fa-solid fa-chevron-down fa-2xs"></i></li>
                     <!-- <li id="product-filter"><span class="filter-text">Products</span><i id="product-filter-chevron" class="nav-chevron product-filter fa-solid fa-chevron-down fa-2xs"></i></li>
                     <li id="platform-filter"><span class="filter-text">Platforms</span><i id="platform-filter-chevron" class="nav-chevron platform-filter fa-solid fa-chevron-down fa-2xs"></i></li> -->
