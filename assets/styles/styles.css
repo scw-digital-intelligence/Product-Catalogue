@@ -105,6 +105,7 @@
 .scroll-left-arrow {
     width: 100%;
     color: var(--nhs-blue);
+    font-size: 2rem;
 }
 
 .scroll-right-arrow:hover,

@@ -132,13 +132,13 @@ function portfolioBoxes(){
         leftArrowBox.setAttribute("class", "scroll-left");
 
         let leftArrow = document.createElement("i");
-        leftArrow.setAttribute("class", "fa-solid fa-chevron-left fa-3x scroll-left-arrow");
+        leftArrow.setAttribute("class", "fa-solid fa-chevron-left scroll-left-arrow");
 
         let rightArrowBox = document.createElement("span");
         rightArrowBox.setAttribute("class", "scroll-right");
 
         let rightArrow = document.createElement("i");
-        rightArrow.setAttribute("class", "fa-solid fa-chevron-right fa-3x scroll-right-arrow");
+        rightArrow.setAttribute("class", "fa-solid fa-chevron-right scroll-right-arrow");
 
         let caroCont = document.createElement("div");
         caroCont.setAttribute("class", "carousel-catalogue-container")
