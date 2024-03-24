@@ -118,7 +118,7 @@ function portfolioBoxes(){
         let portSec = document.createElement("section");
         portSec.setAttribute("class", "content-section landing-catalogue");
 
-        if(element.Products[0].Portfolio_ID % 2 == 0){
+        if(element.Products[0].Portfolio_ID % 2 != 0){
             portSec.style.backgroundColor = "#EAEEF9"
         }
 
