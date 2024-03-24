@@ -33,13 +33,17 @@ function mobileMenu() {
         globalMenu.classList.remove("hidden");
     }
 
-    burgerMenu.onmousedown = function(){
+    function burgerVisibility(){
         if(globalMenu.classList.contains("hidden")){
             globalMenu.classList.remove("hidden");
         } else {
             globalMenu.classList.add("hidden");
         }    
     }
+
+    burgerMenu.onmousedown = burgerVisibility;
+
+    burgerMenu.touchend = burgerVisibility;
 }
 
 
