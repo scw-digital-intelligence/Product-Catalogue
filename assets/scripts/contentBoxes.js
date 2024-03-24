@@ -164,22 +164,26 @@ function portfolioBoxes(){
 
         let prods = element.Products
         prods.forEach(function(prop) {
-            let linkParams, id
+            let linkParams, id, href
             linkParams = `id=${prop.ID}`;
-            id = `content-box-${prop.Name.replace(/\s+/g, "-").toLowerCase()}-${prop.ID}`
+            id = `content-box-${prop.Name.replace(/\s+/g, "-").toLowerCase()}-${prop.ID}`;
+            if(window.location.port == '5500'){
+                // local testing
+                href = `./product.html?${linkParams}`
+            } else {
+                // deployment code
+                href= `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`
+            }
+
             newBox = contentBoxes(
                 id = id,
                 parent = caroCont,
                 imgSource = prop.Image,
                 linkText = prop.Name,
-                // deployment code
-                // linkHref = `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
-                // local testing
-                linkHref = `./product.html?${linkParams}`, 
+                linkHref = href, 
                 text = prop.Short_Description,
                 i = 1,
                 altText = `Image to represent the following product: ${prop.Name}`
-                
             )        
         });
 
