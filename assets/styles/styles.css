@@ -60,6 +60,7 @@
 }
 
 .hero-content h1 {
+    width: 100%;
     font-size: 4.5rem;
     font-style: normal;
     font-weight: 400;
@@ -99,6 +100,7 @@
     width: 5%;
     cursor: pointer;
 }
+
 .scroll-right-arrow,
 .scroll-left-arrow {
     width: 100%;
@@ -339,7 +341,7 @@
     top: 65.1%;
     min-width: 7.8rem;
     max-width: 42rem;
-    max-height: 15rem;
+    max-height: 20rem;
     overflow-y: auto;
 }
 

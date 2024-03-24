@@ -308,6 +308,11 @@
         justify-content: flex-end;
     }
 
+    
+    #carousel-container {
+        margin: 8% 0;
+    }
+
 }
 
 /* iPad Air portrait */
@@ -368,12 +373,36 @@
         text-align: center;
     }
 
+    #nav-body{
+        width: 87%;
+    }
+
     .nav-container {
-        width: 80%;
+        width: 60%;
     }
 
     .nav-menu {
-        width: 80%;
+        width: 100%;
+    }
+
+    .nav-menu li a {
+        width: 100%;
+    }
+
+    #filter-container {
+        width: 24%;
+    }
+
+    #filter-menu {
+        width: 100%;
+    }
+
+    #portfolio-filter {
+        width: 100%;
+    }
+
+    #portfolio-filter-list{
+        top: 42.50%;
     }
 
     .hero {
@@ -381,20 +410,34 @@
         max-height: 35vh;
     }
 
+    .hero-row {
+        width: 75%;
+    }
+
     .hero-content h1 {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
+        margin-bottom: 13%;
+        width: 100%;
     }
 
     .landing-button-box {
         width: 13rem;
     }
 
+    .button-box {
+        width: 15rem;
+    }
+
     .button {
-        width: 5rem;
+        width: 5.5rem;
     }
     
     .content-container {
         width: 75%;
+    }
+    
+    .catalogue-container {
+        align-items: flex-start;
     }
 
     .content-container-row {
@@ -408,9 +451,14 @@
 
     .intro-container p {
         font-size: 0.7rem;
-        line-height: 150%;
+        line-height: 250%;
+        text-align: center;
     }
-    
+
+    .catalogue-row-box {
+        width: 100%;
+    }
+
     .content-box {
         width: 12rem;
         margin-bottom: 3rem;
@@ -422,6 +470,47 @@
     
     .content-box p {
         font-size: 0.8rem;
+    }
+
+    .carousel-catalogue-container {
+        width: 82%;
+        margin-left: 2.5%;
+    }
+
+    .carousel-catalogue-container .content-box {
+        margin-right: 5%;
+    }
+
+    .scroll-right,
+    .scroll-left {
+        width: 9%;
+    }
+
+    .scroll-right-arrow {
+        margin-left: 10%;
+    }
+
+    .product-carousel-section {
+        width: 80%;
+        margin-left: 15%;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .product-content-box {
+        width: 100%;
+    }
+    
+    .product-button-box{
+        margin-top: 10%;
+    }
+    
+    .product-button-box a{
+        font-size: 0.9rem;
+    }
+
+    #carousel-container {
+        width: 90%;
     }
 
     .footer-row {
@@ -455,4 +544,22 @@
         margin-bottom: 0.5rem;
     } 
 
+}
+
+/* iPhone XR */
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    .hero {
+        min-height: 40vh;;
+        max-height: 50vh;
+    }
+
+    .hero-row {
+        min-height: 40vh;
+    }
+
+    
+    #carousel-container {
+        width: 90%;
+        margin: 8% 0;
+    }
 }
