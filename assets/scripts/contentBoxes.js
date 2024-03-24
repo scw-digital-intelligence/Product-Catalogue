@@ -17,7 +17,7 @@ function clickedProduct(evt){
 }
 
 // function to generate content boxes
-function contentBoxes(id, parent, imgSource, linkText, linkHref, text, i) {
+function contentBoxes(id, parent, imgSource, linkText, linkHref, text, i, altText) {
     // creating main box
     let specClass, box
     specClass = "content-box".concat("-",i)
@@ -33,6 +33,7 @@ function contentBoxes(id, parent, imgSource, linkText, linkHref, text, i) {
     let image = document.createElement("img");
     image.setAttribute("class", "product-img");
     image.setAttribute("src", imgSource);
+    image.setAttribute("alt", altText);
     pib.appendChild(image);
 
     // creating h4 with link
@@ -63,39 +64,42 @@ function contentBoxes(id, parent, imgSource, linkText, linkHref, text, i) {
 // adding recent boxes for landing page
 function recentBoxes(){
     for (let i = 0; i < latestProducts.length; i++) {
-        let targetElement, text, linkText, id, img, linkParams;
+        let product, targetElement, text, id, linkParams;
+        product = latestProducts[i];
         targetElement = document.getElementsByClassName("content-container-row");
-        text = latestProducts[i].Short_Description
-        linkText = latestProducts[i].Name
-        id = `content-box-${latestProducts[i].Name.replace(/\s+/g, "-").toLowerCase()}-${latestProducts[i].ID}`;
-        img = latestProducts[i].Image
-        linkParams = `id=${latestProducts[i].ID}`;
+        text = product.Short_Description
+        id = `content-box-${product.Name.replace(/\s+/g, "-").toLowerCase()}-${product.ID}`;
+        linkParams = `id=${product.ID}`;
+        alt = `Image to represent the following product: ${product.Name}`;
         
         if (i < 3){
             contentBoxes(
-                id,
-                targetElement[0], 
-                img, 
-                linkText, 
-                // deployment code
-                // `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
-                // local testing
-                `./product.html?${linkParams}`,  
-                text, 
-                String(i)
+                id = id,
+                parent = targetElement[0], 
+                imgSource = product.Image, 
+                linkText = product.Name, 
+                /* deployment code */
+                // linkHref = `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                /* local testing */
+                linkHref = `./product.html?${linkParams}`,  
+                text = text, 
+                i = String(i),
+                altText = alt
+                
             );
         } else {
             contentBoxes(
-                id,
-                targetElement[1], 
-                img, 
-                linkText, 
+                id = id,
+                parent = targetElement[1], 
+                imgSource = product.Image, 
+                linkText = product.Name, 
                 // deployment code
-                // `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                // linkHref = `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
                 // local testing
-                `./product.html?${linkParams}`,  
-                text, 
-                String(i)
+                linkHref = `./product.html?${linkParams}`,  
+                text = text, 
+                i =  String(i),
+                altText = alt
             );
         }
     }
@@ -162,16 +166,18 @@ function portfolioBoxes(){
             linkParams = `id=${prop.ID}`;
             id = `content-box-${prop.Name.replace(/\s+/g, "-").toLowerCase()}-${prop.ID}`
             newBox = contentBoxes(
-                id,
-                caroCont,
-                prop.Image,
-                prop.Name,
+                id = id,
+                parent = caroCont,
+                imgSource = prop.Image,
+                linkText = prop.Name,
                 // deployment code
-                // `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
+                // linkHref = `${window.location.protocol}//${window.location.hostname}/Product-Catalogue/product.html?${linkParams}`,
                 // local testing
-                `./product.html?${linkParams}`, 
-                prop.Short_Description,
-                1
+                linkHref = `./product.html?${linkParams}`, 
+                text = prop.Short_Description,
+                i = 1,
+                altText = `Image to represent the following product: ${prop.Name}`
+                
             )        
         });
 
