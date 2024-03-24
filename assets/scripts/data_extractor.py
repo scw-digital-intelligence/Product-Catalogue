@@ -220,19 +220,19 @@ for portfolio in data:
 # Creates portfolio list in JSON
 portfolio_list = json.dumps(data, indent=2)
 
-# ''' Product names'''
-# cursor.execute(
-# '''
-# SELECT DISTINCT [Name] As [Report_Title]
-# FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
-# '''
-# )
+''' Product names'''
+cursor.execute(
+'''
+SELECT DISTINCT [Name] As [Report_Title]
+FROM [DigitalIntelligence].[Cat].[Catalogue_Full_Portfolios]
+'''
+)
 
-# rows = cursor.fetchall()
-# columns = [col[0] for col in cursor.description]
-# data = [dict(zip(columns, row)) for row in rows]
+rows = cursor.fetchall()
+columns = [col[0] for col in cursor.description]
+data = [dict(zip(columns, row)) for row in rows]
 
-# product_list = json.dumps(data, indent=2)
+product_list = json.dumps(data, indent=2)
 
 ## Platform names
 # cursor.execute(
@@ -309,8 +309,8 @@ file.close()
 
 with open('./assets/scripts/data.js', 'a') as file:
     file.write(" latestProducts = " + latest_products + ",")
-    file.write(" portfolioDistinct = " + portfolio_list)
-    # file.write(" portfolioDistinct = " + portfolio_list + ",")
+    file.write(" portfolioDistinct = " + portfolio_list + ",")
+    file.write(" productDistinct = " + product_list)
     # file.write(" productDistinct = " + product_list + ",")
     # file.write(" platformDistinct = " + platform_list)
 
