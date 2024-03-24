@@ -84,7 +84,7 @@ body {
 }
 
 .hidden {
-   display: none;
+   display: none !important;
 }
 
 h2 {
@@ -148,14 +148,7 @@ h2 {
 }
 
 /* --------------- NAV --------------- */
-#nav-body {
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    height: 90px;
-}
-
-nav {
+#nav-bar {
     display: flex;
     background-color: var(--white);
     align-content: center;
@@ -163,6 +156,13 @@ nav {
     flex-shrink: 0;
     justify-content: flex-end;
     overflow-y: visible;
+}
+
+#nav-body {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
 }
 
 .nav-container,
@@ -222,6 +222,16 @@ nav {
     height: 90px;
     transition: var(--hover-transition);
     /* border-left: 1px solid var(--nav-grey); */
+}
+
+.burger-menu {
+    position: absolute;
+    left: 11%;
+    margin-top: 4%;
+}
+
+.burger-menu i {
+    font-size: 2rem;
 }
 
 /* .nav-menu:last-child {

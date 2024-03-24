@@ -168,6 +168,10 @@
     margin-top: 0;
 }
 
+.intro-container h2 {
+    text-align: center;
+}
+
 .content-container {
     width: 50%;
     display: flex;

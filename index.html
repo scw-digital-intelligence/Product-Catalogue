@@ -39,15 +39,17 @@
             <nav id="nav-bar"></nav>
             <section class="intro-section landing-intro">
                 <div class="content-container intro-container">
-                    <!-- <h2>Introduction title</h2> -->
+                    <h2>What we do</h2>
                     <p>
                         SCW's Analytics department provide you with data, analytics tools, modelling and intelligence to support business decisions. 
                         We provide data analysis to manage a system and the partners within it, assess how they are performing, and use population 
                         health management processes to achieve overall system efficiencies. Our analytics and intelligence services enable a shared 
                         understanding to deliver evidence-based intelligence-driven, system decision-making, using reliable accurate data and 
                         intelligence, vital to making the best decisions for patients and populations.
-                        <br>
-                        <br>
+                    </p>
+                    <h2>About out products</h2>
+                    <p>
+                        
                         The Product Catalogue demonstrates all of SCW's Enterprise Insights Products managed by the Analytics Department. It brings 
                         together an array of products and tools to support commissioning, patient care, and performance monitoring. Having reliable, 
                         accurate data, and intelligence are vital to make the best decisions for patients and populations. This is true whether 
@@ -90,6 +92,9 @@
             // functions accessed on page load
             window.addEventListener('load', recentBoxes);
             window.addEventListener('load', mobileMenu);
+
+            // functions accessed on page resize
+            window.addEventListener('resize', mobileMenu);
             
             // functions accessed on user scroll
             window.addEventListener('scroll', navSticky);

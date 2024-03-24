@@ -63,6 +63,9 @@
             window.addEventListener('load', addScrollArrows);
             window.addEventListener('load', mobileMenu);
 
+            // functions accessed on page resize
+            window.addEventListener('resize', mobileMenu);
+
             // functions accessed on user scroll
             window.addEventListener('scroll', navSticky);
             window.addEventListener('scroll', productSticky);
