@@ -233,7 +233,7 @@
         width: 28%;
         height: 200px;
         position: absolute;
-        top: 52%
+        top: 52%;
     }
 
     #nav-container,
@@ -306,6 +306,41 @@
 
 }
 
+/* iPad Air landscape*/
+@media screen and (max-width: 1180px){
+    #nav-body{
+        top: 77%
+    }
+
+    .sticky #nav-body{
+        top: 12%
+    }
+}
+
+/* iPad Mini landscape*/
+@media screen and (max-width: 1024px){
+    #nav-body{
+        top: 72%
+    }
+
+    .sticky #nav-body{
+        top: 15%
+    }
+
+    .hero-row {
+        min-height: 30vh;
+        margin-bottom: 5%;
+    }
+
+    .intro-section {
+        min-height: 30vh;
+    }
+
+    .hero {
+        min-height: 40vh;
+    }
+}
+
 /* iPad Pro portrait */
 @media screen and (max-width: 1024px) and (max-height: 1366px) {
 
@@ -326,8 +361,8 @@
     }
 
     .content-box {
-        width: 23rem;
-        margin-right: 0;
+        width: 17rem;
+        margin-right: 2%;
         margin-bottom: 3rem;
     }
 
@@ -357,6 +392,24 @@
 
 /* iPhone 14 Pro Max landscape */
 @media screen and (max-width: 932px) and (max-height: 430px) {
+
+    #nav-body {
+        top: 100%
+    }
+
+    .sticky #nav-body {
+        top: 25%
+    }
+
+    #portfolio-filter-list {
+        top: 90.5%;
+        left: 22.5%;
+        max-height: 5.5rem;
+        overflow-y: auto;
+        z-index: 4;
+        min-width: 5rem;
+        max-width: 8.5rem;
+    }
 
     .hero {
         min-height: 50vh;
@@ -400,6 +453,45 @@
         margin: 8% 0;
     }
 
+    .content-container p {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* Surface Pro 7 portrait */
+@media screen and (max-width: 912px) and (max-height: 1368px) {
+    #nav-body {
+        top: 52%
+    }
+
+    .sticky #nav-body {
+        top: 10%
+    }
+}
+
+/* Samsung Galaxy S20 Ultra landscape */
+@media screen and (max-width: 916px) and (max-height: 413px) {
+    #nav-body {
+        top: 112%
+    }
+
+}
+
+/* iPhone XR landscape*/
+@media screen and (max-width: 896px) and (max-height: 414px) {
+    .hero-row{
+        margin-bottom: 0;
+    }
+
+    #nav-body {
+        top: 106%
+    }
+
+    .sticky #nav-body {
+        top: 28%;
+    }
+
 }
 
 /* iPad Air portrait */
@@ -409,8 +501,46 @@
         font-size: 2.5rem;
     }
 
+    #nav-body{
+        top: 50%
+    }
+
+    .sticky #nav-body{
+        top: 10%
+    }
+
     .nav-menu{
         width: 80%;
+    }
+
+    .content-box {
+        width: 16rem;
+        margin-right: 2%;
+        margin-bottom: 3rem;
+    }
+
+    .content-container p {
+        font-size: 0.9em;
+    }
+
+    .content-box p {
+        font-size: 0.8rem;
+    }
+
+    .product-search {
+        width: 6rem;
+        font-size: small;
+    }
+
+    #portfolio-filter-list {
+        min-width: 5rem;
+        max-width: 7rem;
+    }
+
+    .sticky-product #product-search-list {
+        top: 46%;
+        left: 0%;
+        min-width: 7rem;
     }
 
     .footer-row-upper {
@@ -425,6 +555,10 @@
 
 /* iPad Mini portrait */
 @media screen and (max-width: 768px) and (max-height: 1024px) {
+
+    #nav-body{
+        top: 61%
+    }
 
     .nav-menu{
         width: 90%;
@@ -452,8 +586,46 @@
 
 }
 
+
+/* iPhone SE landscape*/
+@media screen and (max-width: 668px) and (max-height: 376px) {
+
+    #nav-body {
+        top: 105%
+    }
+
+    .sticky #nav-body {
+        top: 28%;
+    }
+
+    #nav-menu,
+    #filter-menu {
+        width: 65%;
+    }
+
+    #portfolio-filter-list {
+        left: 15.6%;
+        width: 58.5%;
+    }
+
+    .sticky-product #product-search-list {
+        min-width: 4rem;
+        max-width: 6rem;
+    }
+
+    .hero-row {
+        margin-bottom: 5%;
+    }
+
+}
+
+
 /* iPhone 14 Pro Max portrait */
 @media screen and (max-width: 430px) and (max-height: 932px) {
+
+    #burger-menu {
+        left: 5%;
+    }
 
     h2 {
         font-size: 1.5rem;
@@ -461,26 +633,35 @@
     }
 
     #nav-body{
-        width: 87%;
+        top: 45%;
+        width: 30%;
     }
 
-    .nav-container {
-        width: 60%;
+    #nav-container,
+    #filter-container {
+        width: 100%;
+        justify-content: flex-start;
+        
     }
 
-    .nav-menu {
+    #nav-menu,
+    #filter-menu {
         width: 100%;
     }
+
+    #nav-menu,
+    #filter-menu,
+    #portfolio-filter-list {
+        background-color: var(--nhs-mid-grey);
+        color: var(--white);
+        border-color: var(--black);
+    }
+
+    #product-search-container.sticky-product {
+            display: none;
+        }
 
     .nav-menu li a {
-        width: 100%;
-    }
-
-    #filter-container {
-        width: 24%;
-    }
-
-    #filter-menu {
         width: 100%;
     }
 
@@ -489,7 +670,8 @@
     }
 
     #portfolio-filter-list{
-        top: 42.50%;
+        top: 92.50%;
+        left: 0
     }
 
     .hero {
@@ -518,13 +700,13 @@
     .button {
         width: 5.5rem;
     }
-    
+  
     .content-container {
-        width: 75%;
+        width: 65%;
     }
-    
-    .catalogue-container {
-        align-items: flex-start;
+  
+    .content-container p {
+        font-size: 0.8rem;
     }
 
     .content-container-row {
@@ -547,7 +729,7 @@
     }
 
     .content-box {
-        width: 12rem;
+        width: 10rem;
         margin-bottom: 3rem;
     }
 
@@ -575,6 +757,11 @@
 
     .scroll-right-arrow {
         margin-left: 10%;
+    }
+
+    .scroll-right-arrow,
+    .scroll-left-arrow {
+        font-size: 1.5rem;
     }
 
     .product-carousel-section {
@@ -633,8 +820,13 @@
 
 }
 
-/* iPhone XR */
+/* iPhone XR portrait*/
 @media screen and (max-width: 414px) and (max-height: 896px) {
+
+    #nav-body{
+        top: 60%;
+    }
+
     .hero {
         min-height: 40vh;;
         max-height: 50vh;
@@ -643,7 +835,6 @@
     .hero-row {
         min-height: 40vh;
     }
-
     
     #carousel-container {
         width: 90%;
