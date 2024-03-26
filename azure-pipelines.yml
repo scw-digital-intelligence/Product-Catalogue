@@ -1,4 +1,7 @@
 name: Push to Git Hub repo
+variables:
+  repo: $(REPO_NAME_TEST)
+  pat: $(GITHUB_PAT)
 stages:
   - stage: running_git_commands
     displayName: running_git_commands
@@ -8,7 +11,7 @@ stages:
         continueOnError: false
         steps:
         - bash: |
-            git push --prune https://$(GITHUB_PAT)@github.com/$(REPO_NAME_TEST) \
+            git push --prune https://$(pat)@github.com/$(repo)\
                 +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*
           displayName: 'Copy to Github'
           condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
