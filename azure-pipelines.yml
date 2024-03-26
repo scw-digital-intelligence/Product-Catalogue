@@ -12,9 +12,9 @@ stages:
         continueOnError: false
         steps:
         - bash: |
-            git clone https://github.com/scw-digital-intelligence/product_cat_test.git
             git config --global user.name $(username)
             git config --global github.token $(pat)
+            git clone https://github.com/scw-digital-intelligence/product_cat_test.git
             git checkout master
             git add .
             git commit -m "abc"
