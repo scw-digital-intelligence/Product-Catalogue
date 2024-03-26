@@ -13,11 +13,11 @@ stages:
         continueOnError: false
         steps:
         - bash: |
-            git clone https://github.com/$(user)/$(repo).git
-            git config --global user.name $(username)
+            git clone https://github.com/scw-digital-intelligence/product_cat_test.git
+            git config --global user.name scw-digital-intelligence
             git checkout master
             git add .
             git commit -m "Latest version of the catalogue"
-            git push https://%$()%@github.com/$(user)/$(repo).git
+            git push https://%$$(pat)%@github.com/scw-digital-intelligence/product_cat_test.git
           displayName: 'Copy to Github'
           condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
