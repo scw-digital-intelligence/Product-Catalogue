@@ -18,6 +18,5 @@ stages:
             git checkout master
             git add .
             git commit -m "Latest version of the catalogue"
-            git push https://%$$(pat)%@github.com/scw-digital-intelligence/product_cat_test.git
+            git push https://%$(pat)%@github.com/scw-digital-intelligence/product_cat_test.git
           displayName: 'Copy to Github'
-          condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
