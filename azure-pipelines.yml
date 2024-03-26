@@ -3,6 +3,7 @@ variables:
   repo: $(REPO_NAME_TEST)
   pat: $(GITHUB_PAT)
   username: $(USERNAME)
+  email: $(EMAIL)
 stages:
   - stage: running_git_commands
     displayName: running_git_commands
@@ -11,13 +12,13 @@ stages:
         displayName: initiate
         continueOnError: false
         steps:
-        - bash: |
+        - script: |
+            git clone https://github.com/$(username)/$(repo).git
+            git config --global user.email $(email)
             git config --global user.name $(username)
-            git config --global github.token $(pat)
-            git clone https://github.com/scw-digital-intelligence/product_cat_test.git
             git checkout master
             git add .
-            git commit -m "abc"
-            git push https://%$(pat)%@github.com/scw-digital-intelligence/product_cat_test.git
+            git commit -m "Latest version of the catalogue"
+            git push https://UserName:UserPassword@github.com/xxx/TestUpload.git master
           displayName: 'Copy to Github'
           condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
