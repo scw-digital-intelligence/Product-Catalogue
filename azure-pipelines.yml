@@ -12,13 +12,12 @@ stages:
         displayName: initiate
         continueOnError: false
         steps:
-        - script: |
-            git clone https://github.com/$(username)/$(repo).git
-            git config --global user.email $(email)
+        - bash: |
+            git clone https://github.com/$(user)/$(repo).git
             git config --global user.name $(username)
             git checkout master
             git add .
             git commit -m "Latest version of the catalogue"
-            git push https://UserName:UserPassword@github.com/xxx/TestUpload.git master
+            git push https://%$()%@github.com/$(user)/$(repo).git
           displayName: 'Copy to Github'
           condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
