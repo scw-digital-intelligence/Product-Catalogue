@@ -2,6 +2,7 @@ name: Push to Git Hub repo
 variables:
   repo: $(REPO_NAME_TEST)
   pat: $(GITHUB_PAT)
+  username: $(USERNAME)
 stages:
   - stage: running_git_commands
     displayName: running_git_commands
@@ -11,7 +12,12 @@ stages:
         continueOnError: false
         steps:
         - bash: |
-            git push --prune https://$(pat)@github.com/$(repo)\
-                +refs/remotes/origin/*:refs/heads/* +refs/tags/*:refs/tags/*
+            git clone https://github.com/scw-digital-intelligence/product_cat_test.git
+            git config --global user.name $(username)
+            git config --global github.token $(pat)
+            git checkout master
+            git add .
+            git commit -m "abc"
+            git push https://%$(pat)%@github.com/scw-digital-intelligence/product_cat_test.git
           displayName: 'Copy to Github'
           condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
