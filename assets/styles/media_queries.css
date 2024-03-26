@@ -6,6 +6,10 @@
         width: 60%;
     }
 
+    .hero-content h1 {
+        margin-block-start: 0;
+    }
+
     .content-box {
         width: 14.3rem;
         margin-right: 2rem;
