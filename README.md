@@ -5,21 +5,19 @@ When working on this project, make sure you have opened the root folder [as a wo
 
 # Table of Contents
 1. [High - level technical components](#high-level-technical-components)
-2. [Diagrams and architecture](#diagrams-architecture)
-3. [Code notes](#code-notes)
+2. [Code notes](#code-notes)
     + [Conventions](#conventions)
     + [T-SQL](#tsql)
     + [Python](#python)
         - [Packages](#python-packages)
+            + [Os](#Os)
             + [Office 365 REST API](#office365-rest)
             + [Pillow](#pillow)
-        - [Functions](#python-functions)
     + [Javascript](#javascript)
         - [Libraries](#javascript-libraries)
             + [jQuery](#jquery)
             + [Bootstrap](#bootstrap)
             + [Font Awesome](#font-awesome)
-        - [Functions](#javascript-functions)
 
 ## High - level technical components <a name="high-level-technical-components"></a>
 There are four languages used in the build of this product: HTML, CSS, JavaScript and Python.
@@ -29,8 +27,6 @@ HTML, CSS and JavaScript fulfill the roles they always do in web development: St
 For this project, Python serves two purposes: 
 + Firstly, as a bridge between the local SCW servers and the website. It connects to the database, retrieves the required information to form the catalogue and converts it to JSON format so it can be read.
 + Secondly, as a means to handle imagery from Insights - both to associate product images with the correct product in the catalogue, and to compress the images to make them suitable for use in a website. It does this by using the [Office 365 Python rest API](https://github.com/vgrem/Office365-REST-Python-Client) to acquire current imagery and store this in the catalogue's folders, which is then compressed using [Pillow](https://pillow.readthedocs.io/en/stable/).
-
-## Diagrams and architecture <a name="diagrams-architecture"></a>
 
 ## Code notes <a name="code-notes"></a>
 
@@ -56,28 +52,51 @@ AND Include_In_Catalogue = 1
 ```
 
 ### Python <a name="python"></a>
-There are two Python scripts in this project, [data_extractor.py](./assets/scripts/data_extractor.py) and [settings.py](./assets/scripts/settings.py). The former contains the code required to build the framework the catalogue is built on, while the latter is a local testing file - the settings stored in it should have been replaced with environment variables in the DevOps pipeline. Should the automated process break, you can use this file to create new versions of the catalogue.
+This project has been developed using Python version [3.10](https://www.python.org/downloads/release/python-3100/).
 
-These files should NOT be included in the public repository for the catalogue on GitHub. They are not required for the catalogue to be accessed by users, only for the catalogue to be generated in the first place.
+There are two Python scripts in this project, [data_extractor.py](./assets/scripts/data_extractor.py) and [settings.py](./assets/scripts/settings.py). The former contains the code required to build the framework the catalogue is built on, while the latter is a local testing file and **is not tracked by the project** - the settings stored in it should be replaced with environment variables in the DevOps pipeline, when local data is no longer required. Should the automated process break, you can use this file to create new versions of the catalogue.
+
+The settings.py files should **NOT** be included in the public repository for the catalogue on GitHub. It is not required for the catalogue to be accessed by users, only for the catalogue to be generated in the first place.
 
 #### **Packages** <a name="python-packages"></a>
 
+#### Os <a name="os"></a>
+[os](https://docs.python.org/3/library/os.html) allows easy access to folder and file strucures, as well as defining filepaths. This package is used extensively whenever data or images are retrieved or stored.
+
 #### Office 365 REST API <a name="office365-rest"></a>
-The Python implementation of the [Office 365 REST API](https://github.com/vgrem/Office365-REST-Python-Client) is used retrieve images.
+The Python implementation of the [Office 365 REST API](https://github.com/vgrem/Office365-REST-Python-Client) is used retrieve images (both product and carousel). This is achieved in the following stages:
+
++ Stores the local folders that will receive images as variables
++ Using the *os* package and a for loop, removes all images currently stored
++ Loops through every portfolio returned by the metadata query to do the following:
+    - Accounts for differences between the SharePoint site and Metadata names for portfolios
+    - Authenticates the stored user credentials with the SharePoint client
+    - Identifies the folder in the relevant Insights SharePoint site that stores the required images
+    - Stores a list of every image in the folder
+    - Using a for loop, downloads each file and saves it to the correct folder
+    - PIL is then used for image manipulation - see the relevant section below
+    - Confirms success or failure for each image within each portfolio
 
 #### Pillow <a name="pillow"></a>
-[Pillow](https://pillow.readthedocs.io/en/stable/) is used to compress images retrieved from the SharePoint libraries that support Insights.
+[Pillow](https://pillow.readthedocs.io/en/stable/) is used to both resize and compress images retrieved from the SharePoint libraries that support Insights.
 
-It exists in a block on lines 124-132 and is executed on a successful retrieval and download of an image by the Office 365 REST API. It carries out the following tasks:
+It is executed on a successful retrieval and download of an image by the Office 365 REST API. It carries out the following tasks:
 
+**For main product images:**
 + Stores the downloaded image as a variable called 'image'
 + Extracts the width and height of the image
 + Calculates half the width and height
-+ Resizes the image these dimensions
-+ Overwrites the original image with the downloaded one, also optimising for the web and reducing the image quality by 50% to further lower the file size.
-+ Outputs a message confirming which image has been compressed
++ Resizes the image to these dimensions
++ Optimises for the web and reduces the image quality by 50% to further lower the file size
++ Saves the image in the product image folder
++ Outputs a message confirming success or failure
 
-#### **Functions** <a name="python-functions"></a>
+**For carousel product images:**
++ Stores the downloaded image as a variable called 'image'
++ Extracts the width and height of the image
++ Checks if the images meet the preset parameters for the carousel (W: 1592 H: 893)
++ If the images does not match, resizes the image to these dimensions
++ Outputs a message confirming success or failure
 
 ### Javascript <a name="javascript"></a>
 
@@ -96,7 +115,11 @@ At the time of writing, the latest version (3.7.1) is being used. This can be ad
 ```
 ---
 #### Bootstrap <a name="bootstrap"></a>
-[Bootstrap](https://getbootstrap.com/)
+[Bootstrap](https://getbootstrap.com/) provides the code for the carousel used on the product page. It is 'boilerplate' code that can be customised as required. It also comes with its own css styling to ensure that components function as intended.
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+```
 
 ---
 #### Font Awesome <a name="font-awesome"></a>
@@ -105,5 +128,3 @@ At the time of writing, the latest version (3.7.1) is being used. This can be ad
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 ```
-
-#### **Functions** <a name="javascript-functions"></a>
