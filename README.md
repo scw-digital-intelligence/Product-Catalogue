@@ -19,13 +19,13 @@ When working on this project, make sure you have opened the root folder [as a wo
             + [Bootstrap](#bootstrap)
             + [Font Awesome](#font-awesome)
 3. [Script specifics](#script-specifics)
-    + [data_extractor.py](#dataextractor)
-    + [catalogeScroll.js](#cataloguescroll)
-    + [contentBoxes.js](#contentboxes)
-    + [navFunctions.js](#navfunctions)
-    + [productDeets.js](#productdetails)
-    + [showFilters.js](#showfilters)
-    + [stickyProductSearch.js](#stickyproductsearch)
+    + [data_extractor.py](#dataextractor.py)
+    + [catalogeScroll.js](#cataloguescroll.js)
+    + [contentBoxes.js](#contentboxes.js)
+    + [navFunctions.js](#navfunctions.js)
+    + [productDeets.js](#productdetails.js)
+    + [showFilters.js](#showfilters.js)
+    + [stickyProductSearch.js](#stickyproductsearch.js)
 
 ## High - level technical components <a name="high-level-technical-components"></a>
 There are four languages used in the build of this product: HTML, CSS, JavaScript and Python.
