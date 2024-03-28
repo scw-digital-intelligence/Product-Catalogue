@@ -34,11 +34,19 @@ function mobileMenu() {
     }
 
     function burgerVisibility(){
+        if(globalMenu.classList.contains("animate__fadeInDown")){
+            globalMenu.classList.remove("animate__fadeInDown");
+            globalMenu.classList.add("animate__fadeOutUp");
+        } else {
+            globalMenu.classList.remove("animate__fadeOutUp");
+            globalMenu.classList.add("animate__fadeInDown");
+        }
+        
         if(globalMenu.classList.contains("hidden")){
             globalMenu.classList.remove("hidden");
         } else {
             globalMenu.classList.add("hidden");
-        }    
+        }
     }
 
     burgerMenu.onmousedown = burgerVisibility;
