@@ -131,6 +131,8 @@ for portfolio in data:
         sharepoint_portfolio = "PbR"
     elif sharepoint_portfolio == "Urgentandemergencycare":
         sharepoint_portfolio = "UrgentEmergencyCare"
+    elif sharepoint_portfolio == "People(HR)":
+        sharepoint_portfolio = "HR"
 
     ctx = ClientContext(os.path.join(SHAREPOINT,sharepoint_portfolio)).with_credentials(user_creds)
     
