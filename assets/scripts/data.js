@@ -14,7 +14,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\117-1-trust_selection.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\117-2-notes-detail.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\117-3-chart-example.png",
-        "Released": 93287195096
+        "Released": 93621784606
       },
       {
         "Portfolio_ID": 1,
@@ -28,7 +28,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\119-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\119-2-scatter_diagram.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\119-3-year-comparison.png",
-        "Released": 38941595096
+        "Released": 39276184606
       }
     ]
   },
@@ -47,7 +47,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 34103195096
+        "Released": 34437784606
       }
     ]
   },
@@ -57,7 +57,7 @@ const portfolios = [
       {
         "Portfolio_ID": 3,
         "Portfolio_Description": null,
-        "Name": "CSDS Urgent Community Response Self Service",
+        "Name": "CSDS urgent community response self-service",
         "ID": "173",
         "Platform": "Excel Online",
         "Description": "Urgent Care Response (UCR) self-service workbook provides referral and care contact activity across the SCW footprint. It includes a preset pivot table with referral and care contact figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for UCR activity.",
@@ -66,7 +66,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 20797595096
+        "Released": 21132184606
       },
       {
         "Portfolio_ID": 3,
@@ -80,7 +80,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 20797595096
+        "Released": 21132184606
       }
     ]
   },
@@ -90,7 +90,7 @@ const portfolios = [
       {
         "Portfolio_ID": 4,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "Contract Monitoring Solution Activity and Finance Self Service - Analysis Pack",
+        "Name": "Contract monitoring solution activity and finance self-service - analysis pack",
         "ID": "177",
         "Platform": "Excel Online",
         "Description": "TBC",
@@ -99,7 +99,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\177-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\177-2-graph.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\177-3-provider.png",
-        "Released": 62269595096
+        "Released": 62604184606
       },
       {
         "Portfolio_ID": 4,
@@ -113,7 +113,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\63-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\63-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\63-3-location-intelligence.png",
-        "Released": 20711195096
+        "Released": 21045784606
       },
       {
         "Portfolio_ID": 4,
@@ -127,7 +127,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\64-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\64-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\64-3-location-intelligence.png",
-        "Released": 20711195096
+        "Released": 21045784606
       },
       {
         "Portfolio_ID": 4,
@@ -141,12 +141,12 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\65-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\65-2-notes.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\65-3-downloader.png",
-        "Released": 86202395096
+        "Released": 86536984606
       },
       {
         "Portfolio_ID": 4,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS AFR Self Service - Released",
+        "Name": "CMS AFR self-service - released",
         "ID": "67",
         "Platform": "Excel Online",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as released and will present the final reported position for the most recent month.",
@@ -155,12 +155,12 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\67-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\67-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\67-3-blank-report.png",
-        "Released": 20711195096
+        "Released": 21045784606
       },
       {
         "Portfolio_ID": 4,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
-        "Name": "CMS AFR Self Service - Operational",
+        "Name": "CMS AFR self-service - operational",
         "ID": "68",
         "Platform": "Excel Online",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as operational due to regular changes during the month end reporting period.",
@@ -169,7 +169,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\68-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\68-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\68-3-blank-report.png",
-        "Released": 20711195096
+        "Released": 21045784606
       }
     ]
   },
@@ -188,7 +188,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 29783195096
+        "Released": 30117784606
       },
       {
         "Portfolio_ID": 5,
@@ -202,7 +202,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 34707995096
+        "Released": 35042584606
       },
       {
         "Portfolio_ID": 5,
@@ -216,13 +216,27 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 12243995096
+        "Released": 12578584606
       }
     ]
   },
   {
     "Portfolio": "Knowledge share",
     "Products": [
+      {
+        "Portfolio_ID": 6,
+        "Portfolio_Description": "SCW has identified a number of websites which complement the content found on Insights and may be of interest to users.",
+        "Name": "Stakeholder Activity Monitoring Tool",
+        "ID": "144",
+        "Platform": "Power BI",
+        "Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
+        "Short_Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
+        "Image": ".\\assets\\images\\img\\products\\144-SAM_Tool-Banner.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144-2-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144-3-drill-through.png",
+        "Released": 914584606
+      },
       {
         "Portfolio_ID": 6,
         "Portfolio_Description": "SCW has identified a number of websites which complement the content found on Insights and may be of interest to users.",
@@ -235,7 +249,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\152-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\152-2-raise-request.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\152-3-column-finder.png",
-        "Released": 16995995096
+        "Released": 17330584606
       }
     ]
   },
@@ -254,7 +268,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 29178395096
+        "Released": 29512984606
       }
     ]
   },
@@ -273,7 +287,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69-2-providers-loaded.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69-3-dq-checks.png",
-        "Released": 91472795096
+        "Released": 91807384606
       },
       {
         "Portfolio_ID": 8,
@@ -287,7 +301,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\183-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\183-2-provider.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\183-3-metadata.png",
-        "Released": 48359195096
+        "Released": 48693784606
       },
       {
         "Portfolio_ID": 8,
@@ -301,7 +315,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\175-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\175-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\175-3-month-summary.png",
-        "Released": 14835995096
+        "Released": 15170584606
       }
     ]
   },
@@ -320,7 +334,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 11034395096
+        "Released": 11368984606
       }
     ]
   },
@@ -330,7 +344,21 @@ const portfolios = [
       {
         "Portfolio_ID": 10,
         "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
-        "Name": "Mental Health Waiting Times - Self Service",
+        "Name": "Mental Health Assurance Tool",
+        "ID": "111",
+        "Platform": "Power BI",
+        "Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool. Various sources of published statistics, specifically relating to the Long Term Plan for Mental Health are included with contextual information to support additional analysis.",
+        "Short_Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool.",
+        "Image": ".\\assets\\images\\img\\products\\111-Mental-Health-Assurance-Tool.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111-2-core-measures-overview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111-3-mhsds-performance-icb.png",
+        "Released": 56296984606
+      },
+      {
+        "Portfolio_ID": 10,
+        "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
+        "Name": "Mental health waiting times - self-service",
         "ID": "171",
         "Platform": "Excel Online",
         "Description": "Mental Health Waiting Times self-service workbook provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. It includes a preset pivot table with referral figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for waiting times and referrals by service and team type.",
@@ -339,7 +367,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171-2-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171-3-blank-reporting.png",
-        "Released": 11639195096
+        "Released": 11973784606
       },
       {
         "Portfolio_ID": 10,
@@ -353,55 +381,27 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172-3-guidance-overview.png",
-        "Released": 11639195096
+        "Released": 11973784606
       },
       {
         "Portfolio_ID": 10,
         "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
-        "Name": "Mental Health Assurance Tool",
-        "ID": "111",
+        "Name": "HIOW Mental Health Dashboard",
+        "ID": "165",
         "Platform": "Power BI",
-        "Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool. Various sources of published statistics, specifically relating to the Long Term Plan for Mental Health are included with contextual information to support additional analysis.",
-        "Short_Description": "The Mental Health Assurance Tool Triangulates data for several core mental health programmes into a single accessible reporting tool.",
-        "Image": ".\\assets\\images\\img\\products\\111-Mental-Health-Assurance-Tool.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111-2-core-measures-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111-3-mhsds-performance-icb.png",
-        "Released": 55962395096
+        "Description": "The Mental Health Dashboard has been developed to report on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB. This represents an initial iteration, with the intention being to introduce additional metrics in future releases of the report. While the report is refreshed on a monthly basis, figures for some metrics are only produced on a quarterly basis where they come from quarterly NHS England publications.",
+        "Short_Description": "Reports on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB.",
+        "Image": ".\\assets\\images\\img\\products\\165-HIOW-Mental-Health-Dashboard.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
+        "Released": 2296984606
       }
     ]
   },
   {
     "Portfolio": "Metric library",
     "Products": [
-      {
-        "Portfolio_ID": 11,
-        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-        "Name": "SCW Metric Library Dashboard",
-        "ID": "139",
-        "Platform": "Tableau",
-        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
-        "Short_Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
-        "Image": ".\\assets\\images\\img\\products\\139-Metric_Library-Banner.png",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139-2-spc-chart.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139-3-plots.png",
-        "Released": 68922395096
-      },
-      {
-        "Portfolio_ID": 11,
-        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-        "Name": "SCW Metric Library - Self Service",
-        "ID": "140",
-        "Platform": "Excel Online",
-        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
-        "Short_Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
-        "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-        "Released": 147995096
-      },
       {
         "Portfolio_ID": 11,
         "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
@@ -414,7 +414,35 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\178-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\178-2-metric-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\178-3-category-summary.png",
-        "Released": 8701595096
+        "Released": 9036184606
+      },
+      {
+        "Portfolio_ID": 11,
+        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
+        "Name": "SCW Metric Library Dashboard",
+        "ID": "139",
+        "Platform": "Tableau",
+        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
+        "Short_Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution.",
+        "Image": ".\\assets\\images\\img\\products\\139-Metric_Library-Banner.png",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139-2-spc-chart.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139-3-plots.png",
+        "Released": 69256984606
+      },
+      {
+        "Portfolio_ID": 11,
+        "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
+        "Name": "SCW metric library - self-service",
+        "ID": "140",
+        "Platform": "Excel Online",
+        "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
+        "Short_Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
+        "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
+        "Released": 482584606
       }
     ]
   },
@@ -433,7 +461,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 21402395096
+        "Released": 21736984606
       }
     ]
   },
@@ -452,7 +480,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\160-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\160-2-elective-admissions.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\160-3-overview.png",
-        "Released": 9133595096
+        "Released": 9468184606
       },
       {
         "Portfolio_ID": 13,
@@ -466,7 +494,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\163-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\163-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\163-3-info.png",
-        "Released": 37472795096
+        "Released": 37807384606
       },
       {
         "Portfolio_ID": 13,
@@ -480,7 +508,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\164-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\164-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\164-3-info.png",
-        "Released": 37472795096
+        "Released": 37807384606
       },
       {
         "Portfolio_ID": 13,
@@ -494,7 +522,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
-        "Released": 9133595096
+        "Released": 9468184606
       },
       {
         "Portfolio_ID": 13,
@@ -508,7 +536,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\2-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\2-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\2-3-info.png",
-        "Released": 30819995096
+        "Released": 31154584606
       },
       {
         "Portfolio_ID": 13,
@@ -522,7 +550,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\3-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\3-2-cardiac-arrest.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\3-3-stroke.png",
-        "Released": 95533595096
+        "Released": 95868184606
       },
       {
         "Portfolio_ID": 13,
@@ -536,7 +564,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4-3-national-distributions.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -550,7 +578,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\5-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\5-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\5-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -564,7 +592,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\6-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\6-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\6-3-measures.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -578,7 +606,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7-3-diagnostic-test.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -592,7 +620,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8-3-info.png",
-        "Released": 30819995096
+        "Released": 31154584606
       },
       {
         "Portfolio_ID": 13,
@@ -606,7 +634,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\9-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\9-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\9-3-geospatial.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -620,7 +648,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\10-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\10-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\10-3-provider.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -634,7 +662,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\11-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\11-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\11-3-info.png",
-        "Released": 41965595096
+        "Released": 42300184606
       },
       {
         "Portfolio_ID": 13,
@@ -648,7 +676,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\13-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\13-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\13-3-sub-icb.png",
-        "Released": 9133595096
+        "Released": 9468184606
       },
       {
         "Portfolio_ID": 13,
@@ -662,7 +690,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14-3-measures.png",
-        "Released": 9133595096
+        "Released": 9468184606
       },
       {
         "Portfolio_ID": 13,
@@ -676,7 +704,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\15-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\15-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\15-3-info.png",
-        "Released": 30819995096
+        "Released": 31154584606
       },
       {
         "Portfolio_ID": 13,
@@ -690,7 +718,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\16-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\16-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\16-3-icb-map.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -704,7 +732,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\17-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\17-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\17-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -718,7 +746,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\18-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\18-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\18-3-62-day.png",
-        "Released": 9133595096
+        "Released": 9468184606
       },
       {
         "Portfolio_ID": 13,
@@ -732,7 +760,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\19-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\19-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\19-3-overview.png",
-        "Released": 58295195096
+        "Released": 58629784606
       },
       {
         "Portfolio_ID": 13,
@@ -746,7 +774,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\20-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\20-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\20-3-icb-map.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -760,7 +788,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\21-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\21-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\21-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -774,7 +802,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\22-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\22-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\22-3-waiting-times.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -788,7 +816,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\23-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\23-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\23-3-info.png",
-        "Released": 87930395096
+        "Released": 88264984606
       },
       {
         "Portfolio_ID": 13,
@@ -802,7 +830,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\24-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\24-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\24-3-breakdown.png",
-        "Released": 57776795096
+        "Released": 58111384606
       },
       {
         "Portfolio_ID": 13,
@@ -816,7 +844,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -830,7 +858,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26-3-waiting-times.png",
-        "Released": 39978395096
+        "Released": 40312984606
       },
       {
         "Portfolio_ID": 13,
@@ -844,7 +872,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\27-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\27-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\27-3-waiting-times.png",
-        "Released": 39978395096
+        "Released": 40312984606
       },
       {
         "Portfolio_ID": 13,
@@ -858,7 +886,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\28-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\28-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\28-3-info.png",
-        "Released": 39978395096
+        "Released": 40312984606
       },
       {
         "Portfolio_ID": 13,
@@ -872,7 +900,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29-3-benchmark.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -886,7 +914,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\30-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\30-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\30-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -900,7 +928,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\31-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\31-2-kpis.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\31-3-kpis.png",
-        "Released": 30819995096
+        "Released": 31154584606
       },
       {
         "Portfolio_ID": 13,
@@ -914,7 +942,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32-3-info.png",
-        "Released": 30819995096
+        "Released": 31154584606
       },
       {
         "Portfolio_ID": 13,
@@ -928,7 +956,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33-2-icb.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33-3-overview.png",
-        "Released": 41965595096
+        "Released": 42300184606
       },
       {
         "Portfolio_ID": 13,
@@ -942,7 +970,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\34-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\34-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\34-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -956,7 +984,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\35-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\35-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\35-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -970,7 +998,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\47-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\47-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\47-3-provider-stats.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -984,7 +1012,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\48-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\48-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\48-3-info.png",
-        "Released": 96397595096
+        "Released": 96732184606
       },
       {
         "Portfolio_ID": 13,
@@ -998,7 +1026,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\54-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\54-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\54-3-info.png",
-        "Released": 41965595096
+        "Released": 42300184606
       },
       {
         "Portfolio_ID": 13,
@@ -1012,7 +1040,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55-3-provider.png",
-        "Released": 79290395096
+        "Released": 79624984606
       },
       {
         "Portfolio_ID": 13,
@@ -1026,7 +1054,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56-3-provider.png",
-        "Released": 79290395096
+        "Released": 79624984606
       },
       {
         "Portfolio_ID": 13,
@@ -1040,7 +1068,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57-3-location.png",
-        "Released": 13885595096
+        "Released": 14220184606
       }
     ]
   },
@@ -1050,7 +1078,7 @@ const portfolios = [
       {
         "Portfolio_ID": 14,
         "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
-        "Name": "Referrals Self Service",
+        "Name": "Referrals self-service",
         "ID": "170",
         "Platform": "Excel Online",
         "Description": "TBC",
@@ -1059,7 +1087,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\170-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\170-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\170-3-blank-report.png",
-        "Released": 21229595096
+        "Released": 21564184606
       },
       {
         "Portfolio_ID": 14,
@@ -1073,7 +1101,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\142-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\142-2-sus-output.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\142-3-sus-reconciliation.png",
-        "Released": 69527195096
+        "Released": 69861784606
       },
       {
         "Portfolio_ID": 14,
@@ -1087,7 +1115,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\143-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\143-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\143-3-appendix.png",
-        "Released": 23648795096
+        "Released": 23983384606
+      },
+      {
+        "Portfolio_ID": 14,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Elective recovery fund 2022-2023",
+        "ID": "158",
+        "Platform": "Tableau",
+        "Description": "This workbook presents the ERF payment calculations and baselines for 2022/23. The activity baselines for the 2022/23 Elective Recovery Fund is based on 2019/20 activity levels.",
+        "Short_Description": "This workbook presents the ERF payment calculations and baselines for 2022/23. The activity baselines for the 2022/23 Elective Recovery Fund is based on 2019/20 activity levels.",
+        "Image": ".\\assets\\images\\img\\products\\158-ElectiveRecoveryFund2022_2023.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\158-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\158-2-erf.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\158-3-reconciliation.png",
+        "Released": 59752984606
       },
       {
         "Portfolio_ID": 14,
@@ -1101,7 +1143,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\129-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\129-2-latest-position.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\129-3-wl-shape.png",
-        "Released": 5504795096
+        "Released": 5839384606
       },
       {
         "Portfolio_ID": 14,
@@ -1115,7 +1157,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\126-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\126-2-elective-inpatient-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\126-3-outpatient-specialty.png",
-        "Released": 31079195096
+        "Released": 31413784606
       },
       {
         "Portfolio_ID": 14,
@@ -1129,7 +1171,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124-2-overview-one.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124-3-trend.png",
-        "Released": 70131995096
+        "Released": 70466584606
       },
       {
         "Portfolio_ID": 14,
@@ -1143,7 +1185,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\100-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\100-2-erf.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\100-3-reconciliation.png",
-        "Released": 80413595096
+        "Released": 80748184606
+      },
+      {
+        "Portfolio_ID": 14,
+        "Portfolio_Description": "This portfolio presents information, data and statistics relating to Elective Care. Healthcare that is planned in advance is known as Elective Care. It involves specialist clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient activity makes up a large proportion of elective care \u2013 Activity that can often follow into an elective inpatient stay or further specialist treatment. The NHS Long Term Plan recently announced that there will be a fundamental redesign of outpatient services, which make up this significant portion of elective care. Over the next five years, NHS England aims to avoid up to a third of face-to-face outpatient visits through: - Better support to GPs to avoid the need for a hospital referral - Online booking systems - Appointments closer to home - Digital appointments",
+        "Name": "Elective Recovery Fund 2023-2024",
+        "ID": "179",
+        "Platform": "Tableau",
+        "Description": "The Elective Recovery Fund (nee Scheme) report has been an ongoing product for the last two financial years.  The purpose of it is to mirror the guidance/methodology surrounding ERF as dictated by NHSE&I using data we have available in our warehouses.",
+        "Short_Description": "The Elective Recovery Fund (nee Scheme) report mirrors the guidance/methodology surrounding ERF as dictated by NHSE&I using data available to SCW.",
+        "Image": ".\\assets\\images\\img\\products\\179-ElectiveRecoveryFund2023_2024.jpg",
+        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\179-1-front-cover.png",
+        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\179-2-national-targets.png",
+        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\179-3-reconciliation.png",
+        "Released": 24156184606
       }
     ]
   },
@@ -1162,7 +1218,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 43088795096
+        "Released": 43423384606
       },
       {
         "Portfolio_ID": 15,
@@ -1176,7 +1232,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 14663195096
+        "Released": 14997784606
       },
       {
         "Portfolio_ID": 15,
@@ -1190,7 +1246,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 11725595096
+        "Released": 12060184606
       },
       {
         "Portfolio_ID": 15,
@@ -1204,7 +1260,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 14835995096
+        "Released": 15170584606
       }
     ]
   },
@@ -1223,7 +1279,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\135-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\135-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\135-3-blank-report.png",
-        "Released": 80413595096
+        "Released": 80748184606
       },
       {
         "Portfolio_ID": 16,
@@ -1237,7 +1293,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\136-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\136-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\136-3-blank-report.png",
-        "Released": 80413595096
+        "Released": 80748184606
       },
       {
         "Portfolio_ID": 16,
@@ -1251,7 +1307,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\137-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\137-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\137-3-blank-report.png",
-        "Released": 80413595096
+        "Released": 80748184606
       }
     ]
   },
@@ -1270,7 +1326,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134-3-conveyance.png",
-        "Released": 63824795096
+        "Released": 64159384606
       },
       {
         "Portfolio_ID": 17,
@@ -1284,7 +1340,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-        "Released": 3690395096
+        "Released": 4024984606
       },
       {
         "Portfolio_ID": 17,
@@ -1298,7 +1354,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\161-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\161-2-highlights.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\161-3-los.png",
-        "Released": 13971995096
+        "Released": 14306584606
       },
       {
         "Portfolio_ID": 17,
@@ -1312,7 +1368,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153-2-ae-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153-3-nel-mapping.png",
-        "Released": 4554395096
+        "Released": 4888984606
       },
       {
         "Portfolio_ID": 17,
@@ -1326,7 +1382,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\58-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\58-2-monthly.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\58-3-daily.png",
-        "Released": 67280795096
+        "Released": 67615384606
       },
       {
         "Portfolio_ID": 17,
@@ -1340,7 +1396,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\59-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\59-2-activity-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\59-3-blank-field.png",
-        "Released": 67280795096
+        "Released": 67615384606
       },
       {
         "Portfolio_ID": 17,
@@ -1354,7 +1410,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\60-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\60-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\60-3-blank-report.png",
-        "Released": 67280795096
+        "Released": 67615384606
       },
       {
         "Portfolio_ID": 17,
@@ -1368,7 +1424,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\61-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\61-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\61-3-blank-report.png",
-        "Released": 67280795096
+        "Released": 67615384606
       },
       {
         "Portfolio_ID": 17,
@@ -1382,7 +1438,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\62-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\62-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\62-3-blank-report.png",
-        "Released": 67280795096
+        "Released": 67615384606
       }
     ]
   }
@@ -1391,7 +1447,7 @@ const portfolios = [
     "Portfolio": "Metric library",
     "Portfolio_ID": 11,
     "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-    "Name": "SCW Metric Library - Self Service",
+    "Name": "SCW metric library - self-service",
     "ID": "140",
     "Platform": "Excel Online",
     "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
@@ -1400,7 +1456,37 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-    "Released": 147995473
+    "Released": 482584966
+  },
+  {
+    "Portfolio": "Knowledge share",
+    "Portfolio_ID": 6,
+    "Portfolio_Description": "SCW has identified a number of websites which complement the content found on Insights and may be of interest to users.",
+    "Name": "Stakeholder Activity Monitoring Tool",
+    "ID": "144",
+    "Platform": "Power BI",
+    "Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
+    "Short_Description": "Tool to visualise at a glance main Digital Intelligence report metrics",
+    "Image": ".\\assets\\images\\img\\products\\144-SAM_Tool-Banner.jpg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144-1-front-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144-2-overview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144-3-drill-through.png",
+    "Released": 914584966
+  },
+  {
+    "Portfolio": "Mental health",
+    "Portfolio_ID": 10,
+    "Portfolio_Description": "The Mental Health Services Data Set (MHSDS) collects data from the health records of individual children, young people and adults who are in contact with mental health services. The data is re-used for purposes other than their direct care and as such is referred to as a secondary uses data set. Please note that local business rules, relating to this theme have not been incorporated into the model, and measures within the workbooks have been calculated based on national definitions. Activity within the tool is based on Version 4.0 of the MHSDS. The Mental Health Self Service suite enables access to the commissioner post deadline extracts; which collate all the activity submitted by in scope organisations that provide specialist secondary mental health, learning disabilities and autism spectrum disorder services. The function of the suite is to provide high level overview of the topics contained within the individual workbooks.",
+    "Name": "HIOW Mental Health Dashboard",
+    "ID": "165",
+    "Platform": "Power BI",
+    "Description": "The Mental Health Dashboard has been developed to report on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB. This represents an initial iteration, with the intention being to introduce additional metrics in future releases of the report. While the report is refreshed on a monthly basis, figures for some metrics are only produced on a quarterly basis where they come from quarterly NHS England publications.",
+    "Short_Description": "Reports on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB.",
+    "Image": ".\\assets\\images\\img\\products\\165-HIOW-Mental-Health-Dashboard.jpg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
+    "Released": 2296984966
   },
   {
     "Portfolio": "Urgent and emergency care",
@@ -1415,7 +1501,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-    "Released": 3690395473
+    "Released": 4024984966
   },
   {
     "Portfolio": "Urgent and emergency care",
@@ -1430,7 +1516,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153-2-ae-summary.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153-3-nel-mapping.png",
-    "Released": 4554395473
+    "Released": 4888984966
   },
   {
     "Portfolio": "Planned care",
@@ -1445,37 +1531,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\129-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\129-2-latest-position.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\129-3-wl-shape.png",
-    "Released": 5504795473
-  },
-  {
-    "Portfolio": "Metric library",
-    "Portfolio_ID": 11,
-    "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-    "Name": "SOF and Operating Plan SPC Exception Report",
-    "ID": "178",
-    "Platform": "Power BI",
-    "Description": "The SOF and Operating Plan SPC Exception Report was built to ensure that Analysts and end users can efficiently identify where there has been a statistically significant change in delivery of metrics. The dashboard currently includes the following metrics: All metrics included in metrics library, SPC exception reporting functionality",
-    "Short_Description": "Ensures that analysts and end users can identify statistically significant changes in delivery of metrics. It includes all metrics included in the metrics library.",
-    "Image": ".\\assets\\images\\img\\products\\178-SOF_Exception_Report-Pexels-Banner.jpg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\178-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\178-2-metric-summary.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\178-3-category-summary.png",
-    "Released": 8701595473
-  },
-  {
-    "Portfolio": "Performance",
-    "Portfolio_ID": 13,
-    "Portfolio_Description": "A set of dashboards providing detailed analysis of all areas of provider activity. They have been developed to support customers in their statutory customer assurance obligations and for monitoring and understanding provider performance.",
-    "Name": "A&E attendances and emergency admissions - public",
-    "ID": "1",
-    "Platform": "Tableau",
-    "Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types, including Minor Injury Units and Walk-in Centres, and of these, the number discharged, admitted or transferred within four hours of arrival.",
-    "Short_Description": "The Monthly A&E Attendances and Emergency Admissions collection collects the total number of attendances in the specified period for all A&E types.",
-    "Image": ".\\assets\\images\\img\\products\\1-A&E_Attendances_and_E_Admissions_Public-Banner.jpg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
-    "Released": 9133595473
+    "Released": 5839384966
   }
 ], portfolioDistinct = [
   {
@@ -1594,10 +1650,10 @@ const portfolios = [
     "Report_Title": "CMS AFR Data Downloader"
   },
   {
-    "Report_Title": "CMS AFR Self Service - Operational"
+    "Report_Title": "CMS AFR self-service - operational"
   },
   {
-    "Report_Title": "CMS AFR Self Service - Released"
+    "Report_Title": "CMS AFR self-service - released"
   },
   {
     "Report_Title": "Combined performance measures - self-service"
@@ -1606,13 +1662,13 @@ const portfolios = [
     "Report_Title": "Combined summary report"
   },
   {
-    "Report_Title": "Contract Monitoring Solution Activity and Finance Self Service - Analysis Pack"
+    "Report_Title": "Contract monitoring solution activity and finance self-service - analysis pack"
   },
   {
     "Report_Title": "CSDS Urgent Community Response Reporting Dashboard"
   },
   {
-    "Report_Title": "CSDS Urgent Community Response Self Service"
+    "Report_Title": "CSDS urgent community response self-service"
   },
   {
     "Report_Title": "DDaT Balanced Scorecard"
@@ -1637,6 +1693,12 @@ const portfolios = [
   },
   {
     "Report_Title": "Early Diagnosis Programme - South West"
+  },
+  {
+    "Report_Title": "Elective recovery fund 2022-2023"
+  },
+  {
+    "Report_Title": "Elective Recovery Fund 2023-2024"
   },
   {
     "Report_Title": "Elective recovery fund H1 2021-2022"
@@ -1672,6 +1734,9 @@ const portfolios = [
     "Report_Title": "HIOW Maternity Services Dashboard"
   },
   {
+    "Report_Title": "HIOW Mental Health Dashboard"
+  },
+  {
     "Report_Title": "Home First Dashboard"
   },
   {
@@ -1696,7 +1761,7 @@ const portfolios = [
     "Report_Title": "Mental Health Assurance Tool"
   },
   {
-    "Report_Title": "Mental Health Waiting Times - Self Service"
+    "Report_Title": "Mental health waiting times - self-service"
   },
   {
     "Report_Title": "Mental Health Waiting Times Dashboard"
@@ -1750,13 +1815,13 @@ const portfolios = [
     "Report_Title": "Referral to Treatment (RTT): median waits summary - public"
   },
   {
-    "Report_Title": "Referrals Self Service"
+    "Report_Title": "Referrals self-service"
   },
   {
     "Report_Title": "SCW Corporate Data Strategy"
   },
   {
-    "Report_Title": "SCW Metric Library - Self Service"
+    "Report_Title": "SCW metric library - self-service"
   },
   {
     "Report_Title": "SCW Metric Library Dashboard"
@@ -1781,6 +1846,9 @@ const portfolios = [
   },
   {
     "Report_Title": "South West Prostate Dashboard"
+  },
+  {
+    "Report_Title": "Stakeholder Activity Monitoring Tool"
   },
   {
     "Report_Title": "SUS - Emergency"
