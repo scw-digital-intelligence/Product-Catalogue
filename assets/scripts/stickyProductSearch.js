@@ -12,6 +12,26 @@ function productSticky() {
         prodSearch.classList.remove("sticky-product");
     }
 }
+// Get elements
+const productSearchContainer = document.getElementById("product-search-container");
+const productSearchBar = document.getElementById("product-search-bar");
+const productSearchList = document.getElementById("product-search-list");
+
+// Function to close the search results
+function closeSearchResults() {
+  productSearchList.classList.add("hide-search-results");
+}
+
+// Event listener to close search results on outside click
+document.addEventListener('click', (event) => {
+  // Check if the click target is outside the search container and input
+  if (
+    !productSearchContainer.contains(event.target) && 
+    event.target !== productSearchBar
+  ) {
+    closeSearchResults();
+  }
+});
 
 // Creates list of products to search
 let a = 1

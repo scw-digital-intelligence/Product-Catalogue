@@ -144,9 +144,24 @@ setTimeout(function() {
 
 function invertChevrons(){
 
-    setTimeout(function(){
-    const filter_chevrons = document.getElementsByClassName('nav-chevron');
+    setTimeout(function () {
+        const filter_chevrons = document.getElementsByClassName('nav-chevron');
+        const filterContainer = document.getElementById("filter-container"); // Get filter container
 
+        // Function to close all filters
+        function closeAllFilters() {
+            for (let elem of filter_chevrons) {
+                elem.parentElement.classList.remove("filter-active");
+                document.getElementById(elem.parentElement.id + "-list").classList.add("hide-filter");
+            }
+        }
+
+        // Event listener for clicks outside the filter container
+        document.addEventListener('click', function (event) {
+            if (!filterContainer.contains(event.target)) { // Click is outside filter container
+                closeAllFilters();
+            }
+        });
     for(i = 0; i < filter_chevrons.length; i++){
         let filter = filter_chevrons[i].parentElement
         // function to make the clicked filter item active
@@ -191,5 +206,6 @@ function invertChevrons(){
 
         // filter.onmousedown = filterUsed;
     }
+    
     }, 500);  
 }
