@@ -14,7 +14,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\117-1-trust_selection.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\117-2-notes-detail.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\117-3-chart-example.png",
-        "Released": 96303486860
+        "Released": 97949769103
       },
       {
         "Portfolio_ID": 1,
@@ -28,7 +28,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\119-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\119-2-scatter_diagram.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\119-3-year-comparison.png",
-        "Released": 41957886860
+        "Released": 43604169103
       }
     ]
   },
@@ -47,7 +47,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\156-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\156-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\156-3-ch-detailed.png",
-        "Released": 37119486860
+        "Released": 38765769103
       }
     ]
   },
@@ -59,14 +59,14 @@ const portfolios = [
         "Portfolio_Description": "This portfolio presents information, data and statistics relating to community health services, based on key national data flows such as the Community Services Dataset (CSDS). Community health services cover a wide range of services, which involve partnerships working across health and social care teams. These teams are made up of a wide variety of professionals including community nurses, allied health professionals, district nurses, mental health nurses, therapists, and social care workers.  Services are mainly delivered in people's homes or in care home settings, but also in community hospitals, intermediate care facilities, clinics, and schools.",
         "Name": "CSDS urgent community response: self-service",
         "ID": "173",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Urgent Care Response (UCR) self-service workbook provides referral and care contact activity across the SCW footprint. It includes a preset pivot table with referral and care contact figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for UCR activity.",
         "Short_Description": "Provides referral and care contact activity across the SCW footprint. It includes a preset pivot table with referral and care contact data. The self-service allows ad-hoc analysis.",
         "Image": ".\\assets\\images\\img\\products\\173-UCR_Self-service-Banner.jpg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 23813886860
+        "Released": 25460169103
       },
       {
         "Portfolio_ID": 3,
@@ -80,7 +80,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\174-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\174-2-referrals.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\174-3-contacts.png",
-        "Released": 23813886860
+        "Released": 25460169103
       }
     ]
   },
@@ -92,14 +92,14 @@ const portfolios = [
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
         "Name": "Contract monitoring solution activity and finance self-service - analysis pack",
         "ID": "177",
-        "Platform": "Excel Online",
+        "Platform": "Excel direct download",
         "Description": "CMS AFR self-service analysis pack.",
         "Short_Description": "CMS AFR self-service analysis pack.",
         "Image": ".\\assets\\images\\img\\products\\177-CMS_AFR_Analysis_Pack-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\177-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\177-2-graph.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\177-3-provider.png",
-        "Released": 65285886860
+        "Released": 66932169103
       },
       {
         "Portfolio_ID": 4,
@@ -113,7 +113,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\63-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\63-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\63-3-location-intelligence.png",
-        "Released": 23727486860
+        "Released": 25373769103
       },
       {
         "Portfolio_ID": 4,
@@ -127,7 +127,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\64-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\64-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\64-3-location-intelligence.png",
-        "Released": 23727486860
+        "Released": 25373769103
       },
       {
         "Portfolio_ID": 4,
@@ -141,35 +141,35 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\65-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\65-2-notes.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\65-3-downloader.png",
-        "Released": 89218686860
+        "Released": 90864969103
       },
       {
         "Portfolio_ID": 4,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
         "Name": "CMS AFR self-service - released",
         "ID": "67",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as released and will present the final reported position for the most recent month.",
         "Short_Description": "Presenting activity and finance related information for contracts across the SCW footprint. This version presents the final reported position for the most recent month.",
         "Image": ".\\assets\\images\\img\\products\\67-CMS_AFR_Self_Service_Released-Banner-unsplash.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\67-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\67-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\67-3-blank-report.png",
-        "Released": 23727486860
+        "Released": 25373769103
       },
       {
         "Portfolio_ID": 4,
         "Portfolio_Description": "The Contract Management Solution (CMS) provides a suite of reports and dashboards that inform a view of provider's activity and cost performance. The enterprised solution presents the data in a visually appealing format thus enabling better interpretation of the performance thus leading to improved decision-making.",
         "Name": "CMS AFR self-service - operational",
         "ID": "68",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Presenting activity and finance related information for contracts across the SCW footprint. Please note that this version of the Activity and Finance Self-Service solution has been categorised as operational due to regular changes during the month end reporting period.",
         "Short_Description": "Presenting activity and finance related information for contracts across the SCW footprint. This version presents changes during the month end reporting period.",
         "Image": ".\\assets\\images\\img\\products\\68-CMS_AFR_Self_Service_Operartional-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\68-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\68-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\68-3-blank-report.png",
-        "Released": 23727486860
+        "Released": 25373769103
       }
     ]
   },
@@ -188,7 +188,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\180-1-referrals.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\180-2-retention.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\180-3-weight-change.png",
-        "Released": 32799486860
+        "Released": 34445769103
       },
       {
         "Portfolio_ID": 5,
@@ -202,21 +202,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\181-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\181-2-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\181-3-kpi-scorecard.png",
-        "Released": 37724286860
+        "Released": 39370569103
       },
       {
         "Portfolio_ID": 5,
         "Portfolio_Description": "The healthier you portfolio includes NHS healthy living for people with type two diabetes (Healthy Living), NHS Diabetes Prevention Programme (NDPP) and NHS Type two Diabetes Path to Remission Programme (T2DR). All three programmes are commissioned by NHS England.",
         "Name": "Type 2 diabetes path to remission programme (T2DR) dashboard",
         "ID": "192",
-        "Platform": "Excel Online",
+        "Platform": "Power BI",
         "Description": "The data in this model is from South, Central and West CSU internal referrals database, which collects data locally from providers, and counts the number of referrals. This data is not a national collection and therefore the standard does not match e-RS.",
         "Short_Description": "Dashboard to assist with the management of referrals, uptake, retention and identifying health inequalities for the programme.",
         "Image": ".\\assets\\images\\img\\products\\192-T2DR_Dashboard-Banner.jpeg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\192-1-referrals.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\192-2-uptake.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\192-3-discharge.png",
-        "Released": 15260286860
+        "Released": 16906569103
       }
     ]
   },
@@ -235,7 +235,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144-3-drill-through.png",
-        "Released": 1349886860
+        "Released": 2996169103
       },
       {
         "Portfolio_ID": 6,
@@ -249,7 +249,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\152-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\152-2-raise-request.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\152-3-column-finder.png",
-        "Released": 20012286860
+        "Released": 21658569103
       }
     ]
   },
@@ -268,7 +268,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\166-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\166-2-avoidable-deaths.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\166-3-demographics.png",
-        "Released": 32194686860
+        "Released": 33840969103
       }
     ]
   },
@@ -280,14 +280,14 @@ const portfolios = [
         "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
         "Name": "CARP data quality report",
         "ID": "183",
-        "Platform": "Excel Online",
+        "Platform": "Power BI",
         "Description": "The Contract Account Reconciliation Process (CARP) Data Quality (DQ) report is designed to support the contract monitoring process without limitations of sitting within the CARP products flex and freeze cycle. This would allow multi-disciplinary teams (MDT) to continue to work with providers to improve their data quality as well as allow MDTs to support the monitoring of data improvements providers undertake by Freeze",
         "Short_Description": "The Contract Account Reconciliation Process (CARP) Data Quality (DQ) report supports the contract monitoring process, without the limitations of the flex and freeze cycle.",
         "Image": ".\\assets\\images\\img\\products\\183-CARP_Data_Quality_Report-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\183-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\183-2-provider.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\183-3-metadata.png",
-        "Released": 51375486860
+        "Released": 53021769103
       },
       {
         "Portfolio_ID": 8,
@@ -301,7 +301,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\184-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\184-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\184-3-actual-vs-submission.png",
-        "Released": 6274686860
+        "Released": 7920969103
       },
       {
         "Portfolio_ID": 8,
@@ -315,7 +315,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\175-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\175-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\175-3-month-summary.png",
-        "Released": 17852286860
+        "Released": 19498569103
       },
       {
         "Portfolio_ID": 8,
@@ -329,7 +329,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69-2-providers-loaded.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69-3-dq-checks.png",
-        "Released": 94489086860
+        "Released": 96135369103
       }
     ]
   },
@@ -348,7 +348,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\169-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\169-2-scorecard.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\169-3-bookings.png",
-        "Released": 14050686860
+        "Released": 15696969103
       }
     ]
   },
@@ -360,14 +360,14 @@ const portfolios = [
         "Portfolio_Description": "This portfolio presents information, data, and statistics relating to mental health, learning disabilities and autism, and well-being services within the NHS. Established with key national data flows such as the mental health services dataset (MHSDS) and national published statistics, including metrics relating to the long-term plan for mental health services. Reports relating to mental health performance, such as measures relating to NHS talking therapies, dementia diagnosis and severe mental illness are included within the performance portfolio.",
         "Name": "Mental health waiting times: self-service",
         "ID": "171",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Mental Health Waiting Times self-service workbook provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. It includes a preset pivot table with referral figures. The self-service allows users to produce ad-hoc analysis using various dimensions provided to extract deep dive analysis and insights for waiting times and referrals by service and team type.",
         "Short_Description": "Provides waiting time and referral activity for Children and Young People (0-17) and Adults (18+) across the SCW footprint. Self-service allows users to produce ad-hoc analysis.",
         "Image": ".\\assets\\images\\img\\products\\171-Mental-Health-Wating-Times-SS.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171-2-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171-3-blank-reporting.png",
-        "Released": 14655486860
+        "Released": 16301769103
       },
       {
         "Portfolio_ID": 10,
@@ -381,7 +381,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172-3-guidance-overview.png",
-        "Released": 14655486860
+        "Released": 16301769103
       },
       {
         "Portfolio_ID": 10,
@@ -395,7 +395,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
-        "Released": 4978686860
+        "Released": 6624969103
       },
       {
         "Portfolio_ID": 10,
@@ -409,7 +409,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111-2-core-measures-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111-3-mhsds-performance-icb.png",
-        "Released": 58978686860
+        "Released": 60624969103
       }
     ]
   },
@@ -428,7 +428,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\178-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\178-2-metric-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\178-3-category-summary.png",
-        "Released": 11717886860
+        "Released": 13364169103
       },
       {
         "Portfolio_ID": 11,
@@ -442,7 +442,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\191-1-infection-control.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\191-2-planned care.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\191-3-ambulance-and-urgent-care.png",
-        "Released": 1263486860
+        "Released": 663369103
       },
       {
         "Portfolio_ID": 11,
@@ -456,21 +456,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139-2-spc-chart.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139-3-plots.png",
-        "Released": 71938686860
+        "Released": 73584969103
       },
       {
         "Portfolio_ID": 11,
         "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
         "Name": "SCW metric library: self-service",
         "ID": "140",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
         "Short_Description": "Self-service repository of metrics used to monitor system performance.",
         "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-        "Released": 3164286860
+        "Released": 404169103
       }
     ]
   },
@@ -489,7 +489,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\127-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\127-2-absence.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\127-3-equality-diversity.png",
-        "Released": 24418686860
+        "Released": 26064969103
       }
     ]
   },
@@ -508,7 +508,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
-        "Released": 12149886860
+        "Released": 13796169103
       },
       {
         "Portfolio_ID": 13,
@@ -522,7 +522,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\3-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\3-2-cardiac-arrest.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\3-3-stroke.png",
-        "Released": 98549886860
+        "Released": 100196169103
       },
       {
         "Portfolio_ID": 13,
@@ -536,7 +536,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4-3-national-distributions.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
@@ -550,7 +550,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\6-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\6-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\6-3-measures.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
@@ -564,21 +564,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7-3-diagnostic-test.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
         "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
         "Name": "Planned care: diagnostics waiting times - self-service",
         "ID": "8",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
         "Short_Description": "The monthly diagnostics collection collects data on waiting times and activity for 15 key diagnostic tests and procedures.",
         "Image": ".\\assets\\images\\img\\products\\8-Diagnostics-waiting-times-self-service-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8-3-info.png",
-        "Released": 33836286860
+        "Released": 35482569103
       },
       {
         "Portfolio_ID": 13,
@@ -592,7 +592,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\9-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\9-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\9-3-geospatial.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
@@ -606,21 +606,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\10-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\10-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\10-3-provider.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
         "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
         "Name": "Monthly referral return: self-service",
         "ID": "11",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "The Monthly Referral Return (MRR) contains data related to GP and other referrals for consultant-led outpatient appointments focusing  on all treatment functions and specific acute treatment functions.",
         "Short_Description": "Shows data relating to GP and other referrals for first consultant-led outpatient appointments focusing on all treatment functions and specific acute treatment functions.",
         "Image": ".\\assets\\images\\img\\products\\11-MRR-self-service-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\11-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\11-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\11-3-info.png",
-        "Released": 44981886860
+        "Released": 46628169103
       },
       {
         "Portfolio_ID": 13,
@@ -634,7 +634,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\13-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\13-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\13-3-sub-icb.png",
-        "Released": 12149886860
+        "Released": 13796169103
       },
       {
         "Portfolio_ID": 13,
@@ -648,7 +648,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14-3-measures.png",
-        "Released": 12149886860
+        "Released": 13796169103
       },
       {
         "Portfolio_ID": 13,
@@ -662,7 +662,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\16-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\16-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\16-3-icb-map.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
@@ -676,7 +676,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\18-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\18-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\18-3-62-day.png",
-        "Released": 12149886860
+        "Released": 13796169103
       },
       {
         "Portfolio_ID": 13,
@@ -690,7 +690,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\19-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\19-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\19-3-overview.png",
-        "Released": 61311486860
+        "Released": 62957769103
       },
       {
         "Portfolio_ID": 13,
@@ -704,21 +704,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\24-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\24-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\24-3-breakdown.png",
-        "Released": 60793086860
+        "Released": 62439369103
       },
       {
         "Portfolio_ID": 13,
         "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
         "Name": "Dementia: 65+ estimated diagnosis rate: self-service",
         "ID": "25",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Diagnosis rate for people aged 65 and over, with a diagnosis of dementia recorded in primary care, expressed as a percentage of the estimated prevalence based on general practice registered populations.",
         "Short_Description": "Diagnosis rate for people aged 65 and over, with a diagnosis of dementia recorded in primary care, expressed as a percentage of the estimated prevalence based on general practice registered populations.",
         "Image": ".\\assets\\images\\img\\products\\25-Dementia-65+estimated-diagnosis-rate-self-service-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25-3-info.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
@@ -732,7 +732,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26-3-waiting-times.png",
-        "Released": 42994686860
+        "Released": 44640969103
       },
       {
         "Portfolio_ID": 13,
@@ -746,21 +746,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29-3-benchmark.png",
-        "Released": 99413886860
+        "Released": 101060169103
       },
       {
         "Portfolio_ID": 13,
         "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
         "Name": "Combined performance measures: self-service",
         "ID": "32",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Performance self service report combining all performance measures.",
         "Short_Description": "Performance self service report combining all performance measures.",
         "Image": ".\\assets\\images\\img\\products\\32-Combined_Performance_Measures_SelfService-Banner.png",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32-3-info.png",
-        "Released": 33836286860
+        "Released": 35482569103
       },
       {
         "Portfolio_ID": 13,
@@ -774,7 +774,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33-2-icb.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33-3-overview.png",
-        "Released": 44981886860
+        "Released": 46628169103
       },
       {
         "Portfolio_ID": 13,
@@ -788,7 +788,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55-3-provider.png",
-        "Released": 82306686860
+        "Released": 83952969103
       },
       {
         "Portfolio_ID": 13,
@@ -802,7 +802,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56-3-provider.png",
-        "Released": 82306686860
+        "Released": 83952969103
       },
       {
         "Portfolio_ID": 13,
@@ -816,7 +816,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57-3-location.png",
-        "Released": 16901886860
+        "Released": 18548169103
       },
       {
         "Portfolio_ID": 13,
@@ -830,7 +830,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\160-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\160-2-elective-admissions.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\160-3-overview.png",
-        "Released": 12149886860
+        "Released": 13796169103
       }
     ]
   },
@@ -842,14 +842,14 @@ const portfolios = [
         "Portfolio_Description": "This portfolio presents information, data and statistics relating to planned care.\r\n\r\nHealthcare that is planned is known as planned care. It involves specialised clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient care makes up a substantial proportion of planned care activity, which can often follow on to an elective inpatient stay or further specialist treatment. Performance of planned care is measured through metrics such as, RTT (consultant led referral to treatment waiting times), 2WW (cancer care waiting times) and DM01 (diagnostic metrics), with public reporting included within the provider performance portfolio. Further performance dashboards, self-service performance data, and provisional dashboards are also available within this portfolio.",
         "Name": "Referrals self-service",
         "ID": "170",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "The data in this model is from South, Central and West CSU internal referrals database, which collects data locally from providers, and counts the number of referrals. This data is not a national collection and therefore the standard does not match e-RS.",
         "Short_Description": "Data from South, Central and West CSU internal referrals database, counting the number of referrals.",
         "Image": ".\\assets\\images\\img\\products\\170-Referrals_self_service.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\170-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\170-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\170-3-blank-report.png",
-        "Released": 24245886860
+        "Released": 25892169103
       },
       {
         "Portfolio_ID": 14,
@@ -863,7 +863,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\142-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\142-2-sus-output.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\142-3-sus-reconciliation.png",
-        "Released": 72543486860
+        "Released": 74189769103
       },
       {
         "Portfolio_ID": 14,
@@ -877,7 +877,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\143-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\143-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\143-3-appendix.png",
-        "Released": 26665086860
+        "Released": 28311369103
       },
       {
         "Portfolio_ID": 14,
@@ -891,7 +891,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\158-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\158-2-erf.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\158-3-reconciliation.png",
-        "Released": 62434686860
+        "Released": 64080969103
       },
       {
         "Portfolio_ID": 14,
@@ -905,7 +905,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\179-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\179-2-national-targets.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\179-3-reconciliation.png",
-        "Released": 26837886860
+        "Released": 28484169103
       },
       {
         "Portfolio_ID": 14,
@@ -919,7 +919,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\129-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\129-2-latest-position.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\129-3-wl-shape.png",
-        "Released": 8521086860
+        "Released": 576969103
       },
       {
         "Portfolio_ID": 14,
@@ -933,7 +933,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\126-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\126-2-elective-inpatient-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\126-3-outpatient-specialty.png",
-        "Released": 34095486860
+        "Released": 35741769103
       },
       {
         "Portfolio_ID": 14,
@@ -947,7 +947,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124-2-overview-one.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124-3-trend.png",
-        "Released": 73148286860
+        "Released": 74794569103
       },
       {
         "Portfolio_ID": 14,
@@ -961,7 +961,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\100-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\100-2-erf.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\100-3-reconciliation.png",
-        "Released": 83429886860
+        "Released": 85076169103
       }
     ]
   },
@@ -980,7 +980,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\120-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\120-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\120-3-utilities.png",
-        "Released": 46105086860
+        "Released": 47751369103
       },
       {
         "Portfolio_ID": 15,
@@ -994,7 +994,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\122-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\122-2-service-desk.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\122-3-desktop-support.png",
-        "Released": 17679486860
+        "Released": 19325769103
       },
       {
         "Portfolio_ID": 15,
@@ -1008,7 +1008,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\167-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\167-2-income-sales-contract.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\167-3-income-sales-data-table.png",
-        "Released": 14741886860
+        "Released": 16388169103
       },
       {
         "Portfolio_ID": 15,
@@ -1022,7 +1022,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\168-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\168-2-scorecard.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\168-3-detail-people.png",
-        "Released": 17852286860
+        "Released": 1008969103
       }
     ]
   },
@@ -1034,42 +1034,42 @@ const portfolios = [
         "Portfolio_Description": "Note: Digital Intelligence are been working to improve the stability of the Secondary Users Service (SUS) Payment by Results (PbR) self-service data sets and have added new versions (2.0) of the self-service templates. We have kept the previous version on the page for backward compatibility, however these templates will be removed in due time. Therefore, please use the version 2.0 templates for all new work and look to migrate any existing work to the new formats.",
         "Name": "SUS emergency medicine: self-service",
         "ID": "135",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Accident and Emergency commissioning data set from SUS based on the PbR Mart Emergency data definition.",
         "Short_Description": "Accident and Emergency commissioning data set from SUS based on the PbR Mart Emergency data definition.",
         "Image": ".\\assets\\images\\img\\products\\135-SUS_emergency_medicine_self-service.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\135-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\135-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\135-3-blank-report.png",
-        "Released": 83429886860
+        "Released": 85076169103
       },
       {
         "Portfolio_ID": 16,
         "Portfolio_Description": "Note: Digital Intelligence are been working to improve the stability of the Secondary Users Service (SUS) Payment by Results (PbR) self-service data sets and have added new versions (2.0) of the self-service templates. We have kept the previous version on the page for backward compatibility, however these templates will be removed in due time. Therefore, please use the version 2.0 templates for all new work and look to migrate any existing work to the new formats.",
-        "Name": "SUS: Outpatient",
+        "Name": "SUS outpatient self-service",
         "ID": "136",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Outpatient commissioning data set from SUS+ based on the PbR Mart outpatient data definition.",
         "Short_Description": "Outpatient commissioning data set from SUS+ based on the PbR Mart outpatient data definition.",
         "Image": ".\\assets\\images\\img\\products\\136-SUS-Outpatients.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\136-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\136-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\136-3-blank-report.png",
-        "Released": 83429886860
+        "Released": 85076169103
       },
       {
         "Portfolio_ID": 16,
         "Portfolio_Description": "Note: Digital Intelligence are been working to improve the stability of the Secondary Users Service (SUS) Payment by Results (PbR) self-service data sets and have added new versions (2.0) of the self-service templates. We have kept the previous version on the page for backward compatibility, however these templates will be removed in due time. Therefore, please use the version 2.0 templates for all new work and look to migrate any existing work to the new formats.",
-        "Name": "SUS: Inpatients",
+        "Name": "SUS inpatient self-service",
         "ID": "137",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "Admitted patient care (inpatient) commissioning data set from SUS+ based on the PbR Mart APC episodes data definition.",
         "Short_Description": "Admitted patient care (inpatient) commissioning data set from SUS+ based on the PbR Mart APC episodes data definition.",
         "Image": ".\\assets\\images\\img\\products\\137-SUS-Inpatients.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\137-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\137-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\137-3-blank-report.png",
-        "Released": 83429886860
+        "Released": 85076169103
       }
     ]
   },
@@ -1088,21 +1088,21 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134-3-conveyance.png",
-        "Released": 66841086860
+        "Released": 68487369103
       },
       {
         "Portfolio_ID": 17,
         "Portfolio_Description": "The urgent and emergency care portfolio includes activity dashboards related to the ambulance services, NHS 111, urgent treatment centres, same day emergency care, A&E departments, and other services that provide and support urgent treatment. Each product was developed and delivered after engaging with subject matter experts for each area/system.",
         "Name": "Paediatric urgent care dashboard",
         "ID": "125",
-        "Platform": "Excel Online",
+        "Platform": "Power BI",
         "Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
         "Short_Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
         "Image": ".\\assets\\images\\img\\products\\125-Paed_UC_Dashboard-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-        "Released": 6706686860
+        "Released": 8352969103
       },
       {
         "Portfolio_ID": 17,
@@ -1116,7 +1116,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\58-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\58-2-monthly.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\58-3-daily.png",
-        "Released": 70297086860
+        "Released": 71943369103
       },
       {
         "Portfolio_ID": 17,
@@ -1130,49 +1130,49 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\59-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\59-2-activity-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\59-3-blank-field.png",
-        "Released": 70297086860
+        "Released": 71943369103
       },
       {
         "Portfolio_ID": 17,
         "Portfolio_Description": "The urgent and emergency care portfolio includes activity dashboards related to the ambulance services, NHS 111, urgent treatment centres, same day emergency care, A&E departments, and other services that provide and support urgent treatment. Each product was developed and delivered after engaging with subject matter experts for each area/system.",
         "Name": "Emergency care dataset self-service workbook - daily",
         "ID": "60",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "ECDS daily activity and cost across the SCW footprint. Includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
         "Short_Description": "Self-Service ECDS daily activity and cost across the SCW footprint.",
         "Image": ".\\assets\\images\\img\\products\\60-ECDS_SS_Daily-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\60-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\60-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\60-3-blank-report.png",
-        "Released": 70297086860
+        "Released": 71943369103
       },
       {
         "Portfolio_ID": 17,
         "Portfolio_Description": "The urgent and emergency care portfolio includes activity dashboards related to the ambulance services, NHS 111, urgent treatment centres, same day emergency care, A&E departments, and other services that provide and support urgent treatment. Each product was developed and delivered after engaging with subject matter experts for each area/system.",
         "Name": "Emergency care dataset self-service workbook - weekly",
         "ID": "61",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "The emergency care data set (ECDS) self-service workbook displays weekly activity and costs across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
         "Short_Description": "Self-Service ECDS weekly activity and cost across the SCW footprint.",
         "Image": ".\\assets\\images\\img\\products\\61-ECDS_SS_Weekly-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\61-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\61-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\61-3-blank-report.png",
-        "Released": 70297086860
+        "Released": 71943369103
       },
       {
         "Portfolio_ID": 17,
         "Portfolio_Description": "The urgent and emergency care portfolio includes activity dashboards related to the ambulance services, NHS 111, urgent treatment centres, same day emergency care, A&E departments, and other services that provide and support urgent treatment. Each product was developed and delivered after engaging with subject matter experts for each area/system.",
         "Name": "Emergency care dataset self-service workbook - monthly",
         "ID": "62",
-        "Platform": "Excel Online",
+        "Platform": "OneLake Data Hub",
         "Description": "The emergency care data set (ECDS) self-service workbook displays monthly  activity and costs across the SCW footprint. It includes a preset pivot table with basic activity and cost figures. A few slicers have been added for convenience, however the user is free to add their own slicers/filters to the presets.",
         "Short_Description": "Self-Service ECDS monthly activity and cost across the SCW footprint.",
         "Image": ".\\assets\\images\\img\\products\\62-ECDS_SS_Monthly-Banner.jpg",
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\62-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\62-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\62-3-blank-report.png",
-        "Released": 70297086860
+        "Released": 71943369103
       },
       {
         "Portfolio_ID": 17,
@@ -1186,7 +1186,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\161-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\161-2-highlights.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\161-3-los.png",
-        "Released": 16988286860
+        "Released": 18634569103
       },
       {
         "Portfolio_ID": 17,
@@ -1200,11 +1200,41 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153-2-ae-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153-3-nel-mapping.png",
-        "Released": 7570686860
+        "Released": 9216969103
       }
     ]
   }
 ], latestProducts = [
+  {
+    "Portfolio": "Metric library",
+    "Portfolio_ID": 11,
+    "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
+    "Name": "SCW metric library: self-service",
+    "ID": "140",
+    "Platform": "OneLake Data Hub",
+    "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
+    "Short_Description": "Self-service repository of metrics used to monitor system performance.",
+    "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
+    "Released": 404169370
+  },
+  {
+    "Portfolio": "Planned care",
+    "Portfolio_ID": 14,
+    "Portfolio_Description": "This portfolio presents information, data and statistics relating to planned care.\r\n\r\nHealthcare that is planned is known as planned care. It involves specialised clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient care makes up a substantial proportion of planned care activity, which can often follow on to an elective inpatient stay or further specialist treatment. Performance of planned care is measured through metrics such as, RTT (consultant led referral to treatment waiting times), 2WW (cancer care waiting times) and DM01 (diagnostic metrics), with public reporting included within the provider performance portfolio. Further performance dashboards, self-service performance data, and provisional dashboards are also available within this portfolio.",
+    "Name": "Elective Waiting List Dashboard",
+    "ID": "129",
+    "Platform": "Tableau",
+    "Description": "Elective waiting list dashboard",
+    "Short_Description": "The Elective Waiting List Dashboard aims to provide a visual display of waiting list composition, to support management of elective restoration impacted by the Covid-19 pandemic.",
+    "Image": ".\\assets\\images\\img\\products\\129-ElectiveWaitingListDashboard.jpg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\129-1-front-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\129-2-latest-position.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\129-3-wl-shape.png",
+    "Released": 576969370
+  },
   {
     "Portfolio": "Metric library",
     "Portfolio_ID": 11,
@@ -1218,7 +1248,22 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\191-1-infection-control.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\191-2-planned care.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\191-3-ambulance-and-urgent-care.png",
-    "Released": 1263487076
+    "Released": 663369370
+  },
+  {
+    "Portfolio": "SCW corporate products",
+    "Portfolio_ID": 15,
+    "Portfolio_Description": "This portfolio covers SCW corporate products that are internal to SCW and do not fit under a specific portfolio. The aim of these products is to automate operational or strategic Information into business intelligence. By capturing data from various organisational systems, we can build data models that provide enterprise reporting designed in conjunction with the department. This enables them to operationally manage their services or provide Intelligence to analyse. The products within here cover a number of departments; however, our security controls mean you will only see the products relevant to your access.",
+    "Name": "DDaT balanced scorecard",
+    "ID": "168",
+    "Platform": "Power BI",
+    "Description": "The strategy formation has been the creation of a balanced scorecard to ensure that the SLT can monitor and manage progress against the commitments made in the strategy. This is to automate, where possible, the production of this scorecard for the regular review and management by SLT.  This will also a key commitment to staff and will therefore need to be regularly shared as part of staff briefings etc",
+    "Short_Description": "Automates the presentation of Key Performance Indicators (KPIs) for regular review and management by a senior leadership team. Currently designed for DDAT only.",
+    "Image": ".\\assets\\images\\img\\products\\168-DDaT_BalanceScorecard.jpg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\168-1-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\168-2-scorecard.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\168-3-detail-people.png",
+    "Released": 1008969370
   },
   {
     "Portfolio": "Knowledge share",
@@ -1233,22 +1278,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144-2-overview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144-3-drill-through.png",
-    "Released": 1349887076
-  },
-  {
-    "Portfolio": "Metric library",
-    "Portfolio_ID": 11,
-    "Portfolio_Description": "The Metric Library supports users to access a high-level repository of metrics used to monitor system performance via a single centralised solution. The repository will continue to grow as new national and local metrics have been identified and made available via the Metric Library. This will provide ICS and CCG leads with an overview of the current delivery of all metrics covering various pathways across the health and care system and focus on specific metrics aligned to both strategic and operational objectives. The Metric Library allows users to filter specific metrics, benchmark against national targets, monitor operational activity against plans and identify outliers with the use of scatter and funnel plot charts. The underlying data for the Metric Library can be accessed via the Self-Service cube.",
-    "Name": "SCW metric library: self-service",
-    "ID": "140",
-    "Platform": "Excel Online",
-    "Description": "A high-level repository of metrics used to monitor system performance via a single centralised solution",
-    "Short_Description": "Self-service repository of metrics used to monitor system performance.",
-    "Image": ".\\assets\\images\\img\\products\\140-Metric_Library_SS-Banner.png",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-    "Released": 3164287076
+    "Released": 2996169370
   },
   {
     "Portfolio": "Mental health",
@@ -1263,37 +1293,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
-    "Released": 4978687076
-  },
-  {
-    "Portfolio": "Management interface solution",
-    "Portfolio_ID": 8,
-    "Portfolio_Description": "The management interface solution (MIS) portfolio brings together a range of products that support effective contract management.",
-    "Name": "Faster data flows quality control dashboard",
-    "ID": "184",
-    "Platform": "Power BI",
-    "Description": "The Faster Data Flows - Quality Control dashboard was built to support analysts and contract managers in understanding the quality of FDF submissions and to understand how useable FDF currently is as Providers continuously improve their submissions.",
-    "Short_Description": "Built to support analysts and contract managers in understanding the quality of FDF submissions and to understand how useable FDF currently is.",
-    "Image": ".\\assets\\images\\img\\products\\184-Faster-Data-Flow-Banner.jpg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\184-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\184-2-overview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\184-3-actual-vs-submission.png",
-    "Released": 6274687076
-  },
-  {
-    "Portfolio": "Urgent and emergency care",
-    "Portfolio_ID": 17,
-    "Portfolio_Description": "The urgent and emergency care portfolio includes activity dashboards related to the ambulance services, NHS 111, urgent treatment centres, same day emergency care, A&E departments, and other services that provide and support urgent treatment. Each product was developed and delivered after engaging with subject matter experts for each area/system.",
-    "Name": "Paediatric urgent care dashboard",
-    "ID": "125",
-    "Platform": "Excel Online",
-    "Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
-    "Short_Description": "The SCW Paediatric Urgent Care Dashboard seeks to provide localised information relating to paediatric A&E attendance activity and paediatric non-elective (NEL) admission activity.",
-    "Image": ".\\assets\\images\\img\\products\\125-Paed_UC_Dashboard-Banner.jpg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-    "Released": 6706687076
+    "Released": 6624969370
   }
 ], portfolioDistinct = [
   {
@@ -1574,10 +1574,10 @@ const portfolios = [
     "Report_Title": "SUS emergency medicine: self-service"
   },
   {
-    "Report_Title": "SUS: Inpatients"
+    "Report_Title": "SUS inpatient self-service"
   },
   {
-    "Report_Title": "SUS: Outpatient"
+    "Report_Title": "SUS outpatient self-service"
   },
   {
     "Report_Title": "Talking therapy monthly - public"
