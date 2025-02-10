@@ -14,7 +14,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\117-1-trust_selection.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\117-2-notes-detail.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\117-3-chart-example.png",
-        "Released": 118680895376
+        "Released": 119033895343
       }
     ]
   },
@@ -33,7 +33,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\156-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\156-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\156-3-ch-detailed.png",
-        "Released": 59496895376
+        "Released": 59849895343
       }
     ]
   },
@@ -52,7 +52,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6792895376
+        "Released": 7145895343
       },
       {
         "Portfolio_ID": 3,
@@ -66,7 +66,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\174-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\174-2-referrals.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\174-3-contacts.png",
-        "Released": 6792895376
+        "Released": 7145895343
       }
     ]
   },
@@ -85,7 +85,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\177-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\177-2-graph.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\177-3-provider.png",
-        "Released": 87663295376
+        "Released": 88016295343
       },
       {
         "Portfolio_ID": 4,
@@ -99,7 +99,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\63-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\63-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\63-3-location-intelligence.png",
-        "Released": 46104895376
+        "Released": 46457895343
       },
       {
         "Portfolio_ID": 4,
@@ -113,7 +113,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\64-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\64-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\64-3-location-intelligence.png",
-        "Released": 46104895376
+        "Released": 46457895343
       },
       {
         "Portfolio_ID": 4,
@@ -127,7 +127,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\65-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\65-2-notes.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\65-3-downloader.png",
-        "Released": 111596095376
+        "Released": 111949095343
       },
       {
         "Portfolio_ID": 4,
@@ -141,7 +141,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\67-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\67-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\67-3-blank-report.png",
-        "Released": 46104895376
+        "Released": 46457895343
       },
       {
         "Portfolio_ID": 4,
@@ -155,7 +155,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\68-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\68-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\68-3-blank-report.png",
-        "Released": 46104895376
+        "Released": 46457895343
       }
     ]
   },
@@ -174,7 +174,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\192-1-referrals.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\192-2-uptake.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\192-3-discharge.png",
-        "Released": 37637695376
+        "Released": 37990695343
       },
       {
         "Portfolio_ID": 5,
@@ -188,7 +188,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\180-1-referrals.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\180-2-retention.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\180-3-weight-change.png",
-        "Released": 55176895376
+        "Released": 55529895343
       },
       {
         "Portfolio_ID": 5,
@@ -202,7 +202,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\181-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\181-2-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\181-3-kpi-scorecard.png",
-        "Released": 60101695376
+        "Released": 60454695343
       }
     ]
   },
@@ -221,7 +221,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144-3-drill-through.png",
-        "Released": 23727295376
+        "Released": 24080295343
       },
       {
         "Portfolio_ID": 6,
@@ -235,7 +235,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\152-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\152-2-raise-request.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\152-3-column-finder.png",
-        "Released": 42389695376
+        "Released": 42742695343
       }
     ]
   },
@@ -254,7 +254,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\166-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\166-2-avoidable-deaths.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\166-3-demographics.png",
-        "Released": 54572095376
+        "Released": 54925095343
       }
     ]
   },
@@ -273,7 +273,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\183-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\183-2-provider.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\183-3-metadata.png",
-        "Released": 73752895376
+        "Released": 74105895343
       },
       {
         "Portfolio_ID": 8,
@@ -287,7 +287,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\184-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\184-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\184-3-actual-vs-submission.png",
-        "Released": 6965695376
+        "Released": 7318695343
       },
       {
         "Portfolio_ID": 8,
@@ -301,7 +301,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\175-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\175-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\175-3-month-summary.png",
-        "Released": 40229695376
+        "Released": 40582695343
       },
       {
         "Portfolio_ID": 8,
@@ -315,7 +315,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69-2-providers-loaded.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69-3-dq-checks.png",
-        "Released": 116866495376
+        "Released": 117219495343
       }
     ]
   },
@@ -334,7 +334,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\169-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\169-2-scorecard.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\169-3-bookings.png",
-        "Released": 36428095376
+        "Released": 36781095343
       }
     ]
   },
@@ -353,7 +353,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
-        "Released": 5669695376
+        "Released": 6022695343
       },
       {
         "Portfolio_ID": 10,
@@ -367,7 +367,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171-2-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171-3-blank-reporting.png",
-        "Released": 226495376
+        "Released": 579495343
       },
       {
         "Portfolio_ID": 10,
@@ -381,7 +381,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172-3-guidance-overview.png",
-        "Released": 226495376
+        "Released": 579495343
       },
       {
         "Portfolio_ID": 10,
@@ -395,7 +395,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111-2-core-measures-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111-3-mhsds-performance-icb.png",
-        "Released": 81356095376
+        "Released": 81709095343
       }
     ]
   },
@@ -414,7 +414,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139-2-spc-chart.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139-3-plots.png",
-        "Released": 94316095376
+        "Released": 94669095343
       },
       {
         "Portfolio_ID": 11,
@@ -428,7 +428,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-        "Released": 21135295376
+        "Released": 21488295343
       },
       {
         "Portfolio_ID": 11,
@@ -442,7 +442,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\191-1-infection-control.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\191-2-planned care.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\191-3-ambulance-and-urgent-care.png",
-        "Released": 4805695376
+        "Released": 5158695343
       },
       {
         "Portfolio_ID": 11,
@@ -456,7 +456,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\178-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\178-2-metric-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\178-3-category-summary.png",
-        "Released": 34095295376
+        "Released": 34448295343
       },
       {
         "Portfolio_ID": 11,
@@ -470,7 +470,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6188095376
+        "Released": 6541095343
       }
     ]
   },
@@ -489,7 +489,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\127-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\127-2-absence.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\127-3-equality-diversity.png",
-        "Released": 46796095376
+        "Released": 47149095343
       }
     ]
   },
@@ -508,21 +508,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
-        "Released": 9039295376
-      },
-      {
-        "Portfolio_ID": 13,
-        "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
-        "Name": "Ambulance clinical outcomes - public",
-        "ID": "3",
-        "Platform": "Tableau",
-        "Description": "Ambulance clinical outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven ambulance Services in England.",
-        "Short_Description": "Ambulance clinical outcome care bundle data for cardiac arrest, strokes, sepsis, and STEMI heart attacks, for all eleven ambulance Services in England.",
-        "Image": "./assets/images/img/product_box.svg",
-        "Carousel_Images_1": "./assets/images/img/product_1.svg",
-        "Carousel_Images_2": "./assets/images/img/product_2.svg",
-        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 120927295376
+        "Released": 9392295343
       },
       {
         "Portfolio_ID": 13,
@@ -536,7 +522,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4-3-national-distributions.png",
-        "Released": 121791295376
+        "Released": 122144295343
       },
       {
         "Portfolio_ID": 13,
@@ -550,7 +536,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7-3-diagnostic-test.png",
-        "Released": 121791295376
+        "Released": 122144295343
       },
       {
         "Portfolio_ID": 13,
@@ -564,7 +550,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8-3-info.png",
-        "Released": 56213695376
+        "Released": 56566695343
       },
       {
         "Portfolio_ID": 13,
@@ -578,7 +564,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14-3-measures.png",
-        "Released": 34527295376
+        "Released": 34880295343
       },
       {
         "Portfolio_ID": 13,
@@ -592,7 +578,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 83688895376
+        "Released": 84041895343
       },
       {
         "Portfolio_ID": 13,
@@ -606,7 +592,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6015295376
+        "Released": 6368295343
       },
       {
         "Portfolio_ID": 13,
@@ -620,7 +606,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25-3-info.png",
-        "Released": 121791295376
+        "Released": 122144295343
       },
       {
         "Portfolio_ID": 13,
@@ -634,7 +620,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26-3-waiting-times.png",
-        "Released": 6015295376
+        "Released": 6368295343
       },
       {
         "Portfolio_ID": 13,
@@ -648,7 +634,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29-3-benchmark.png",
-        "Released": 121791295376
+        "Released": 122144295343
       },
       {
         "Portfolio_ID": 13,
@@ -662,7 +648,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32-3-info.png",
-        "Released": 9039295376
+        "Released": 9392295343
       },
       {
         "Portfolio_ID": 13,
@@ -676,7 +662,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33-2-icb.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33-3-overview.png",
-        "Released": 67359295376
+        "Released": 67712295343
       },
       {
         "Portfolio_ID": 13,
@@ -690,7 +676,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55-3-provider.png",
-        "Released": 104684095376
+        "Released": 105037095343
       },
       {
         "Portfolio_ID": 13,
@@ -704,7 +690,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56-3-provider.png",
-        "Released": 104684095376
+        "Released": 105037095343
       },
       {
         "Portfolio_ID": 13,
@@ -718,7 +704,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57-3-location.png",
-        "Released": 39279295376
+        "Released": 39632295343
       },
       {
         "Portfolio_ID": 13,
@@ -732,7 +718,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\207-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\207-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\207-3-breakdown.png",
-        "Released": 1263295376
+        "Released": 1616295343
       },
       {
         "Portfolio_ID": 13,
@@ -746,7 +732,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 658495376
+        "Released": 1011495343
       },
       {
         "Portfolio_ID": 13,
@@ -760,7 +746,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\196-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\196-2-notes.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\196-3-overview.png",
-        "Released": 2645695376
+        "Released": 2998695343
       },
       {
         "Portfolio_ID": 13,
@@ -774,7 +760,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\197-1-Cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\197-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\197-3-28daymetrics.png",
-        "Released": 2645695376
+        "Released": 2998695343
       },
       {
         "Portfolio_ID": 13,
@@ -788,7 +774,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\198-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\198-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\198-3-DecisionToTreat.png",
-        "Released": 1954495376
+        "Released": 2307495343
       },
       {
         "Portfolio_ID": 13,
@@ -802,7 +788,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\200-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\200-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\200-3-perfomance-trends.png",
-        "Released": 1436095376
+        "Released": 1789095343
       },
       {
         "Portfolio_ID": 13,
@@ -816,7 +802,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6360895376
+        "Released": 6713895343
       },
       {
         "Portfolio_ID": 13,
@@ -830,7 +816,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\160-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\160-2-elective-admissions.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\160-3-overview.png",
-        "Released": 34527295376
+        "Released": 34880295343
       }
     ]
   },
@@ -849,7 +835,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\126-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\126-2-elective-inpatient-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\126-3-outpatient-specialty.png",
-        "Released": 56472895376
+        "Released": 56825895343
       },
       {
         "Portfolio_ID": 14,
@@ -863,7 +849,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\170-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\170-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\170-3-blank-report.png",
-        "Released": 46623295376
+        "Released": 46976295343
       },
       {
         "Portfolio_ID": 14,
@@ -877,7 +863,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\194-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\194-2-provider-view.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\194-3-shape-view.png",
-        "Released": 3941695376
+        "Released": 4294695343
       },
       {
         "Portfolio_ID": 14,
@@ -891,7 +877,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\143-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\143-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\143-3-appendix.png",
-        "Released": 49042495376
+        "Released": 49395495343
       },
       {
         "Portfolio_ID": 14,
@@ -905,7 +891,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124-2-overview-one.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124-3-trend.png",
-        "Released": 95525695376
+        "Released": 95878695343
       }
     ]
   },
@@ -924,7 +910,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\120-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\120-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\120-3-utilities.png",
-        "Released": 68482495376
+        "Released": 68835495343
       },
       {
         "Portfolio_ID": 15,
@@ -938,7 +924,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\122-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\122-2-service-desk.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\122-3-desktop-support.png",
-        "Released": 40056895376
+        "Released": 40409895343
       },
       {
         "Portfolio_ID": 15,
@@ -952,7 +938,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 8693695376
+        "Released": 9046695343
       },
       {
         "Portfolio_ID": 15,
@@ -966,7 +952,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\167-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\167-2-income-sales-contract.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\167-3-income-sales-data-table.png",
-        "Released": 37119295376
+        "Released": 37472295343
       },
       {
         "Portfolio_ID": 15,
@@ -980,7 +966,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\168-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\168-2-scorecard.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\168-3-detail-people.png",
-        "Released": 21740095376
+        "Released": 22093095343
       }
     ]
   },
@@ -999,7 +985,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\135-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\135-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\135-3-blank-report.png",
-        "Released": 105807295376
+        "Released": 106160295343
       },
       {
         "Portfolio_ID": 16,
@@ -1013,7 +999,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\136-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\136-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\136-3-blank-report.png",
-        "Released": 105807295376
+        "Released": 106160295343
       },
       {
         "Portfolio_ID": 16,
@@ -1027,7 +1013,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\137-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\137-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\137-3-blank-report.png",
-        "Released": 105807295376
+        "Released": 106160295343
       }
     ]
   },
@@ -1046,7 +1032,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134-3-conveyance.png",
-        "Released": 10508095376
+        "Released": 10861095343
       },
       {
         "Portfolio_ID": 17,
@@ -1060,7 +1046,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153-2-ae-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153-3-nel-mapping.png",
-        "Released": 29948095376
+        "Released": 30301095343
       },
       {
         "Portfolio_ID": 17,
@@ -1074,7 +1060,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-        "Released": 29084095376
+        "Released": 29437095343
       },
       {
         "Portfolio_ID": 17,
@@ -1088,7 +1074,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\60-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\60-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\60-3-blank-report.png",
-        "Released": 12754495376
+        "Released": 13107495343
       },
       {
         "Portfolio_ID": 17,
@@ -1102,7 +1088,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\61-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\61-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\61-3-blank-report.png",
-        "Released": 12754495376
+        "Released": 13107495343
       },
       {
         "Portfolio_ID": 17,
@@ -1116,7 +1102,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\62-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\62-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\62-3-blank-report.png",
-        "Released": 12754495376
+        "Released": 13107495343
       },
       {
         "Portfolio_ID": 17,
@@ -1130,7 +1116,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\161-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\161-2-highlights.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\161-3-los.png",
-        "Released": 39365695376
+        "Released": 39718695343
       }
     ]
   }
@@ -1148,7 +1134,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171-2-preview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171-3-blank-reporting.png",
-    "Released": 226495583
+    "Released": 579495640
   },
   {
     "Portfolio": "Mental health",
@@ -1163,7 +1149,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172-2-overview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172-3-guidance-overview.png",
-    "Released": 226495583
+    "Released": 579495640
   },
   {
     "Portfolio": "Performance",
@@ -1178,7 +1164,7 @@ const portfolios = [
     "Carousel_Images_1": "./assets/images/img/product_1.svg",
     "Carousel_Images_2": "./assets/images/img/product_2.svg",
     "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 658495583
+    "Released": 1011495640
   },
   {
     "Portfolio": "Performance",
@@ -1193,7 +1179,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\207-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\207-2-overview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\207-3-breakdown.png",
-    "Released": 1263295583
+    "Released": 1616295640
   },
   {
     "Portfolio": "Performance",
@@ -1208,7 +1194,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\200-1-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\200-2-overview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\200-3-perfomance-trends.png",
-    "Released": 1436095583
+    "Released": 1789095640
   },
   {
     "Portfolio": "Performance",
@@ -1223,7 +1209,7 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\198-1-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\198-2-overview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\198-3-DecisionToTreat.png",
-    "Released": 1954495583
+    "Released": 2307495640
   }
 ], portfolioDistinct = [
   {
@@ -1283,9 +1269,6 @@ const portfolios = [
   },
   {
     "Report_Title": "A&E attendances and emergency admissions - public"
-  },
-  {
-    "Report_Title": "Ambulance clinical outcomes - public"
   },
   {
     "Report_Title": "Ambulance quality indicators - public"
