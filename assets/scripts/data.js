@@ -14,26 +14,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\117-1-trust_selection.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\117-2-notes-detail.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\117-3-chart-example.png",
-        "Released": 119033895343
-      }
-    ]
-  },
-  {
-    "Portfolio": "Care navigation service",
-    "Products": [
-      {
-        "Portfolio_ID": 2,
-        "Portfolio_Description": "This portfolio contains reports and dashboards relating to the Care Navigation Service, covering everything from productivity through to utilisation rates.",
-        "Name": "PTAC staff call statistics report",
-        "ID": "156",
-        "Platform": "Power BI",
-        "Description": "This report provides call information on the Call Handlers in the Patient Transport Advice Centre",
-        "Short_Description": "This report provides call information on the Call Handlers in the Patient Transport Advice Centre",
-        "Image": ".\\assets\\images\\img\\products\\156-PTAC_Call_Stats-Banner.jpg",
-        "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\156-1-front-cover.png",
-        "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\156-2-overview.png",
-        "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\156-3-ch-detailed.png",
-        "Released": 59849895343
+        "Released": 124530257680
       }
     ]
   },
@@ -52,7 +33,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 7145895343
+        "Released": 12642257680
       },
       {
         "Portfolio_ID": 3,
@@ -66,7 +47,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\174-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\174-2-referrals.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\174-3-contacts.png",
-        "Released": 7145895343
+        "Released": 12642257680
       }
     ]
   },
@@ -85,7 +66,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\177-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\177-2-graph.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\177-3-provider.png",
-        "Released": 88016295343
+        "Released": 93512657680
       },
       {
         "Portfolio_ID": 4,
@@ -99,7 +80,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\63-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\63-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\63-3-location-intelligence.png",
-        "Released": 46457895343
+        "Released": 51954257680
       },
       {
         "Portfolio_ID": 4,
@@ -113,7 +94,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\64-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\64-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\64-3-location-intelligence.png",
-        "Released": 46457895343
+        "Released": 51954257680
       },
       {
         "Portfolio_ID": 4,
@@ -127,7 +108,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\65-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\65-2-notes.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\65-3-downloader.png",
-        "Released": 111949095343
+        "Released": 117445457680
       },
       {
         "Portfolio_ID": 4,
@@ -141,7 +122,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\67-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\67-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\67-3-blank-report.png",
-        "Released": 46457895343
+        "Released": 51954257680
       },
       {
         "Portfolio_ID": 4,
@@ -155,7 +136,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\68-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\68-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\68-3-blank-report.png",
-        "Released": 46457895343
+        "Released": 51954257680
       }
     ]
   },
@@ -174,7 +155,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\192-1-referrals.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\192-2-uptake.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\192-3-discharge.png",
-        "Released": 37990695343
+        "Released": 43487057680
       },
       {
         "Portfolio_ID": 5,
@@ -188,7 +169,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\180-1-referrals.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\180-2-retention.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\180-3-weight-change.png",
-        "Released": 55529895343
+        "Released": 61026257680
       },
       {
         "Portfolio_ID": 5,
@@ -202,7 +183,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\181-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\181-2-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\181-3-kpi-scorecard.png",
-        "Released": 60454695343
+        "Released": 65951057680
       }
     ]
   },
@@ -221,7 +202,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\144-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\144-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\144-3-drill-through.png",
-        "Released": 24080295343
+        "Released": 29576657680
       },
       {
         "Portfolio_ID": 6,
@@ -235,7 +216,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\152-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\152-2-raise-request.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\152-3-column-finder.png",
-        "Released": 42742695343
+        "Released": 48239057680
       }
     ]
   },
@@ -254,7 +235,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\166-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\166-2-avoidable-deaths.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\166-3-demographics.png",
-        "Released": 54925095343
+        "Released": 60421457680
       }
     ]
   },
@@ -273,7 +254,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\183-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\183-2-provider.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\183-3-metadata.png",
-        "Released": 74105895343
+        "Released": 79602257680
       },
       {
         "Portfolio_ID": 8,
@@ -287,7 +268,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\184-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\184-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\184-3-actual-vs-submission.png",
-        "Released": 7318695343
+        "Released": 12815057680
       },
       {
         "Portfolio_ID": 8,
@@ -301,7 +282,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\175-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\175-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\175-3-month-summary.png",
-        "Released": 40582695343
+        "Released": 46079057680
       },
       {
         "Portfolio_ID": 8,
@@ -315,7 +296,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\69-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\69-2-providers-loaded.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\69-3-dq-checks.png",
-        "Released": 117219495343
+        "Released": 122715857680
       }
     ]
   },
@@ -334,7 +315,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\169-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\169-2-scorecard.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\169-3-bookings.png",
-        "Released": 36781095343
+        "Released": 42277457680
       }
     ]
   },
@@ -353,7 +334,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
-        "Released": 6022695343
+        "Released": 114257680
       },
       {
         "Portfolio_ID": 10,
@@ -367,7 +348,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171-2-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171-3-blank-reporting.png",
-        "Released": 579495343
+        "Released": 6075857680
       },
       {
         "Portfolio_ID": 10,
@@ -381,7 +362,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172-3-guidance-overview.png",
-        "Released": 579495343
+        "Released": 6075857680
       },
       {
         "Portfolio_ID": 10,
@@ -395,7 +376,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\111-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\111-2-core-measures-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\111-3-mhsds-performance-icb.png",
-        "Released": 81709095343
+        "Released": 87205457680
       }
     ]
   },
@@ -414,7 +395,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\139-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\139-2-spc-chart.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\139-3-plots.png",
-        "Released": 94669095343
+        "Released": 100165457680
       },
       {
         "Portfolio_ID": 11,
@@ -428,7 +409,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\140-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\140-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\140-3-blank-report.png",
-        "Released": 21488295343
+        "Released": 26984657680
       },
       {
         "Portfolio_ID": 11,
@@ -442,7 +423,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\191-1-infection-control.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\191-2-planned care.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\191-3-ambulance-and-urgent-care.png",
-        "Released": 5158695343
+        "Released": 10655057680
       },
       {
         "Portfolio_ID": 11,
@@ -456,7 +437,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\178-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\178-2-metric-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\178-3-category-summary.png",
-        "Released": 34448295343
+        "Released": 39944657680
       },
       {
         "Portfolio_ID": 11,
@@ -470,7 +451,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6541095343
+        "Released": 12037457680
       }
     ]
   },
@@ -489,7 +470,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\127-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\127-2-absence.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\127-3-equality-diversity.png",
-        "Released": 47149095343
+        "Released": 52645457680
       }
     ]
   },
@@ -508,7 +489,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\1-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\1-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\1-3-provider-measures.png",
-        "Released": 9392295343
+        "Released": 14888657680
       },
       {
         "Portfolio_ID": 13,
@@ -522,7 +503,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\4-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\4-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\4-3-national-distributions.png",
-        "Released": 122144295343
+        "Released": 127640657680
       },
       {
         "Portfolio_ID": 13,
@@ -536,7 +517,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\7-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\7-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\7-3-diagnostic-test.png",
-        "Released": 122144295343
+        "Released": 127640657680
       },
       {
         "Portfolio_ID": 13,
@@ -550,7 +531,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\8-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\8-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\8-3-info.png",
-        "Released": 56566695343
+        "Released": 62063057680
       },
       {
         "Portfolio_ID": 13,
@@ -564,7 +545,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\14-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\14-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\14-3-measures.png",
-        "Released": 34880295343
+        "Released": 40376657680
       },
       {
         "Portfolio_ID": 13,
@@ -578,7 +559,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 84041895343
+        "Released": 89538257680
       },
       {
         "Portfolio_ID": 13,
@@ -592,7 +573,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6368295343
+        "Released": 11864657680
       },
       {
         "Portfolio_ID": 13,
@@ -606,7 +587,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\25-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\25-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\25-3-info.png",
-        "Released": 122144295343
+        "Released": 127640657680
       },
       {
         "Portfolio_ID": 13,
@@ -620,7 +601,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\26-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\26-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\26-3-waiting-times.png",
-        "Released": 6368295343
+        "Released": 11864657680
       },
       {
         "Portfolio_ID": 13,
@@ -634,7 +615,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\29-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\29-2-geospatial.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\29-3-benchmark.png",
-        "Released": 122144295343
+        "Released": 127640657680
       },
       {
         "Portfolio_ID": 13,
@@ -648,7 +629,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\32-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\32-2-pivot.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\32-3-info.png",
-        "Released": 9392295343
+        "Released": 14888657680
       },
       {
         "Portfolio_ID": 13,
@@ -662,7 +643,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\33-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\33-2-icb.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\33-3-overview.png",
-        "Released": 67712295343
+        "Released": 73208657680
       },
       {
         "Portfolio_ID": 13,
@@ -676,7 +657,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\55-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\55-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\55-3-provider.png",
-        "Released": 105037095343
+        "Released": 110533457680
       },
       {
         "Portfolio_ID": 13,
@@ -690,7 +671,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\56-1-front_cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\56-2-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\56-3-provider.png",
-        "Released": 105037095343
+        "Released": 110533457680
       },
       {
         "Portfolio_ID": 13,
@@ -704,7 +685,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\57-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\57-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\57-3-location.png",
-        "Released": 39632295343
+        "Released": 45128657680
       },
       {
         "Portfolio_ID": 13,
@@ -718,7 +699,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\207-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\207-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\207-3-breakdown.png",
-        "Released": 1616295343
+        "Released": 7112657680
       },
       {
         "Portfolio_ID": 13,
@@ -732,7 +713,35 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 1011495343
+        "Released": 6507857680
+      },
+      {
+        "Portfolio_ID": 13,
+        "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
+        "Name": "Referral to treatment - median waits summary - public",
+        "ID": "210",
+        "Platform": "Power BI",
+        "Description": "Monthly Referral to Treatment (RTT) waiting times for completed pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providersp",
+        "Short_Description": "Monthly Referral to Treatment (RTT) waiting times for completed pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providersp",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 2533457680
+      },
+      {
+        "Portfolio_ID": 13,
+        "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
+        "Name": "Diagnostics median waits summary - public",
+        "ID": "211",
+        "Platform": "Power BI",
+        "Description": "Diagnostics waiting list benchmarking median waits (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers.",
+        "Short_Description": "Diagnostics waiting list benchmarking median waits (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers.",
+        "Image": "./assets/images/img/product_box.svg",
+        "Carousel_Images_1": "./assets/images/img/product_1.svg",
+        "Carousel_Images_2": "./assets/images/img/product_2.svg",
+        "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+        "Released": 2533457680
       },
       {
         "Portfolio_ID": 13,
@@ -746,7 +755,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\196-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\196-2-notes.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\196-3-overview.png",
-        "Released": 2998695343
+        "Released": 8495057680
       },
       {
         "Portfolio_ID": 13,
@@ -760,7 +769,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\197-1-Cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\197-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\197-3-28daymetrics.png",
-        "Released": 2998695343
+        "Released": 8495057680
       },
       {
         "Portfolio_ID": 13,
@@ -774,7 +783,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\198-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\198-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\198-3-DecisionToTreat.png",
-        "Released": 2307495343
+        "Released": 7803857680
       },
       {
         "Portfolio_ID": 13,
@@ -788,7 +797,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\200-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\200-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\200-3-perfomance-trends.png",
-        "Released": 1789095343
+        "Released": 7285457680
       },
       {
         "Portfolio_ID": 13,
@@ -802,7 +811,7 @@ const portfolios = [
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 6713895343
+        "Released": 12210257680
       },
       {
         "Portfolio_ID": 13,
@@ -816,7 +825,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\160-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\160-2-elective-admissions.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\160-3-overview.png",
-        "Released": 34880295343
+        "Released": 40376657680
       }
     ]
   },
@@ -835,7 +844,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\126-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\126-2-elective-inpatient-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\126-3-outpatient-specialty.png",
-        "Released": 56825895343
+        "Released": 62322257680
       },
       {
         "Portfolio_ID": 14,
@@ -849,7 +858,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\170-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\170-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\170-3-blank-report.png",
-        "Released": 46976295343
+        "Released": 52472657680
       },
       {
         "Portfolio_ID": 14,
@@ -863,7 +872,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\194-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\194-2-provider-view.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\194-3-shape-view.png",
-        "Released": 4294695343
+        "Released": 1151057680
       },
       {
         "Portfolio_ID": 14,
@@ -877,7 +886,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\143-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\143-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\143-3-appendix.png",
-        "Released": 49395495343
+        "Released": 54891857680
       },
       {
         "Portfolio_ID": 14,
@@ -891,7 +900,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\124-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\124-2-overview-one.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\124-3-trend.png",
-        "Released": 95878695343
+        "Released": 101375057680
       }
     ]
   },
@@ -910,7 +919,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\120-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\120-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\120-3-utilities.png",
-        "Released": 68835495343
+        "Released": 74331857680
       },
       {
         "Portfolio_ID": 15,
@@ -924,7 +933,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\122-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\122-2-service-desk.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\122-3-desktop-support.png",
-        "Released": 40409895343
+        "Released": 3051857680
       },
       {
         "Portfolio_ID": 15,
@@ -934,11 +943,11 @@ const portfolios = [
         "Platform": "Power BI",
         "Description": "This App enables managers to see the SmartTime information recorded by their staff. It provides grouping and costing to enable managers to see where their resources are focused.",
         "Short_Description": "TBC",
-        "Image": "./assets/images/img/product_box.svg",
+        "Image": ".\\assets\\images\\img\\products\\193-Product_ Resource_Report.jpg",
         "Carousel_Images_1": "./assets/images/img/product_1.svg",
         "Carousel_Images_2": "./assets/images/img/product_2.svg",
         "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-        "Released": 9046695343
+        "Released": 14543057680
       },
       {
         "Portfolio_ID": 15,
@@ -952,7 +961,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\167-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\167-2-income-sales-contract.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\167-3-income-sales-data-table.png",
-        "Released": 37472295343
+        "Released": 42968657680
       },
       {
         "Portfolio_ID": 15,
@@ -966,7 +975,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\168-1-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\168-2-scorecard.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\168-3-detail-people.png",
-        "Released": 22093095343
+        "Released": 27589457680
       }
     ]
   },
@@ -985,7 +994,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\135-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\135-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\135-3-blank-report.png",
-        "Released": 106160295343
+        "Released": 111656657680
       },
       {
         "Portfolio_ID": 16,
@@ -999,7 +1008,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\136-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\136-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\136-3-blank-report.png",
-        "Released": 106160295343
+        "Released": 111656657680
       },
       {
         "Portfolio_ID": 16,
@@ -1013,7 +1022,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\137-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\137-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\137-3-blank-report.png",
-        "Released": 106160295343
+        "Released": 111656657680
       }
     ]
   },
@@ -1032,7 +1041,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\134-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\134-2-overview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\134-3-conveyance.png",
-        "Released": 10861095343
+        "Released": 16357457680
       },
       {
         "Portfolio_ID": 17,
@@ -1046,7 +1055,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\153-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\153-2-ae-summary.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\153-3-nel-mapping.png",
-        "Released": 30301095343
+        "Released": 35797457680
       },
       {
         "Portfolio_ID": 17,
@@ -1060,7 +1069,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\125-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\125-2-ae-activity.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\125-3-nel-activity.png",
-        "Released": 29437095343
+        "Released": 34933457680
       },
       {
         "Portfolio_ID": 17,
@@ -1074,7 +1083,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\60-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\60-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\60-3-blank-report.png",
-        "Released": 13107495343
+        "Released": 18603857680
       },
       {
         "Portfolio_ID": 17,
@@ -1088,7 +1097,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\61-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\61-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\61-3-blank-report.png",
-        "Released": 13107495343
+        "Released": 18603857680
       },
       {
         "Portfolio_ID": 17,
@@ -1102,7 +1111,7 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\62-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\62-2-data-preview.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\62-3-blank-report.png",
-        "Released": 13107495343
+        "Released": 18603857680
       },
       {
         "Portfolio_ID": 17,
@@ -1116,11 +1125,86 @@ const portfolios = [
         "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\161-1-front-cover.png",
         "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\161-2-highlights.png",
         "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\161-3-los.png",
-        "Released": 39718695343
+        "Released": 45215057680
       }
     ]
   }
 ], latestProducts = [
+  {
+    "Portfolio": "Mental health",
+    "Portfolio_ID": 10,
+    "Portfolio_Description": "This portfolio presents information, data, and statistics relating to mental health, learning disabilities and autism, and well-being services within the NHS. Established with key national data flows such as the mental health services dataset (MHSDS) and national published statistics, including metrics relating to the long-term plan for mental health services. Reports relating to mental health performance, such as measures relating to NHS talking therapies, dementia diagnosis and severe mental illness are included within the performance portfolio.",
+    "Name": "Hampshire & Isle of Wight (HIOW) mental health dashboard",
+    "ID": "165",
+    "Platform": "Power BI",
+    "Description": "The Mental Health Dashboard has been developed to report on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB. This represents an initial iteration, with the intention being to introduce additional metrics in future releases of the report. While the report is refreshed on a monthly basis, figures for some metrics are only produced on a quarterly basis where they come from quarterly NHS England publications.",
+    "Short_Description": "Reports on 13 core metrics used for monitoring performance in key areas of Adult and CYP Mental Health services in the Hampshire and Isle of Wight ICB.",
+    "Image": ".\\assets\\images\\img\\products\\165-HIOW-Mental-Health-Dashboard.jpg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\165-1-front-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\165-2-metric-breakdown.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\165-3-data-quality.png",
+    "Released": 114257860
+  },
+  {
+    "Portfolio": "Planned care",
+    "Portfolio_ID": 14,
+    "Portfolio_Description": "This portfolio presents information, data and statistics relating to planned care.\r\n\r\nHealthcare that is planned is known as planned care. It involves specialised clinical care or surgery, with demand generated following a referral from a GP or community health professional. Outpatient care makes up a substantial proportion of planned care activity, which can often follow on to an elective inpatient stay or further specialist treatment. Performance of planned care is measured through metrics such as, RTT (consultant led referral to treatment waiting times), 2WW (cancer care waiting times) and DM01 (diagnostic metrics), with public reporting included within the provider performance portfolio. Further performance dashboards, self-service performance data, and provisional dashboards are also available within this portfolio.",
+    "Name": "Elective waiting list dashboard",
+    "ID": "194",
+    "Platform": "Power BI",
+    "Description": "The elective care waiting list dashboard aims to provide a visual display of the waiting list anatomy, to support the systems within elective recovery, and to help track waiting times.",
+    "Short_Description": "The elective care waiting list dashboard aims to provide a visual display of the waiting list anatomy, to support the systems within elective recovery, and to help track waiting times.",
+    "Image": "./assets/images/img/product_box.svg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\194-1-front-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\194-2-provider-view.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\194-3-shape-view.png",
+    "Released": 1151057860
+  },
+  {
+    "Portfolio": "Performance",
+    "Portfolio_ID": 13,
+    "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
+    "Name": "Referral to treatment - median waits summary - public",
+    "ID": "210",
+    "Platform": "Power BI",
+    "Description": "Monthly Referral to Treatment (RTT) waiting times for completed pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providersp",
+    "Short_Description": "Monthly Referral to Treatment (RTT) waiting times for completed pathways benchmarking median wait times (weeks) and 95th percentile wait times (weeks) for Commissioners and Providersp",
+    "Image": "./assets/images/img/product_box.svg",
+    "Carousel_Images_1": "./assets/images/img/product_1.svg",
+    "Carousel_Images_2": "./assets/images/img/product_2.svg",
+    "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+    "Released": 2533457860
+  },
+  {
+    "Portfolio": "Performance",
+    "Portfolio_ID": 13,
+    "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
+    "Name": "Diagnostics median waits summary - public",
+    "ID": "211",
+    "Platform": "Power BI",
+    "Description": "Diagnostics waiting list benchmarking median waits (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers.",
+    "Short_Description": "Diagnostics waiting list benchmarking median waits (weeks) and 95th percentile wait times (weeks) for Commissioners and Providers.",
+    "Image": "./assets/images/img/product_box.svg",
+    "Carousel_Images_1": "./assets/images/img/product_1.svg",
+    "Carousel_Images_2": "./assets/images/img/product_2.svg",
+    "Dummy_Product_URL": "./assets/images/img/product_3.svg",
+    "Released": 2533457860
+  },
+  {
+    "Portfolio": "SCW corporate products",
+    "Portfolio_ID": 15,
+    "Portfolio_Description": "This portfolio covers SCW corporate products that are internal to SCW and do not fit under a specific portfolio. The aim of these products is to automate operational or strategic Information into business intelligence. By capturing data from various organisational systems, we can build data models that provide enterprise reporting designed in conjunction with the department. This enables them to operationally manage their services or provide Intelligence to analyse. The products within here cover a number of departments; however, our security controls mean you will only see the products relevant to your access.",
+    "Name": "Capacity analysis tool",
+    "ID": "122",
+    "Platform": "Power BI",
+    "Description": "The Capacity Analysis Tool contains data from TOPdesk, SmartTime and the 3CX telephone system to allow for reviewing of capacity and forward planning of staff.",
+    "Short_Description": "The Capacity Analysis Tool contains data from TOPdesk, SmartTime and the 3CX telephone system to allow for reviewing of capacity and forward planning of staff.",
+    "Image": ".\\assets\\images\\img\\products\\122-CapacityAnalysisTool.jpg",
+    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\122-1-cover.png",
+    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\122-2-service-desk.png",
+    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\122-3-desktop-support.png",
+    "Released": 3051857860
+  },
   {
     "Portfolio": "Mental health",
     "Portfolio_ID": 10,
@@ -1134,89 +1218,11 @@ const portfolios = [
     "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\171-1-front-cover.png",
     "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\171-2-preview.png",
     "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\171-3-blank-reporting.png",
-    "Released": 579495640
-  },
-  {
-    "Portfolio": "Mental health",
-    "Portfolio_ID": 10,
-    "Portfolio_Description": "This portfolio presents information, data, and statistics relating to mental health, learning disabilities and autism, and well-being services within the NHS. Established with key national data flows such as the mental health services dataset (MHSDS) and national published statistics, including metrics relating to the long-term plan for mental health services. Reports relating to mental health performance, such as measures relating to NHS talking therapies, dementia diagnosis and severe mental illness are included within the performance portfolio.",
-    "Name": "Mental health waiting times dashboard",
-    "ID": "172",
-    "Platform": "Power BI",
-    "Description": "The Mental Health Waiting Times report is based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity at ICB, provider, PCN, and GP level, and allows for analysis of referrals and waiting times. This report also allows users to filter by age for either Children and Young People (0-17) or Adults (18+) services.",
-    "Short_Description": "Based on referrals from provider-submitted Mental Health Services Data Set (MHSDS) data. The report allows users to identify Mental Waiting Times by referral activity.",
-    "Image": ".\\assets\\images\\img\\products\\172-Mental-Health-Waiting-Times-Dashboard.jpg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\172-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\172-2-overview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\172-3-guidance-overview.png",
-    "Released": 579495640
-  },
-  {
-    "Portfolio": "Performance",
-    "Portfolio_ID": 13,
-    "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
-    "Name": "Talking therapies monthly - public",
-    "ID": "208",
-    "Platform": "Power BI",
-    "Description": "Presenting information and summary statistics relating to the use of talking therapies services which provide evidence based treatments for people with anxiety and depression.",
-    "Short_Description": "Presenting information and summary statistics relating to the use of talking therapies services which provide evidence based treatments for people with anxiety and depression.",
-    "Image": "./assets/images/img/product_box.svg",
-    "Carousel_Images_1": "./assets/images/img/product_1.svg",
-    "Carousel_Images_2": "./assets/images/img/product_2.svg",
-    "Dummy_Product_URL": "./assets/images/img/product_3.svg",
-    "Released": 1011495640
-  },
-  {
-    "Portfolio": "Performance",
-    "Portfolio_ID": 13,
-    "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
-    "Name": "Dementia 65+ Estimated Diagnosis Rate - Public",
-    "ID": "207",
-    "Platform": "Power BI",
-    "Description": "Diagnosis rate for people ages 65 and over, with a diagnosis of dementia recorded in primary care, expressed as a percentage of the estimated prevalence based on GP registered populations.",
-    "Short_Description": "Diagnosis rate for people ages 65 and over, with a diagnosis of dementia recorded in primary care, expressed as a percentage of the estimated prevalence based on GP registered populations.",
-    "Image": "./assets/images/img/product_box.svg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\207-1-front-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\207-2-overview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\207-3-breakdown.png",
-    "Released": 1616295640
-  },
-  {
-    "Portfolio": "Performance",
-    "Portfolio_ID": 13,
-    "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
-    "Name": "Referral to Treatment (RTT) waiting times statistics for consultant-led elective care - Public",
-    "ID": "200",
-    "Platform": "Power BI",
-    "Description": "Containing information on Consultant-led Referral to Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-    "Short_Description": "Containing information on Consultant-led Referral to Treatment (RTT) waiting times, which monitor the length of time from referral through to elective treatment.",
-    "Image": "./assets/images/img/product_box.svg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\200-1-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\200-2-overview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\200-3-perfomance-trends.png",
-    "Released": 1789095640
-  },
-  {
-    "Portfolio": "Performance",
-    "Portfolio_ID": 13,
-    "Portfolio_Description": "A set of dashboard reports providing analysis and summaries for key performance measures, as outlined by NHS England for operational planning, outcome framework and assurance purposes. The reports support statutory assurance obligations for monitoring and understanding performance at commissioner and provider levels. The dashboards are based on both nationally published data and data which has restricted access. Please note the additional sharing guidance required where data is restricted, this is outlined on the relevant product page.",
-    "Name": "Cancer Care - Patient Tracking List (PTL)",
-    "ID": "198",
-    "Platform": "Power BI",
-    "Description": "The cancer 62-day patient tracking list (PTL) data collection is a weekly snapshot, submitted by trusts which provide cancer services. It shows the number of patients on the cancer 62-day pathway who are at risk of breaching the standard two month (62-day) wait from urgent GP referral to first definitive treatment.",
-    "Short_Description": "NULA weekly snapshot, submitted by trusts providing cancer services, showing the number of patients on the 62-day pathway at risk of breaching the 62 day standard wait.",
-    "Image": "./assets/images/img/product_box.svg",
-    "Carousel_Images_1": ".\\assets\\images\\img\\carousel\\198-1-cover.png",
-    "Carousel_Images_2": ".\\assets\\images\\img\\carousel\\198-2-overview.png",
-    "Dummy_Product_URL": ".\\assets\\images\\img\\carousel\\198-3-DecisionToTreat.png",
-    "Released": 2307495640
+    "Released": 6075857860
   }
 ], portfolioDistinct = [
   {
     "Report_Portfolio_Name": "Cancer care"
-  },
-  {
-    "Report_Portfolio_Name": "Care navigation service"
   },
   {
     "Report_Portfolio_Name": "Community"
@@ -1419,9 +1425,6 @@ const portfolios = [
   },
   {
     "Report_Title": "Provider data reconciliation report"
-  },
-  {
-    "Report_Title": "PTAC staff call statistics report"
   },
   {
     "Report_Title": "Referral to treatment - median waits summary - public"
